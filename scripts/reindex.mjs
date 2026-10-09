@@ -49,6 +49,20 @@ const adapters = {
     }
   },
 
+  // European Coffee Trip city guide: [{name, address, link, latitude, longitude, ...}]
+  "ect-cafes"(raw, dataset) {
+    for (const c of raw) {
+      points.push({
+        id: `${dataset}-${c.link.split("/").at(-2)}`,
+        dataset,
+        name: c.name,
+        lat: parseFloat(c.latitude),
+        lon: parseFloat(c.longitude),
+        props: { address: c.address, website: c.link },
+      });
+    }
+  },
+
   // TfL Line/{id}/Route/Sequence
   "tfl-route-sequence"(raw) {
     const seen = new Set();

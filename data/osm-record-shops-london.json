@@ -1,0 +1,1893 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-09T15:57:37Z",
+    "timestamp_areas_base": "2026-10-08T07:25:51Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 266739707,
+      "lat": 51.3669302,
+      "lon": -0.1960826,
+      "tags": {
+        "addr:housenumber": "35",
+        "addr:postcode": "SM1 1JN",
+        "addr:street": "St. Nicholas Way",
+        "name": "Sutton Music Centre",
+        "shop": "music",
+        "source": "local_knowledge;survey",
+        "website": "https://suttonmusic.co.uk",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 352936264,
+      "lat": 51.5393786,
+      "lon": -0.1008697,
+      "tags": {
+        "name": "Islington Music",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 389948175,
+      "lat": 51.5531846,
+      "lon": -0.1126304,
+      "tags": {
+        "name": "Metro Music",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 692296667,
+      "lat": 51.5106712,
+      "lon": -0.1277581,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "17",
+        "addr:postcode": "WC2N 4EZ",
+        "addr:street": "Cecil Court",
+        "name": "Travis & Emery",
+        "payment:american_express": "yes",
+        "shop": "music",
+        "source:addr:postcode": "ons_uprn_directory",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 699796654,
+      "lat": 51.5176609,
+      "lon": -0.1339933,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "24",
+        "addr:postcode": "W1T 1JA",
+        "addr:street": "Rathbone Place",
+        "check_date": "2025-04-29",
+        "name": "Hobgoblin Music",
+        "opening_hours": "Mo-Sa 10:00-18:00; Su 12:00-18:00",
+        "payment:american_express": "yes",
+        "shop": "music",
+        "source:addr:postcode": "code-point_open",
+        "website": "https://hobgoblin.com/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 931625768,
+      "lat": 51.5396407,
+      "lon": -0.1439585,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "10",
+        "addr:street": "Inverness Road",
+        "check_date": "2025-11-03",
+        "name": "Out on the Floor",
+        "opening_hours": "11:00-18:00",
+        "shop": "music",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1634346935,
+      "lat": 51.6526306,
+      "lon": -0.1985891,
+      "tags": {
+        "check_date": "2026-02-19",
+        "name": "The Sound Garden",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1680320574,
+      "lat": 51.3770451,
+      "lon": -0.1923903,
+      "tags": {
+        "name": "M&J Healey",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1964534558,
+      "lat": 51.5937119,
+      "lon": 0.0249265,
+      "tags": {
+        "addr:housenumber": "160",
+        "addr:street": "George Lane",
+        "name": "Crescendo Music",
+        "phone": "+44 7799 778565",
+        "shop": "music",
+        "source": "survey",
+        "website": "http://www.variationsdancestudio.co.uk/crescend.htm"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2076895729,
+      "lat": 51.3752732,
+      "lon": -0.1024566,
+      "tags": {
+        "addr:city": "Croydon",
+        "addr:housenumber": "11",
+        "addr:postcode": "CR0 1TF",
+        "addr:street": "Keeley Road",
+        "addr:unit": "44",
+        "contact:facebook": "https://www.facebook.com/Duncanat101records",
+        "email": "facebook101records@gmail.com",
+        "music": "recorded",
+        "name": "101 Records",
+        "phone": "+44 20 8681 8282",
+        "shop": "music",
+        "source": "survey",
+        "wikidata": "Q116142893"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2345384195,
+      "lat": 51.5191912,
+      "lon": -0.2073482,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "278",
+        "addr:postcode": "W10 5TE",
+        "addr:street": "Portobello Road",
+        "check_date": "2026-03-06",
+        "name": "Honest Jon's Records",
+        "phone": "+44 20 8969 9822",
+        "shop": "music",
+        "source": "survey",
+        "website": "https://honestjons.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2626128074,
+      "lat": 51.5288733,
+      "lon": -0.144512,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Chester Court",
+        "addr:housenumber": "5",
+        "addr:postcode": "NW1 4BU",
+        "addr:street": "Albany Street",
+        "name": "Markson Pianos",
+        "opening_hours": "Mo-Fr 09:00-17:30",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3079274702,
+      "lat": 51.4564555,
+      "lon": -0.1627357,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "38",
+        "addr:postcode": "SW11 6SF",
+        "addr:street": "Webb's Road",
+        "name": "Guitar Classics",
+        "phone": "+44 20 7738 2974",
+        "shop": "music",
+        "website": "https://www.guitar-classics.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3137506958,
+      "lat": 51.6466755,
+      "lon": -0.0494814,
+      "tags": {
+        "name": "Melody UK",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3577624757,
+      "lat": 51.5328394,
+      "lon": -0.1193889,
+      "tags": {
+        "name": "Ancient Black",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3723004732,
+      "lat": 51.431004,
+      "lon": -0.1023245,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "20",
+        "addr:postcode": "SE27 9NR",
+        "addr:street": "Norwood High Street",
+        "amenity": "cafe",
+        "check_date": "2026-02-07",
+        "cuisine": "coffee_shop",
+        "name": "The Book and Record Bar",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3750294963,
+      "lat": 51.4091605,
+      "lon": -0.3031956,
+      "tags": {
+        "addr:city": "Kingston upon Thames",
+        "addr:country": "GB",
+        "addr:housenumber": "52",
+        "addr:postcode": "KT1 1EE",
+        "addr:street": "Eden Street",
+        "check_date": "2023-02-26",
+        "email": "shop@banquetrecords.com",
+        "name": "Banquet Records",
+        "opening_hours": "Mo-We,Fr-Sa 10:00-18:00; Th 10:00-19:00; Su 12:00-17:00",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+44 20 8549 5871",
+        "shop": "music",
+        "source": "User",
+        "website": "https://www.banquetrecords.com/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4308016632,
+      "lat": 51.4580195,
+      "lon": 0.1342974,
+      "tags": {
+        "addr:housenumber": "301-303",
+        "addr:street": "Broadway",
+        "name": "Doghouse Music",
+        "phone": "+44 20 8304 5331",
+        "shop": "music",
+        "source": "survey",
+        "website": "https://www.doghousemusic.net/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4432857247,
+      "lat": 51.5412496,
+      "lon": -0.1461826,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "43",
+        "addr:postcode": "NW1 8AF",
+        "addr:street": "Middle Yard, Camden Lock Place",
+        "level": "0",
+        "name": "Massive International",
+        "opening_hours": "Mo-Su 11:00-19:00 open",
+        "phone": "+44 20 7267 9490",
+        "shop": "music",
+        "website": "https://massive-international.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4432910734,
+      "lat": 51.5413968,
+      "lon": -0.1460521,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "35a",
+        "addr:postcode": "NW1 8AF",
+        "addr:street": "Middle Yard, Camden Lock Place",
+        "level": "0",
+        "name": "Camden Lock Vinyl",
+        "shop": "music",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4556228891,
+      "lat": 51.3832051,
+      "lon": -0.0656827,
+      "tags": {
+        "addr:city": "Croydon",
+        "addr:housenumber": "352",
+        "addr:postcode": "CR0 7AF",
+        "addr:street": "Lower Addiscombe Road",
+        "name": "Dnr vinyl",
+        "name:en": "Dnr vinyl",
+        "shop": "music",
+        "source": "survey;website",
+        "survey:date": "2018-10-04",
+        "website": "https://www.dnrvinyl.co.uk/",
+        "wikidata": "Q116142901"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4556240190,
+      "lat": 51.5330467,
+      "lon": -0.0765591,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "5",
+        "addr:postcode": "E2 8JD",
+        "addr:street": "Pearson Street",
+        "check_date": "2026-03-07",
+        "check_date:opening_hours": "2026-03-07",
+        "email": "lovevinylldn@gmail.com",
+        "name": "Love Vinyl",
+        "opening_hours": "Tu-Sa 11:30-18:30",
+        "phone": "+44 20 7729 8978",
+        "shop": "music",
+        "website": "https://lovevinyl.net/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4556243690,
+      "lat": 51.4614748,
+      "lon": -0.0066895,
+      "tags": {
+        "addr:housenumber": "70",
+        "addr:street": "Lee High Road",
+        "check_date": "2023-10-03",
+        "level": "0",
+        "name": "Records",
+        "name:en": "Records",
+        "phone:signed": "no",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4556243890,
+      "lat": 51.5933488,
+      "lon": -0.1671272,
+      "tags": {
+        "name": "Alan's Record and CD Shop",
+        "name:en": "Alan's Record and CD Shop",
+        "opening_hours:signed": "no",
+        "shop": "music",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4556243989,
+      "lat": 51.4062169,
+      "lon": -0.0328909,
+      "tags": {
+        "addr:city": "Beckenham",
+        "addr:housenumber": "415",
+        "addr:postcode": "BR3 3PP",
+        "addr:street": "Croydon Road",
+        "name": "Wanted Music",
+        "name:en": "Wanted music",
+        "opening_hours": "Mo 12:00-18:00; Tu,We 10:30-18:00; Th,Fr 10:00-18:00; Sa 10:00-17:30",
+        "phone": "+44 208 658 7460",
+        "shop": "music",
+        "website": "https://recordstores.love/1040"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4567348592,
+      "lat": 51.5251918,
+      "lon": -0.0713459,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "131",
+        "addr:postcode": "E2 7DG",
+        "addr:street": "Bethnal Green Road",
+        "check_date": "2026-03-03",
+        "check_date:opening_hours": "2026-03-03",
+        "name": "Flashback Records Shoreditch",
+        "opening_hours": "Mo-Su 10:00-19:00",
+        "opening_hours:signed": "no",
+        "phone": "+44 20 3780 1900",
+        "shop": "music",
+        "website": "https://flashback.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4573260451,
+      "lat": 51.459725,
+      "lon": -0.1235478,
+      "tags": {
+        "addr:housenumber": "110",
+        "addr:street": "Acre Lane",
+        "fax": "+44 20 7737 7762",
+        "name": "Supertone Records & CDs",
+        "phone": "+44 20 7737 7761",
+        "shop": "music",
+        "website": "https://supertonerecords.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4687847202,
+      "lat": 51.5773566,
+      "lon": -0.1467414,
+      "tags": {
+        "addr:city": "London",
+        "addr:postcode": "N6 5AA",
+        "check_date": "2026-05-11",
+        "check_date:opening_hours": "2026-05-11",
+        "contact:instagram": "rise_above_records_and_relics",
+        "contact:twitter": "RARecordsRelics",
+        "email": "riseaboverecordsandrelics@gmail.com",
+        "level": "0",
+        "name": "Rise Above Records and Relics",
+        "opening_hours": "Tu-Sa 11:30-17:30",
+        "phone": "+44 20 8292 1572",
+        "shop": "music",
+        "website": "https://www.riseaboverecordsandrelics.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5382875190,
+      "lat": 51.5798636,
+      "lon": 0.1791412,
+      "tags": {
+        "addr:city": "Romford",
+        "addr:housenumber": "54",
+        "addr:postcode": "RM1 1BH",
+        "addr:street": "North Street",
+        "name": "MusicLand",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5382875217,
+      "lat": 51.5800602,
+      "lon": 0.182128,
+      "tags": {
+        "addr:city": "Romford",
+        "addr:housename": "Romford Shopping Hall",
+        "addr:housenumber": "43",
+        "addr:postcode": "RM1 3AB",
+        "addr:street": "Market Place",
+        "name": "Gerard's Music Room",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5383017115,
+      "lat": 51.5775046,
+      "lon": 0.1828661,
+      "tags": {
+        "addr:city": "Romford",
+        "addr:housename": "The Liberty Shopping Centre",
+        "addr:postcode": "RM1 3RL",
+        "name": "HMV",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5442663591,
+      "lat": 51.5565926,
+      "lon": -0.0742238,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "182",
+        "addr:postcode": "N16 7UY",
+        "addr:street": "Stoke Newington Road",
+        "bar": "yes",
+        "check_date": "2026-03-06",
+        "contact:instagram": "nextdoorrecords_",
+        "cuisine": "coffee_shop",
+        "dog": "yes",
+        "food": "yes",
+        "indoor_seating": "yes",
+        "name": "Next Door Records Two",
+        "opening_hours": "Mo-We 08:00-23:00; Th 08:00-24:00; Fr 08:00-00:30; Sa 10:00-00:30; Su 10:00-23:00",
+        "shop": "music",
+        "website": "https://www.nextdoorrecords.co.uk/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5688517961,
+      "lat": 51.4698433,
+      "lon": -0.0677084,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housename": "Bussey Building",
+        "addr:housenumber": "133",
+        "addr:postcode": "SE15 4ST",
+        "addr:street": "Rye Lane",
+        "addr:unit": "Unit A Basement",
+        "email": "info@ryewax.com",
+        "level": "-1",
+        "name": "Rye Wax",
+        "opening_hours": "Tu-Su 12:00-22:00",
+        "phone": "+44 20 7732 3176",
+        "shop": "music",
+        "website": "https://www.ryewax.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5802389461,
+      "lat": 51.3517685,
+      "lon": -0.0989789,
+      "tags": {
+        "addr:city": "South Croydon",
+        "addr:housenumber": "326",
+        "addr:postcode": "CR2 6AJ",
+        "addr:street": "Brighton Road",
+        "name": "H Lane & Son Pianos",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5955648751,
+      "lat": 51.3832321,
+      "lon": -0.0656187,
+      "tags": {
+        "addr:city": "Croydon",
+        "addr:housenumber": "354",
+        "addr:postcode": "CR0 7AF",
+        "addr:street": "Lower Addiscombe Road",
+        "name": "Tuga Sounds",
+        "shop": "music",
+        "source": "survey;website",
+        "survey:date": "2018-10-04"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6313483526,
+      "lat": 51.5843893,
+      "lon": -0.0685334,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "69",
+        "addr:street": "Broad lane",
+        "name": "Zen records",
+        "opening_hours": "Mo-Sa 11:30-18:30",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6611030054,
+      "lat": 51.4185212,
+      "lon": -0.0188253,
+      "tags": {
+        "name": "Cigarette Records",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "shop": "music",
+        "website": "https://www.cigaretterecords.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6721257470,
+      "lat": 51.4777998,
+      "lon": -0.0651388,
+      "tags": {
+        "name": "Sacred Records",
+        "opening_hours": "Sa 11:00-18:00",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6919013407,
+      "lat": 51.437734,
+      "lon": 0.0714315,
+      "tags": {
+        "name": "Classical Bargain Records",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7123959682,
+      "lat": 51.5094914,
+      "lon": -0.1947954,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "38",
+        "addr:postcode": "W11 3HX",
+        "addr:street": "Notting Hill Gate",
+        "check_date": "2025-06-29",
+        "name": "Music & Video Exchange",
+        "phone": "+44 20 7243 8573",
+        "second_hand": "only",
+        "shop": "music",
+        "website": "https://www.mfeshops.com/musicvideonh"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7204156250,
+      "lat": 51.5160901,
+      "lon": -0.2045321,
+      "tags": {
+        "addr:housenumber": "130",
+        "addr:street": "Talbot Road",
+        "name": "Rough Trade",
+        "phone": "+44 20 7229 8541",
+        "shop": "music",
+        "website": "https://www.roughtrade.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7217679244,
+      "lat": 51.5178219,
+      "lon": -0.2038338,
+      "tags": {
+        "addr:housenumber": "11",
+        "addr:street": "All Saints Road",
+        "name": "People's Sound Records",
+        "phone": "+44 20 7792 9321",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7554391054,
+      "lat": 51.4587148,
+      "lon": -0.2094147,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "1",
+        "addr:street": "Keswick Road",
+        "check_date:opening_hours": "2026-09-27",
+        "name": "Soul Brother Records",
+        "opening_hours": "Mo-Sa 11:00-18:00",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8437637591,
+      "lat": 51.4070024,
+      "lon": -0.0182866,
+      "tags": {
+        "name": "Raven Online",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8437962612,
+      "lat": 51.3794974,
+      "lon": -0.0146571,
+      "tags": {
+        "name": "Rollin Records",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8637173631,
+      "lat": 51.5063915,
+      "lon": -0.2315524,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "304",
+        "addr:postcode": "W12 7LJ",
+        "addr:street": "Uxbridge Road",
+        "check_date": "2026-07-28",
+        "check_date:opening_hours": "2026-07-28",
+        "description": "A record shop, bar and cafe",
+        "level": "0",
+        "name": "Next Door Records",
+        "opening_hours": "Tu-We 08:00-23:00; Th 08:00-00:00; Fr 08:00-01:00; Sa 10:00-01:00; Su 10:00-23:00",
+        "shop": "music",
+        "website": "https://www.nextdoorrecords.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8659341081,
+      "lat": 51.5885247,
+      "lon": -0.0049061,
+      "tags": {
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8659341083,
+      "lat": 51.5885475,
+      "lon": -0.004914,
+      "tags": {
+        "name": "Mike’s Record Shop",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8659381730,
+      "lat": 51.5885411,
+      "lon": -0.0047777,
+      "tags": {
+        "name": "Ray’s Records",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8747645823,
+      "lat": 51.4289394,
+      "lon": -0.16638,
+      "tags": {
+        "addr:city": "London",
+        "addr:unit": "10",
+        "name": "Dr Vinyl",
+        "shop": "music",
+        "survey:date": "2024-11-11"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8805728904,
+      "lat": 51.5040099,
+      "lon": -0.2434523,
+      "tags": {
+        "addr:housenumber": "81",
+        "addr:street": "Askew Road",
+        "name": "Peckings Records",
+        "phone": "+44 7944 488191",
+        "shop": "music",
+        "website": "https://www.peckingsrecords.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9028281082,
+      "lat": 51.5642334,
+      "lon": -0.0062146,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "177",
+        "addr:street": "Francis Road",
+        "name": "Dreamhouse Records",
+        "shop": "music",
+        "website": "https://dreamhouseldn.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9651374551,
+      "lat": 51.446775,
+      "lon": -0.3267109,
+      "tags": {
+        "addr:city": "Twickenham",
+        "addr:housenumber": "44-45",
+        "addr:postcode": "TW1 3NR",
+        "addr:street": "Church Street",
+        "check_date": "2024-10-26",
+        "contact:email": "kevin@eelpierecords.com",
+        "contact:phone": "+44 7946 324970",
+        "contact:website": "https://www.eelpierecords.com",
+        "name": "Eel Pie Records",
+        "opening_hours": "Mo-Sa 10:00-18:00; Su 11:00-18:00",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9776641717,
+      "lat": 51.5377565,
+      "lon": -0.0573503,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "117",
+        "addr:postcode": "E8 4RU",
+        "addr:street": "Mare Street",
+        "check_date": "2026-03-06",
+        "check_date:opening_hours": "2026-03-06",
+        "contact:instagram": "strangerthanparadiserecords",
+        "contact:twitter": "_stranger_than",
+        "name": "Stranger Than Paradise",
+        "opening_hours": "Mo-Tu 09:00-18:00; We-Su 11:00-17:00",
+        "phone": "+44 20 3745 2607",
+        "shop": "music",
+        "website": "https://www.strangerthanparadiserecords.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10056572726,
+      "lat": 51.523559,
+      "lon": -0.0695756,
+      "tags": {
+        "addr:city": "London",
+        "addr:floor": "0",
+        "addr:housenumber": "46",
+        "addr:street": "Cheshire Street",
+        "check_date": "2026-02-23",
+        "internet_access": "no",
+        "level": "0",
+        "name": "World of Echo",
+        "opening_hours": "Mo-Th,Su 12:00-17:00; Fr-Sa 12:00-18:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+44 20 4619 5721",
+        "shop": "music",
+        "website": "https://worldofechomusic.com/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10235916966,
+      "lat": 51.5295526,
+      "lon": -0.0695788,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "14",
+        "addr:postcode": "E2 7RH",
+        "addr:street": "Ezra Street",
+        "check_date": "2026-07-26",
+        "check_date:opening_hours": "2026-03-20",
+        "contact:facebook": "playvinyllondon",
+        "contact:instagram": "playvinyllondon",
+        "contact:twitter": "playvinyllondon",
+        "email": "info@playvinyl.london",
+        "level": "1",
+        "name": "Play Vinyl",
+        "opening_hours": "Fr-Su 09:00-17:00",
+        "phone": "+44 7480 651744",
+        "shop": "music",
+        "website": "https://playvinyl.london/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10266440522,
+      "lat": 51.481349,
+      "lon": -0.0107965,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "320-322",
+        "addr:postcode": "SE10 9SW",
+        "addr:street": "Creek Road",
+        "check_date": "2026-03-03",
+        "email": "shop@casbahrecords.co.uk",
+        "level": "0",
+        "name": "Casbah Records",
+        "opening_hours": "Mo-Su 10:30-18:00",
+        "opening_hours:signed": "no",
+        "phone": "+44 20 8858 1964",
+        "shop": "music",
+        "website": "https://casbahrecords.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10805254949,
+      "lat": 51.4896302,
+      "lon": -0.1173074,
+      "tags": {
+        "name": "Black Salt Record Shop",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11061898248,
+      "lat": 51.475514,
+      "lon": -0.0367755,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "318",
+        "addr:postcode": "SE14 6AF",
+        "addr:street": "New Cross Road",
+        "amenity": "bar",
+        "check_date": "2026-07-27",
+        "contact:facebook": "planetwaxuk",
+        "contact:instagram": "planetwaxuk",
+        "contact:twitter": "planetwaxuk",
+        "email": "shop@planetwax.net",
+        "name": "Planet Wax",
+        "opening_hours": "Tu 12:00-19:00; We 12:00-23:00; Th 12:00-24:00; Fr-Sa 12:00-27:00",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11148594864,
+      "lat": 51.5358849,
+      "lon": -0.1260372,
+      "tags": {
+        "addr:city": "London",
+        "addr:unit": "115",
+        "level": "-1",
+        "name": "Honest Jon's",
+        "shop": "music",
+        "website": "https://honestjons.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11809276045,
+      "lat": 51.4980704,
+      "lon": -0.3055573,
+      "tags": {
+        "check_date": "2026-09-13",
+        "name": "Sounds Original",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11948028765,
+      "lat": 51.46406,
+      "lon": -0.1157232,
+      "tags": {
+        "addr:housenumber": "246",
+        "check_date": "2026-01-07",
+        "name": "Pure Vinyl Records",
+        "operator": "Pure Vinyl Records",
+        "second_hand": "yes",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12175675084,
+      "lat": 51.5376004,
+      "lon": -0.2488341,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "2",
+        "addr:street": "Craven Park Road",
+        "check_date": "2024-05-15",
+        "level": "0",
+        "name": "Hawkeye Enterprises Ltd",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12175687704,
+      "lat": 51.5378398,
+      "lon": -0.2496243,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "17",
+        "addr:street": "Craven Park Road",
+        "check_date": "2024-05-15",
+        "level": "0",
+        "name": "Starlight Records",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12180060336,
+      "lat": 51.5366312,
+      "lon": -0.2485073,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "3",
+        "addr:street": "High Street Harlesden",
+        "addr:substreet": "Bank Buildings",
+        "level": "0",
+        "name": "Sounds II",
+        "shop": "music",
+        "source": "Bing street side imagery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12385102514,
+      "lat": 51.5847622,
+      "lon": -0.1153876,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "43",
+        "addr:postcode": "N8 9BD",
+        "addr:street": "Tottenham Lane",
+        "name": "The Little Record Shop",
+        "opening_hours": "Mo off; Tu 13:00-17:00; We off; Th off; Fr-Sa 13:00-17:00; Su 13:00-16:00",
+        "phone": "+44 7946 412 766",
+        "shop": "music",
+        "website": "https://www.cash4records.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13310150801,
+      "lat": 51.4131684,
+      "lon": -0.0514031,
+      "tags": {
+        "addr:city": "London",
+        "addr:floor": "G",
+        "addr:housenumber": "1",
+        "addr:postcode": "SE20 7TN",
+        "addr:street": "High Street",
+        "check_date": "2025-11-19",
+        "contact:facebook": "RevolutionRecordsPenge",
+        "email": "penge@revolution-records.co.uk",
+        "level": "0",
+        "name": "Revolution Records",
+        "opening_hours": "Mo, We-Fr 11:00-19:00; Sa 11:00-18:00; Su 11:00-16:00",
+        "shop": "music",
+        "website": "https://revolution-records.co.uk/penge/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13355840372,
+      "lat": 51.4806548,
+      "lon": -0.0264117,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "203",
+        "addr:postcode": "SE8 3NT",
+        "addr:street": "Deptford High Street",
+        "check_date": "2026-07-17",
+        "contact:facebook": "upsidedownrecordslondon",
+        "contact:instagram": "upsidedownrecords",
+        "contact:whatsapp": "+44 75 3168 7699",
+        "name": "Upside Down Records",
+        "opening_hours": "Mo-Tu off; We 10:30-18:00; Th 10:30-19:30; Fr 10:30-18:00; Sa 10:30-18:30; Su 12:00-17:30",
+        "phone": "+44 75 3168 7699",
+        "shop": "music",
+        "website": "https://upsidedownrecords.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13475879225,
+      "lat": 51.5397977,
+      "lon": -0.141194,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "24",
+        "addr:postcode": "NW1 9DP",
+        "addr:street": "Camden Road",
+        "contact:email": "hello@ravenrecordshop.com",
+        "contact:phone": "+44 2039 713053",
+        "contact:website": "https://ravenrecordshop.com/",
+        "name": "Raven Records",
+        "opening_hours": "Su,Mo,We 12:00-18:00; Th 12:00-20:00; Fr,Sa 12:00-21:00; Tu off",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13592237101,
+      "lat": 51.5482465,
+      "lon": -0.0706484,
+      "tags": {
+        "addr:city": "London",
+        "addr:floor": "1",
+        "addr:housenumber": "89",
+        "addr:street": "Ridley Road",
+        "check_date": "2026-02-23",
+        "contact:instagram": "https://www.instagram.com/hiddensounds_london",
+        "level": "1",
+        "name": "Hidden Sounds",
+        "opening_hours": "Mo-Fr 12:00-19:00; Sa-Su 12:00-20:00",
+        "phone": "+44 7454 978906",
+        "shop": "music",
+        "website": "https://www.hiddensounds.co.uk/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13592253179,
+      "lat": 51.5397087,
+      "lon": -0.0585295,
+      "tags": {
+        "addr:city": "London",
+        "addr:floor": "0",
+        "addr:housenumber": "10",
+        "addr:street": "Helmsley Place",
+        "addr:unit": "Arch 376",
+        "check_date": "2026-02-23",
+        "contact:facebook": "https://www.facebook.com/thebbestore/",
+        "level": "0",
+        "name": "The BBE Store",
+        "opening_hours": "Mo off; Tu 12:00-17:00; We-Sa 12:00-23:00; Su 12:00-21:00",
+        "phone": "+44 20 7249 6919",
+        "shop": "music",
+        "website": "https://bbemusic.com/bbe-store",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13592253180,
+      "lat": 51.5333161,
+      "lon": -0.0574514,
+      "tags": {
+        "addr:city": "London",
+        "addr:floor": "0",
+        "addr:housenumber": "501",
+        "addr:postcode": "E2 9BU",
+        "addr:street": "Cambridge Heath Road",
+        "check_date": "2026-09-19",
+        "check_date:opening_hours": "2026-03-20",
+        "internet_access": "no",
+        "level": "0",
+        "name": "Yo Yo Records London",
+        "opening_hours": "Su-Mo 12:00-17:00; We-Fr 12:00-19:00; Sa 12:00-18:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+44 20 7033 8777",
+        "shop": "music",
+        "website": "https://www.yoyorecordslondon.com/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13624065504,
+      "lat": 51.5465684,
+      "lon": -0.0558518,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "234",
+        "addr:postcode": "E8 1BP",
+        "addr:street": "Graham Road",
+        "check_date": "2026-03-06",
+        "check_date:opening_hours": "2026-03-06",
+        "contact:instagram": "tomerecords",
+        "name": "Tome Records",
+        "opening_hours": "Mo-Su 11:00-19:00",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13624103501,
+      "lat": 51.5425645,
+      "lon": -0.0219063,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "96",
+        "addr:postcode": "E9 5EN",
+        "addr:street": "White Post Lane",
+        "addr:unit": "Unit 1",
+        "check_date": "2026-03-06",
+        "check_date:opening_hours": "2026-03-06",
+        "email": "records@allmyfriends.uk",
+        "name": "All My Friends Record Shop",
+        "opening_hours": "We-Sa 12:00-22:00",
+        "shop": "music",
+        "website": "https://www.allmyfriends.uk/record-shop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13624103601,
+      "lat": 51.5204778,
+      "lon": -0.0723032,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "85",
+        "addr:postcode": "E1 6QL",
+        "addr:street": "Brick Lane",
+        "check_date": "2026-03-06",
+        "check_date:opening_hours": "2026-03-06",
+        "contact:instagram": "vintagevinyl_bricklane",
+        "name": "Vintage Vinyl Brick Lane",
+        "opening_hours": "Th-Tu 11:00-18:00",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13668554801,
+      "lat": 51.5127735,
+      "lon": -0.1363704,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "50-54",
+        "addr:postcode": "W1F 9RN",
+        "addr:street": "Beak Street",
+        "check_date": "2026-03-22",
+        "check_date:opening_hours": "2026-03-22",
+        "name": "Rough Trade Vintage",
+        "opening_hours": "Mo-Sa 11:00-19:00; Su 12:00-18:00",
+        "shop": "music",
+        "website": "http://roughtrade.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13712036901,
+      "lat": 51.5143039,
+      "lon": -0.1353826,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "30",
+        "addr:postcode": "W1F 8RH",
+        "addr:street": "Berwick Street",
+        "check_date": "2026-04-06",
+        "check_date:opening_hours": "2026-04-06",
+        "contact:instagram": "recklessrecordsuk",
+        "contact:twitter": "recklesssoho",
+        "email": "recklessrecordsuk@gmail.com",
+        "level": "0",
+        "name": "Reckless Records",
+        "opening_hours": "Mo-Su 10:00-19:00",
+        "phone": "+44 20 7437 4271",
+        "second_hand": "yes",
+        "shop": "music",
+        "website": "https://reckless.co.uk/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13712090901,
+      "lat": 51.514442,
+      "lon": -0.1357134,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "75",
+        "addr:postcode": "W1F 8TG",
+        "addr:street": "Berwick Street",
+        "check_date": "2026-04-06",
+        "check_date:opening_hours": "2026-04-06",
+        "contact:facebook": "sisterrayrecords",
+        "contact:instagram": "sisterraysoho",
+        "contact:twitter": "sisterraystore",
+        "email": "info@sisterray.co.uk",
+        "level": "0",
+        "name": "Sister Ray",
+        "opening_hours": "Mo-Sa 10:00-19:00; Su 12:00-18:00",
+        "phone": "+44 20 7734 3297",
+        "second_hand": "yes",
+        "shop": "music",
+        "website": "https://sisterray.co.uk/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13712111601,
+      "lat": 51.5143466,
+      "lon": -0.1369631,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "51",
+        "addr:postcode": "W1F 7ND",
+        "addr:street": "Poland Street",
+        "check_date": "2026-04-06",
+        "check_date:opening_hours": "2026-04-06",
+        "level": "0",
+        "name": "Phonica Records",
+        "opening_hours": "Mo-We, Sa 11:00-19:00; Th-Fr 11:00-19:30; Su 12:00-18:00",
+        "phone": "+44 20 7025 6075",
+        "second_hand": "yes",
+        "shop": "music",
+        "website": "http://phonicarecords.com",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13955535798,
+      "lat": 51.4759109,
+      "lon": -0.0260294,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "37",
+        "addr:postcode": "SE8 4AD",
+        "addr:street": "Deptford High Street",
+        "amenity": "bar",
+        "check_date": "2026-06-21",
+        "check_date:opening_hours": "2026-06-21",
+        "contact:facebook": "home.deptford",
+        "contact:instagram": "home.deptford",
+        "contact:tiktok": "home.deptford",
+        "email": "deptfordhome@gmail.com",
+        "fhrs:id": "1914057",
+        "name": "Home",
+        "opening_hours": "Mo-Tu off; We 12:00-23:00; Th 12:00-24:00; Fr 12:00-25:30; Sa 13:00-25:30; Su 13:00-19:00",
+        "shop": "music",
+        "website": "https://www.homedeptford.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14138098232,
+      "lat": 51.480722,
+      "lon": -0.2069178,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "161",
+        "addr:postcode": "SW6 7EE",
+        "addr:street": "Dawes Road",
+        "check_date": "2026-08-31",
+        "name": "On Broadway",
+        "opening_hours": "Th-Sa 12:00-18:00, Su 14:00-18:00",
+        "phone": "+44 20 7385 6593",
+        "shop": "music",
+        "website": "https://www.onbroadway161.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14178744658,
+      "lat": 51.5144062,
+      "lon": -0.1383536,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "48",
+        "addr:street": "Great Marlborough Street",
+        "check_date": "2024-07-26",
+        "name": "Schott Music",
+        "opening_hours": "Mo-Fr 10:00-18:30; Sa 10:00-18:00; Su off",
+        "shop": "music",
+        "website": "https://schottmusiclondon.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14178877186,
+      "lat": 51.5139371,
+      "lon": -0.1346668,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "7",
+        "addr:postcode": "W1F 0DA",
+        "addr:street": "Broadwick Street",
+        "check_date": "2024-09-10",
+        "name": "Sounds of the Universe",
+        "opening_hours": "Mo-Sa 10:00-18:30; Su 11:00-17:30",
+        "phone": "+44 20 7734 3430",
+        "shop": "music",
+        "source": "Bing;photograph",
+        "website": "https://soundsoftheuniverse.com/",
+        "wheelchair": "yes",
+        "wikidata": "Q116143147"
+      }
+    },
+    {
+      "type": "way",
+      "id": 59418690,
+      "center": {
+        "lat": 51.4164396,
+        "lon": -0.3708698
+      },
+      "tags": {
+        "addr:housenumber": "31",
+        "addr:street": "Ashley Road",
+        "building": "yes",
+        "check_date": "2026-03-04",
+        "loc_name": "Jim's Guitars",
+        "name": "Juni Jams Music",
+        "phone": "+44 20 8941 4777",
+        "shop": "music",
+        "source": "OS_OpenData_StreetView",
+        "website": "https://www.junijamsmusic.co.uk"
+      }
+    },
+    {
+      "type": "way",
+      "id": 72247051,
+      "center": {
+        "lat": 51.4616218,
+        "lon": -0.0784534
+      },
+      "tags": {
+        "addr:housenumber": "47",
+        "addr:street": "Grove Vale",
+        "building": "yes",
+        "name": "South London Music",
+        "shop": "music",
+        "source": "Bing;OS StreetView;survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 193088968,
+      "center": {
+        "lat": 51.5111512,
+        "lon": -0.3761796
+      },
+      "tags": {
+        "building": "yes",
+        "name": "abc Music Shop",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "way",
+      "id": 197065371,
+      "center": {
+        "lat": 51.3754513,
+        "lon": -0.1018176
+      },
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Drummond Road",
+        "building": "retail",
+        "music": "recorded",
+        "name": "Reggaemasters",
+        "shop": "music",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 197278066,
+      "center": {
+        "lat": 51.3740042,
+        "lon": -0.102192
+      },
+      "tags": {
+        "addr:city": "Croydon",
+        "addr:housenumber": "55",
+        "addr:postcode": "CR0 1TB",
+        "addr:street": "Frith Road",
+        "building": "retail",
+        "music": "recorded",
+        "name": "ReggaeMasters",
+        "shop": "music",
+        "wikidata": "Q116142939"
+      }
+    },
+    {
+      "type": "way",
+      "id": 279007849,
+      "center": {
+        "lat": 51.5153357,
+        "lon": -0.1297448
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "19",
+        "addr:postcode": "WC2H 8AQ",
+        "addr:street": "Denmark Street",
+        "alt_name": "Argents",
+        "building": "retail",
+        "building:levels": "5",
+        "description": "\"Sheet music, accessories, DVDs\"",
+        "music": "sheet",
+        "name": "Musicroom",
+        "ref:GB:uprn": "5203071",
+        "roof:colour": "grey",
+        "shop": "music",
+        "source": "Bing;photograph",
+        "website": "https://www.musicroom.com/argents"
+      }
+    },
+    {
+      "type": "way",
+      "id": 279007858,
+      "center": {
+        "lat": 51.5155017,
+        "lon": -0.1293587
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "24",
+        "addr:postcode": "WC2H 8NJ",
+        "addr:street": "Denmark Street",
+        "building": "retail",
+        "building:levels": "4",
+        "check_date": "2025-11-03",
+        "contact:instagram": "roughtradedenmarkst",
+        "name": "Rough Trade",
+        "opening_hours": "Mo-Sa 10:00-19:00; Su 11:00-17:00",
+        "ref:GB:uprn": "5145328;5145327;5145326;5146135;5097745;5087965",
+        "roof:colour": "grey",
+        "roof:levels": "1",
+        "shop": "music",
+        "source": "Bing;photograph"
+      }
+    },
+    {
+      "type": "way",
+      "id": 289376379,
+      "center": {
+        "lat": 51.5486722,
+        "lon": -0.0764162
+      },
+      "tags": {
+        "building": "retail",
+        "name": "Eldica Records",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "way",
+      "id": 316313870,
+      "center": {
+        "lat": 51.5534536,
+        "lon": 0.2480935
+      },
+      "tags": {
+        "addr:city": "Upminster",
+        "addr:housenumber": "87",
+        "addr:postcode": "RM14 2AH",
+        "addr:street": "Corbets Tey Road",
+        "check_date": "2026-07-03",
+        "check_date:opening_hours": "2026-07-03",
+        "contact:facebook": "crazybeatrecords",
+        "contact:instagram": "crazybeatrecords",
+        "contact:twitter": "crazybeattweets",
+        "description": "\"Soul, jazz, rap, dance, funk, reggae\"",
+        "email": "sales@crazybeat.co.uk",
+        "name": "Crazy Beat Records",
+        "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-17:00",
+        "phone": "+44 1708 228678",
+        "second_hand": "yes",
+        "shop": "music",
+        "website": "https://crazybeat.co.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 324121490,
+      "center": {
+        "lat": 51.4622395,
+        "lon": -0.1115568
+      },
+      "tags": {
+        "addr:housenumber": "98",
+        "name": "Temple Record & CD Exchange",
+        "second_hand": "only",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "way",
+      "id": 345692389,
+      "center": {
+        "lat": 51.5181457,
+        "lon": -0.1420643
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "75-77",
+        "addr:postcode": "W1W 7LR",
+        "addr:street": "Great Portland Street",
+        "level": "0",
+        "name": "Soojib",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "way",
+      "id": 397868801,
+      "center": {
+        "lat": 51.5437765,
+        "lon": -0.0757792
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "502",
+        "addr:postcode": "E8 4AE",
+        "addr:street": "Kingsland Road",
+        "building": "yes",
+        "building:levels": "3",
+        "building:material": "brick",
+        "name": "Kingsland Records",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399281246,
+      "center": {
+        "lat": 51.5499222,
+        "lon": -0.0548642
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "8",
+        "addr:postcode": "E5 8HB",
+        "addr:street": "Clarence Road",
+        "building": "retail",
+        "building:colour": "white",
+        "building:levels": "3",
+        "building:material": "plaster",
+        "check_date:opening_hours": "2023-09-08",
+        "contact:facebook": "atlantisrecordshackney",
+        "contact:instagram": "atlantis_records_hackney",
+        "email": "atlantisrecordshackney@gmail.com",
+        "name": "Atlantis Records",
+        "old_name": "Pacific Social Club",
+        "opening_hours": "Mo-Sa 10:00-18:00; Su 11:00-17:00",
+        "opening_hours:signed": "no",
+        "shop": "music",
+        "website": "https://atlantisrecords.co.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 436595945,
+      "center": {
+        "lat": 51.5619214,
+        "lon": -0.0806069
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "127",
+        "addr:street": "Stoke Newington Church Street",
+        "building": "yes",
+        "building:colour": "brown",
+        "building:levels": "3",
+        "building:material": "brick",
+        "name": "Lucky Seven",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "way",
+      "id": 451762745,
+      "center": {
+        "lat": 51.5374193,
+        "lon": -0.1456955
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "96",
+        "addr:postcode": "NW1 7AN",
+        "addr:street": "Parkway",
+        "building": "retail",
+        "building:colour": "brown",
+        "building:levels": "3",
+        "building:material": "brick",
+        "charity": "yes",
+        "check_date": "2026-06-03",
+        "description": "Music charity shop",
+        "name": "Rock 'N' Roll Rescue",
+        "roof:levels": "1",
+        "shop": "music",
+        "source:addr:housenumber": "photo",
+        "source:addr:postcode": "extrapolation",
+        "website": "https://rocknrollrescuecamden.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 458856245,
+      "center": {
+        "lat": 51.5378113,
+        "lon": -0.1397351
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "27A",
+        "addr:postcode": "NW1 0BG",
+        "addr:street": "Pratt Street",
+        "building": "apartments",
+        "building:colour": "light_brown",
+        "building:material": "brick",
+        "check_date": "2026-07-10",
+        "name": "All Ages Records",
+        "opening_hours": "Mo-Su 11:30-18:30",
+        "phone": "+44 20 7267 0303",
+        "shop": "music",
+        "website": "http://allagesrecords.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 460090336,
+      "center": {
+        "lat": 51.4673437,
+        "lon": -0.2664254
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "49",
+        "addr:postcode": "SW14 8AB",
+        "addr:street": "Sheen Lane",
+        "building": "retail",
+        "building:levels": "3",
+        "check_date": "2026-06-28",
+        "name": "Level Crossing Records",
+        "roof:orientation": "across",
+        "roof:shape": "gabled",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "way",
+      "id": 593917825,
+      "center": {
+        "lat": 51.5539679,
+        "lon": -0.0535042
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "118",
+        "addr:postcode": "E5 0QR",
+        "addr:street": "Lower Clapton Road",
+        "bar": "yes",
+        "check_date": "2022-07-07",
+        "email": "lioncoffeerecords@gmail.com",
+        "fhrs:id": "536818",
+        "level": "0",
+        "name": "Lion Coffee Records",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "music",
+        "website": "https://lioncoffeerecords.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 610172807,
+      "center": {
+        "lat": 51.3204944,
+        "lon": -0.138886
+      },
+      "tags": {
+        "addr:city": "Coulsdon",
+        "addr:housenumber": "164",
+        "addr:postcode": "CR5 2NE",
+        "addr:street": "Brighton Road",
+        "building": "retail",
+        "building:levels": "2",
+        "name": "Guitar Nuts",
+        "roof:levels": "1",
+        "shop": "music",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 846248027,
+      "center": {
+        "lat": 51.5444373,
+        "lon": -0.1417357
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "121",
+        "addr:postcode": "NW1 8PB",
+        "addr:street": "Kentish Town Road",
+        "building": "house",
+        "building:use": "retail",
+        "name": "Let It Roll Records",
+        "ref:GB:uprn": "5140037;5049232",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "way",
+      "id": 848227437,
+      "center": {
+        "lat": 51.5438885,
+        "lon": -0.0468395
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "194",
+        "addr:postcode": "E9 6QT",
+        "addr:street": "Well Street",
+        "building": "apartments",
+        "building:colour": "brown",
+        "building:levels": "3",
+        "building:material": "brick",
+        "check_date": "2026-03-06",
+        "check_date:opening_hours": "2026-03-06",
+        "contact:instagram": "kristinarecords",
+        "contact:twitter": "@kristinarecords",
+        "cuisine": "coffee_shop",
+        "drink:beer": "yes",
+        "drink:coffee": "takeaway",
+        "drink:wine": "yes",
+        "food": "yes",
+        "music": "vinyl",
+        "name": "Kristina Records",
+        "opening_hours": "Mo-We 08:00-15:00; Th-Fr 08:00-17:30; Su 10:00-17:00; Sa 09:00-17:00",
+        "opening_hours:signed": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "roof:colour": "grey",
+        "shop": "music",
+        "website": "https://www.kristinarecords.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 853427630,
+      "center": {
+        "lat": 51.5523451,
+        "lon": -0.0438971
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "22",
+        "addr:postcode": "E5 0LP",
+        "addr:street": "Chatsworth Road",
+        "check_date": "2026-08-23",
+        "check_date:opening_hours": "2026-08-23",
+        "contact:instagram": "jelly_records",
+        "level": "0",
+        "name": "Jelly Records",
+        "opening_hours:signed": "no",
+        "second_hand": "yes",
+        "shop": "music",
+        "website": "https://jellyrecords.co.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1432731228,
+      "center": {
+        "lat": 51.5127239,
+        "lon": -0.1372511
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "1",
+        "addr:postcode": "W1F 9BA",
+        "addr:street": "Marshall Street",
+        "addr:suburb": "Soho",
+        "alt_name": "The Blue Basement",
+        "bar": "yes",
+        "branch": "London",
+        "building:colour": "yellow",
+        "building:levels": "1",
+        "building:levels:underground": "1",
+        "building:part": "retail",
+        "check_date": "2025-09-24",
+        "level": "-1;0",
+        "live_music": "yes",
+        "name": "Third Man Records",
+        "old_name": "Oi Polloi",
+        "opening_hours": "Mo-Sa 11:00-17:00; Su 12:00-17:00",
+        "operator": "Third Man Records",
+        "operator:type": "private",
+        "operator:wikidata": "Q377453",
+        "shop": "music",
+        "website": "https://thirdmanrecords.com/pages/london-store",
+        "wheelchair": "no"
+      }
+    }
+  ]
+}

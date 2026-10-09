@@ -20,7 +20,7 @@ The repo root is the app root.
 
 ## Commands
 
-- `npm run fetch` runs every fetch script (`npm run fetch:supermarkets`, `npm run fetch:tfl` individually)
+- `npm run fetch` runs every fetch script (`npm run fetch:supermarkets`, `npm run fetch:osm-places`, `npm run fetch:tfl` individually)
 - `npm run reindex` rebuilds `data.json` from `data/`
 - `npm run serve` serves the app at http://localhost:8000 (the page needs HTTP, `file://` will not work)
 
@@ -90,3 +90,5 @@ This is a prototype. Keep it simple.
 ## What goes on the map
 
 - Supermarkets: full-size stores only, no convenience formats (Tesco Express, Sainsbury's Local, Little Waitrose, corner shops). The chain list and the exclusions live in `scripts/fetch/supermarkets.mjs`; to add a chain, extend `chains` there, re-fetch, reindex, then add a category in `index.html`.
+- Climbing gyms: drawn as points.
+- Hipster pockets: semi-transparent zones where independent "taste" places cluster. Inputs are speciality coffee shops, climbing gyms, yoga and pilates studios, craft breweries, record shops, vintage clothing and independent bookshops, fetched by `scripts/fetch/osm-places.mjs` (one raw file per kind, the OSM filters live there). Apart from climbing gyms these places are not drawn as points. The scoring (grid size, radius, weights, thresholds) lives in the `zone` config in `index.html` and is computed in the browser, so it can be tuned with a reload. Coffee is a curated list on purpose (`data/ect-cafes-london.json`, European Coffee Trip, saved manually from the page because the site blocks scripts); OSM cafes are too noisy to tell third-wave places from the rest.

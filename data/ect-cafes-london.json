@@ -1,0 +1,2082 @@
+[
+  {
+    "premium": true,
+    "awards_winner": false,
+    "address": "361 Brockley Road",
+    "link": "https://europeancoffeetrip.com/cafe/dreamstory-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/31480/2025-08-07.jpg",
+    "latitude": "51.455933000",
+    "longitude": "-0.036202700",
+    "name": "Dream Story"
+  },
+  {
+    "premium": true,
+    "awards_winner": false,
+    "address": "292 Kingsland Rd",
+    "link": "https://europeancoffeetrip.com/cafe/shed-haggerston-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/27424/screenshot-2025-10-30-at-12-16-02.png",
+    "latitude": "51.538627900",
+    "longitude": "-0.076444500",
+    "name": "SHED Kingsland"
+  },
+  {
+    "premium": true,
+    "awards_winner": false,
+    "address": "23 Lovibond Lane",
+    "link": "https://europeancoffeetrip.com/cafe/18gramscoffee-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/22026/img-20230607-wa0073.jpg",
+    "latitude": "51.477576700",
+    "longitude": "-0.015359400",
+    "name": "18Grams Coffee"
+  },
+  {
+    "premium": true,
+    "awards_winner": false,
+    "address": "75 Parsons Green Lane",
+    "link": "https://europeancoffeetrip.com/cafe/naive-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/28994/thenaivecompany_1765521847_3785794107638080456_9009796345.jpg",
+    "latitude": "51.474616100",
+    "longitude": "-0.200522500",
+    "name": "Naive"
+  },
+  {
+    "premium": true,
+    "awards_winner": false,
+    "address": "1 Devonshire Road",
+    "link": "https://europeancoffeetrip.com/cafe/tampcoffee-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/18496/tampcoffeeuk_1731086329_3496928042438319719_68744042819.jpg",
+    "latitude": "51.492024300",
+    "longitude": "-0.256076900",
+    "name": "Tamp Coffee"
+  },
+  {
+    "premium": true,
+    "awards_winner": false,
+    "address": "Unit 1, 303 Holloway Rd",
+    "link": "https://europeancoffeetrip.com/cafe/ruacoffeebar-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/24564/ruacoffeebar_1712853155_3343977092544192523_59070917935.jpg",
+    "latitude": "51.552251900",
+    "longitude": "-0.112509400",
+    "name": "Rua coffee Bar"
+  },
+  {
+    "premium": true,
+    "awards_winner": false,
+    "address": "52 Lupus St",
+    "link": "https://europeancoffeetrip.com/cafe/thirdcoffee-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/21660/img_9352.jpeg",
+    "latitude": "51.488265900",
+    "longitude": "-0.138694000",
+    "name": "Third coffee"
+  },
+  {
+    "premium": true,
+    "awards_winner": false,
+    "address": "1 Sicilian Ave",
+    "link": "https://europeancoffeetrip.com/cafe/flyinghorsecoffee-holborn-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/32675/exterior-1.jpg",
+    "latitude": "51.518354200",
+    "longitude": "-0.121020400",
+    "name": "Flying Horse Coffee"
+  },
+  {
+    "premium": true,
+    "awards_winner": false,
+    "address": "17 Whitcomb Street",
+    "link": "https://europeancoffeetrip.com/cafe/castiglione-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/21127/castiglione-main.jpg",
+    "latitude": "51.508881700",
+    "longitude": "-0.130390500",
+    "name": "Castiglione"
+  },
+  {
+    "premium": true,
+    "awards_winner": false,
+    "address": "2 Cross St",
+    "link": "https://europeancoffeetrip.com/cafe/devotioncoffeeangel-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/28816/c85fb784-d12f-461b-9928-bb1216367629.JPG",
+    "latitude": "51.538835000",
+    "longitude": "-0.099024500",
+    "name": "Devotion Coffee"
+  },
+  {
+    "premium": true,
+    "awards_winner": false,
+    "address": "Unit 5, Crate Building, 35 St James Street",
+    "link": "https://europeancoffeetrip.com/cafe/longshort-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/6370/l1051421.png",
+    "latitude": "51.580534300",
+    "longitude": "-0.032588400",
+    "name": "LONG & SHORT"
+  },
+  {
+    "premium": true,
+    "awards_winner": false,
+    "address": "389 Hackney Rd",
+    "link": "https://europeancoffeetrip.com/cafe/specialtycafetiere-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/22724/img_5675.JPG",
+    "latitude": "51.531780100",
+    "longitude": "-0.062995600",
+    "name": "Specialty Cafetiere"
+  },
+  {
+    "premium": true,
+    "awards_winner": false,
+    "address": "93 Kingsland Road",
+    "link": "https://europeancoffeetrip.com/cafe/gramndegrees-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/25629/snimek-obrazovky-2025-09-29-v-22-15-01.png",
+    "latitude": "51.530476200",
+    "longitude": "-0.077461700",
+    "name": "Gramndegrees"
+  },
+  {
+    "premium": true,
+    "awards_winner": false,
+    "address": "323 Caledonian Road",
+    "link": "https://europeancoffeetrip.com/cafe/sotocoffee-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/28503/soto-coffee-interior-00-1.png",
+    "latitude": "51.541735300",
+    "longitude": "-0.117331600",
+    "name": "Soto Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": "2025",
+    "address": "28 Greenwich Church St.",
+    "link": "https://europeancoffeetrip.com/cafe/15grams-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/2791/278473136_5183748711685784_6651341561909466945_n.jpg",
+    "latitude": "51.481291450",
+    "longitude": "-0.009728088",
+    "name": "15grams"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "5 Coulgate St, Brockley, London, UK",
+    "link": "https://europeancoffeetrip.com/cafe/brownsofbrockley-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/591/browns-of-brockely-london-ig-title.jpg",
+    "latitude": "51.464405000",
+    "longitude": "-0.036984000",
+    "name": "Browns of Brockley"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "91 Brick Lane",
+    "link": "https://europeancoffeetrip.com/cafe/highgrade-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/13366/2022-07-09.jpg",
+    "latitude": "51.521286700",
+    "longitude": "-0.071898500",
+    "name": "High Grade"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "1b Fairhazel Gardens",
+    "link": "https://europeancoffeetrip.com/cafe/liten-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/27657/liten-kopie.jpg",
+    "latitude": "51.541766700",
+    "longitude": "-0.180333000",
+    "name": "Liten"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "9A Brockley Cross",
+    "link": "https://europeancoffeetrip.com/cafe/yume-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/29841/dscf5325.jpeg",
+    "latitude": "51.465494600",
+    "longitude": "-0.036018300",
+    "name": "yume."
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "25 Hanbury Street",
+    "link": "https://europeancoffeetrip.com/cafe/nudeespressoroastery-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/352/nudeespresso-london.jpg",
+    "latitude": "51.520463400",
+    "longitude": "-0.072778500",
+    "name": "Nude Espresso Roastery"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "13 Great Russell St",
+    "link": "https://europeancoffeetrip.com/cafe/elwin-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/30078/15d32ba0-b5c1-4c21-9f6d-ce37ea08abe7-2.jpg",
+    "latitude": "51.517279700",
+    "longitude": "-0.129610800",
+    "name": "ELWIN"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "21-22 Royal Exchange",
+    "link": "https://europeancoffeetrip.com/cafe/rosslyncoffee-royalexchange-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/17735/rosslyncoffee_1721930330_3420121957565394819_5577807598.jpg",
+    "latitude": "51.513846300",
+    "longitude": "-0.086881800",
+    "name": "Rosslyn Coffee Royal Exchange"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "115 Saint John's Hill",
+    "link": "https://europeancoffeetrip.com/cafe/storycoffe-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/3073/sccorner.jpg",
+    "latitude": "51.461031000",
+    "longitude": "-0.174409000",
+    "name": "Story Coffee St John's Hill"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "17 Marylebone Rd",
+    "link": "https://europeancoffeetrip.com/cafe/coffeebrigade-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/29122/img_9238.jpeg",
+    "latitude": "51.522781000",
+    "longitude": "-0.152404900",
+    "name": "Coffee Brigade"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "54 Peckham Rye",
+    "link": "https://europeancoffeetrip.com/cafe/oldspike-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/4428/oldspikeroast_1699525814_3232179175963180653_1569717233.jpg",
+    "latitude": "51.465155200",
+    "longitude": "-0.066608800",
+    "name": "Old Spike"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "48 Ladywell Rd",
+    "link": "https://europeancoffeetrip.com/cafe/oscarsse13-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/7501/rhe_assembly_oscars_17.jpeg",
+    "latitude": "51.456450000",
+    "longitude": "-0.020202000",
+    "name": "Oscar’s SE13"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "Ground Floor, 40 Brushfield St, London",
+    "link": "https://europeancoffeetrip.com/cafe/nagare-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/8249/nagare-coffee.jpeg",
+    "latitude": "51.518945500",
+    "longitude": "-0.076936200",
+    "name": "Nagare Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "25 Old Broad Street",
+    "link": "https://europeancoffeetrip.com/cafe/rosslyncoffeetower-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/4737/thumbnail_20220916rosslyntower42-12.jpeg",
+    "latitude": "51.515341000",
+    "longitude": "-0.084160000",
+    "name": "Rosslyn Coffee Tower 42"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "8 Chingford Rd, London",
+    "link": "https://europeancoffeetrip.com/cafe/buhlerandco-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/86/buhler-co-london-ig-title.jpg",
+    "latitude": "51.590593800",
+    "longitude": "-0.017067600",
+    "name": "Buhler and Co"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "Park Road 78",
+    "link": "https://europeancoffeetrip.com/cafe/velasquezandvanwezel-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/2027/velasquez-vanwezel-london-social-media.jpg",
+    "latitude": "51.581928200",
+    "longitude": "-0.126542000",
+    "name": "Velasquez and Van Wezel"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "8 Newman Street",
+    "link": "https://europeancoffeetrip.com/cafe/omotesando-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/2570/Omotesando-UK-SocialMedia.jpeg",
+    "latitude": "51.516590300",
+    "longitude": "-0.134723600",
+    "name": "Omotesando"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "67 Broadway Market",
+    "link": "https://europeancoffeetrip.com/cafe/slimpsonandsonscafe-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/691/459934369_18452250037021989_2184854367597920730_n.jpg",
+    "latitude": "51.537452000",
+    "longitude": "-0.061291000",
+    "name": "Climpson & Sons Cafe"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "1b Highbury Park",
+    "link": "https://europeancoffeetrip.com/cafe/profilecoffee-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/15041/profile_069.jpg",
+    "latitude": "51.553510700",
+    "longitude": "-0.098482300",
+    "name": "Profile"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "4 Butler Place",
+    "link": "https://europeancoffeetrip.com/cafe/formativecoffee-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/1900/formativecoffee-london-socialmedia.jpeg",
+    "latitude": "51.497863400",
+    "longitude": "-0.135472500",
+    "name": "Formative Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "14 Windmill Row",
+    "link": "https://europeancoffeetrip.com/cafe/urbanbotanica-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/2420/urban-botanica-london-social-media-1.jpg",
+    "latitude": "51.487089400",
+    "longitude": "-0.111659500",
+    "name": "Urban Botanica"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "15 Barley Walk",
+    "link": "https://europeancoffeetrip.com/cafe/storycoffe-wandsworth-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/3365/scfrontwandsworth.jpg",
+    "latitude": "51.457189000",
+    "longitude": "-0.193507900",
+    "name": "Story Coffee Wandsworth"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "Somerset House East Wing",
+    "link": "https://europeancoffeetrip.com/cafe/watchhousesomersethouse-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/4222/IMGL7716series2_copy.png",
+    "latitude": "51.511378900",
+    "longitude": "-0.116872400",
+    "name": "WatchHouse Somerset House"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "38 Sheen Lane",
+    "link": "https://europeancoffeetrip.com/cafe/robincraftcafe-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/4270/therobinrichmond_338624326_6378743805482549_736481623438309719_n.jpg",
+    "latitude": "51.466721000",
+    "longitude": "-0.266970600",
+    "name": "Robin Craft Cafe"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "8 Crown Rd, St Margarets",
+    "link": "https://europeancoffeetrip.com/cafe/wyliescoffee-stmargarets-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/13456/wyliescoffee_1661933943_2916835785613912503_19312175919.jpg",
+    "latitude": "51.454630200",
+    "longitude": "-0.319512300",
+    "name": "Wylie's Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "1 Camberwell Rd",
+    "link": "https://europeancoffeetrip.com/cafe/echoespresso-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/28799/img_4412.jpeg",
+    "latitude": "51.484371700",
+    "longitude": "-0.093575700",
+    "name": "Echo Espresso"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "40 Store Street",
+    "link": "https://europeancoffeetrip.com/cafe/storestreetespresso40storestreet-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/3756/Carlos_Corona-6738.jpg",
+    "latitude": "51.520110300",
+    "longitude": "-0.130644500",
+    "name": "Store Street Espresso"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "63A Ledbury Rd",
+    "link": "https://europeancoffeetrip.com/cafe/hagen-nothinghill-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/15962/thehagenproject_1655925620_2866434320134848785_4697742444.jpg",
+    "latitude": "51.514818000",
+    "longitude": "-0.199478600",
+    "name": "Hagen Espresso Bar"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "One and a Half, Ardleigh Road",
+    "link": "https://europeancoffeetrip.com/cafe/leighs-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/25800/22-leigh-s-hero-credit-alexander-clark-_-adesignerinlondon.jpg",
+    "latitude": "51.543303400",
+    "longitude": "-0.082008800",
+    "name": "Leigh's"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "Unit 2 The Hardy Building, Heritage Ln,",
+    "link": "https://europeancoffeetrip.com/cafe/intermission-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/2869/28e59ba1-c98f-4ead-9b0d-0317fd90d702-69115a8b-e3d1-4488-9837-27200e3595c3.jpg",
+    "latitude": "51.547197071",
+    "longitude": "-0.191399038",
+    "name": "Intermission"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "11 Leonard St",
+    "link": "https://europeancoffeetrip.com/cafe/ozonecoffeeroasters-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/94/ozonecoffeeroasters-london.jpg",
+    "latitude": "51.524706700",
+    "longitude": "-0.086731400",
+    "name": "Ozone Coffee Roasters"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "69 St John's Rd",
+    "link": "https://europeancoffeetrip.com/cafe/twistedsister-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/31874/img-20251110-wa0000-1.jpg",
+    "latitude": "51.461492100",
+    "longitude": "-0.167193400",
+    "name": "Twisted Sister"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "210 Euston Road",
+    "link": "https://europeancoffeetrip.com/cafe/caravancoffeeroasptersofficefroup-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/6999/Euston_ccr-14.jpg",
+    "latitude": "51.526129700",
+    "longitude": "-0.135330000",
+    "name": "Caravan Coffee Roasters at The Office Group 210 Euston"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "28 Cheshire St",
+    "link": "https://europeancoffeetrip.com/cafe/orbit-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/33671/f51272a7-e683-479a-aeb3-8d4f086c6f13.JPG",
+    "latitude": "51.523488200",
+    "longitude": "-0.070316900",
+    "name": "Orbit"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "96a Leather Ln",
+    "link": "https://europeancoffeetrip.com/cafe/colonnasmalls-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/16694/colonnacoffee_1718823896_3394063297450273914_2220720883.jpg",
+    "latitude": "51.521632900",
+    "longitude": "-0.109951900",
+    "name": "Colonna & Small’s"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "Unit 3 Titan Business Estate, Ffinch Street",
+    "link": "https://europeancoffeetrip.com/cafe/elsewhere-roastery-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/16446/rbb-2.jpg",
+    "latitude": "51.479235400",
+    "longitude": "-0.026755600",
+    "name": "Elsewhere Coffee Roastery and Brew Bar"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "32 Haven Green",
+    "link": "https://europeancoffeetrip.com/cafe/wacafe-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/680/wa-cafe-london-fb-title.jpg",
+    "latitude": "51.515913000",
+    "longitude": "-0.302005000",
+    "name": "Wa Cafe"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "171 Union Street",
+    "link": "https://europeancoffeetrip.com/cafe/scenery-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/25172/cafe-careers-page.jpg",
+    "latitude": "51.503664800",
+    "longitude": "-0.099296800",
+    "name": "Scenery"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "139 Sheen Lane",
+    "link": "https://europeancoffeetrip.com/cafe/artisaneastsheen-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/576/artisan-coffee-school-east-sheen-london-web-title.jpg",
+    "latitude": "51.464636100",
+    "longitude": "-0.266315400",
+    "name": "Artisan - East Sheen"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "Leytonstone Underground Station, Church Ln",
+    "link": "https://europeancoffeetrip.com/cafe/perkyblenders-leytonstonekiosk-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/29511/1ef15fd4-d36a-4997-8a00-6230e8120cd8.jpg",
+    "latitude": "51.568198500",
+    "longitude": "0.007968000",
+    "name": "Perky Blenders - Leytonstone kiosk"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "58 Redchurch St, Shoreditch, UK",
+    "link": "https://europeancoffeetrip.com/cafe/allpressespressobar-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/687/allpressespressobar-london.jpg",
+    "latitude": "51.524389000",
+    "longitude": "-0.074343000",
+    "name": "Allpress Espresso Bar"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "290 Saint Paul's Road",
+    "link": "https://europeancoffeetrip.com/cafe/sawyerandgray-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/654/sawyer-and-grey-london-fb-title.jpg",
+    "latitude": "51.546294400",
+    "longitude": "-0.101233100",
+    "name": "sawyer and gray"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "2-3, Medici Court",
+    "link": "https://europeancoffeetrip.com/cafe/watchhouse-hanover-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/10774/watchhouse-london-2r7a0452.jpg",
+    "latitude": "51.513726900",
+    "longitude": "-0.145102500",
+    "name": "WatchHouse Hanover"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "36-40 York Way",
+    "link": "https://europeancoffeetrip.com/cafe/fabricax-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/20219/dsc01151.jpg",
+    "latitude": "51.532685100",
+    "longitude": "-0.122257900",
+    "name": "Fabrica X"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "67 Southwark Street",
+    "link": "https://europeancoffeetrip.com/cafe/saintninecoffee-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/9258/258556413_2692680187544516_1345039207405849919_n.jpg",
+    "latitude": "51.505266500",
+    "longitude": "-0.098691100",
+    "name": "Saint Nine Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "70 Camberwell Church Street",
+    "link": "https://europeancoffeetrip.com/cafe/lumberjack-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/644/lumberjack-london-fb-title.jpg",
+    "latitude": "51.473474000",
+    "longitude": "-0.088250000",
+    "name": "Lumberjack"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "40 Replingham Road, Southfields",
+    "link": "https://europeancoffeetrip.com/cafe/wyliescoffee-southfields-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/13455/img_2625.jpeg",
+    "latitude": "51.444856100",
+    "longitude": "-0.204035400",
+    "name": "Wylie's Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "58 Thames Rd, Chiswick",
+    "link": "https://europeancoffeetrip.com/cafe/thecoffeetraveller-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/662/coffee-traveler-london-web-title.jpg",
+    "latitude": "51.486592000",
+    "longitude": "-0.280825000",
+    "name": "The Coffee Traveller"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "7 Upper St Martin's Lane",
+    "link": "https://europeancoffeetrip.com/cafe/sevendials-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/4227/2R7A2828-3-2_EDIT.jpg",
+    "latitude": "51.512868300",
+    "longitude": "-0.127371400",
+    "name": "WatchHouse Seven Dials"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "245 Hammersmith Road",
+    "link": "https://europeancoffeetrip.com/cafe/storestreetespresso245hammersmith-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/3785/Carlos_Corona-6925.jpg",
+    "latitude": "51.492673600",
+    "longitude": "-0.221170300",
+    "name": "Store Street Espresso"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "236 Northfield Avenue",
+    "link": "https://europeancoffeetrip.com/cafe/elementcoffee-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/6983/shop-exterior.jpg",
+    "latitude": "51.499419600",
+    "longitude": "-0.315009700",
+    "name": "Element Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "91 Cowcross Street",
+    "link": "https://europeancoffeetrip.com/cafe/snoozzzecoffee-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/18277/img_7973.jpg",
+    "latitude": "51.519919200",
+    "longitude": "-0.102202000",
+    "name": "Snoozzze Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "10 Shepherd St",
+    "link": "https://europeancoffeetrip.com/cafe/chillhousecoffee-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/12060/chillhouselondon_1697014813_3211115442418498766_56127302080.jpg",
+    "latitude": "51.506284100",
+    "longitude": "-0.146854000",
+    "name": "CHILL HOUSE COFFEE"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "Finchley Road Underground Station, 221 Finchley Rd",
+    "link": "https://europeancoffeetrip.com/cafe/perkyblenders-finchleyroadstation-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/29693/finchleyrd.jpg",
+    "latitude": "51.546926700",
+    "longitude": "-0.179852800",
+    "name": "Perky Blenders - Finchley Road Station"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "47 Camden Passage",
+    "link": "https://europeancoffeetrip.com/cafe/compane-camdenpassage-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/28872/companeltd_1758633498_3728010441986483049_57181235413.jpg",
+    "latitude": "51.535416700",
+    "longitude": "-0.103362700",
+    "name": "Compane Camden Passage"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "100 Bishopsgate",
+    "link": "https://europeancoffeetrip.com/cafe/watchhousebishopsgate-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/4226/2R7A7628-HDR.jpg",
+    "latitude": "51.515332300",
+    "longitude": "-0.080412000",
+    "name": "WatchHouse Bishopsgate"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "461 Green Lanes",
+    "link": "https://europeancoffeetrip.com/cafe/musicandbeans-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/646/music-and-beans-london-fb-title.jpg",
+    "latitude": "51.579871000",
+    "longitude": "-0.099423000",
+    "name": "Music and Beans"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "114 Queen Victoria Street",
+    "link": "https://europeancoffeetrip.com/cafe/thewren-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/674/the-wren-coffee-london-fb-title.jpg",
+    "latitude": "51.512088900",
+    "longitude": "-0.096888700",
+    "name": "The Wren"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "111 Brixton Hill, Brixton",
+    "link": "https://europeancoffeetrip.com/cafe/stircoffee-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/659/stir-coffee-london-web-title.jpg",
+    "latitude": "51.454478000",
+    "longitude": "-0.119603000",
+    "name": "Stir Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "11 Park Drive",
+    "link": "https://europeancoffeetrip.com/cafe/aethercoffeeproject-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/24320/aethercoffeeproject_1748185003_3640362119209444347_59074300851.jpg",
+    "latitude": "51.502587100",
+    "longitude": "-0.013283100",
+    "name": "Aether Coffee Lab"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "58 Upper Tooting Road",
+    "link": "https://europeancoffeetrip.com/cafe/farmandflynn-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/24999/img_1275.jpeg",
+    "latitude": "51.434349600",
+    "longitude": "-0.162327500",
+    "name": "Farm & Flynn"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "15 Balham Hill",
+    "link": "https://europeancoffeetrip.com/cafe/shed-clapham-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/27476/504a9382.jpg",
+    "latitude": "51.452713500",
+    "longitude": "-0.147698700",
+    "name": "SHED Clapham"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "Ground Floor, The Sea Building, 127-131 Great Suffolk St",
+    "link": "https://europeancoffeetrip.com/cafe/cafevolt-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/13449/dsc00464.jpg",
+    "latitude": "51.500450600",
+    "longitude": "-0.097011800",
+    "name": "Café VOLT"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "68 Compton Street",
+    "link": "https://europeancoffeetrip.com/cafe/sofucoffee-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/18827/sofu-coffee_1728933046_3478865000631765880_68286135279.jpg",
+    "latitude": "51.524642800",
+    "longitude": "-0.102457300",
+    "name": "Sofu Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "8 Tunstall Rd",
+    "link": "https://europeancoffeetrip.com/cafe/brixtonblend-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/461/brixton-blend-coffee-london-web-title.jpg",
+    "latitude": "51.462768000",
+    "longitude": "-0.115651000",
+    "name": "Brixton blend"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "86a-88, Cleveland Street",
+    "link": "https://europeancoffeetrip.com/cafe/kaficafe-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/1959/kafi-6.jpg",
+    "latitude": "51.522304800",
+    "longitude": "-0.140747800",
+    "name": "Kafi Cafe"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "Unit 2, Hylo, 105 Bunhill Row",
+    "link": "https://europeancoffeetrip.com/cafe/stagshouse-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/30835/ead99a54-0fa9-4817-9281-0020bb535a8d.JPG",
+    "latitude": "51.522631000",
+    "longitude": "-0.089943700",
+    "name": "Stag's House"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "37 Shad Thames",
+    "link": "https://europeancoffeetrip.com/cafe/watchhousetowerbridge-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/4120/IMGL5422_copy_2.jpg",
+    "latitude": "51.503736800",
+    "longitude": "-0.074603800",
+    "name": "WatchHouse Tower Bridge"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "Brooksby's Walk",
+    "link": "https://europeancoffeetrip.com/cafe/fourtysixbespressohut-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/571/46b-espresso-huit-london-fb-title.jpg",
+    "latitude": "51.550294400",
+    "longitude": "-0.042925000",
+    "name": "46b Espresso Hut"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "139 Commercial Street",
+    "link": "https://europeancoffeetrip.com/cafe/watchhousespitalfields-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/4224/_DSF8283_copy.jpg",
+    "latitude": "51.520875300",
+    "longitude": "-0.075257700",
+    "name": "WatchHouse Spitalfields"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "23-25 Leather Ln",
+    "link": "https://europeancoffeetrip.com/cafe/prufrockcoffee-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/119/imgl0305-hdr.jpg",
+    "latitude": "51.519927200",
+    "longitude": "-0.109473900",
+    "name": "Prufrock Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "31-35 Great Ormond Street",
+    "link": "https://europeancoffeetrip.com/cafe/theespressoroom-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/694/theespressoroom-london.jpg",
+    "latitude": "51.521888800",
+    "longitude": "-0.119744500",
+    "name": "The Espresso Room"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "81 Grove Road",
+    "link": "https://europeancoffeetrip.com/cafe/huckscafe-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/634/hucks-cafe-london-web-title.jpg",
+    "latitude": "51.579160000",
+    "longitude": "-0.012577000",
+    "name": "Hucks Cafe"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "48 Grays Inn Road, Chancery Lane",
+    "link": "https://europeancoffeetrip.com/cafe/catalyst-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/595/catalyst-london-fb-title.jpg",
+    "latitude": "51.519805100",
+    "longitude": "-0.111998900",
+    "name": "Catalyst"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "163 Clarence Road",
+    "link": "https://europeancoffeetrip.com/cafe/lodestarcoffee-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/2541/lodestar-london-social-media.jpg",
+    "latitude": "51.555253800",
+    "longitude": "-0.056211000",
+    "name": "Lodestar Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "15 Eastcastle Street",
+    "link": "https://europeancoffeetrip.com/cafe/kaffeine-eastcastle-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/8587/kaffeine-london.jpg",
+    "latitude": "51.516853600",
+    "longitude": "-0.137159100",
+    "name": "Kaffeine"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "Unit 2, 2 Ashley road",
+    "link": "https://europeancoffeetrip.com/cafe/holygrainandbrew-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/31003/unnamed.jpg",
+    "latitude": "51.589115800",
+    "longitude": "-0.061940300",
+    "name": "Holy Grain & Brew"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "Chamberlayne Road",
+    "link": "https://europeancoffeetrip.com/cafe/cableco-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/593/cable-co-london-ig-title.jpg",
+    "latitude": "51.534841700",
+    "longitude": "-0.219452800",
+    "name": "Cable Co."
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "32a Paul St",
+    "link": "https://europeancoffeetrip.com/cafe/alchemycafeshoreditch-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/28796/42b3afdc22b571-lt347285672.JPG",
+    "latitude": "51.523607500",
+    "longitude": "-0.084182200",
+    "name": "Alchemy Cafe - Shoreditch"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "475 Bethnal Green Road",
+    "link": "https://europeancoffeetrip.com/cafe/rastocafe-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/29523/_dsf3039.jpeg",
+    "latitude": "51.527517200",
+    "longitude": "-0.056608700",
+    "name": "Rastro Café"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "1a Putney Embankment",
+    "link": "https://europeancoffeetrip.com/cafe/theclubhouse-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/30918/theclubhouseputney_1757850533_3721442456941110404_65250178170.jpg",
+    "latitude": "51.468027200",
+    "longitude": "-0.218164600",
+    "name": "The Clubhouse"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "21 Halliford Street",
+    "link": "https://europeancoffeetrip.com/cafe/daytrip-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/17879/240723_goodbyehorses_coffee_122.jpg",
+    "latitude": "51.540236100",
+    "longitude": "-0.089845000",
+    "name": "day trip"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "274 Hoe St",
+    "link": "https://europeancoffeetrip.com/cafe/perkyblenders-hoestreet-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/29512/small-biz-sat-2025-00283.jpg",
+    "latitude": "51.582895600",
+    "longitude": "-0.018863300",
+    "name": "Perky Blenders - Hoe Street"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "50 High Street Beckenham",
+    "link": "https://europeancoffeetrip.com/cafe/fee-brown-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/618/fee-brown-london-fb-title.jpg",
+    "latitude": "51.409108000",
+    "longitude": "-0.025281000",
+    "name": "Fee & Brown"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "13 Charlotte Place",
+    "link": "https://europeancoffeetrip.com/cafe/lantanacafefitzrovia-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/236/lantanacafefitzrovia-london.jpg",
+    "latitude": "51.518974300",
+    "longitude": "-0.135950800",
+    "name": "Lantana Cafe Fitzrovia"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "St Mary Aldermary Church, Watling St",
+    "link": "https://europeancoffeetrip.com/cafe/host-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/633/host-london-ig-title.jpg",
+    "latitude": "51.512691000",
+    "longitude": "-0.093534000",
+    "name": "Host Cafe"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "9B Northwold Rd, Cazenove,",
+    "link": "https://europeancoffeetrip.com/cafe/yellowwarbler-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/712/yellowwarbler-london.jpg",
+    "latitude": "51.563250500",
+    "longitude": "-0.072440800",
+    "name": "Yellow Warbler"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "15-18 Lime St",
+    "link": "https://europeancoffeetrip.com/cafe/rosslyncoffee-leadenhallmarket-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/17736/rosslyn-leadenhallmarket-london-ales-2024-2.jpg",
+    "latitude": "51.512244500",
+    "longitude": "-0.083379800",
+    "name": "Rosslyn Coffee Leadenhall Market"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "65 Charlotte Rd",
+    "link": "https://europeancoffeetrip.com/cafe/origincoffeeroasters-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/698/250127_olao-smit_origin_shoreditch_3999_1.jpeg",
+    "latitude": "51.526302200",
+    "longitude": "-0.081105400",
+    "name": "Origin Coffee Shoreditch"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "17, College Parade",
+    "link": "https://europeancoffeetrip.com/cafe/kayanspecialtycoffee-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/34109/image.jpg",
+    "latitude": "51.540134300",
+    "longitude": "-0.208721200",
+    "name": "Kayan Specialty Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "1 Basinghall Ave",
+    "link": "https://europeancoffeetrip.com/cafe/obacoffee-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/31390/o-b-a_coffee_1778655104_3895963405170943312_75890293022.jpg",
+    "latitude": "51.516848100",
+    "longitude": "-0.090924500",
+    "name": "O.B.A. COFFEE"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "96 Euston Road",
+    "link": "https://europeancoffeetrip.com/cafe/origincoffee-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/4711/origin-coffee-bl-entrance-hall-amy-hunter-photography.jpg",
+    "latitude": "51.529164900",
+    "longitude": "-0.126707800",
+    "name": "Origin Coffee at The British Library"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "73 Chatsworth Rd",
+    "link": "https://europeancoffeetrip.com/cafe/stonebroscafe-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/28489/img_1475.jpg",
+    "latitude": "51.553884500",
+    "longitude": "-0.045199400",
+    "name": "Stonebros cafe"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "254 Wimbledon Park Road",
+    "link": "https://europeancoffeetrip.com/cafe/feelgood-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/20264/fg-coffee-shop-training-may-2024-15-1-1024x682.jpg",
+    "latitude": "51.444568200",
+    "longitude": "-0.206998000",
+    "name": "Feel Good"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "70 Mountgrove Road",
+    "link": "https://europeancoffeetrip.com/cafe/finkssaltandsweet/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/2392/finks_069.jpg",
+    "latitude": "51.561265800",
+    "longitude": "-0.096249200",
+    "name": "Fink’s Salt & Sweet"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "136 Crouch Hill, London, UK",
+    "link": "https://europeancoffeetrip.com/cafe/coffeecircus-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/598/coffee-circus-london-ig-title.jpg",
+    "latitude": "51.577916000",
+    "longitude": "-0.123459000",
+    "name": "Coffee Circus"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "9 Central Parade",
+    "link": "https://europeancoffeetrip.com/cafe/carnivalcoffeeroasters-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/18874/456512479_18180198733306332_8898898213168576719_n.jpg",
+    "latitude": "51.413566000",
+    "longitude": "-0.051620500",
+    "name": "Carnival Coffee Roasters"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "121 Kings Cross Road",
+    "link": "https://europeancoffeetrip.com/cafe/frequency-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/622/frequency-london-fb-title.jpg",
+    "latitude": "51.529076000",
+    "longitude": "-0.116074000",
+    "name": "Frequency"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "194 Broadhurst Gardens",
+    "link": "https://europeancoffeetrip.com/cafe/wiredco-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/683/wired-co-london-fb-title.jpg",
+    "latitude": "51.546482000",
+    "longitude": "-0.190567000",
+    "name": "Wired Co"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "Unit C, 101 Lower Marsh",
+    "link": "https://europeancoffeetrip.com/cafe/calico-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/19989/calico_coffee_uk_1741266241_3582323338471771226_62904915021.jpg",
+    "latitude": "51.501252100",
+    "longitude": "-0.112069200",
+    "name": "Calico Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "Unit A, Market, Netil House, 13 - 23 Westgate St, London",
+    "link": "https://europeancoffeetrip.com/cafe/paradox-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/11984/img_3089.jpeg",
+    "latitude": "51.537592100",
+    "longitude": "-0.058737400",
+    "name": "Paradox Design + Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "10a Battersea Park Road",
+    "link": "https://europeancoffeetrip.com/cafe/nostoscoffee-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/5825/img_4434.jpg",
+    "latitude": "51.477117000",
+    "longitude": "-0.146957700",
+    "name": "Nostos Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "36 Maltby Street",
+    "link": "https://europeancoffeetrip.com/cafe/watchhouse-roasterybakery-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/4220/2R7A5646.jpg",
+    "latitude": "51.499705900",
+    "longitude": "-0.076402700",
+    "name": "WatchHouse Roastery & Cafe"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "22 Foley St, London",
+    "link": "https://europeancoffeetrip.com/cafe/kincafe-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/639/kin-cafe-london-fb-title.jpg",
+    "latitude": "51.519342700",
+    "longitude": "-0.140311100",
+    "name": "Kin Cafe"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "153 S Lambeth Rd, London",
+    "link": "https://europeancoffeetrip.com/cafe/moonstruckcafe-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/12931/moonstruck-cafe-1200-900.jpg",
+    "latitude": "51.478062500",
+    "longitude": "-0.123221100",
+    "name": "Moonstruck Cafe"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "26 Notting Hill Gate",
+    "link": "https://europeancoffeetrip.com/cafe/guillamcoffeehouse-nottinghill-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/8675/dsc_0115.jpg",
+    "latitude": "51.509611500",
+    "longitude": "-0.194289500",
+    "name": "Guillam Coffee House"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "118 London Wall",
+    "link": "https://europeancoffeetrip.com/cafe/rosslyncoffee-londonwall-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/4613/lwoutside11.jpg",
+    "latitude": "51.517689900",
+    "longitude": "-0.089036900",
+    "name": "Rosslyn Coffee London Wall"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "19 Widegate Street",
+    "link": "https://europeancoffeetrip.com/cafe/zerotoone-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/31385/482985621_122124306638421476_9110869497440288711_n.jpg",
+    "latitude": "51.518160300",
+    "longitude": "-0.078206000",
+    "name": "ZeroToOne - Vietnamese Specialty Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "151 King's Road",
+    "link": "https://europeancoffeetrip.com/cafe/hagenespressobar-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/1244/hagen-espresso-bar-london-fb-title.jpg",
+    "latitude": "51.487927800",
+    "longitude": "-0.167244400",
+    "name": "Hagen Espresso Bar"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "84 Scoresby St",
+    "link": "https://europeancoffeetrip.com/cafe/origincoffeeroastersscoresbyst-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/1588/origin-coffee-roasters-london-fb.jpg",
+    "latitude": "51.504292200",
+    "longitude": "-0.103574500",
+    "name": "Origin Coffee Southwark"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "8 Lee Street",
+    "link": "https://europeancoffeetrip.com/cafe/shed-lee-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/27477/504a8734.jpg",
+    "latitude": "51.538388800",
+    "longitude": "-0.075980600",
+    "name": "SHED Hatch / Haggerston"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "640 Fulham Rd, Fulham",
+    "link": "https://europeancoffeetrip.com/cafe/localhero-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/641/local-hero-london-fb-title.jpg",
+    "latitude": "51.476311000",
+    "longitude": "-0.204721000",
+    "name": "Local Hero"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "21 Hackney Road",
+    "link": "https://europeancoffeetrip.com/cafe/nkora-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/647/nkora-london-fb-title.jpg",
+    "latitude": "51.527601000",
+    "longitude": "-0.076900000",
+    "name": "Nkora"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "23 Elizabeth Street",
+    "link": "https://europeancoffeetrip.com/cafe/koub-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/20435/2024-05-29-1.jpg",
+    "latitude": "51.492881300",
+    "longitude": "-0.149593900",
+    "name": "KOUB"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "27a Foley Street",
+    "link": "https://europeancoffeetrip.com/cafe/attendant-fitzrovia-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/239/attendantcoffeeroasters_66657539_2316741941779233_6120332990070423332_n.jpg",
+    "latitude": "51.519277000",
+    "longitude": "-0.140689000",
+    "name": "Attendant (Fitzrovia)"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "Angel House, 26 Pentonville Rd,",
+    "link": "https://europeancoffeetrip.com/cafe/saintespresso-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/701/saint-espresso-london-fb-title.jpg",
+    "latitude": "51.532071200",
+    "longitude": "-0.107612200",
+    "name": "Saint Espresso"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "61 Curzon St",
+    "link": "https://europeancoffeetrip.com/cafe/guillam-myfair-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/9453/image-2.jpeg",
+    "latitude": "51.507820500",
+    "longitude": "-0.144833900",
+    "name": "Guillam Coffee House"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "Gillett Street",
+    "link": "https://europeancoffeetrip.com/cafe/brunswickeast-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/592/brunswick-east-london-fb-title.jpg",
+    "latitude": "51.549170800",
+    "longitude": "-0.076899400",
+    "name": "Brunswick East"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "32 New Broadway",
+    "link": "https://europeancoffeetrip.com/cafe/artisancoffeeschool-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/575/artisan-coffee-school-london-fb-title.jpg",
+    "latitude": "51.513113900",
+    "longitude": "-0.306697200",
+    "name": "Artisan Coffee School"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "52a Prince of Wales Road",
+    "link": "https://europeancoffeetrip.com/cafe/thefieldbeneath-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/665/the-fields-beneath-london-fb-title.jpg",
+    "latitude": "51.546541000",
+    "longitude": "-0.146666400",
+    "name": "The Fields Beneath"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "83 Watling St",
+    "link": "https://europeancoffeetrip.com/cafe/mayasstores-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/21738/screenshot-2025-03-21-at-12-05-10.png",
+    "latitude": "51.513395500",
+    "longitude": "-0.095449300",
+    "name": "Maya's Coffee Stores"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "King's Cross Underground Station, Northern Ticket Hall",
+    "link": "https://europeancoffeetrip.com/cafe/gramos-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/6804/gramos-coffee-bar.jpg",
+    "latitude": "51.531811000",
+    "longitude": "-0.123795800",
+    "name": "Gramos Coffee Bar (underground)"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "6 Orchard Pl",
+    "link": "https://europeancoffeetrip.com/cafe/nostoscoffee-orchad-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/13050/n16.jpeg",
+    "latitude": "51.498673300",
+    "longitude": "-0.133301800",
+    "name": "Nostos Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "Shore Place, Victoria Park",
+    "link": "https://europeancoffeetrip.com/cafe/blas-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/20407/blaslondon__1732134224_3505718421922191609_62096938233-1.jpg",
+    "latitude": "51.535157900",
+    "longitude": "-0.048497500",
+    "name": "BLAS"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "31 Saint Petersburgh Place",
+    "link": "https://europeancoffeetrip.com/cafe/gulliamcoffeehouse-saintpetersburgpl-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/6061/guillam-3757-1.jpg",
+    "latitude": "51.512127600",
+    "longitude": "-0.191289500",
+    "name": "Guillam Coffee House"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "199 Bermondsey Street",
+    "link": "https://europeancoffeetrip.com/cafe/watchhousebermondsey/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/4221/IMGL8605_copy_2.jpg",
+    "latitude": "51.498010600",
+    "longitude": "-0.081250600",
+    "name": "WatchHouse Bermondsey"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "10 Water Street",
+    "link": "https://europeancoffeetrip.com/cafe/640east-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/6330/640waterstreetpromo-2-2.jpg",
+    "latitude": "51.502780000",
+    "longitude": "-0.014910000",
+    "name": "640 East"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "362 Garratt Ln",
+    "link": "https://europeancoffeetrip.com/cafe/presscafe-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/31365/screenshot-2026-04-29-at-16-56-57.png",
+    "latitude": "51.441753700",
+    "longitude": "-0.187837700",
+    "name": "Press Cafe"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "1 Howick Pl",
+    "link": "https://europeancoffeetrip.com/cafe/irisandjune-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/12000/exterior-resized.jpg",
+    "latitude": "51.496815300",
+    "longitude": "-0.136043300",
+    "name": "Iris & June"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "198 High Road",
+    "link": "https://europeancoffeetrip.com/cafe/beanandbrew-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/2688/beanandbrew-london-socialmedia-1.jpeg",
+    "latitude": "51.597685950",
+    "longitude": "-0.110071203",
+    "name": "Bean + Brew"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "1 Rosebank Villas, High St",
+    "link": "https://europeancoffeetrip.com/cafe/perkyblenders-walthamstowkios-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/29513/project660-5411-apr.jpg",
+    "latitude": "51.584511200",
+    "longitude": "-0.020449000",
+    "name": "Perky Blenders - Walthamstow Kiosk"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "St Georges Court Vittorio coffee garden, Bloomsbury Way",
+    "link": "https://europeancoffeetrip.com/cafe/espressobasespecialtycoffee-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/8028/img_6602.jpeg",
+    "latitude": "51.517660500",
+    "longitude": "-0.124534000",
+    "name": "EspressoBase Speciality Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "D3 Ivory House, St Katharine Docks,",
+    "link": "https://europeancoffeetrip.com/cafe/whitemulberries-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/309/whitemulberries-london.jpg",
+    "latitude": "51.507199200",
+    "longitude": "-0.071239900",
+    "name": "White Mulberries"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "2a St James's Market",
+    "link": "https://europeancoffeetrip.com/cafe/bijacoffee-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/18890/bja133.JPG",
+    "latitude": "51.509277200",
+    "longitude": "-0.133159400",
+    "name": "Bija Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "78 Queen Victoria Street",
+    "link": "https://europeancoffeetrip.com/cafe/rosslyncoffee-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/1235/rosslyn-coffee-google-2023-11-20.jpg",
+    "latitude": "51.512580100",
+    "longitude": "-0.093503500",
+    "name": "Rosslyn Coffee Queen Victoria Street"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "55 Dalston Ln",
+    "link": "https://europeancoffeetrip.com/cafe/allpressespressoroasterycafe-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/688/35c7a468f1fe292aec91fffadbb9cb36f187a66e-3000x2000.jpeg",
+    "latitude": "51.546460200",
+    "longitude": "-0.070607100",
+    "name": "Allpress Roastery & Café"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "5 Skippers Yard",
+    "link": "https://europeancoffeetrip.com/cafe/simmoscoffee-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/18902/locksidestudios___1726134612_3455390034824489301_49141010430.jpg",
+    "latitude": "51.538091900",
+    "longitude": "-0.021864700",
+    "name": "Simmos Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "49 East Hill",
+    "link": "https://europeancoffeetrip.com/cafe/theusual-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/31664/theusual_14-15mar2026_pamelabortey_00033.jpg",
+    "latitude": "51.457610000",
+    "longitude": "-0.184290000",
+    "name": "The Usual"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "Turnham Green Terrace Mews, Chiswick, London, UK",
+    "link": "https://europeancoffeetrip.com/cafe/chiefcoffee-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/145/chief-coffee-london-ig-title.jpg",
+    "latitude": "51.493965000",
+    "longitude": "-0.254819000",
+    "name": "Chief Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "55 Kynaston Road",
+    "link": "https://europeancoffeetrip.com/cafe/esters-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/614/esters-london-instagram-02.jpg",
+    "latitude": "51.560102439",
+    "longitude": "-0.078067034",
+    "name": "Esters"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "15, 16 Sherwood St",
+    "link": "https://europeancoffeetrip.com/cafe/oldspike-piccadilly-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/8707/os_piccadilly03_800x600_crop_center.jpeg",
+    "latitude": "51.510951600",
+    "longitude": "-0.135950200",
+    "name": "Old Spike Piccadilly"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "660 High Rd. Leyton",
+    "link": "https://europeancoffeetrip.com/cafe/perkyblenders-project660-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/29510/2026-social-content.jpg",
+    "latitude": "51.570025900",
+    "longitude": "-0.008003400",
+    "name": "Perky Blenders - Project 660"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "70 Saint Mary Axe",
+    "link": "https://europeancoffeetrip.com/cafe/watchhousestmaryaxe-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/4225/5_copy.jpg",
+    "latitude": "51.515366200",
+    "longitude": "-0.078993500",
+    "name": "WatchHouse St. Mary Axe"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "68A Compton Street",
+    "link": "https://europeancoffeetrip.com/cafe/clerkenwellsbooks-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/15727/2024-07-11.jpg",
+    "latitude": "51.524642800",
+    "longitude": "-0.102457300",
+    "name": "Clerkenwell's Coffee & Books"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "43 De Beauvoir Road",
+    "link": "https://europeancoffeetrip.com/cafe/batchbaby-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/5816/batchbaby-london-owners-1.jpeg",
+    "latitude": "51.539158300",
+    "longitude": "-0.081392100",
+    "name": "Batch Baby"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "1-3 Heatman’s Rd",
+    "link": "https://europeancoffeetrip.com/cafe/rondorcoffee-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/15726/rondor-coffee_1710969471_3328175611283997812_50297218806.jpg",
+    "latitude": "51.474021400",
+    "longitude": "-0.201001600",
+    "name": "Rondor Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "115a Regent's Park Road",
+    "link": "https://europeancoffeetrip.com/cafe/thelittleone-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/669/the-little-one-london-social-media-title.jpg",
+    "latitude": "51.542550000",
+    "longitude": "-0.155672000",
+    "name": "The little One"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "66 Great Titchfield St",
+    "link": "https://europeancoffeetrip.com/cafe/kaffeine-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/349/kaffeinelondon_1729155852_3480733937976041167_244491062.jpg",
+    "latitude": "51.518445613",
+    "longitude": "-0.140424035",
+    "name": "Kaffeine"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "112A Brixton Hill",
+    "link": "https://europeancoffeetrip.com/cafe/f-mondays-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/615/f-mondays-london-ig-title.jpg",
+    "latitude": "51.453980500",
+    "longitude": "-0.120471300",
+    "name": "F. Mondays"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "36 Charlotte Street",
+    "link": "https://europeancoffeetrip.com/cafe/thebarn-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/23995/thebarn-london-2025-07-07.jpeg",
+    "latitude": "51.520769000",
+    "longitude": "-0.137156100",
+    "name": "THE BARN Café London"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "28 Fulham Palace Rd",
+    "link": "https://europeancoffeetrip.com/cafe/antipode-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/573/antipode_124670683_127954182159094_8202830524859369089_n.jpg",
+    "latitude": "51.491013000",
+    "longitude": "-0.223938000",
+    "name": "Antipode"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "24 Gloucester Road",
+    "link": "https://europeancoffeetrip.com/cafe/gulliamcoffeehouse-gloucester-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/5735/bc-21.jpg",
+    "latitude": "51.499014000",
+    "longitude": "-0.183841300",
+    "name": "Guillam Coffee House"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "92 Fetter Lane",
+    "link": "https://europeancoffeetrip.com/cafe/watchhousefetterlane-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/4223/IMGL7976_copy_2.jpg",
+    "latitude": "51.516735700",
+    "longitude": "-0.109173000",
+    "name": "WatchHouse Fetter Lane"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "8 Aybrook St",
+    "link": "https://europeancoffeetrip.com/cafe/specialguests-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/17940/specialguests-london-ales-2024.jpg",
+    "latitude": "51.519127600",
+    "longitude": "-0.152889600",
+    "name": "Special Guests"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "45 Kingston Road",
+    "link": "https://europeancoffeetrip.com/cafe/thirdcoffeekingstonroad-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/22749/img_9735.jpg",
+    "latitude": "51.415621100",
+    "longitude": "-0.194839600",
+    "name": "Third Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "313 Plumstead high st",
+    "link": "https://europeancoffeetrip.com/cafe/fltwht-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/35286/949a0fee-8975-4c7c-a3dd-3b9273123a50.jpeg",
+    "latitude": "51.485620900",
+    "longitude": "0.102613500",
+    "name": "Flt wht"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "9A Cullum Street",
+    "link": "https://europeancoffeetrip.com/cafe/curatorscoffee-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/4798/curators2.jpg",
+    "latitude": "51.512083200",
+    "longitude": "-0.082557100",
+    "name": "Curators Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "21 Warren Street",
+    "link": "https://europeancoffeetrip.com/cafe/qimacafe-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/9326/qima-cafe_314907002_1194624284734662_8634770903916915170_n.jpg",
+    "latitude": "51.523978000",
+    "longitude": "-0.139917500",
+    "name": "Qima Cafe"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "3A Lever St",
+    "link": "https://europeancoffeetrip.com/cafe/1930coffee-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/27212/1930coffee_london_1759312322_3733704833728550514_56532696121.jpg",
+    "latitude": "51.526520400",
+    "longitude": "-0.099686100",
+    "name": "1930 Coffee Co"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "9 Fortis Green",
+    "link": "https://europeancoffeetrip.com/cafe/campbellandsyme-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/122/img_4887.JPG",
+    "latitude": "51.589468000",
+    "longitude": "-0.163207000",
+    "name": "Campbell & Syme Coffee Roasters"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "7 Devonshire Square",
+    "link": "https://europeancoffeetrip.com/cafe/storycoffeedevonshiresquare-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/29059/dsqfront-land.jpg",
+    "latitude": "51.516667200",
+    "longitude": "-0.077690600",
+    "name": "Story Coffee Devonshire Square"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "49 Bethnal Grn Rd",
+    "link": "https://europeancoffeetrip.com/cafe/geckocoffeehouse-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/21002/screenshot-2024-10-30-at-11-52-48-am.png",
+    "latitude": "51.524529100",
+    "longitude": "-0.072771200",
+    "name": "Gecko Coffeehouse"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "8 Saint Martin's Place",
+    "link": "https://europeancoffeetrip.com/cafe/pagecommoncoffeehouse-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/5409/295a8554.jpg",
+    "latitude": "51.509378600",
+    "longitude": "-0.126773000",
+    "name": "Page Common Coffeehouse"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "5-6 Park Cl",
+    "link": "https://europeancoffeetrip.com/cafe/codotlondon-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/8375/co-londonn_1769936476_3822826365481971394_47153269706.jpg",
+    "latitude": "51.501976100",
+    "longitude": "-0.162867800",
+    "name": "Co. London"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "53 Pembridge Road",
+    "link": "https://europeancoffeetrip.com/cafe/amoret-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/2175/amoret-london-social-media.jpg",
+    "latitude": "51.510792000",
+    "longitude": "-0.197580900",
+    "name": "Amoret"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "11 Margravine Road",
+    "link": "https://europeancoffeetrip.com/cafe/carbonkopi-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/5790/carbonkopi-london-owners-2_2.jpeg",
+    "latitude": "51.486430000",
+    "longitude": "-0.214840000",
+    "name": "Carbon Kopi"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "7 Montpelier St",
+    "link": "https://europeancoffeetrip.com/cafe/saddle-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/12307/899a9858-1.jpg",
+    "latitude": "51.498990900",
+    "longitude": "-0.165838600",
+    "name": "Saddle London"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "2 Barmouth road",
+    "link": "https://europeancoffeetrip.com/cafe/farine-london/",
+    "featured_photo": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/27420/farine-uk_1762428611_3759846457914961740_62768290383.jpg",
+    "latitude": "51.453220400",
+    "longitude": "-0.184797800",
+    "name": "Farine"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "54 Tavistock Place",
+    "link": "https://europeancoffeetrip.com/cafe/storestreetespresso54tavistock-london/",
+    "featured_photo": "",
+    "latitude": "51.525701800",
+    "longitude": "-0.125021100",
+    "name": "Store Street Espresso"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "101 Wood Lane",
+    "link": "https://europeancoffeetrip.com/cafe/flyinghorsecoffee-woodlane-london/",
+    "featured_photo": "",
+    "latitude": "51.510519900",
+    "longitude": "-0.225621300",
+    "name": "Flying Horse Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "27 Camden Psge, London",
+    "link": "https://europeancoffeetrip.com/cafe/trampoline-london/",
+    "featured_photo": "",
+    "latitude": "51.534971300",
+    "longitude": "-0.103784400",
+    "name": "TRAMPOLINE"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "110 Mitcham Road",
+    "link": "https://europeancoffeetrip.com/cafe/julietsqualityfoods-london/",
+    "featured_photo": "",
+    "latitude": "51.425445100",
+    "longitude": "-0.164766800",
+    "name": "Juliet’s Quality Foods"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "70 Long Lane",
+    "link": "https://europeancoffeetrip.com/cafe/dose-london/",
+    "featured_photo": "",
+    "latitude": "51.519435900",
+    "longitude": "-0.099253300",
+    "name": "Dose"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "58 Evering Rd",
+    "link": "https://europeancoffeetrip.com/cafe/bakestreet-london/",
+    "featured_photo": "",
+    "latitude": "51.558710000",
+    "longitude": "-0.066648000",
+    "name": "Bake Street"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "133 Kensington Church St.",
+    "link": "https://europeancoffeetrip.com/cafe/liftcoffee-london/",
+    "featured_photo": "",
+    "latitude": "51.507446500",
+    "longitude": "-0.194943200",
+    "name": "Lift Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "1- 5 Rosina St",
+    "link": "https://europeancoffeetrip.com/cafe/darkartscoffee-london/",
+    "featured_photo": "",
+    "latitude": "51.547341100",
+    "longitude": "-0.045745000",
+    "name": "Dark Arts Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "10 Church Road",
+    "link": "https://europeancoffeetrip.com/cafe/fourboroughs-london/",
+    "featured_photo": "",
+    "latitude": "51.419462300",
+    "longitude": "-0.078979700",
+    "name": "Four Boroughs"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "81 Chancery Lane",
+    "link": "https://europeancoffeetrip.com/cafe/chancerypress-london/",
+    "featured_photo": "",
+    "latitude": "51.515919100",
+    "longitude": "-0.112200700",
+    "name": "Chancery Press"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "209 Mantle Road",
+    "link": "https://europeancoffeetrip.com/cafe/goodasgold-london/",
+    "featured_photo": "",
+    "latitude": "51.463620600",
+    "longitude": "-0.038962700",
+    "name": "Good As Gold"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "3a Doggett Road",
+    "link": "https://europeancoffeetrip.com/cafe/servesmiths-london/",
+    "featured_photo": "",
+    "latitude": "51.444862000",
+    "longitude": "-0.024226500",
+    "name": "Servesmiths"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "372 King Street, Stamford Brook, London, UK",
+    "link": "https://europeancoffeetrip.com/cafe/artisanstamfordbrook-london/",
+    "featured_photo": "",
+    "latitude": "51.493520000",
+    "longitude": "-0.244896000",
+    "name": "Artisan Stamford Brook"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "29 London Road",
+    "link": "https://europeancoffeetrip.com/cafe/thepressroom-london/",
+    "featured_photo": "",
+    "latitude": "51.447558800",
+    "longitude": "-0.328916900",
+    "name": "The Press Room"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "187 Putney Bridge Road",
+    "link": "https://europeancoffeetrip.com/cafe/anotherbrother-london/",
+    "featured_photo": "",
+    "latitude": "51.461957300",
+    "longitude": "-0.206912800",
+    "name": "Another Brother"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "49 Sheen Lane",
+    "link": "https://europeancoffeetrip.com/cafe/levelcrossingrecords-london/",
+    "featured_photo": "",
+    "latitude": "51.467353100",
+    "longitude": "-0.266477200",
+    "name": "Level Crossing Records"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "13 Tottenham Street",
+    "link": "https://europeancoffeetrip.com/cafe/thepennydrop-london/",
+    "featured_photo": "",
+    "latitude": "51.520506600",
+    "longitude": "-0.135206900",
+    "name": "The Penny Drop"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "320 Portobello Road",
+    "link": "https://europeancoffeetrip.com/cafe/bluebellsofportobello-london/",
+    "featured_photo": "",
+    "latitude": "51.521359000",
+    "longitude": "-0.210012600",
+    "name": "Bluebelles of Portobello"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "112 Golborne Road",
+    "link": "https://europeancoffeetrip.com/cafe/flyinghorsecoffee-golborne-london/",
+    "featured_photo": "",
+    "latitude": "51.521310700",
+    "longitude": "-0.209635600",
+    "name": "Flying Horse Coffee"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "8-10 Princes Arcade",
+    "link": "https://europeancoffeetrip.com/cafe/compane-london/",
+    "featured_photo": "",
+    "latitude": "51.508534800",
+    "longitude": "-0.137563400",
+    "name": "Compane Princes Arcade"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "105 Holloway Road",
+    "link": "https://europeancoffeetrip.com/cafe/vagabond-london/",
+    "featured_photo": "",
+    "latitude": "51.548113300",
+    "longitude": "-0.106739000",
+    "name": "Vagabond"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "Tandy Pl",
+    "link": "https://europeancoffeetrip.com/cafe/clarnico-london/",
+    "featured_photo": "",
+    "latitude": "51.546286100",
+    "longitude": "-0.020507300",
+    "name": "Clarnico"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "28-29 Southampton St",
+    "link": "https://europeancoffeetrip.com/cafe/watchhouse-coventgarden-london/",
+    "featured_photo": "",
+    "latitude": "51.511104700",
+    "longitude": "-0.122439700",
+    "name": "WatchHouse Covent Garden"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "30 Chamberlayne Road",
+    "link": "https://europeancoffeetrip.com/cafe/wildcard-london/",
+    "featured_photo": "",
+    "latitude": "51.530939600",
+    "longitude": "-0.216831800",
+    "name": "Wildcard"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "18-20 Bedford Hill",
+    "link": "https://europeancoffeetrip.com/cafe/milk-london/",
+    "featured_photo": "",
+    "latitude": "51.444482600",
+    "longitude": "-0.150822500",
+    "name": "Milk"
+  },
+  {
+    "premium": false,
+    "awards_winner": false,
+    "address": "41 Brockley Rise, London SE23 1JG, UK",
+    "link": "https://europeancoffeetrip.com/cafe/no41coffeekitchen-london/",
+    "featured_photo": "",
+    "latitude": "51.444064700",
+    "longitude": "-0.042802300",
+    "name": "No41 Coffee and Kitchen"
+  }
+]

@@ -18,8 +18,15 @@
   #panel h2 { font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: #6b7785; margin: 12px 0 4px; }
   #panel label { display: flex; align-items: center; gap: 6px; padding: 2px 0; cursor: pointer; }
   #panel .count { margin-left: auto; color: #6b7785; font-variant-numeric: tabular-nums; }
-  #panel .swatches { display: flex; gap: 2px; }
-  #panel .swatches i { width: 6px; height: 12px; border-radius: 2px; }
+  #search { display: flex; gap: 4px; }
+  #search input { flex: 1; min-width: 0; padding: 4px 6px; border: 1px solid #c5ccd3; border-radius: 4px; font: inherit; }
+  #search-status { font-size: 11px; color: #b42318; }
+  /* proximity: 6px between pins < 8px to the input < 16px to the next section */
+  #pins:not(:empty) { display: flex; flex-direction: column; gap: 6px; margin: 8px 0 16px; }
+  #pins div { display: flex; align-items: center; }
+  #pins span { flex: 1; cursor: pointer; }
+  #pins button { border: 0; background: none; padding: 0 4px; font: inherit; color: #6b7785; cursor: pointer; }
+  #pins button:hover { color: #b42318; }
   #panel footer { margin-top: 10px; font-size: 11px; color: #6b7785; }
   .poi {
     display: flex; align-items: center; justify-content: center; border-radius: 50%;
@@ -36,10 +43,11 @@
 <div id="map"></div>
 <div id="panel">
   <h1>London Rent Map</h1>
+  <form id="search"><input placeholder="Postcode, e.g. E8 3DL" autocomplete="off" spellcheck="false"></form>
+  <div id="search-status"></div>
+  <div id="pins"></div>
   <h2>Places</h2>
   <div id="categories"></div>
-  <h2>Rail</h2>
-  <div id="modes"></div>
   <footer id="generated"></footer>
 </div>
 
@@ -53,20 +61,38 @@
 
 // A point goes to the first category whose match() returns true.
 // icon: emoji or letter shown in a coloured circle. icon: null draws a small dot instead.
+// transit: true puts the points under the public transport checkbox instead of their own.
 // text: optional letter colour (default white).
 const categories = [
   { id: "office",  label: "Offices",  icon: "💼", color: "#1d4ed8", size: 34, on: true, match: p => p.dataset === "offices" },
   { id: "supermarket", label: "Supermarkets", icon: "🛒", color: "#ffd500", size: 22, on: true, match: p => p.dataset === "osm-supermarkets-london" },
-  { id: "station", label: "Stations", icon: null, color: "#333333", size: 3,  on: true, match: p => p.dataset === "tfl-stations" },
+  { id: "climbing", label: "Climbing gyms", icon: "🧗", color: "#f97316", size: 24, on: true, match: p => p.dataset === "osm-climbing-london" },
+  { id: "station", label: "Stations", icon: null, color: "#333333", size: 3,  transit: true, match: p => p.dataset === "tfl-stations" },
 ];
 
-// Rail lines are toggled per mode.
-const modes = [
-  { id: "tube",           label: "Tube",           on: true },
-  { id: "elizabeth-line", label: "Elizabeth line", on: true },
-  { id: "dlr",            label: "DLR",            on: true },
-  { id: "overground",     label: "Overground",     on: true },
-];
+// Hipster pockets: grid cells where enough weighted places of enough different kinds sit close
+// together. These places are not drawn as points (unless a category above also matches them).
+const zone = {
+  label: "Hipster pockets", color: "#d946ef", on: true,
+  cell: 250,      // grid cell size, metres
+  radius: 500,    // places within this distance of a cell count towards it
+  cap: 4,         // max places of one kind counted per cell, so one vintage market does not make a pocket
+  minScore: 9,    // cells scoring less are not drawn
+  minKinds: 3,    // nor are cells with fewer different kinds around
+  fullScore: 22,  // score at which a cell reaches full opacity
+  kinds: {        // dataset -> label and weight
+    "ect-cafes-london":        { label: "specialty coffee", weight: 2 },
+    "osm-climbing-london":     { label: "climbing",         weight: 2 },
+    "osm-breweries-london":    { label: "breweries",        weight: 1.5 },
+    "osm-record-shops-london": { label: "record shops",     weight: 1.5 },
+    "osm-vintage-london":      { label: "vintage",          weight: 1 },
+    "osm-bookshops-london":    { label: "bookshops",        weight: 1 },
+    "osm-yoga-london":         { label: "yoga / pilates",   weight: 1 },
+  },
+};
+
+// All rail lines and the transit categories above share one checkbox.
+const transit = { label: "Public transport", icon: "🚇", color: "#333333", on: true };
 
 const lineStyles = {
   "bakerloo":         { color: "#B36305" },
@@ -101,28 +127,90 @@ L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors · Rail data: TfL',
 }).addTo(map);
 
+// Postcode search: pins are listed under the input and kept in memory only. Full postcodes ("E8 3DL") and outcodes ("E8") both work
+document.getElementById("search").onsubmit = async e => {
+  e.preventDefault();
+  const status = document.getElementById("search-status");
+  const code = e.target.querySelector("input").value.trim().toUpperCase();
+  if (!code) return;
+  status.textContent = "";
+  let found;
+  for (const kind of ["postcodes", "outcodes"]) {
+    const res = await fetch(`https://api.postcodes.io/${kind}/${encodeURIComponent(code)}`).then(r => r.json()).catch(() => null);
+    if (res?.result?.latitude) { found = res.result; break; }
+  }
+  if (!found) { status.textContent = `No postcode "${code}"`; return; }
+  const name = found.postcode ?? found.outcode;
+  const pin = L.marker([found.latitude, found.longitude], { zIndexOffset: 1000 })
+    .bindPopup(`<div class="popup-title">${name}</div><div class="popup-sub">${[].concat(found.admin_district ?? []).join(", ")}</div>`)
+    .addTo(map).openPopup();
+  map.setView(pin.getLatLng(), Math.max(map.getZoom(), 15));
+  const row = document.createElement("div");
+  row.innerHTML = `<span title="Show on map">📍 ${name}</span><button title="Remove">✕</button>`;
+  row.querySelector("span").onclick = () => { map.setView(pin.getLatLng(), Math.max(map.getZoom(), 15)); pin.openPopup(); };
+  row.querySelector("button").onclick = () => { pin.remove(); row.remove(); };
+  document.getElementById("pins").append(row);
+  e.target.reset();
+};
+
 fetch("data.json").then(r => r.json()).then(data => {
   const lineById = Object.fromEntries(data.lines.map(l => [l.id, l]));
 
-  // Rail lines, one layer group per mode
-  for (const mode of modes) {
-    mode.layer = L.layerGroup();
-    mode.lines = data.lines.filter(l => l.mode === mode.id);
-    for (const line of mode.lines) {
-      const style = lineStyles[line.id] ?? defaultLineStyle;
-      L.polyline(line.paths, { color: style.color, weight: 3, opacity: 0.85 })
-        .bindTooltip(line.name, { sticky: true })
-        .addTo(mode.layer);
-    }
-    if (mode.on) mode.layer.addTo(map);
+  // Hipster pockets: bin the zone's places into a grid, then score each cell by what is within reach
+  const mLat = 111320, mLon = 111320 * Math.cos(51.5 * Math.PI / 180); // metres per degree in London
+  const cells = new Map(); // "ix,iy" -> { dataset: count }
+  for (const p of data.points) {
+    if (!zone.kinds[p.dataset]) continue;
+    const key = Math.floor(p.lon * mLon / zone.cell) + "," + Math.floor(p.lat * mLat / zone.cell);
+    if (!cells.has(key)) cells.set(key, {});
+    cells.get(key)[p.dataset] = (cells.get(key)[p.dataset] ?? 0) + 1;
   }
+  const reach = Math.round(zone.radius / zone.cell);
+  const near = []; // cell offsets within reach
+  for (let dx = -reach; dx <= reach; dx++) {
+    for (let dy = -reach; dy <= reach; dy++) if (dx * dx + dy * dy <= reach * reach) near.push([dx, dy]);
+  }
+  const candidates = new Set();
+  for (const key of cells.keys()) {
+    const [ix, iy] = key.split(",").map(Number);
+    for (const [dx, dy] of near) candidates.add(ix + dx + "," + (iy + dy));
+  }
+  zone.layer = L.layerGroup();
+  for (const key of candidates) {
+    const [ix, iy] = key.split(",").map(Number);
+    const counts = {};
+    for (const [dx, dy] of near) {
+      const c = cells.get(ix + dx + "," + (iy + dy));
+      for (const d in c) counts[d] = (counts[d] ?? 0) + c[d];
+    }
+    let score = 0;
+    for (const d in counts) score += Math.min(counts[d], zone.cap) * zone.kinds[d].weight;
+    if (score < zone.minScore || Object.keys(counts).length < zone.minKinds) continue;
+    const strength = Math.min(1, (score - zone.minScore) / (zone.fullScore - zone.minScore));
+    const what = Object.keys(counts).sort((a, b) => counts[b] - counts[a]).map(d => `${counts[d]} ${zone.kinds[d].label}`);
+    L.rectangle(
+      [[iy * zone.cell / mLat, ix * zone.cell / mLon], [(iy + 1) * zone.cell / mLat, (ix + 1) * zone.cell / mLon]],
+      { stroke: false, fillColor: zone.color, fillOpacity: 0.25 + 0.35 * strength },
+    ).bindTooltip(`<b>${zone.label}</b><br>${what.join("<br>")}`, { sticky: true }).addTo(zone.layer);
+  }
+  if (zone.on) zone.layer.addTo(map);
 
-  // Points, one layer group per category
-  for (const cat of categories) cat.layer = L.layerGroup(), cat.count = 0;
+  // Rail lines, all in the transit layer group
+  transit.layer = L.layerGroup();
+  for (const line of data.lines) {
+    const style = lineStyles[line.id] ?? defaultLineStyle;
+    L.polyline(line.paths, { color: style.color, weight: 3, opacity: 0.85 })
+      .bindTooltip(line.name, { sticky: true })
+      .addTo(transit.layer);
+  }
+  if (transit.on) transit.layer.addTo(map);
+
+  // Points, one layer group per category, transit categories go into the transit group
+  for (const cat of categories) cat.layer = cat.transit ? transit.layer : L.layerGroup(), cat.count = 0;
   let unmatched = 0;
   for (const p of data.points) {
     const cat = categories.find(c => c.match(p));
-    if (!cat) { unmatched++; continue; }
+    if (!cat) { if (!zone.kinds[p.dataset]) unmatched++; continue; }
     cat.count++;
 
     let popup = `<div class="popup-title">${p.name}</div>`;
@@ -148,8 +236,9 @@ fetch("data.json").then(r => r.json()).then(data => {
   if (unmatched) console.warn(`${unmatched} points match no category and are hidden`);
   for (const cat of categories) if (cat.on) cat.layer.addTo(map);
 
-  // Dots are drawn on the same canvas as the lines, keep them above the lines
+  // Zones and dots are drawn on the same canvas as the lines, keep zones below and dots above
   const dotsToFront = () => {
+    zone.layer.eachLayer(r => r.bringToBack());
     for (const cat of categories) if (!cat.icon) cat.layer.eachLayer(m => m.bringToFront());
   };
   dotsToFront();
@@ -157,6 +246,7 @@ fetch("data.json").then(r => r.json()).then(data => {
   // Panel
   const catBox = document.getElementById("categories");
   for (const cat of categories) {
+    if (cat.transit) continue;
     const label = document.createElement("label");
     label.innerHTML = `<input type="checkbox" ${cat.on ? "checked" : ""}> <span class="poi key" style="background:${cat.icon ? cat.color : "#fff"};color:${cat.text ?? "#fff"};border-color:${cat.icon ? "#fff" : cat.color}">${cat.icon ?? ""}</span> ${cat.label} <span class="count">${cat.count}</span>`;
     label.querySelector("input").onchange = e => {
@@ -165,17 +255,20 @@ fetch("data.json").then(r => r.json()).then(data => {
     };
     catBox.append(label);
   }
-  const modeBox = document.getElementById("modes");
-  for (const mode of modes) {
-    const swatches = mode.lines.map(l => `<i title="${l.name}" style="background:${(lineStyles[l.id] ?? defaultLineStyle).color}"></i>`).join("");
-    const label = document.createElement("label");
-    label.innerHTML = `<input type="checkbox" ${mode.on ? "checked" : ""}> ${mode.label} <span class="count swatches">${swatches}</span>`;
-    label.querySelector("input").onchange = e => {
-      e.target.checked ? mode.layer.addTo(map) : mode.layer.remove();
-      dotsToFront();
-    };
-    modeBox.append(label);
-  }
+  const zoneLabel = document.createElement("label");
+  zoneLabel.innerHTML = `<input type="checkbox" ${zone.on ? "checked" : ""}> <span class="key" style="width:18px;height:18px;flex:none;border-radius:4px;background:${zone.color};opacity:.6"></span> ${zone.label}`;
+  zoneLabel.querySelector("input").onchange = e => {
+    e.target.checked ? zone.layer.addTo(map) : zone.layer.remove();
+    dotsToFront();
+  };
+  catBox.append(zoneLabel);
+  const transitLabel = document.createElement("label");
+  transitLabel.innerHTML = `<input type="checkbox" ${transit.on ? "checked" : ""}> <span class="poi key" style="background:${transit.color}">${transit.icon}</span> ${transit.label}`;
+  transitLabel.querySelector("input").onchange = e => {
+    e.target.checked ? transit.layer.addTo(map) : transit.layer.remove();
+    dotsToFront();
+  };
+  catBox.append(transitLabel);
   document.getElementById("generated").textContent = "Data built " + new Date(data.generated_at).toLocaleString();
 });
 </script>

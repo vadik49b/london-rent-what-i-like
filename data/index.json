@@ -229,5 +229,87 @@
     "script": "scripts/fetch/supermarkets.mjs",
     "format": "Overpass JSON: elements[] of node/way/relation, each with lat/lon or center{lat,lon}, and tags",
     "adapter": "osm-pois"
+  },
+  {
+    "file": "osm-climbing-london.json",
+    "title": "Climbing gyms in Greater London",
+    "source": "OpenStreetMap via Overpass API",
+    "url": "https://overpass-api.de/api/interpreter",
+    "query": "[out:json][timeout:120];\narea[\"name\"=\"Greater London\"][\"boundary\"=\"administrative\"]->.london;\n(\n  nwr[\"sport\"~\"climbing\"][\"leisure\"~\"sports_centre|fitness_centre\"](area.london);\n);\nout center tags;",
+    "fetched_at": "2026-10-09T15:58:35.330Z",
+    "method": "script",
+    "script": "scripts/fetch/osm-places.mjs",
+    "format": "Overpass JSON: elements[] of node/way/relation, each with lat/lon or center{lat,lon}, and tags",
+    "adapter": "osm-pois"
+  },
+  {
+    "file": "osm-yoga-london.json",
+    "title": "Yoga and pilates studios in Greater London",
+    "source": "OpenStreetMap via Overpass API",
+    "url": "https://overpass.kumi.systems/api/interpreter",
+    "query": "[out:json][timeout:120];\narea[\"name\"=\"Greater London\"][\"boundary\"=\"administrative\"]->.london;\n(\n  nwr[\"sport\"~\"yoga|pilates\"](area.london);\n);\nout center tags;",
+    "fetched_at": "2026-10-09T15:59:32.858Z",
+    "method": "script",
+    "script": "scripts/fetch/osm-places.mjs",
+    "format": "Overpass JSON: elements[] of node/way/relation, each with lat/lon or center{lat,lon}, and tags",
+    "adapter": "osm-pois"
+  },
+  {
+    "file": "osm-breweries-london.json",
+    "title": "Craft breweries and microbrewery taprooms in Greater London",
+    "source": "OpenStreetMap via Overpass API",
+    "url": "https://overpass-api.de/api/interpreter",
+    "query": "[out:json][timeout:120];\narea[\"name\"=\"Greater London\"][\"boundary\"=\"administrative\"]->.london;\n(\n  nwr[\"craft\"=\"brewery\"](area.london);\n  nwr[\"microbrewery\"=\"yes\"](area.london);\n);\nout center tags;",
+    "fetched_at": "2026-10-09T15:59:53.470Z",
+    "method": "script",
+    "script": "scripts/fetch/osm-places.mjs",
+    "format": "Overpass JSON: elements[] of node/way/relation, each with lat/lon or center{lat,lon}, and tags",
+    "adapter": "osm-pois"
+  },
+  {
+    "file": "osm-record-shops-london.json",
+    "title": "Record and music shops without a brand in Greater London",
+    "source": "OpenStreetMap via Overpass API",
+    "url": "https://overpass-api.de/api/interpreter",
+    "query": "[out:json][timeout:120];\narea[\"name\"=\"Greater London\"][\"boundary\"=\"administrative\"]->.london;\n(\n  nwr[\"shop\"=\"music\"][!\"brand\"](area.london);\n);\nout center tags;",
+    "fetched_at": "2026-10-09T16:00:07.061Z",
+    "method": "script",
+    "script": "scripts/fetch/osm-places.mjs",
+    "format": "Overpass JSON: elements[] of node/way/relation, each with lat/lon or center{lat,lon}, and tags",
+    "adapter": "osm-pois"
+  },
+  {
+    "file": "osm-vintage-london.json",
+    "title": "Second-hand and vintage clothing shops in Greater London",
+    "source": "OpenStreetMap via Overpass API",
+    "url": "https://overpass-api.de/api/interpreter",
+    "query": "[out:json][timeout:120];\narea[\"name\"=\"Greater London\"][\"boundary\"=\"administrative\"]->.london;\n(\n  nwr[\"shop\"=\"second_hand\"](area.london);\n  nwr[\"shop\"=\"clothes\"][\"second_hand\"~\"yes|only\"](area.london);\n);\nout center tags;",
+    "fetched_at": "2026-10-09T16:02:17.179Z",
+    "method": "script",
+    "script": "scripts/fetch/osm-places.mjs",
+    "format": "Overpass JSON: elements[] of node/way/relation, each with lat/lon or center{lat,lon}, and tags",
+    "adapter": "osm-pois"
+  },
+  {
+    "file": "osm-bookshops-london.json",
+    "title": "Independent bookshops in Greater London",
+    "source": "OpenStreetMap via Overpass API",
+    "url": "https://overpass-api.de/api/interpreter",
+    "query": "[out:json][timeout:120];\narea[\"name\"=\"Greater London\"][\"boundary\"=\"administrative\"]->.london;\n(\n  nwr[\"shop\"=\"books\"][!\"brand\"][\"name\"!~\"Waterstones|WHSmith|The Works|Blackwell\"](area.london);\n);\nout center tags;",
+    "fetched_at": "2026-10-09T16:03:07.209Z",
+    "method": "script",
+    "script": "scripts/fetch/osm-places.mjs",
+    "format": "Overpass JSON: elements[] of node/way/relation, each with lat/lon or center{lat,lon}, and tags",
+    "adapter": "osm-pois"
+  },
+  {
+    "file": "ect-cafes-london.json",
+    "title": "Speciality coffee shops in London, curated by European Coffee Trip",
+    "source": "European Coffee Trip city guide. The site blocks scripted requests, so the page was opened in a browser and the cafesToMap array embedded in its map script was saved as is",
+    "url": "https://europeancoffeetrip.com/london/",
+    "fetched_at": "2026-10-09T18:15:54.485Z",
+    "method": "manual",
+    "format": "JSON array of {name, address, link, featured_photo, latitude, longitude (strings), premium, awards_winner}",
+    "adapter": "ect-cafes"
   }
 ]

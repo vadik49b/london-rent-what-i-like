@@ -1,0 +1,2527 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-07-15T15:22:01Z",
+    "timestamp_areas_base": "2026-07-15T15:22:01Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 325005689,
+      "lat": 51.4899057,
+      "lon": -0.191566,
+      "tags": {
+        "addr:city": "London",
+        "addr:flats": "26",
+        "addr:housename": "Wetherby Mansions",
+        "addr:postcode": "SW5 9DJ",
+        "addr:street": "Earls Court Square",
+        "leisure": "fitness_centre",
+        "name": "London Lifestyle Academy",
+        "network": "DeRose Method",
+        "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-13:00",
+        "phone": "+44 20 7373 7070",
+        "sport": "yoga",
+        "training": "DeRose Method",
+        "website": "http://derosekensington.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 835946925,
+      "lat": 51.358184,
+      "lon": -0.2163098,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "The Chatsworth Studio",
+        "sport": "pilates"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1112205147,
+      "lat": 51.4663533,
+      "lon": -0.1515399,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "18",
+        "addr:street": "Lavender Hill",
+        "leisure": "sports_centre",
+        "name": "Union Station Yoga",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1253198034,
+      "lat": 51.5632666,
+      "lon": -0.1179981,
+      "tags": {
+        "description": "Yoga Studio and platsic-free refill shop",
+        "leisure": "fitness_centre",
+        "name": "Hello Yoga Studio & Fair-Well Shop",
+        "shop": "plastic-free refill shop",
+        "sport": "yoga",
+        "website": "https://www.sayhellostudio.co.uk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1973260534,
+      "lat": 51.5286593,
+      "lon": -0.0882054,
+      "tags": {
+        "contact:website": "http://hotbikramyoga.co.uk/",
+        "leisure": "sports_centre",
+        "name": "Bikram Yoga",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2095564887,
+      "lat": 51.5565622,
+      "lon": -0.1782334,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "50",
+        "addr:postcode": "NW3 1QG",
+        "addr:street": "Hampstead High Street",
+        "leisure": "fitness_centre",
+        "name": "Heartcore Hampstead",
+        "note": "In station building",
+        "sport": "pilates",
+        "website": "https://weareheartcore.com/en-gb/studios/hampstead/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2404286605,
+      "lat": 51.5238603,
+      "lon": -0.1585197,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "243",
+        "addr:street": "Baker Street",
+        "check_date": "2025-01-22",
+        "contact:phone": "+44 20 7224 2929",
+        "contact:website": "https://www.totalchi.com/",
+        "leisure": "fitness_centre",
+        "name": "Total Chi Yoga",
+        "sport": "yoga",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2501842125,
+      "lat": 51.4614942,
+      "lon": -0.173496,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Sadhana Yoga & Wellbeing",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3762349009,
+      "lat": 51.5366248,
+      "lon": -0.1016518,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "21",
+        "addr:postcode": "N1 2SA",
+        "addr:street": "Essex Road",
+        "check_date": "2025-07-21",
+        "leisure": "fitness_centre",
+        "name": "MoreYoga",
+        "sport": "yoga",
+        "website": "https://www.moreyoga.co.uk/yoga-london/angel-studio/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4318155570,
+      "lat": 51.4606419,
+      "lon": -0.3042282,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Richmond Yoga",
+        "sport": "yoga",
+        "website": "https://www.hotyoga.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4349498409,
+      "lat": 51.4594125,
+      "lon": -0.1801929,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "5",
+        "addr:street": "East Hill",
+        "check_date": "2025-04-17",
+        "leisure": "sports_centre",
+        "name": "Instate Fitness",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4609843231,
+      "lat": 51.5397174,
+      "lon": -0.1470397,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "57",
+        "addr:postcode": "NW1 7DB",
+        "addr:street": "Jamestown Road",
+        "leisure": "fitness_centre",
+        "name": "Triyoga",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5141539542,
+      "lat": 51.4402495,
+      "lon": -0.1059267,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Moreyoga",
+        "addr:housenumber": "357",
+        "addr:postcode": "SE27 9BQ",
+        "addr:street": "Norwood Road",
+        "branch": "Tulse Hill",
+        "check_date": "2026-06-15",
+        "leisure": "fitness_centre",
+        "name": "More Yoga",
+        "phone": "+44 808 175 0238",
+        "source": "survey",
+        "source:postcode": "FHRS Open Data",
+        "sport": "yoga",
+        "website": "https://moreyoga.co.uk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5238500310,
+      "lat": 51.5174713,
+      "lon": -0.088064,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "114",
+        "addr:postcode": "EC2M 5QA",
+        "addr:street": "London Wall",
+        "leisure": "fitness_centre",
+        "name": "Light Centre Moorgate",
+        "operator": "Light Centre",
+        "sport": "yoga;pilates",
+        "website": "http://www.lightcentremoorgate.co.uk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5357161920,
+      "lat": 51.5442108,
+      "lon": -0.0326358,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "St. Augustine's Hall",
+        "addr:postcode": "E9 5EG",
+        "addr:street": "Cadogan Terrace",
+        "branch": "Victoria Park Harriers, Homerton / Hackney Wick",
+        "contact:email": "sam@mylocalpilates.com",
+        "contact:website": "http://www.mylocalpilates.com/victoria-park-harriers-homerton.html",
+        "leisure": "fitness_centre",
+        "level": "1",
+        "name": "My Local Pilates",
+        "sport": "pilates"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5464084445,
+      "lat": 51.5005701,
+      "lon": -0.1948344,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "146",
+        "addr:postcode": "W8 7DS",
+        "addr:street": "Kensington High Street",
+        "brand": "Decathlon",
+        "brand:wikidata": "Q509349",
+        "brand:wikipedia": "en:Decathlon (retailer)",
+        "name": "Decathlon",
+        "payment:american_express": "no",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "sports",
+        "sport": "swimming;soccer;basketball;gymnastics;multi;yoga",
+        "website": "https://www.decathlon.co.uk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5568368536,
+      "lat": 51.5125528,
+      "lon": -0.1384983,
+      "tags": {
+        "addr:city": "London",
+        "addr:street": "Kingly Court",
+        "leisure": "fitness_centre",
+        "name": "Triyoga",
+        "sport": "fitness;yoga",
+        "website": "https://triyoga.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5633866979,
+      "lat": 51.5474134,
+      "lon": -0.054528,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "352",
+        "addr:postcode": "E8 1HR",
+        "addr:street": "Mare Street",
+        "check_date": "2025-06-23",
+        "leisure": "fitness_centre",
+        "name": "Paper Dress Yoga",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5688517951,
+      "lat": 51.4699198,
+      "lon": -0.0671473,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housename": "Bussey Building",
+        "addr:housenumber": "133",
+        "addr:postcode": "SE15 4ST",
+        "addr:street": "Rye Lane",
+        "addr:unit": "Units B1.2 and B2.1",
+        "leisure": "fitness_centre",
+        "level": "1;2",
+        "name": "Yogarise",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6130091905,
+      "lat": 51.5140289,
+      "lon": -0.0785507,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Fly",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6294158557,
+      "lat": 51.3640589,
+      "lon": -0.2011813,
+      "tags": {
+        "addr:city": "Sutton",
+        "addr:housenumber": "122",
+        "addr:postcode": "SM1 2SE",
+        "addr:street": "Robin Hood Lane",
+        "leisure": "fitness_centre",
+        "name": "The Saraswati Yoga Studio",
+        "source": "survey;code-point open",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6809895561,
+      "lat": 51.4644858,
+      "lon": -0.3000871,
+      "tags": {
+        "addr:city": "Richmond",
+        "addr:postcode": "TW9 2NA",
+        "addr:street": "Kew Road",
+        "leisure": "fitness_centre",
+        "name": "Yogahaven",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6832825741,
+      "lat": 51.4906573,
+      "lon": -0.038362,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Nyland Court",
+        "addr:housenumber": "Unit F",
+        "addr:postcode": "SE8 5EX",
+        "addr:street": "Naomi Street",
+        "branch": "Surrey Quays",
+        "check_date": "2026-07-04",
+        "leisure": "fitness_centre",
+        "name": "MoreYoga",
+        "sport": "yoga",
+        "website": "https://www.moreyoga.co.uk/yoga-london/surrey-quays-studio"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6902026991,
+      "lat": 51.4671716,
+      "lon": -0.2664646,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "55",
+        "addr:postcode": "SW14 8AB",
+        "addr:street": "Sheen Lane",
+        "check_date": "2026-06-28",
+        "leisure": "fitness_centre",
+        "name": "The Garage Studio",
+        "sport": "yoga;pilates"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6904704065,
+      "lat": 51.5487453,
+      "lon": -0.0037893,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "47",
+        "addr:postcode": "E15 1FT",
+        "addr:street": "Liberty Bridge Road",
+        "check_date": "2026-07-14",
+        "check_date:opening_hours": "2024-10-11",
+        "leisure": "fitness_centre",
+        "level": "0",
+        "name": "More Yoga",
+        "opening_hours:signed": "no",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7066813085,
+      "lat": 51.5239673,
+      "lon": -0.0725149,
+      "tags": {
+        "leisure": "fitness_centre",
+        "level": "0",
+        "name": "Triyoga",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7122080696,
+      "lat": 51.5116978,
+      "lon": -0.1929999,
+      "tags": {
+        "addr:housenumber": "57",
+        "addr:street": "Ossington Street",
+        "leisure": "fitness_centre",
+        "name": "Heartcore",
+        "phone": "+44 20 7305 7760",
+        "sport": "yoga",
+        "website": "https://www.heartcore.co.uk/studios?studio=studio-2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7804693869,
+      "lat": 51.5139095,
+      "lon": -0.307794,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Triyoga",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7895243343,
+      "lat": 51.5448859,
+      "lon": -0.1417079,
+      "tags": {
+        "name": "Kentish Town Studio",
+        "sport": "yoga",
+        "website": "kentishtownstudio.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7904342192,
+      "lat": 51.4724504,
+      "lon": -0.0882886,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "24A",
+        "addr:postcode": "SE5 8RE",
+        "addr:street": "Camberwell Grove",
+        "check_date": "2025-10-21",
+        "email": "spacehire@zenyoga.org.uk",
+        "facebook": "https://www.facebook.com/zenyogacamberwell/",
+        "leisure": "fitness_centre",
+        "name": "Zen Yoga",
+        "opening_hours": "Mo-Su 07:00-21:30",
+        "phone": "+44 1698 542677",
+        "sport": "yoga",
+        "website": "https://www.zenyoga.org.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7919885562,
+      "lat": 51.5440279,
+      "lon": -0.0476245,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "14",
+        "addr:postcode": "E9 6SG",
+        "addr:street": "Collent Street",
+        "leisure": "fitness_centre",
+        "level": "-1",
+        "name": "The Refinery",
+        "phone": "+44 20 7148 5990",
+        "sport": "yoga;pilates",
+        "survey:date": "2021-08-17",
+        "website": "https://therefinerye9.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7985579711,
+      "lat": 51.4842213,
+      "lon": -0.1766136,
+      "tags": {
+        "addr:housenumber": "372",
+        "addr:street": "King's Road",
+        "leisure": "fitness_centre",
+        "name": "Triyoga",
+        "phone": "+44 20 3362 3366",
+        "sport": "yoga",
+        "website": "https://triyoga.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8068679290,
+      "lat": 51.4935799,
+      "lon": -0.1670252,
+      "tags": {
+        "addr:housenumber": "1a",
+        "addr:street": "Ives Street",
+        "leisure": "fitness_centre",
+        "name": "Vita Pilates",
+        "phone": "+44 20 7584 2822",
+        "sport": "pilates",
+        "website": "https://vitaboutiquefitness.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8213783417,
+      "lat": 51.5444042,
+      "lon": -0.0585604,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Great Eastern Buildings",
+        "addr:street": "Reading Lane",
+        "addr:unit": "1",
+        "check_date:opening_hours": "2024-10-11",
+        "leisure": "fitness_centre",
+        "name": "Tempo Pilates",
+        "opening_hours:signed": "no",
+        "phone": "+44 7563 578165",
+        "sport": "pilates",
+        "website": "http://tempopilates.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8295570886,
+      "lat": 51.4915405,
+      "lon": -0.1711604,
+      "tags": {
+        "addr:housenumber": "2",
+        "addr:street": "Pond Place",
+        "leisure": "fitness_centre",
+        "name": "Core Flex Pilates",
+        "phone": "+44 20 8616 7880",
+        "sport": "pilates",
+        "website": "https://www.coreflexpilates.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8360558070,
+      "lat": 51.492199,
+      "lon": -0.1579029,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "31",
+        "addr:postcode": "SW1W 8AQ",
+        "addr:street": "Sloane Square",
+        "building:levels": "4",
+        "construction": "yes",
+        "leisure": "fitness_centre",
+        "name": "Vita Boutique Fitness",
+        "phone": "+44 20 7730 4814",
+        "roof:levels": "1",
+        "roof:material": "slate",
+        "sport": "fitness;yoga;pilates;cafe",
+        "website": "https://www.vitaboutiquefitness.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8415257015,
+      "lat": 51.5551285,
+      "lon": -0.0802024,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "14",
+        "addr:postcode": "N16 8SD",
+        "addr:street": "Allen Road",
+        "fhrs:id": "1272112",
+        "leisure": "fitness_centre",
+        "name": "Yoga Home",
+        "sport": "yoga",
+        "website": "https://yogahome.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8615790337,
+      "lat": 51.4268396,
+      "lon": -0.1698018,
+      "tags": {
+        "leisure": "fitness_centre",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8647174791,
+      "lat": 51.4235985,
+      "lon": -0.1635728,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Ivengar Yoga Studio",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8657999895,
+      "lat": 51.5086826,
+      "lon": -0.2159125,
+      "tags": {
+        "addr:housenumber": "27",
+        "addr:street": "St. Anns Road",
+        "leisure": "fitness_centre",
+        "name": "Equilibrium",
+        "sport": "pilates;yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8779699665,
+      "lat": 51.4372263,
+      "lon": -0.1570759,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Revive",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8814643233,
+      "lat": 51.5582028,
+      "lon": -0.0983578,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "LIM",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8916367892,
+      "lat": 51.4937194,
+      "lon": -0.0958232,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "More Yoga",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8968281460,
+      "lat": 51.5085487,
+      "lon": -0.0082049,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "10",
+        "addr:postcode": "E14 0RE",
+        "addr:street": "Arniston Way",
+        "leisure": "fitness_centre",
+        "name": "More Yoga",
+        "sport": "yoga",
+        "website": "https://www.moreyoga.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8984644539,
+      "lat": 51.4977978,
+      "lon": -0.2275847,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "101",
+        "addr:street": "Hammersmith Grove",
+        "check_date": "2025-03-07",
+        "leisure": "fitness_centre",
+        "name": "Body & Brain",
+        "phone": "+44 20 8222 8542",
+        "sport": "yoga",
+        "website": "https://www.bodynbrain.co.uk/hammersmith"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8984644548,
+      "lat": 51.4979538,
+      "lon": -0.227638,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "101",
+        "addr:street": "Hammersmith Grove",
+        "check_date": "2025-03-07",
+        "disused:leisure": "fitness_centre",
+        "name": "Body & Brain",
+        "phone": "+44 20 8222 8542",
+        "sport": "yoga",
+        "website": "https://www.bodynbrain.co.uk/hammersmith"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9034322104,
+      "lat": 51.5421674,
+      "lon": -0.0574885,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "406",
+        "addr:postcode": "E8 3PH",
+        "addr:street": "Mentmore Terrace",
+        "check_date": "2025-09-18",
+        "check_date:opening_hours": "2025-09-18",
+        "leisure": "fitness_centre",
+        "name": "Hotpod Yoga",
+        "opening_hours:signed": "no",
+        "sport": "yoga",
+        "website": "https://hotpodyoga.com/studios/hackney/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9111538826,
+      "lat": 51.4941036,
+      "lon": -0.0972194,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Tempo 301",
+        "sport": "yoga;pilates"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9264275875,
+      "lat": 51.4931673,
+      "lon": -0.2350123,
+      "tags": {
+        "leisure": "fitness_centre",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9349051286,
+      "lat": 51.4722585,
+      "lon": -0.2468612,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Re:form",
+        "sport": "pilates"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9517032248,
+      "lat": 51.5563347,
+      "lon": -0.1381256,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "225",
+        "addr:postcode": "N19 5AA",
+        "addr:street": "Brecknock Road",
+        "leisure": "fitness_centre",
+        "name": "Down To Earth",
+        "sport": "yoga;pilates",
+        "website": "https://downtoearthlondon.co.uk/tufnell-park/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9537480877,
+      "lat": 51.590958,
+      "lon": -0.1410396,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "The Good Rooms",
+        "sport": "yoga",
+        "website": "https://thegoodrooms.co.uk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9980391213,
+      "lat": 51.4989942,
+      "lon": -0.0486022,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Canada Water Studios",
+        "sport": "yoga;fitness",
+        "website": "https://www.canadawaterstudios.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10102954430,
+      "lat": 51.4737012,
+      "lon": -0.0239127,
+      "tags": {
+        "contact:facebook": "https://www.facebook.com/kindredyogalife/",
+        "contact:instagram": "kindredyogalife",
+        "leisure": "fitness_centre",
+        "name": "Kindred Yoga",
+        "sport": "yoga",
+        "website": "https://www.kindredyogalife.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10106306089,
+      "lat": 51.4556849,
+      "lon": -0.3097012,
+      "tags": {
+        "addr:city": "Twickenham",
+        "addr:floor": "1",
+        "addr:postcode": "TW1 2DY",
+        "addr:street": "Richmond Road",
+        "check_date": "2024-04-21",
+        "leisure": "fitness_centre",
+        "name": "Studio 17",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10157271974,
+      "lat": 51.5588377,
+      "lon": -0.0871667,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Mudra Yoga",
+        "sport": "yoga",
+        "website": "https://www.mudrayogalondon.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10574938494,
+      "lat": 51.5896044,
+      "lon": -0.0408255,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "4-6",
+        "addr:postcode": "E17 6DP",
+        "addr:street": "Hookers Road",
+        "contact:phone": "+44 20 3746 3869",
+        "contact:website": "https://www.thisisyonder.com/thestudio",
+        "leisure": "fitness_centre",
+        "name": "Yonder The Studio",
+        "opening_hours": "Mo-Fr 07:00-22:00; Sa-Su 08:45-18:00",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10691488447,
+      "lat": 51.5357657,
+      "lon": -0.0615983,
+      "tags": {
+        "addr:city": "London",
+        "addr:street": "Ada Street",
+        "check_date": "2026-06-08",
+        "check_date:opening_hours": "2026-06-08",
+        "leisure": "fitness_centre",
+        "name": "Waking Dreams",
+        "opening_hours:signed": "no",
+        "sport": "yoga",
+        "website": "https://www.wakingdreams.co/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10733257242,
+      "lat": 51.48034,
+      "lon": -0.0202869,
+      "tags": {
+        "branch": "Greenwich Creekside",
+        "leisure": "fitness_centre",
+        "name": "More Yoga",
+        "sport": "yoga",
+        "website": "https://www.moreyoga.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10775496221,
+      "lat": 51.4500182,
+      "lon": -0.0173853,
+      "tags": {
+        "addr:housenumber": "20",
+        "addr:street": "Rushey Green",
+        "check_date": "2026-03-11",
+        "dance:teaching": "yes",
+        "leisure": "fitness_centre",
+        "level": "0",
+        "name": "Forma",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10884085524,
+      "lat": 51.4946808,
+      "lon": -0.0980221,
+      "tags": {
+        "check_date": "2026-03-03",
+        "leisure": "fitness_centre",
+        "name": "Gymbox Elephant and Castle",
+        "sport": "fitness;yoga;gymnastics;weightlifting",
+        "website": "https://www.gymbox.com/gyms/elephant-and-castle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10914140693,
+      "lat": 51.5593172,
+      "lon": -0.0864823,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Hackey Aerial Yoga",
+        "sport": "yoga",
+        "website": "https://www.hackneyaerialyoga.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11003490389,
+      "lat": 51.4635716,
+      "lon": -0.1405327,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "YogaHaven",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11056493807,
+      "lat": 51.5653881,
+      "lon": -0.0105304,
+      "tags": {
+        "addr:city": "London",
+        "addr:street": "High Road Leyton",
+        "leisure": "fitness_centre",
+        "name": "Pause",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11157766878,
+      "lat": 51.581454,
+      "lon": -0.1125948,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "174",
+        "addr:postcode": "N8 9PN",
+        "addr:street": "Weston Park",
+        "leisure": "fitness_centre",
+        "name": "Corehealth",
+        "sport": "pilates",
+        "website": "https://www.corehealthsuite.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11295266477,
+      "lat": 51.4655453,
+      "lon": -0.2180719,
+      "tags": {
+        "addr:city": "London",
+        "addr:street": "Felsham Road",
+        "contact:website": "https://sivanandalondon.org/",
+        "leisure": "fitness_centre",
+        "name": "Sivananda Yoga Vedanta Centre",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11385896053,
+      "lat": 51.4151637,
+      "lon": -0.1927578,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Hotpod Yoga South Wimbledon",
+        "sport": "yoga",
+        "website": "https://hotpodyoga.com/studios/south-wimbledon/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11517497767,
+      "lat": 51.5597138,
+      "lon": -0.2805074,
+      "tags": {
+        "branch": "Wembley Park",
+        "leisure": "fitness_centre",
+        "name": "More Yoga",
+        "sport": "yoga",
+        "website": "https://www.moreyoga.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11850660877,
+      "lat": 51.5387111,
+      "lon": -0.1439606,
+      "tags": {
+        "check_date": "2024-04-26",
+        "leisure": "fitness_centre",
+        "name": "Yoga Base",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11945115823,
+      "lat": 51.5861956,
+      "lon": -0.0896546,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "3",
+        "addr:postcode": "N15 3BL",
+        "addr:street": "Vicarage Parade",
+        "leisure": "fitness_centre",
+        "name": "Bind Yoga Studio",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11950441234,
+      "lat": 51.572858,
+      "lon": -0.0903477,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Rowan Apartments",
+        "addr:housenumber": "Unit A",
+        "addr:postcode": "N4 1FS",
+        "addr:street": "Seven Sisters Road",
+        "email": "info@weareevoke.com",
+        "leisure": "fitness_centre",
+        "name": "Evoke",
+        "phone": "+44 7583 097292",
+        "sport": "yoga",
+        "website": "https://weareevoke.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12262285228,
+      "lat": 51.5380244,
+      "lon": -0.0565976,
+      "tags": {
+        "check_date": "2024-10-25",
+        "check_date:opening_hours": "2024-10-25",
+        "contact:instagram": "https://www.instagram.com/studioanatomy_",
+        "leisure": "fitness_centre",
+        "name": "Studio Anatomy",
+        "opening_hours:signed": "no",
+        "sport": "pilates",
+        "website": "https://studioanatomy.co.uk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12401806655,
+      "lat": 51.5824704,
+      "lon": -0.1186294,
+      "tags": {
+        "check_date": "2024-11-28",
+        "leisure": "fitness_centre",
+        "name": "Yoga Centre",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12463323776,
+      "lat": 51.4622897,
+      "lon": -0.110993,
+      "tags": {
+        "check_date": "2024-12-30",
+        "leisure": "fitness_centre",
+        "name": "Hot Yoga Brixton",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12632886960,
+      "lat": 51.5477212,
+      "lon": -0.0449136,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "130",
+        "addr:street": "Homerton High Street",
+        "addr:unit": "4",
+        "check_date": "2025-03-04",
+        "check_date:opening_hours": "2025-03-04",
+        "leisure": "fitness_centre",
+        "name": "Flo Yoga",
+        "opening_hours:signed": "no",
+        "sport": "yoga",
+        "website": "https://www.floyogastudio.co.uk/homerton"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12633147097,
+      "lat": 51.5795495,
+      "lon": -0.1234998,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "46",
+        "addr:postcode": "N8 9SU",
+        "addr:street": "The Broadway",
+        "email": "info@theresetrooms.com",
+        "leisure": "fitness_centre",
+        "name": "The Reset Rooms",
+        "sport": "pilates;yoga;sauna;cold_therapy;reformer_pilates",
+        "website": "https://theresetrooms.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12670432788,
+      "lat": 51.5465002,
+      "lon": -0.0127459,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "2-4",
+        "addr:postcode": "E20 1FS",
+        "addr:street": "Victory Parade",
+        "leisure": "fitness_centre",
+        "level": "0",
+        "name": "LevelOut Reformer Pilates",
+        "sport": "pilates",
+        "was:name": "Pavé Velo; The Hall",
+        "was:shop": "bicycle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12693351452,
+      "lat": 51.3918879,
+      "lon": -0.3076464,
+      "tags": {
+        "contact:phone": "+44 20 8399 8996",
+        "leisure": "fitness_station",
+        "level": "1",
+        "name": "Surbiton Pilates Studio",
+        "sport": "pilates",
+        "website": "https://surbitonpilates.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12731901584,
+      "lat": 51.4831372,
+      "lon": -0.2865667,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Cat on the Mat",
+        "sport": "yoga",
+        "website": "https://www.catonthematkew.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12739149984,
+      "lat": 51.5432147,
+      "lon": -0.1546782,
+      "tags": {
+        "club": "sport",
+        "level": "0",
+        "name": "Fierce Grace Hot Yoga",
+        "sport": "yoga",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12754228466,
+      "lat": 51.5644014,
+      "lon": -0.0064802,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Pause",
+        "sport": "pilates"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12824344071,
+      "lat": 51.4483683,
+      "lon": -0.3286099,
+      "tags": {
+        "addr:floor": "2",
+        "addr:housenumber": "46-48",
+        "addr:street": "Katherine Street",
+        "check_date": "2025-05-09",
+        "contact:email": "sayhi@heartspaceyoga.co",
+        "contact:website": "https://www.heartspaceyoga.co/",
+        "leisure": "fitness_centre",
+        "name": "Heartspace",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12876936675,
+      "lat": 51.4750877,
+      "lon": -0.0281356,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "470",
+        "addr:postcode": "SE14 6TJ",
+        "addr:street": "New Cross Road",
+        "check_date": "2026-06-09",
+        "contact:facebook": "IyengarYogaInstituteSouthLondon",
+        "email": "info@iyisl.com",
+        "leisure": "fitness_centre",
+        "name": "Iyengar Yoga Institute South London",
+        "phone": "+44 78 0317 0846",
+        "short_name": "IYISL",
+        "sport": "yoga",
+        "website": "https://www.iyisl.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12894319883,
+      "lat": 51.5276935,
+      "lon": -0.1233734,
+      "tags": {
+        "check_date": "2025-06-07",
+        "leisure": "fitness_centre",
+        "name": "Rebel Studio",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12989755901,
+      "lat": 51.5345297,
+      "lon": -0.0203559,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Riverbank House",
+        "addr:housenumber": "455",
+        "addr:postcode": "E3 2TB",
+        "addr:street": "Wick Lane",
+        "alt_name": "Liquid Mvmt",
+        "leisure": "fitness_centre",
+        "name": "Liquid Movement - Yoga, Sound, Motion",
+        "sport": "yoga",
+        "website": "https://liquidmvmt.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13058608846,
+      "lat": 51.5460763,
+      "lon": -0.0557771,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Doom Yoga",
+        "sport": "yoga",
+        "website": "https://www.doom.yoga/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13100691826,
+      "lat": 51.5327651,
+      "lon": -0.0613771,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "16-22",
+        "addr:postcode": "E2 9AP",
+        "addr:street": "Pritchard's Road",
+        "amenity": "dojo",
+        "name": "Fightzone London",
+        "phone": "+44 20 7729 3907",
+        "sport": "muay_thai;jiu-jitsu;brazilian_jiu-jitsu;boxing;mma;yoga;pilates;wrestling",
+        "website": "https://fightzonelondon.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13114316788,
+      "lat": 51.4881185,
+      "lon": -0.2884042,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Pilates4U",
+        "sport": "pilates"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13150044834,
+      "lat": 51.5708193,
+      "lon": -0.1159381,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "14-16",
+        "addr:postcode": "N4 4AU",
+        "addr:street": "Crouch Hill",
+        "changing_room": "yes",
+        "leisure": "fitness_centre",
+        "name": "LeveOut",
+        "shower": "yes",
+        "sport": "pilates",
+        "toilets": "yes",
+        "website": "https://levelout.co/en-gb/pages/studios/crouch-hill"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13167135812,
+      "lat": 51.5409049,
+      "lon": -0.0209856,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "131",
+        "addr:street": "Chimney Parade",
+        "leisure": "fitness_centre",
+        "name": "Omega Fitness Lab",
+        "sport": "pilates"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13203068687,
+      "lat": 51.5400882,
+      "lon": -0.0244353,
+      "tags": {
+        "addr:city": "London",
+        "addr:unit": "91",
+        "leisure": "fitness_centre",
+        "name": "Social Yoga",
+        "sport": "yoga",
+        "website": "https://www.socialyoga.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13250727413,
+      "lat": 51.4008883,
+      "lon": -0.2452682,
+      "tags": {
+        "addr:city": "New Malden",
+        "addr:housenumber": "Unit 4c",
+        "addr:place": "Shannon Commercial Centre",
+        "addr:postcode": "KT3 4PT",
+        "leisure": "fitness_centre",
+        "name": "Sarah McKenna Pilates",
+        "sport": "pilates"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13257410285,
+      "lat": 51.5683563,
+      "lon": -0.1234044,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "214",
+        "addr:street": "Fairbridge Road",
+        "leisure": "fitness_centre",
+        "name": "Sol Studio",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13257905099,
+      "lat": 51.5662115,
+      "lon": -0.1219312,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "407",
+        "addr:street": "Hornsey Road",
+        "addr:unit": "10",
+        "leisure": "fitness_centre",
+        "name": "The Factory",
+        "sport": "yoga;dance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13261927508,
+      "lat": 51.5030492,
+      "lon": -0.0108935,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "10",
+        "addr:postcode": "E22 3BE",
+        "addr:street": "Brannan Street",
+        "leisure": "fitness_centre",
+        "name": "Island Studio",
+        "sport": "pilates",
+        "website": "https://www.theislandstudio.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13278458042,
+      "lat": 51.5206786,
+      "lon": -0.1555892,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "24",
+        "addr:postcode": "W1U 5QY",
+        "addr:street": "Paddington Street",
+        "email": "marylebone@bxrlondon.com",
+        "leisure": "fitness_centre",
+        "name": "BXR",
+        "opening_hours": "Mo-Fr 06:15-22:00; Sa 08:00-20:00; Su 08:00-18:00",
+        "phone": "+44 20 3146 3436",
+        "sport": "boxing;yoga;pilates",
+        "website": "https://www.bxrlondon.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13416429546,
+      "lat": 51.4112666,
+      "lon": -0.2095779,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "142",
+        "addr:postcode": "SW19 3PZ",
+        "addr:street": "Merton Hall Road",
+        "leisure": "fitness_centre",
+        "name": "Explore Pilates",
+        "sport": "pilates",
+        "website": "https://www.explorepilates.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13604238950,
+      "lat": 51.4594047,
+      "lon": -0.2102067,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "3 Plaza Gardens",
+        "addr:housenumber": "88",
+        "addr:postcode": "SW15 2DT",
+        "addr:street": "Upper Richmond Road",
+        "brand": "GYMPODS",
+        "contact:facebook": "https://www.facebook.com/gympods/",
+        "email": "info@gympods.com",
+        "leisure": "fitness_centre",
+        "name": "GYMPODS Putney",
+        "phone": "+44 20 4547 6188",
+        "sport": "fitness;pilates",
+        "website": "https://gympods.com/about/putney"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13647135969,
+      "lat": 51.4671237,
+      "lon": -0.1174037,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Moreyoga",
+        "addr:housenumber": "139",
+        "addr:postcode": "SW9 9TN",
+        "addr:street": "Stockwell Rd",
+        "branch": "Brixton",
+        "leisure": "fitness_centre",
+        "level": "0",
+        "name": "Moreyoga",
+        "phone": "+44 808 175 0238",
+        "sport": "yoga",
+        "website": "https://www.moreyoga.co.uk/yoga-studio-london/brixton"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13647160115,
+      "lat": 51.4366414,
+      "lon": -0.1577979,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "275",
+        "addr:postcode": "SW17 7BD",
+        "addr:street": "Balham High Road",
+        "branch": "Balham",
+        "leisure": "fitness_centre",
+        "name": "Moreyoga",
+        "phone": "+44 808 175 0238",
+        "sport": "yoga",
+        "website": "https://www.moreyoga.co.uk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13668768972,
+      "lat": 51.5902517,
+      "lon": -0.0618572,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Hotpod Yoga Tottenham Hale",
+        "sport": "yoga",
+        "website": "https://hotpodyoga.com/studios/tottenham-hale/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13674491055,
+      "lat": 51.4089309,
+      "lon": -0.0252777,
+      "tags": {
+        "addr:city": "Beckenham",
+        "addr:housenumber": "58",
+        "addr:postcode": "BR3 1AY",
+        "addr:street": "High Street",
+        "leisure": "fitness_centre",
+        "name": "Power Pilates",
+        "phone": "+44 757 024 7376",
+        "sport": "yoga;pilates",
+        "website": "https://powerpilatesuk.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13695710902,
+      "lat": 51.5417045,
+      "lon": -0.0572124,
+      "tags": {
+        "branch": "London Fields",
+        "brand": "Reformer Ritual",
+        "check_date:opening_hours": "2026-05-11",
+        "leisure": "fitness_centre",
+        "name": "Reformer Ritual",
+        "opening_hours:signed": "no",
+        "sport": "pilates",
+        "website": "https://reformerritual.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13844129087,
+      "lat": 51.5271079,
+      "lon": -0.0946472,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "25-31",
+        "addr:postcode": "EC1V 3QW",
+        "addr:street": "Ironmonger Row",
+        "leisure": "fitness_centre",
+        "name": "Tara Yoga Centre",
+        "sport": "yoga",
+        "website": "https://tarayogacentre.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13894857164,
+      "lat": 51.5860658,
+      "lon": -0.18288,
+      "tags": {
+        "addr:housenumber": "19",
+        "addr:street": "Market Place",
+        "leisure": "fitness_centre",
+        "name": "Pilates by the Green",
+        "sport": "pilates"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13962013614,
+      "lat": 51.5022534,
+      "lon": -0.0114241,
+      "tags": {
+        "branch": "Canary Wharf",
+        "leisure": "fitness_centre",
+        "name": "MoreYoga",
+        "sport": "yoga",
+        "website": "https://www.moreyoga.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13962232388,
+      "lat": 51.5015935,
+      "lon": -0.0938865,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Unit 1 - 3",
+        "addr:housenumber": "4",
+        "addr:postcode": "SE1 1LH",
+        "addr:street": "Marshalsea Road",
+        "leisure": "fitness_centre",
+        "name": "3Tribes Borough: Hot Yoga, Barre & Fitness Studio",
+        "sport": "yoga",
+        "website": "https://www.3tribes.co.uk/borough/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13962241345,
+      "lat": 51.5038825,
+      "lon": -0.0884182,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "West Wing, Guy's Campus, Room AR1",
+        "addr:postcode": "SE1 9TL",
+        "addr:street": "Collingwood Street",
+        "branch": "London Bridge",
+        "leisure": "fitness_centre",
+        "name": "Stillpoint Yoga London",
+        "sport": "yoga",
+        "website": "https://stillpoint.yoga/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13962311356,
+      "lat": 51.4975877,
+      "lon": -0.0839503,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Decima studios",
+        "addr:housenumber": "17-19",
+        "addr:postcode": "SE1 4QR",
+        "addr:street": "Decima Street",
+        "leisure": "fitness_centre",
+        "name": "Oca London",
+        "phone": "+447882943532",
+        "sport": "yoga",
+        "website": "https://www.ocalondon.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13962311357,
+      "lat": 51.5019106,
+      "lon": -0.081343,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "The Tanneries",
+        "addr:housenumber": "20",
+        "addr:postcode": "SE1 3XL",
+        "addr:street": "Crucifix Lane",
+        "leisure": "fitness_centre",
+        "name": "Globehouseyoga",
+        "phone": "+442073781177",
+        "sport": "yoga",
+        "website": "https://www.globehouse.org/index.php"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13962311358,
+      "lat": 51.4820698,
+      "lon": -0.0959355,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Arch 265",
+        "addr:postcode": "SE5 0NG",
+        "addr:street": "Urlwin Street",
+        "leisure": "fitness_centre",
+        "name": "Lost in Yoga",
+        "phone": "+447470728266",
+        "sport": "yoga",
+        "website": "https://www.lostinyoga.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13962311359,
+      "lat": 51.4928868,
+      "lon": -0.0957245,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "5",
+        "addr:postcode": "SE17 1JS",
+        "addr:street": "Hewson Way",
+        "branch": "Elephant and Castle",
+        "leisure": "fitness_centre",
+        "name": "Hotpod Yoga",
+        "sport": "yoga",
+        "website": "https://hotpodyoga.com/studios/elephant-and-castle-london/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13962311360,
+      "lat": 51.4953051,
+      "lon": -0.0976079,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Arch 10",
+        "addr:postcode": "SE17 3FR",
+        "addr:street": "Arch Street",
+        "leisure": "fitness_centre",
+        "name": "Barefoot Yoga",
+        "phone": "+447762815977",
+        "sport": "yoga",
+        "website": "https://www.barefootyogaandtherapy.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13962626258,
+      "lat": 51.4741134,
+      "lon": -0.0571988,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Unit 31",
+        "addr:housenumber": "Arch 127",
+        "addr:postcode": "SE15 2JR",
+        "addr:street": "Station Passage",
+        "branch": "Peckham Queens Road",
+        "leisure": "fitness_centre",
+        "name": "MoreYoga",
+        "sport": "yoga",
+        "website": "https://www.moreyoga.co.uk/yoga-london/peckham-queens-road?utm_medium=organic&utm_source=google_maps&utm_campaign=maps&utm_content=maps"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13962626259,
+      "lat": 51.4691246,
+      "lon": -0.0613494,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Railway Arch 852",
+        "addr:postcode": "SE15 2AG",
+        "addr:street": "Brayards Road",
+        "leisure": "fitness_centre",
+        "name": "MoreYoga",
+        "sport": "yoga",
+        "website": "https://www.moreyoga.co.uk/yoga-london/peckham-rye?utm_medium=organic&utm_source=google_maps&utm_campaign=maps&utm_content=maps"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13962626260,
+      "lat": 51.4806921,
+      "lon": -0.0938893,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Cornerstone Studios",
+        "addr:housenumber": "1",
+        "addr:postcode": "SE5 7JZ",
+        "addr:street": "Addington Square",
+        "leisure": "fitness_centre",
+        "name": "Motion",
+        "sport": "yoga",
+        "website": "https://www.motionlondon.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13962626261,
+      "lat": 51.4596698,
+      "lon": -0.0666059,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "184",
+        "addr:postcode": "SE22 9QA",
+        "addr:street": "Peckham Rye",
+        "leisure": "fitness_centre",
+        "name": "Sama Yoga",
+        "sport": "yoga",
+        "website": "https://www.samayoga.co.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 60667948,
+      "center": {
+        "lat": 51.5386105,
+        "lon": -0.1985977
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "24-30",
+        "addr:postcode": "NW6 7ET",
+        "addr:street": "Charteris Road",
+        "alt_name": "Charteris (Kilburn) Sports Centre",
+        "building": "yes",
+        "building:colour": "grey",
+        "building:levels": "2",
+        "check_date": "2025-04-25",
+        "contact:phone": "+44 7984 579011",
+        "leisure": "sports_centre",
+        "name": "Charteris Sports Centre",
+        "opening_hours": "Mo-Fr 18:00-22:00; Sa-Su 10:00-18:00",
+        "ref:GB:uprn": "202116546",
+        "roof:colour": "grey",
+        "roof:levels": "1",
+        "roof:orientation": "along",
+        "roof:shape": "gabled",
+        "sport": "badminton;Circuits;futsal;Over_50's;pilates;yoga;Kids_Gymnastics;Kids_Karate_&_Martial_Arts;aikido",
+        "website": "https://www.charterissports.org/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 61886925,
+      "center": {
+        "lat": 51.4574102,
+        "lon": -0.0732876
+      },
+      "tags": {
+        "addr:housenumber": "33",
+        "addr:street": "North Cross Road",
+        "building": "yes",
+        "contact:website": "https://www.casacore.uk/",
+        "leisure": "sports_centre",
+        "name": "Casa Cora",
+        "source": "Bing;OS StreetView",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "way",
+      "id": 67827149,
+      "center": {
+        "lat": 51.5536851,
+        "lon": -0.1679578
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "7",
+        "addr:postcode": "NW3 2PN",
+        "addr:street": "Pond Street",
+        "building": "yes",
+        "building:levels": "3",
+        "contact:phone": "+44 20 7317 7105",
+        "leisure": "fitness_centre",
+        "name": "Barre Core",
+        "ref:GB:uprn": "5033278;5103316;5103317",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "way",
+      "id": 93279873,
+      "center": {
+        "lat": 51.5171897,
+        "lon": -0.1892282
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:postcode": "W2 5HS",
+        "addr:street": "Queensway",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Porchester Centre",
+        "ref:GB:uprn": "100023484077",
+        "sport": "fitness;swimming;gyms;yoga;squash_court;spa",
+        "website": "https://www.everyoneactive.com/centre/porchester-centre/",
+        "wikidata": "Q26553816",
+        "wikipedia": "en:Porchester Hall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 97060662,
+      "center": {
+        "lat": 51.5399276,
+        "lon": -0.2085535
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "133",
+        "addr:postcode": "NW6 6RN",
+        "addr:street": "Salusbury Road",
+        "alt_name": "Sri Swami Madhavanandaji Ashram",
+        "building": "yes",
+        "contact:phone": "+44 20 7378 7163",
+        "name": "Yoga In Daily Life",
+        "ref:GB:uprn": "202112596;202112595;202208729;202112594;202240570;202240569;202191021",
+        "sport": "yoga",
+        "website": "https://www.yogaindailylife.org/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 149403870,
+      "center": {
+        "lat": 51.5248002,
+        "lon": -0.0988164
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "124",
+        "addr:postcode": "EC1V 7DP",
+        "addr:street": "Goswell Road",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "CitySport",
+        "opening_hours": "Mo-Fr 07:00-22:00; Sa-Su 10:00-17:00",
+        "phone": "+44 20 7040 5656",
+        "sport": "basketball;fitness;pickleball;badminton;yoga;pilates",
+        "website": "https://www.citysport.org.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 179114134,
+      "center": {
+        "lat": 51.4268725,
+        "lon": -0.3093104
+      },
+      "tags": {
+        "addr:city": "Kingston upon Thames",
+        "addr:postcode": "KT2 5BH",
+        "addr:street": "Lower Ham Road",
+        "brand": "YMCA",
+        "brand:wikidata": "Q157169",
+        "building": "yes",
+        "capacity:disabled": "yes",
+        "disabled_spaces": "yes",
+        "leisure": "sports_centre",
+        "name": "YMCA Hawker Centre",
+        "opening_hours": "Mo-Fr 07:00-21:00, Sa-Su 0:800-16:00",
+        "operator": "YMCA St Paul's Group",
+        "operator:type": "private_non_profit",
+        "ramp:wheelchair": "yes",
+        "sport": "fitness;gymn_classes;weightlifting;karate;soft_play;tennis;football;zumba;pilates",
+        "toilets:wheelchair": "yes",
+        "website": "https://ymcastpaulsgroup.org/ymca-hawker-kingston/",
+        "wikipedia": "en:https://ymcastpaulsgroup.org/home/our-centres/ymca-hawker/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 190100365,
+      "center": {
+        "lat": 51.5685185,
+        "lon": -0.1236858
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "471",
+        "addr:street": "Hornsey Road",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Thirty Eleven",
+        "sport": "pilates"
+      }
+    },
+    {
+      "type": "way",
+      "id": 203120738,
+      "center": {
+        "lat": 51.4637567,
+        "lon": -0.0389718
+      },
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Renaissance yoga & well being",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "way",
+      "id": 225812880,
+      "center": {
+        "lat": 51.4175554,
+        "lon": -0.0805978
+      },
+      "tags": {
+        "addr:housenumber": "83",
+        "addr:street": "Church Road",
+        "building": "yes",
+        "building:levels": "3",
+        "leisure": "sports_centre",
+        "name": "The Yoga Edge",
+        "roof:shape": "quadruple_saltbox",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "way",
+      "id": 261548030,
+      "center": {
+        "lat": 51.5204977,
+        "lon": -0.1350188
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "11",
+        "addr:postcode": "W1T 2AQ",
+        "addr:street": "Tottenham Street",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Good Vibes",
+        "ref:GB:uprn": "5087741",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "way",
+      "id": 302617136,
+      "center": {
+        "lat": 51.4559897,
+        "lon": -0.1112421
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "122",
+        "addr:postcode": "SW2 1AP",
+        "addr:street": "Dalberg Road",
+        "branch": "Brixton",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Yoga point",
+        "phone": "+44 20 7326 1166",
+        "sport": "yoga",
+        "website": "https://yogapoint.co.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 347634170,
+      "center": {
+        "lat": 51.4444626,
+        "lon": -0.3429817
+      },
+      "tags": {
+        "addr:city": "Twickenham",
+        "addr:housenumber": "76",
+        "addr:postcode": "TW2 5AG",
+        "addr:street": "The Green",
+        "building": "yes",
+        "check_date": "2024-06-19",
+        "contact:info": "info@zerogravitypilates.co.uk",
+        "contact:website": "https://zerogravitypilates.co.uk/studios/buy-classes/twickenham",
+        "leisure": "fitness_centre",
+        "name": "Zero Gravity Pilates",
+        "sport": "pilates"
+      }
+    },
+    {
+      "type": "way",
+      "id": 391735309,
+      "center": {
+        "lat": 51.4474065,
+        "lon": -0.3282298
+      },
+      "tags": {
+        "addr:city": "Twickenham",
+        "addr:housenumber": "16a",
+        "addr:postcode": "TW1 3RR",
+        "addr:street": "London Road",
+        "leisure": "fitness_centre",
+        "level": "1",
+        "name": "The Yoga Bar",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399981986,
+      "center": {
+        "lat": 51.5315837,
+        "lon": -0.2096756
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "27",
+        "addr:postcode": "W10 4LG",
+        "addr:street": "Beethoven Street",
+        "building": "yes",
+        "building:colour": "red",
+        "building:levels": "2",
+        "check_date": "2024-08-08",
+        "contact:phone": "+44 20 7625 2645",
+        "contact:website": "https://yogarise.london/queens-park-studio/",
+        "email": "hello@yogarise.london",
+        "leisure": "fitness_centre",
+        "name": "Yogarise Queen's Park",
+        "opening_hours": "Mo-Fr 06:30-21:00; Sa 07:00-18:15; Su 07:30-18:30",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:google_pay": "yes",
+        "ref:GB:uprn": "100023434092;10092022333",
+        "roof:colour": "black",
+        "sport": "yoga",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "way",
+      "id": 435922167,
+      "center": {
+        "lat": 51.5323939,
+        "lon": -0.2089802
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "260",
+        "addr:postcode": "W10 4BA",
+        "addr:street": "Kilburn Lane",
+        "building": "residential",
+        "building:colour": "gray",
+        "building:levels": "3",
+        "contact:website": "http://www.fiercegracewest.com/",
+        "roof:colour": "black",
+        "roof:levels": "0",
+        "roof:shape": "gabled",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "way",
+      "id": 469917673,
+      "center": {
+        "lat": 51.5529315,
+        "lon": -0.0703191
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "105",
+        "addr:street": "Shacklewell Lane",
+        "building": "yes",
+        "building:levels": "3",
+        "check_date": "2023-07-09",
+        "check_date:opening_hours": "2023-07-09",
+        "leisure": "fitness_centre",
+        "name": "Yoga On The Lane",
+        "opening_hours:signed": "no",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "way",
+      "id": 568591185,
+      "center": {
+        "lat": 51.4418231,
+        "lon": -0.1869494
+      },
+      "tags": {
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "MA&Y (Martial Arts & Yoga)",
+        "ref:GB:uprn": "121035026",
+        "sport": "yoga;martial_arts",
+        "website": "https://earlsfieldmartialartsandyoga.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 589699817,
+      "center": {
+        "lat": 51.5457583,
+        "lon": -0.0555324
+      },
+      "tags": {
+        "check_date": "2025-09-05",
+        "leisure": "fitness_centre",
+        "level": "0",
+        "name": "Small Pilates",
+        "sport": "pilates",
+        "website": "https://www.small-pilates.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 630380810,
+      "center": {
+        "lat": 51.4471779,
+        "lon": -0.3279235
+      },
+      "tags": {
+        "addr:city": "Twickenham",
+        "addr:housenumber": "3",
+        "addr:postcode": "TW1 3JZ",
+        "addr:street": "York Street",
+        "building": "yes",
+        "check_date": "2023-03-07",
+        "contact:phone": "+44 20 3813 4824",
+        "contact:website": "www.joespilates.co.uk",
+        "leisure": "fitness_centre",
+        "name": "Joe's Reformer Pilates",
+        "sport": "pilates",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 668568679,
+      "center": {
+        "lat": 51.5475096,
+        "lon": -0.0248809
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "31",
+        "addr:postcode": "E15 2GW",
+        "addr:street": "East Bay Lane",
+        "addr:unit": "Unit 1",
+        "check_date": "2025-05-17",
+        "leisure": "fitness_centre",
+        "name": "FS8",
+        "not:addr:postcode": "E20 3BS",
+        "source": "survey 2024-03-17",
+        "sport": "yoga",
+        "was:fhrs:id": "943378",
+        "was:name": "Mother",
+        "website": "https://fs8stratford.fs8-studio.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 707989979,
+      "center": {
+        "lat": 51.5320476,
+        "lon": -0.1896609
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "223a",
+        "addr:street": "Randolph Avenue",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Iyengar Yoga Maida Vale",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "way",
+      "id": 723801058,
+      "center": {
+        "lat": 51.5322589,
+        "lon": -0.208859
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "260",
+        "addr:street": "Kilburn Lane",
+        "building": "yes",
+        "check_date": "2025-04-17",
+        "contact:website": "https://reconnectstudio.co.uk",
+        "leisure": "fitness_centre",
+        "name": "Re:Connect Studio",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "way",
+      "id": 725685182,
+      "center": {
+        "lat": 51.4257957,
+        "lon": -0.3567178
+      },
+      "tags": {
+        "addr:housenumber": "44",
+        "addr:street": "High Street",
+        "building": "retail",
+        "building:levels": "2",
+        "contact:phone": "+44 20 8943 0270",
+        "contact:website": "https://www.emberyoga.co.uk",
+        "name": "Ember",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "way",
+      "id": 764332839,
+      "center": {
+        "lat": 51.5124843,
+        "lon": -0.2005666
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "29",
+        "addr:postcode": "W11 3DR",
+        "addr:street": "Chepstow Villas",
+        "building": "yes",
+        "building:levels": "3",
+        "leisure": "fitness_centre",
+        "name": "Shanti Sadan",
+        "ref:GB:uprn": "217103003;217013214;217013216;217013215",
+        "sport": "yoga",
+        "website": "https://shantisadan.org/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 799555506,
+      "center": {
+        "lat": 51.5084768,
+        "lon": -0.1973764
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "36",
+        "addr:postcode": "W8 7TN",
+        "addr:street": "Uxbridge Street",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Heartcore Fitness",
+        "phone": "+44 20 7305 7760",
+        "ref:GB:uprn": "217117166",
+        "sport": "pilates",
+        "website": "https://www.heartcore.co.uk/studios?studio=studio-1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 800779581,
+      "center": {
+        "lat": 51.5073886,
+        "lon": -0.1958125
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "15",
+        "addr:postcode": "W8 7PN",
+        "addr:street": "Edge Street",
+        "building": "yes",
+        "description": "The Life Centre Notting Hill is a yoga and pilates centre with a broad range of classes which was originally founded in 1993.",
+        "leisure": "fitness_centre",
+        "name": "The Life Centre Notting Hill",
+        "phone": "+44 20 7221 4602",
+        "ref:GB:uprn": "217027124;217103121;217107155",
+        "sport": "yoga",
+        "website": "https://thelifecentre.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 851695091,
+      "center": {
+        "lat": 51.5804261,
+        "lon": -0.1152674
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "The Old Flower Shop",
+        "addr:housenumber": "93A",
+        "addr:postcode": "N8 9PR",
+        "addr:street": "Weston Park",
+        "building": "yes",
+        "building:levels": "1",
+        "leisure": "fitness_centre",
+        "name": "Yoga Junction",
+        "sport": "yoga",
+        "website": "https://www.yogajunction.co.uk"
+      }
+    },
+    {
+      "type": "way",
+      "id": 853255148,
+      "center": {
+        "lat": 51.4555816,
+        "lon": -0.3394984
+      },
+      "tags": {
+        "addr:housenumber": "196",
+        "addr:postcode": "TW2 7BA",
+        "addr:street": "Whitton Road",
+        "branch": "Twickenham",
+        "brand": "Virgin Active",
+        "brand:wikidata": "Q4013942",
+        "brand:wikipedia": "en:Virgin Active",
+        "building": "yes",
+        "check_date": "2024-06-04",
+        "fee": "yes",
+        "fhrs:authority": "Richmond-Upon-Thames",
+        "fhrs:id": "354169",
+        "fhrs:local_authority_id": "45818",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "leisure": "fitness_centre",
+        "name": "Virgin Active",
+        "opening_hours": "Mo-Fr 06:00-22:00; PH,Sa,Su 08:00-20:00",
+        "payment:american_express": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_debit": "yes",
+        "sport": "yoga;swimming;fitness;multi",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1011068967,
+      "center": {
+        "lat": 51.4613726,
+        "lon": -0.2186398
+      },
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "The House Of Yoga",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1011332534,
+      "center": {
+        "lat": 51.4635142,
+        "lon": -0.2165885
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Putney Exchange",
+        "addr:postcode": "SW15 1TW",
+        "addr:street": "Putney High Street",
+        "indoor": "room",
+        "leisure": "fitness_centre",
+        "level": "1",
+        "name": "Hot Pod Yoga",
+        "sport": "yoga",
+        "website": "https://hotpodyoga.com/studios/putney/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1032398457,
+      "center": {
+        "lat": 51.458315,
+        "lon": -0.1926689
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Ram Quarter",
+        "addr:housenumber": "7",
+        "addr:postcode": "SW18 1UP",
+        "addr:street": "Chivers Passage",
+        "brand": "MoreYoga",
+        "leisure": "fitness_centre",
+        "name": "MoreYoga",
+        "phone": "+44 808 175 0238",
+        "sport": "yoga",
+        "website": "https://www.moreyoga.co.uk/studios/wandsworth/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1058683737,
+      "center": {
+        "lat": 51.4546979,
+        "lon": -0.3196434
+      },
+      "tags": {
+        "addr:city": "Twickenham",
+        "addr:housenumber": "4",
+        "addr:postcode": "TW1 3EE",
+        "addr:street": "Crown Road",
+        "building": "yes",
+        "name": "Pilates Plus",
+        "shop": "sports",
+        "sport": "pilates",
+        "website": "https://pilates-plus.co.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1316914376,
+      "center": {
+        "lat": 51.5475021,
+        "lon": -0.2239533
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:postcode": "NW2 5HT",
+        "addr:street": "Walm Lane",
+        "building": "retail",
+        "leisure": "fitness_centre",
+        "name": "ZENW2",
+        "ref:GB:uprn": "202054049;202054051;202054050;202192120",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1450388656,
+      "center": {
+        "lat": 51.5319699,
+        "lon": -0.0423001
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Bow Wharf",
+        "addr:housenumber": "221",
+        "addr:street": "Grove Road",
+        "addr:unit": "P9-P11",
+        "building": "yes",
+        "building:levels": "1",
+        "building:material": "brick",
+        "check_date": "2025-11-08",
+        "leisure": "fitness_centre",
+        "name": "Re-Core Pilates",
+        "roof:colour": "darkgrey",
+        "roof:orientation": "along",
+        "roof:shape": "gabled",
+        "sport": "pilates",
+        "website": "https://www.recorepilates.com/pilates-classes-bow-wharf-victoria-park/"
+      }
+    }
+  ]
+}

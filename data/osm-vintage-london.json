@@ -1,0 +1,1161 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-09T15:59:39Z",
+    "timestamp_areas_base": "2026-10-08T05:09:19Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 620025018,
+      "lat": 51.4916543,
+      "lon": -0.1385681,
+      "tags": {
+        "name": "CrusAid",
+        "shop": "second_hand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 647512857,
+      "lat": 51.5149141,
+      "lon": -0.1651525,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "10",
+        "addr:street": "Porchester Place",
+        "name": "The Dresser",
+        "phone": "+44 20 7724 7212",
+        "shop": "second_hand",
+        "website": "https://www.dresseronline.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2294782699,
+      "lat": 51.5533024,
+      "lon": -0.074516,
+      "tags": {
+        "addr:city": "London",
+        "addr:street": "Stoke Newington Road",
+        "name": "Beyond Retro",
+        "second_hand": "only",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2316998553,
+      "lat": 51.5149616,
+      "lon": -0.1613281,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "17",
+        "addr:street": "Seymour Place",
+        "name": "buymywardrobe",
+        "shop": "second_hand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3065500294,
+      "lat": 51.4629211,
+      "lon": -0.1678217,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "28",
+        "addr:postcode": "SW11 1PW",
+        "addr:street": "St. John's Road",
+        "name": "Traid",
+        "second_hand": "only",
+        "shop": "clothes",
+        "website": "https://www.traid.org.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4313207609,
+      "lat": 51.4266327,
+      "lon": -0.0554794,
+      "tags": {
+        "addr:floor": "G",
+        "check_date": "2025-11-23",
+        "level": "0",
+        "name": "St. Christopher's Hospice Charity Shop",
+        "phone": "+44 20 8676 8262",
+        "second_hand": "only",
+        "shop": "second_hand",
+        "website": "https://stchristophers.org.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4457290489,
+      "lat": 51.5511612,
+      "lon": -0.1100923,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "162",
+        "addr:street": "Holloway Road",
+        "name": "Blue 17 Vintage Clothing",
+        "second_hand": "only",
+        "shop": "clothes",
+        "website": "https://www.blue17.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5554760427,
+      "lat": 51.4365182,
+      "lon": -0.1864543,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "649",
+        "addr:street": "Garratt Lane",
+        "name": "Banksy",
+        "phone": "+44 7956945851",
+        "shop": "second_hand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5563712837,
+      "lat": 51.4498177,
+      "lon": -0.0167362,
+      "tags": {
+        "addr:housenumber": "23",
+        "addr:street": "Rushey Green",
+        "check_date": "2023-07-11",
+        "currency:GBP": "yes",
+        "level": "0",
+        "name": "Cash Busters",
+        "second_hand": "yes",
+        "shop": "second_hand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6326633330,
+      "lat": 51.5184473,
+      "lon": -0.1543367,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "50",
+        "addr:street": "Blandford Street",
+        "level": "0",
+        "name": "L'homme Designer Exchange",
+        "shop": "second_hand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6589660823,
+      "lat": 51.5473553,
+      "lon": -0.0546864,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "352a",
+        "addr:postcode": "E8 1HR",
+        "addr:street": "Mare Street",
+        "air_conditioning": "yes",
+        "bar": "yes",
+        "check_date": "2025-08-08",
+        "description": "Bar & Boutique",
+        "fhrs:id": "985253",
+        "live_music": "yes",
+        "name": "Paper Dress Vintage",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "second_hand": "only",
+        "shop": "clothes",
+        "website": "https://www.paperdressvintage.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6778437681,
+      "lat": 51.4102965,
+      "lon": -0.2292501,
+      "tags": {
+        "name": "Worples Dress Agency",
+        "second_hand": "yes",
+        "shop": "clothes",
+        "website": "http://worples.simpl.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6938685891,
+      "lat": 51.4757123,
+      "lon": -0.0376478,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "311",
+        "addr:street": "New Cross Road",
+        "check_date": "2026-08-10",
+        "name": "Britolis RB Link",
+        "second_hand": "only",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8459955779,
+      "lat": 51.532186,
+      "lon": -0.2334119,
+      "tags": {
+        "addr:housenumber": "805",
+        "addr:street": "Harrow Road",
+        "name": "Alex N Vans",
+        "phone": "+44 7535 445828",
+        "shop": "second_hand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8659381720,
+      "lat": 51.5883901,
+      "lon": -0.0047266,
+      "tags": {
+        "name": "Vintage Tony",
+        "second_hand": "only",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8659381729,
+      "lat": 51.5883832,
+      "lon": -0.0047758,
+      "tags": {
+        "name": "Jimmy Mack Vintage And Retro",
+        "second_hand": "only",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8659383797,
+      "lat": 51.5883773,
+      "lon": -0.0048159,
+      "tags": {
+        "name": "Fabulist",
+        "second_hand": "only",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8707850282,
+      "lat": 51.5029065,
+      "lon": -0.3164827,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "135",
+        "addr:postcode": "W13 9QT",
+        "addr:street": "Northfield Avenue",
+        "check_date": "2026-02-28",
+        "name": "Aladdin's Cave",
+        "opening_hours": "Mo-Sa 11:00-18:00",
+        "shop": "second_hand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8747613210,
+      "lat": 51.4287933,
+      "lon": -0.1658688,
+      "tags": {
+        "addr:city": "London",
+        "addr:unit": "22B",
+        "name": "Hidden Jules",
+        "second_hand": "yes",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8923001034,
+      "lat": 51.543179,
+      "lon": -0.1495194,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "53",
+        "addr:street": "Chalk Farm Road",
+        "name": "Camden Thrift Store",
+        "shop": "second_hand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9936055623,
+      "lat": 51.5558104,
+      "lon": -0.074259,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "156",
+        "addr:postcode": "N16 7XA",
+        "addr:street": "Stoke Newington Road",
+        "second_hand": "only",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10691498937,
+      "lat": 51.5357864,
+      "lon": -0.0617235,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "2b",
+        "addr:street": "Ada Street",
+        "check_date": "2025-09-10",
+        "name": "House Of Vintage",
+        "second_hand": "only",
+        "shop": "clothes",
+        "website": "https://www.houseofvintageuk.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10798047284,
+      "lat": 51.5015408,
+      "lon": -0.1113079,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "87",
+        "addr:postcode": "SE1 7RJ",
+        "addr:street": "Lower Marsh",
+        "name": "Hospices of Hope",
+        "opening_hours": "Mo-Sa 09:30-16:30; Su 10:00-16:00",
+        "phone": "+44 20 7928 4741",
+        "second_hand": "only",
+        "shop": "clothes",
+        "website": "https://www.hospicesofhope.co.uk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11066492210,
+      "lat": 51.4004785,
+      "lon": 0.0167564,
+      "tags": {
+        "check_date": "2023-09-17",
+        "level": "0",
+        "name": "Leech Vintage",
+        "second_hand": "yes",
+        "shop": "clothes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11075380813,
+      "lat": 51.4457598,
+      "lon": -0.1659399,
+      "tags": {
+        "name": "Shonamac",
+        "second_hand": "yes",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11145998394,
+      "lat": 51.581556,
+      "lon": -0.1264477,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "59b",
+        "addr:postcode": "N8 8DP",
+        "addr:street": "Park Road",
+        "clothes": "women;dress",
+        "email": "hello@changeofheartlondon.com",
+        "name": "Change Of Heart",
+        "opening_hours": "Mo-Sa 10:00-18:00; Su 12:00-17:00",
+        "second_hand": "yes",
+        "shop": "clothes",
+        "website": "https://changeofheartlondon.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11177604236,
+      "lat": 51.5542417,
+      "lon": -0.0542479,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "161b",
+        "addr:street": "Lower Clapton Road",
+        "check_date": "2025-01-22",
+        "check_date:opening_hours": "2025-01-22",
+        "name": "Pillowheat",
+        "opening_hours": "Th-Mo 11:11-18:11",
+        "opening_hours:signed": "no",
+        "second_hand": "only",
+        "shop": "clothes",
+        "website": "https://pillowheat.com/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11248727285,
+      "lat": 51.5161731,
+      "lon": -0.0728584,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "17",
+        "addr:postcode": "E1 6NE",
+        "addr:street": "Commercial Street",
+        "name": "Classic Football Shirts",
+        "opening_hours": "Mo-Sa 11:00-19:00, Su 11:00 - 17:00",
+        "phone": "+44 20 7971 1487",
+        "second_hand": "only",
+        "shop": "clothes",
+        "website": "https://classicfootballshirts.co.uk/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11280171785,
+      "lat": 51.5343948,
+      "lon": -0.1042412,
+      "tags": {
+        "addr:city": "London",
+        "addr:street": "Islington High Street",
+        "name": "Inca",
+        "second_hand": "only",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11283320225,
+      "lat": 51.5418552,
+      "lon": -0.0223258,
+      "tags": {
+        "opening_hours": "Sa,Su",
+        "second_hand": "only",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12076590738,
+      "lat": 51.5084457,
+      "lon": -0.2688807,
+      "tags": {
+        "addr:floor": "G",
+        "addr:housenumber": "98",
+        "addr:street": "Churchfield Road",
+        "check_date": "2024-07-27",
+        "instagram": "https://www.instagram.com/restorew3",
+        "level": "0",
+        "name": "Re’Store",
+        "shop": "second_hand",
+        "website": "https://www.restorew3.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12188058876,
+      "lat": 51.5557451,
+      "lon": -0.177147,
+      "tags": {
+        "check_date": "2024-09-20",
+        "name": "Cancer research Uk",
+        "second_hand": "only",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12476010887,
+      "lat": 51.5796259,
+      "lon": -0.0326657,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "6",
+        "addr:postcode": "E17 8AA",
+        "addr:street": "Station Road",
+        "addr:suburb": "Walthamstow",
+        "check_date:opening_hours": "2026-07-28",
+        "name": "Harrison's",
+        "opening_hours:signed": "no",
+        "shop": "second_hand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12509201892,
+      "lat": 51.5795215,
+      "lon": 0.0250272,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Cuckfield House",
+        "addr:postcode": "E11 2AN",
+        "addr:street": "Wellington Road",
+        "addr:unit": "3",
+        "check_date": "2025-02-22",
+        "clothes": "wedding",
+        "name": "Bridal Reloved",
+        "second_hand": "only",
+        "shop": "clothes",
+        "website": "https://bridalreloved.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12633199541,
+      "lat": 51.5771924,
+      "lon": -0.1233676,
+      "tags": {
+        "name": "Second Hand Shop",
+        "shop": "second_hand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12989866331,
+      "lat": 51.4722372,
+      "lon": -0.0316549,
+      "tags": {
+        "addr:housenumber": "110",
+        "addr:street": "Lewisham Way",
+        "check_date": "2025-07-09",
+        "name": "Second Time Around",
+        "opening_hours": "Mo-Fr 08:30-17:00; Sa 08:00-17:00; Su off",
+        "phone": "+44 20 8469 0848",
+        "shop": "second_hand",
+        "website": "https://secondtimearound.london/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13006820258,
+      "lat": 51.4555661,
+      "lon": -0.1193392,
+      "tags": {
+        "addr:housenumber": "74",
+        "addr:street": "Brixton Hill",
+        "check_date": "2025-07-17",
+        "name": "Deena Furniture",
+        "shop": "second_hand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13014510327,
+      "lat": 51.4720818,
+      "lon": -0.0308595,
+      "tags": {
+        "check_date": "2020-11-02",
+        "name": "The New Cross Bargain Centre",
+        "shop": "second_hand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13566993605,
+      "lat": 51.5312047,
+      "lon": -0.0389664,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "359",
+        "addr:postcode": "E3 5QR",
+        "addr:street": "Roman Road",
+        "name": "BOHEMIA",
+        "second_hand": "yes",
+        "shop": "second_hand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13612986480,
+      "lat": 51.4808358,
+      "lon": -0.0605249,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "720B-722B",
+        "addr:postcode": "SE15 1NG",
+        "addr:street": "Old Kent Road",
+        "name": "Six Q.D.",
+        "second_hand": "yes",
+        "shop": "clothes",
+        "website": "http://sixqd.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13872516701,
+      "lat": 51.5303979,
+      "lon": -0.117756,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "1-3",
+        "addr:street": "Leeke Street",
+        "check_date": "2026-05-24",
+        "name": "J.J.L. Buy & Sell",
+        "shop": "second_hand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13895637716,
+      "lat": 51.5489551,
+      "lon": -0.0543975,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "8",
+        "addr:street": "Dispensary Lane",
+        "check_date": "2026-05-30",
+        "clothes": "women",
+        "second_hand": "only",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14054873158,
+      "lat": 51.3775326,
+      "lon": -0.2398246,
+      "tags": {
+        "name": "Second Hand Shop",
+        "shop": "second_hand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14058892313,
+      "lat": 51.4108558,
+      "lon": -0.2991085,
+      "tags": {
+        "second_hand": "only",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14080390661,
+      "lat": 51.5515435,
+      "lon": -0.1916705,
+      "tags": {
+        "second_hand": "only",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14148453297,
+      "lat": 51.5420654,
+      "lon": 0.0053256,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "The Old Dispensary",
+        "addr:housenumber": "30",
+        "addr:postcode": "E15 4BZ",
+        "addr:street": "Romford Road",
+        "check_date": "2026-08-28",
+        "full_name": "The Mannequinn Thrift Boutique",
+        "name": "The Mannequinn",
+        "second_hand": "only",
+        "shop": "clothes",
+        "website": "https://www.themannequinn.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 115254642,
+      "center": {
+        "lat": 51.5375096,
+        "lon": -0.2217948
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "1",
+        "addr:postcode": "NW10 3ED",
+        "addr:street": "King's Parade",
+        "building": "yes",
+        "check_date": "2024-11-28",
+        "contact:website": "http://www.gardensonsite.co.uk",
+        "name": "The Second Hand Shop",
+        "opening_hours": "Mo-Fr 12:00-16:00",
+        "ref:GB:uprn": "202077414;202077413;202077412",
+        "shop": "second_hand",
+        "source": "Bing"
+      }
+    },
+    {
+      "type": "way",
+      "id": 129337435,
+      "center": {
+        "lat": 51.5551869,
+        "lon": -0.1736086
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "60",
+        "addr:postcode": "NW3 1ND",
+        "addr:street": "Rosslyn Hill",
+        "building": "yes",
+        "building:levels": "3.5",
+        "clothes": "women",
+        "contact:website": "https://designsnw3.co.uk/",
+        "name": "Designs",
+        "phone": "+44 20 7435 0100",
+        "second_hand": "only",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 157322976,
+      "center": {
+        "lat": 51.5193553,
+        "lon": -0.0741852
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "1",
+        "addr:postcode": "E1 6QE",
+        "addr:street": "Fournier Street",
+        "building": "yes",
+        "heritage": "2",
+        "heritage:operator": "Historic England",
+        "heritage:website": "https://historicengland.org.uk/listing/the-list/list-entry/1065198",
+        "inscription": "1973-09-27",
+        "listed_status": "Grade II",
+        "ref:GB:nhle": "1065198",
+        "second_hand": "only",
+        "shop": "clothes",
+        "source": "Bing;photographic_survey",
+        "wikidata": "Q26318307"
+      }
+    },
+    {
+      "type": "way",
+      "id": 188954611,
+      "center": {
+        "lat": 51.6273001,
+        "lon": -0.1266942
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "55",
+        "addr:postcode": "N14 6LD",
+        "addr:street": "High Street",
+        "building": "retail",
+        "name": "Southgate Auction Rooms",
+        "opening_hours": "Mo-Th 09:00-17:00; Sa 09:00-16:00",
+        "phone": "+44 20 8886 7888",
+        "ref:GB:uprn": "207172902",
+        "shop": "second_hand",
+        "website": "https://www.southgateauctionrooms.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 188954618,
+      "center": {
+        "lat": 51.6275815,
+        "lon": -0.1267363
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "55",
+        "addr:postcode": "N14 6LD",
+        "addr:street": "High Street",
+        "building": "retail",
+        "name": "Southgate Auction Rooms",
+        "opening_hours": "Mo-Th 09:00-17:00; Sa 09:00-16:00",
+        "phone": "+44 20 8886 7888",
+        "shop": "second_hand",
+        "website": "https://www.southgateauctionrooms.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 209434664,
+      "center": {
+        "lat": 51.4936707,
+        "lon": -0.2551126
+      },
+      "tags": {
+        "addr:housenumber": "42",
+        "addr:street": "Turnham Green Terrace",
+        "building": "yes",
+        "check_date": "2024-01-05",
+        "clothes": "children",
+        "name": "Fara Kids",
+        "opening_hours": "Mo-Su 09:30 - 17:30",
+        "phone": "+442089942287",
+        "second_hand": "only",
+        "shop": "clothes",
+        "source": "Bing;photograph",
+        "website": "https://www.faracharity.org/shop/chiswick-kids/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "way",
+      "id": 257197873,
+      "center": {
+        "lat": 51.5569405,
+        "lon": -0.1185363
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Traid",
+        "second_hand": "only",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 271632934,
+      "center": {
+        "lat": 51.5241372,
+        "lon": -0.0713404
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "202",
+        "addr:postcode": "E1 6SA",
+        "addr:street": "Brick Lane",
+        "building": "yes",
+        "name": "remass",
+        "second_hand": "only",
+        "shop": "clothes",
+        "source:addr:postcode": "FHRS Open Data"
+      }
+    },
+    {
+      "type": "way",
+      "id": 274002575,
+      "center": {
+        "lat": 51.5140861,
+        "lon": -0.1355308
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "82",
+        "addr:street": "Berwick Street",
+        "building": "yes",
+        "building:levels": "4",
+        "building:material": "brick",
+        "name": "Vintage Threads",
+        "second_hand": "only",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 278113378,
+      "center": {
+        "lat": 51.5156818,
+        "lon": -0.1234463
+      },
+      "tags": {
+        "check_date": "2022-06-27",
+        "clothes": "vintage",
+        "level": "0",
+        "name": "Wow Retro",
+        "second_hand": "only",
+        "shop": "clothes",
+        "source": "photograph",
+        "website": "http://www.wowretro.co.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 289376381,
+      "center": {
+        "lat": 51.5486687,
+        "lon": -0.0762707
+      },
+      "tags": {
+        "building": "retail",
+        "name": "Fee Fee La Fou HQ",
+        "shop": "second_hand"
+      }
+    },
+    {
+      "type": "way",
+      "id": 322148229,
+      "center": {
+        "lat": 51.4621056,
+        "lon": -0.1124469
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "38",
+        "addr:postcode": "SW9 8LD",
+        "addr:street": "Market Row",
+        "name": "Tique Booty",
+        "phone": "+44 20 8616 9773",
+        "second_hand": "only",
+        "shop": "clothes",
+        "website": "http://www.tiquebooty.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 357213132,
+      "center": {
+        "lat": 51.4453429,
+        "lon": -0.3334562
+      },
+      "tags": {
+        "addr:city": "Twickenham",
+        "addr:housenumber": "76-80",
+        "addr:postcode": "TW1 4BW",
+        "addr:street": "Heath Road",
+        "brand": "Sue Ryder",
+        "brand:wikidata": "Q7634271",
+        "building": "retail",
+        "check_date": "2025-04-13",
+        "name": "Sue Ryder",
+        "opening_hours": "Mo-Sa 09:30-17:00; Su 10:00-16:00",
+        "shop": "second_hand",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 378920196,
+      "center": {
+        "lat": 51.5553661,
+        "lon": -0.0824925
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "70",
+        "addr:postcode": "N16 8RZ",
+        "addr:street": "Allen Road",
+        "building": "house",
+        "building:levels": "3",
+        "building:material": "brick",
+        "shop": "second_hand",
+        "source:addr": "interpolation"
+      }
+    },
+    {
+      "type": "way",
+      "id": 432173350,
+      "center": {
+        "lat": 51.4320417,
+        "lon": -0.0603949
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "105",
+        "addr:postcode": "SE26 4QJ",
+        "addr:street": "Kirkdale",
+        "building": "yes",
+        "name": "Clothes for Causes",
+        "second_hand": "yes",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 432808182,
+      "center": {
+        "lat": 51.457229,
+        "lon": -0.3036598
+      },
+      "tags": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "84",
+        "addr:postcode": "TW10 6UB",
+        "addr:street": "Hill Rise",
+        "building": "yes",
+        "building:levels": "3",
+        "check_date": "2024-09-14",
+        "fhrs:id": "1022478",
+        "name": "Upcycled",
+        "ref:GB:uprn": "10094588226",
+        "second_hand": "only",
+        "shop": "clothes",
+        "wikidata": "Q27084966"
+      }
+    },
+    {
+      "type": "way",
+      "id": 475721729,
+      "center": {
+        "lat": 51.5145804,
+        "lon": -0.1373278
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "58-59",
+        "addr:postcode": "W1F 7JY",
+        "addr:street": "Great Marlborough Street",
+        "name": "Beyond Retro",
+        "opening_hours": "Mo-We 10:30-19:30; Th-Fr 10:30-20:30; Sa 10:30-19:30; Su 11:00-18:00",
+        "phone": "+44 20 7729 9001",
+        "second_hand": "yes",
+        "shop": "clothes",
+        "website": "https://www.beyondretro.com/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 562225193,
+      "center": {
+        "lat": 51.5140196,
+        "lon": -0.1245581
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "42",
+        "addr:postcode": "WC2H 9HZ",
+        "addr:street": "Shelton Street",
+        "building:levels": "5",
+        "building:part": "yes",
+        "check_date": "2022-06-27",
+        "name": "Rokit",
+        "opening_hours": "Mo-Sa 10:00-19:00; Su 11:00-18:00",
+        "phone": "+44 20 7836 6547",
+        "second_hand": "only",
+        "shop": "clothes",
+        "website": "https://www.rokit.co.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 587954389,
+      "center": {
+        "lat": 51.5399724,
+        "lon": -0.0561621
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "167",
+        "addr:street": "Mare Street",
+        "building": "apartments",
+        "building:levels": "3",
+        "building:material": "brick",
+        "check_date:opening_hours": "2025-05-09",
+        "name": "The Pattern",
+        "opening_hours:signed": "no",
+        "roof:colour": "darkgrey",
+        "second_hand": "only",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 689781767,
+      "center": {
+        "lat": 51.3989931,
+        "lon": -0.2479501
+      },
+      "tags": {
+        "building": "kiosk",
+        "name": "Cash for Clothes",
+        "ref:GB:uprn": "128048032",
+        "second_hand": "only",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 708005567,
+      "center": {
+        "lat": 51.4274045,
+        "lon": -0.3268484
+      },
+      "tags": {
+        "addr:city": "Teddington",
+        "addr:housenumber": "166",
+        "addr:postcode": "TW11 8HU",
+        "addr:street": "High Street",
+        "building": "retail",
+        "building:levels": "2",
+        "check_date": "2026-07-25",
+        "name": "The Clothes Horse",
+        "opening_hours": "Mo-Fr 10:00-18:00; Su 12:00-17:00",
+        "roof:levels": "1",
+        "shop": "second_hand"
+      }
+    },
+    {
+      "type": "way",
+      "id": 853427623,
+      "center": {
+        "lat": 51.5517968,
+        "lon": -0.0441953
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "7",
+        "addr:postcode": "E5 0LH",
+        "addr:street": "Chatsworth Road",
+        "building": "apartments",
+        "building:colour": "brown",
+        "building:levels": "3",
+        "building:material": "brick",
+        "check_date": "2025-01-05",
+        "check_date:opening_hours": "2025-01-05",
+        "name": "Patina",
+        "opening_hours": "Mo off; Tu-Sa 11:30-17:30; Su 11:30-17:00",
+        "opening_hours:signed": "no",
+        "roof:colour": "grey",
+        "shop": "second_hand",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 965594097,
+      "center": {
+        "lat": 51.5431207,
+        "lon": -0.0278363
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "11",
+        "addr:street": "Chapman Road",
+        "addr:unit": "11",
+        "building": "yes",
+        "check_date": "2025-11-04",
+        "name": "Wick Thrift Store",
+        "shop": "second_hand",
+        "was:name": "East End Vintage Clothing"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1013106492,
+      "center": {
+        "lat": 51.548912,
+        "lon": -0.0400486
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "163",
+        "addr:street": "Homerton High Street",
+        "building": "apartments",
+        "building:levels": "3",
+        "check_date": "2025-07-12",
+        "contact:instagram": "bohemiapreloved",
+        "name": "Bohemia",
+        "opening_hours": "We-Sa 12:00-17:00; Su 12:00-16:00; Mo,Tu off",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "second_hand"
+      }
+    }
+  ]
+}

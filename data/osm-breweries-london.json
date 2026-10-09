@@ -1,0 +1,2537 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-09T15:57:37Z",
+    "timestamp_areas_base": "2026-10-08T05:09:19Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2058478123,
+      "lat": 51.4957439,
+      "lon": -0.0684724,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "Arch 11",
+        "addr:place": "Spa Business Park",
+        "addr:postcode": "SE16 3JF",
+        "contact:untappd": "https://untappd.com/TheKernelBrewery",
+        "craft": "brewery",
+        "name": "The Kernel Brewery",
+        "website": "https://www.thekernelbrewery.com/",
+        "wikidata": "Q96409405",
+        "wikipedia": "en:The Kernel Brewery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2252043085,
+      "lat": 51.5837417,
+      "lon": -0.0084931,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housename": "Ravenswood Industrial Estate",
+        "addr:postcode": "E17 9HQ",
+        "addr:street": "Shernhall Street",
+        "addr:suburb": "Walthamstow",
+        "addr:unit": "Unit 2",
+        "amenity": "bar",
+        "check_date": "2026-01-24",
+        "craft": "brewery",
+        "fhrs:id": "1472184",
+        "indoor_seating": "yes",
+        "name": "Pillars Brewery",
+        "outdoor_seating": "yes",
+        "takeaway": "yes",
+        "website": "https://www.pillarsbrewery.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2296112253,
+      "lat": 51.5429973,
+      "lon": -0.0220788,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Queens Yard",
+        "addr:housenumber": "43",
+        "addr:postcode": "E9 5EN",
+        "addr:street": "White Post Lane",
+        "addr:unit": "Unit 7",
+        "amenity": "pub",
+        "check_date": "2026-08",
+        "contact:facebook": "https://www.facebook.com/cratebrewery/",
+        "contact:instagram": "https://www.instagram.com/cratebrewery/",
+        "contact:twitter": "https://twitter.com/CrateBrewery",
+        "craft": "brewery",
+        "cuisine": "pizza",
+        "diet:gluten_free": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "dog": "yes",
+        "email": "bar@cratebrewery.com",
+        "fhrs:id": "1059364",
+        "food": "yes",
+        "highchair": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "level": "0",
+        "microbrewery": "yes",
+        "name": "Crate Brewery & Pizza",
+        "opening_hours": "Mo-Th,Su 12:00-23:00; Fr-Sa 12:00-01:00",
+        "opening_hours:kitchen": "Mo-Th,Su 12:00-22:00; Fr-Sa 12:00-23:00",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+44 7834 275687",
+        "real_ale": "6",
+        "reservation": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.cratebrewery.com/",
+        "wikidata": "Q98070340"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2341125350,
+      "lat": 51.6153156,
+      "lon": -0.176463,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "762",
+        "addr:postcode": "N12 9QH",
+        "addr:street": "High Road",
+        "amenity": "pub",
+        "fhrs:id": "860358",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "microbrewery": "yes",
+        "name": "The Bohemia",
+        "real_ale": "yes",
+        "source": "survey",
+        "website": "https://www.thebohemia.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2801520394,
+      "lat": 51.4986198,
+      "lon": -0.0734285,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "118",
+        "addr:postcode": "SE1 2HH",
+        "addr:street": "Druid Street",
+        "alt_name": "Anspach and Hobday",
+        "contact:untappd": "https://untappd.com/v/anspach-hobday/1350546",
+        "craft": "brewery",
+        "name": "Anspach & Hobday",
+        "opening_hours": "Fr 14:00-22:00; Sa 11:00-22:00; Su 13:00-19:00; We 17:00-21:00; Th 15:00-22:00",
+        "phone": "+44 20 8617 9510",
+        "website": "https://www.anspachandhobday.com/",
+        "wikidata": "Q98222607"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3493582134,
+      "lat": 51.4850243,
+      "lon": -0.0959062,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "225-228",
+        "addr:postcode": "SE17 3HD",
+        "addr:street": "Fielding Street",
+        "amenity": "pub",
+        "brewery": "yes;orbit_beers",
+        "cuisine": "burger;mexican;barbecue;sausage",
+        "description": "Orbit Beers local brewery and taproom serve fresh local beers and Dragon Flame BBQ menu as of October 2025",
+        "diet:gluten_free": "yes",
+        "diet:meat": "yes",
+        "diet:non-vegetarian": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "email": "Taproom@booking.com",
+        "image": "https://orbitbeers.com/pages/taproom",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "microbrewery": "yes",
+        "name": "Orbit Beers Brewery Tap Room",
+        "opening_hours": "We-Fr 16:00-22:30; Sa 12:00-00:00; Su 12:00-21:30",
+        "outdoor_seating": "yes",
+        "payment:american_express": "yes",
+        "payment:app": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cards": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "smoking": "outside",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://orbitbeers.com/pages/taproom",
+        "website:menu": "https://cdn.shopify.com/s/files/1/0836/6528/9538/files/Orbit_Beers_Taproom_Dragon_Flame_BBQ_Menu_October_2025.pdf?v=1763126047",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3925313694,
+      "lat": 51.4633025,
+      "lon": -0.116133,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Arch",
+        "addr:housenumber": "41",
+        "addr:postcode": "SW9 8BP",
+        "addr:street": "Nursery Road",
+        "amenity": "pub",
+        "microbrewery": "yes",
+        "name": "London Beer Lab",
+        "opening_hours": "Tu 17:00-22:00; We-Th 17:00-23:00; Fr 16:00-23:00; Sa 12:00-23:00; Su 12:00-20:00",
+        "smoking": "outside",
+        "website": "https://www.londonbeerlab.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4090944751,
+      "lat": 51.5919225,
+      "lon": -0.0414688,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housename": "Uplands Business Park",
+        "addr:postcode": "E17 5QJ",
+        "addr:street": "Blackhorse Lane",
+        "addr:suburb": "Walthamstow",
+        "addr:unit": "Unit 10",
+        "amenity": "bar",
+        "craft": "brewery",
+        "name": "Pretty Decent",
+        "opening_hours": "Mo,Tu 12:00-18:00; We,Th 16:00-23:00; Fr,Sa 12:00-23:00; Su 12:00-20:00",
+        "start_date": "2022-12-09"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4253153751,
+      "lat": 51.4890938,
+      "lon": -0.053814,
+      "tags": {
+        "craft": "brewery",
+        "name": "Fourpure Brewing Co.",
+        "website": "https://www.fourpure.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4285984291,
+      "lat": 51.5468006,
+      "lon": -0.1468365,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "55-59",
+        "addr:postcode": "NW5 3NN",
+        "addr:street": "Wilkin Street Mews",
+        "amenity": "pub",
+        "brand": "Camden Town Brewery",
+        "brewery": "Camden",
+        "check_date": "2024-01-15",
+        "cuisine": "burger",
+        "level": "0",
+        "microbrewery": "yes",
+        "name": "Camden Beer Hall",
+        "opening_hours": "Mo-Th,Su 12:00-22:00; Fr-Sa 12:00-23:00",
+        "opening_hours:kitchen": "We-Su 12:00-20:00; Mo-Tu off",
+        "operator": "Camden Town Brewery",
+        "outdoor_seating": "yes",
+        "payment:cash": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "reservation": "yes",
+        "website": "https://camdentownbrewery.com/pages/visit-us"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4470034364,
+      "lat": 51.5005941,
+      "lon": -0.0771444,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "46",
+        "addr:postcode": "SE1 2EZ",
+        "addr:street": "Druid Street",
+        "amenity": "pub",
+        "check_date": "2026-04-28",
+        "craft": "brewery",
+        "craft_beer": "yes",
+        "fhrs:id": "776617",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Southwark Brewing",
+        "opening_hours": "Tu,Th,Fr 17:00-22:00; Sa 12:00-18:30; We,Su,Mo off",
+        "outdoor_seating": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.southwarkbrewing.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4813283891,
+      "lat": 51.4988354,
+      "lon": -0.0746673,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "56",
+        "addr:postcode": "SE1 3NY",
+        "addr:street": "Stanworth Street",
+        "amenity": "pub",
+        "contact:untappd": "https://untappd.com/v/hiver-beers-and-taproom/3876737",
+        "email": "info@hiverbeers.com",
+        "microbrewery": "yes",
+        "name": "Hiver Taproom",
+        "opening_hours": "Fr 12:00-20:00; Sa 11:00-20:00; Su 12:00-18:00",
+        "operator": "Hiver Beers",
+        "outdoor_seating": "yes",
+        "phone": "+44 7740251649",
+        "product": "beer",
+        "website": "https://hiverbeers.com/pages/taproom"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5018609833,
+      "lat": 51.4656818,
+      "lon": -0.1035015,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Arch 497",
+        "addr:postcode": "SW9 7EX",
+        "addr:street": "Ridgway Road",
+        "addr:unit": "497",
+        "check_date": "2026-08-29",
+        "craft": "brewery",
+        "description": "As a small independent microbrewery.",
+        "email": "clark@clarkshaws.co.uk",
+        "name": "Clarkshaws Brewery",
+        "opening_hours": "Th-Su 12:00-20:00",
+        "operator": "Ian Clark",
+        "phone": "+44 7989402687",
+        "website": "https://www.clarkshaws.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5202423829,
+      "lat": 51.4993771,
+      "lon": -0.0747406,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "88",
+        "addr:postcode": "SE1 2HQ",
+        "addr:street": "Druid Street",
+        "amenity": "pub",
+        "brewery": "various",
+        "disused:microbrewery": "yes",
+        "microbrewery": "yes",
+        "name": "Fabal Beerhall",
+        "opening_hours": "Th-Fr 17:00-22:00; Sa 15:00-23:00",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5798900528,
+      "lat": 51.5004875,
+      "lon": 0.0053629,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Airy Pavilion",
+        "addr:postcode": "SE10 0SQ",
+        "addr:street": "Peninsula Square",
+        "addr:unit": "3",
+        "amenity": "pub",
+        "check_date": "2025-11-05",
+        "contact:facebook": "https://www.facebook.com/people/The-Dial-Home-of-Meantime/61579184457806/",
+        "contact:instagram": "thedialldn",
+        "email": "info@thedialldn.com",
+        "food": "yes",
+        "live_sport": "yes",
+        "microbrewery": "yes",
+        "name": "The Dial",
+        "opening_hours": "Mo-We 12:00-23:00; Th 12:00-24:00; Fr 12:00-25:00; Sa 10:00-25:00; Su 10:00-24:00",
+        "operator": "Meantime Brewery",
+        "operator:wikidata": "Q6804103",
+        "phone": "+44 20 3879 6316",
+        "website": "https://thedialldn.com/",
+        "website:booking": "https://thedialldn.com/bookings",
+        "website:menu": "https://thedialldn.com/menus"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5843761645,
+      "lat": 51.4780491,
+      "lon": -0.0265975,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housename": "St Paul's House",
+        "addr:postcode": "SE8 4BX",
+        "addr:street": "Market Yard",
+        "addr:suburb": "Deptford",
+        "addr:unit": "2",
+        "amenity": "pub",
+        "branch": "Deptford",
+        "check_date": "2026-07-18",
+        "contact:email": "saltdeptford@saltbeerfactory.co.uk",
+        "contact:facebook": "saltdeptford",
+        "contact:instagram": "saltdeptford",
+        "contact:phone": "+44 20 8469 1622",
+        "contact:website": "https://www.saltbeerfactory.co.uk/",
+        "cuisine": "pizza",
+        "fhrs:id": "1600793",
+        "food": "yes",
+        "microbrewery": "yes",
+        "name": "Salt Deptford",
+        "old_name": "Taproom SE8",
+        "opening_hours": "Mo-Th 16:00-23:00; Fr-Sa 12:00-23:00; Su 12:00-22:00",
+        "opening_hours:kitchen": "Mo-Th 16:00-22:00; Fr-Sa 12:00-22:00; Su 12:00-21:00",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6345003065,
+      "lat": 51.4828518,
+      "lon": -0.147044,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "12-14",
+        "addr:postcode": "SW11 8AB",
+        "addr:street": "Arches Lane",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "live_sport": "yes",
+        "microbrewery": "yes",
+        "name": "Battersea Brewery",
+        "opening_hours": "Mo-Th 12:00-23:00; Fr-Sa 12:00-24:00; Su 12:00-23:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+44 20 8161 2366",
+        "real_ale": "3 or so of their beers",
+        "website": "https://batterseabrew.co.uk",
+        "wheelchair": "yes",
+        "wheelchair:description": "Flat access"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6795775062,
+      "lat": 51.491708,
+      "lon": -0.0595038,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Arch 8",
+        "addr:housenumber": "8",
+        "addr:postcode": "SE16 3LR",
+        "addr:street": "Almond Road",
+        "addr:unit": "Railway Arch 8",
+        "amenity": "pub",
+        "contact:untappd": "https://untappd.com/SpartanBrewery",
+        "fhrs:id": "1045328",
+        "microbrewery": "yes",
+        "name": "Battersea Brewery",
+        "old_name": "Spartan Brewery",
+        "opening_hours": "Sa 12:00-21:00",
+        "outdoor_seating": "yes",
+        "source:addr": "FHRS Open Data",
+        "website": "https://batterseabrew.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6849378456,
+      "lat": 51.5259516,
+      "lon": -0.0561512,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "Unit 1",
+        "addr:postcode": "E2 6JY",
+        "addr:street": "Birkbeck Street",
+        "amenity": "bar",
+        "craft": "brewery",
+        "fhrs:id": "1375729",
+        "name": "Boxcar Taproom & Brewery",
+        "opening_hours": "Th, Fr 17:00-23:30; Sa 12:00-23:30",
+        "website": "https://www.boxcarbrewery.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6900790806,
+      "lat": 51.5473604,
+      "lon": -0.0524334,
+      "tags": {
+        "addr:city": "London",
+        "addr:postcode": "E8 1DU",
+        "addr:street": "Bohemia Place",
+        "addr:unit": "16-17",
+        "amenity": "bar",
+        "check_date": "2023-05-01",
+        "craft": "brewery",
+        "cuisine": "indian",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "email": "hello@hackneychurchbrew.co",
+        "fhrs:id": "1202272",
+        "food": "yes",
+        "indoor_seating": "yes",
+        "name": "Hackney Church Brew Co",
+        "opening_hours": "Mo-Tu off; We-Th 17:00-23:00; Fr-Sa 12:00-24:00; Su 12:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+44 20 3795 8295",
+        "reservation": "yes",
+        "website": "https://hackneychurchbrew.co"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6939589391,
+      "lat": 51.5905271,
+      "lon": -0.0580414,
+      "tags": {
+        "amenity": "pub",
+        "craft": "brewery",
+        "name": "Pressure Drop",
+        "website": "https://pressuredropbrewing.co.uk/pages/taproom"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7040675187,
+      "lat": 51.5693089,
+      "lon": -0.0379212,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Cromwell Industrial Estate",
+        "addr:postcode": "E10 7QZ",
+        "addr:street": "Staffa Road",
+        "addr:unit": "3",
+        "amenity": "bar",
+        "craft": "brewery",
+        "name": "Neckstamper Brewing",
+        "phone": "+44 20 7018 1760",
+        "website": "https://neckstamper.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7056928285,
+      "lat": 51.5932478,
+      "lon": -0.0414688,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Uplands Business Park",
+        "addr:postcode": "E17 5QJ",
+        "addr:street": "Blackhorse Lane",
+        "addr:unit": "Unit 2C",
+        "amenity": "pub",
+        "microbrewery": "yes",
+        "name": "Exale Taproom",
+        "opening_hours": "Th 16:00-23:00; Fr 16:00-02:00; Sa 12:00-02:00; Su 12:00-20:00",
+        "website": "https://exalebrew.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7057846976,
+      "lat": 51.593355,
+      "lon": -0.0414885,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Uplands Business Park",
+        "addr:postcode": "E17 5QJ",
+        "addr:street": "Blackhorse Lane",
+        "addr:unit": "Unit 2C",
+        "craft": "brewery",
+        "name": "Exale Brewing",
+        "website": "https://www.exalebrewing.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7398105829,
+      "lat": 51.4994717,
+      "lon": -0.0748793,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "80",
+        "addr:postcode": "SE1 2HQ",
+        "addr:street": "Druid Street",
+        "amenity": "pub",
+        "brewery": "London_Beer_Factory",
+        "fhrs:id": "1079438",
+        "microbrewery": "yes",
+        "name": "The Barrel Project",
+        "opening_hours": "We-Fr 16:00-23:00; Sa 11:00-23:00; Su 12:00-19:00",
+        "phone": "+44 20 7394 6763",
+        "website": "https://www.thebarrelproject.co.uk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7398105831,
+      "lat": 51.4976367,
+      "lon": -0.0723802,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "75",
+        "addr:postcode": "SE16 3RA",
+        "addr:street": "Enid Street",
+        "amenity": "pub",
+        "check_date": "2026-07-03",
+        "contact:untappd": "https://untappd.com/v/brew-by-numbers/865334",
+        "microbrewery": "yes",
+        "name": "Against The Grain",
+        "old:name": "Brew By Numbers",
+        "opening_hours": "We-Th 18:00-22:00; Fr 17:00-22:00; Sa 12:00-22:00; Su 12:00-19:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7616166984,
+      "lat": 51.4085153,
+      "lon": -0.0391288,
+      "tags": {
+        "addr:city": "Beckenham",
+        "addr:housenumber": "57",
+        "addr:postcode": "BR3 4PR",
+        "addr:street": "Beckenham Road",
+        "amenity": "pub",
+        "check_date": "2025-03-01",
+        "contact:facebook": "ThreeHoundsBeerCo",
+        "contact:instagram": "threehoundsbeer",
+        "email": "beer@threehoundsbeerco.com",
+        "fhrs:id": "987818",
+        "level": "0",
+        "microbrewery": "yes",
+        "name": "Three Hounds",
+        "opening_hours": "Mo-We 15:00-22:00; Th 14:00-22:00; Fr 09:00-18:00; Sa 12:00-22:00; Su 12:00-21:00",
+        "phone": "+44 20 3976 0028",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.threehoundsbeerco.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7803925157,
+      "lat": 51.4779718,
+      "lon": 0.1955599,
+      "tags": {
+        "craft": "brewery",
+        "name": "Bexley Brewery",
+        "real_ale": "yes",
+        "website": "https://bexleybrewery.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8261208596,
+      "lat": 51.4996367,
+      "lon": -0.3393424,
+      "tags": {
+        "addr:city": "London",
+        "addr:postcode": "W7 2QA",
+        "addr:street": "Boston Business Park",
+        "addr:unit": "5,9",
+        "craft": "brewery",
+        "name": "Weird Beard Brew Co",
+        "website": "https://www.weirdbeardbrewco.com/",
+        "wikidata": "Q97667050"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8263743019,
+      "lat": 51.5932825,
+      "lon": -0.1140951,
+      "tags": {
+        "amenity": "pub",
+        "brewery": "yes",
+        "food": "pizza",
+        "microbrewery": "yes",
+        "name": "The Goodness Brewing Company",
+        "operator": "The Goodness",
+        "product": "beer",
+        "smoking": "separated",
+        "website": "https://www.thegoodnessbrew.co/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8355222754,
+      "lat": 51.5697138,
+      "lon": -0.007739,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "Arch 155",
+        "addr:postcode": "E10 6JT",
+        "addr:street": "Midland Road",
+        "amenity": "pub",
+        "brewery": "Gravity Well",
+        "contact:untappd": "https://untappd.com/v/gravity-well-taproom/10286705",
+        "fhrs:id": "1371584",
+        "internet_access": "wlan",
+        "microbrewery": "yes",
+        "name": "Gravity Well Taproom",
+        "opening_hours": "We-Th 16:00-22:00; Fr 16:00-24:00; Sa 12:00-24:00; Su 12:00-18:00",
+        "website": "https://www.gravitywellbrewing.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8475949320,
+      "lat": 51.3759898,
+      "lon": 0.0102046,
+      "tags": {
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "microbrewery": "yes",
+        "name": "The Craft Beer Rooms",
+        "outdoor_seating": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8707334318,
+      "lat": 51.5029728,
+      "lon": -0.3170027,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "106",
+        "addr:postcode": "W13 9RT",
+        "addr:street": "Northfield Avenue",
+        "amenity": "pub",
+        "check_date": "2026-08-19",
+        "level": "0",
+        "microbrewery": "yes",
+        "name": "The Owl and the Pussycat",
+        "opening_hours": "Mo-Sa 16:00-22:00; Su 13:00-17:00",
+        "wheelchair": "no",
+        "wikidata": "Q81047950"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8821717717,
+      "lat": 51.5377081,
+      "lon": -0.125856,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "1",
+        "addr:postcode": "N1C 4DL",
+        "addr:street": "Lewis Cubitt Walk",
+        "amenity": "pub",
+        "check_date": "2024-07-15",
+        "craft": "brewery",
+        "fhrs:id": "1724348",
+        "internet_access": "wlan",
+        "microbrewery": "yes",
+        "name": "Babel Beerhouse",
+        "old_name": "Little Creatures Brewery",
+        "opening_hours": "Mo 12:00-22:00; Tu-Fr 12:00-23:00; Sa 12:00-24:00; Su 12:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+44 20 8161 4446",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.babelbeerhouse.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8952518733,
+      "lat": 51.4857934,
+      "lon": -0.0588997,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "70-72",
+        "addr:postcode": "SE16 3DH",
+        "addr:street": "Verney Road",
+        "craft": "brewery",
+        "name": "Small Beer Brew Co.",
+        "website": "https://theoriginalsmallbeer.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9006872322,
+      "lat": 51.4917553,
+      "lon": -0.0596016,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Arch 7",
+        "addr:housenumber": "7",
+        "addr:street": "Almond Road",
+        "amenity": "pub",
+        "contact:untappd": "https://untappd.com/v/the-outpost/10608230",
+        "indoor_seating": "yes",
+        "microbrewery": "yes",
+        "name": "The Outpost",
+        "opening_hours": "Tu 13:00-17:00; Th 17:00-23:00; Fr 16:00-23:00; Sa 13:00-23:00",
+        "operator": "Three Mills Brewing",
+        "outdoor_seating": "yes",
+        "website": "https://www.threehillsbrewing.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9008497216,
+      "lat": 51.4977423,
+      "lon": -0.072581,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "73",
+        "addr:postcode": "SE16 3RA",
+        "addr:street": "Enid Street",
+        "alt_name": "Cloudwater Brew Co",
+        "amenity": "pub",
+        "check_date": "2026-07-03",
+        "contact:facebook": "https://www.facebook.com/cloudwaterbrew",
+        "contact:instagram": "cloudwaterbrew",
+        "contact:twitter": "cloudwaterbrew",
+        "contact:untappd": "https://untappd.com/v/73-enid-street-cloudwater-london/8399545",
+        "fhrs:id": "1158693",
+        "microbrewery": "yes",
+        "name": "Cloudwater",
+        "opening_hours": "Mo 17:00-22:00; Tu-Th 15:00-22:00; Fr-Sa 13:00-22:00; Su 13:00-20:00",
+        "outdoor_seating": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cash": "no",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:google_pay": "yes",
+        "toilets:access": "customers",
+        "website": "https://cloudwaterbrew.co/",
+        "wikidata": "Q104869040",
+        "wikipedia": "en:Cloudwater Brew Co"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9008509217,
+      "lat": 51.4974282,
+      "lon": -0.0719546,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "83-84",
+        "addr:postcode": "SE16 3RA",
+        "addr:street": "Enid Street",
+        "amenity": "pub",
+        "check_date": "2026-07-08",
+        "contact:twitter": "biancaroad",
+        "contact:untappd": "https://untappd.com/BiancaRoadBrewCo",
+        "fhrs:id": "1158708",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "internet_access:ssid": "Bianca Road Guest",
+        "microbrewery": "yes",
+        "name": "Bianca Road Brew Co.",
+        "opening_hours": "Mo-We 08:00-22:00; Th 08:00-22:30; Fr-Sa 08:00-23:00; Su 08:00-20:00",
+        "outdoor_seating": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:google_pay": "yes",
+        "real_fire": "no",
+        "short_name": "BRBC",
+        "smoking": "outside",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:disposal": "flush",
+        "toilets:menstrual_products": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://biancaroad.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9008509218,
+      "lat": 51.4973064,
+      "lon": -0.0717147,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "86",
+        "addr:postcode": "SE16 3RA",
+        "addr:street": "Enid Street",
+        "amenity": "pub",
+        "contact:untappd": "https://untappd.com/v/craft-beer-junction/10565520",
+        "fhrs:id": "1498352",
+        "microbrewery": "yes",
+        "name": "Craft Beer Junction",
+        "opening_hours": "We-Th 16:00-23:00; Fr 15:00-23:00; Sa 12:00-23:00; Su 12:00-22:00",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9026571820,
+      "lat": 51.4784965,
+      "lon": -0.0238312,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "21-26",
+        "addr:postcode": "SE8 4NT",
+        "addr:street": "Resolution Way",
+        "amenity": "pub",
+        "contact:facebook": "https://www.facebook.com/villagesbrewery",
+        "contact:instagram": "villagesbrewery",
+        "contact:twitter": "villagesbrewery",
+        "fhrs:id": "1599561",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "microbrewery": "yes",
+        "name": "Villages",
+        "opening_hours": "Th-Fr 18:00-23:00; Sa 12:00-23:00; Su 12:00-22:00",
+        "outdoor_seating": "yes",
+        "website": "https://villagesbrewery.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9316184134,
+      "lat": 51.4699105,
+      "lon": -0.1172631,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "17",
+        "addr:place": "Stockwell",
+        "addr:postcode": "SW9 0TP",
+        "addr:street": "Sidney Road",
+        "amenity": "pub",
+        "brewery": "yes",
+        "check_date": "2024-05-31",
+        "cuisine": "pizza",
+        "diet:vegetarian": "yes",
+        "leisure": "pool_table",
+        "live_sport": "yes",
+        "microbrewery": "yes",
+        "name": "Grosvenor Arms",
+        "opening_hours": "Mo-Fr 16:00-23:59,00:00-11:30; Sa 12:00-23:30; Su 12:00-22:30",
+        "outdoor_seating": "yes",
+        "sport": "TV",
+        "sport:television": "Sky",
+        "toilets": "yes",
+        "website": "https://www.thegrosvenorarmsbrixton.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9394266492,
+      "lat": 51.5308048,
+      "lon": -0.0757684,
+      "tags": {
+        "amenity": "pub",
+        "brand": "Brewhouse & Kitchen",
+        "brand:wikidata": "Q110420544",
+        "microbrewery": "yes",
+        "name": "The Hoxton Hound"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9394927910,
+      "lat": 51.5434843,
+      "lon": -0.323516,
+      "tags": {
+        "craft": "brewery",
+        "name": "Perivale Brewery",
+        "website": "https://www.perivale.beer/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9394928620,
+      "lat": 51.5430281,
+      "lon": -0.1230423,
+      "tags": {
+        "addr:city": "London",
+        "addr:postcode": "N7 9AH",
+        "addr:street": "Tileyard Road",
+        "amenity": "bar",
+        "craft": "brewery",
+        "name": "Two Tribes Brewery",
+        "website": "https://twotribes.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9394939303,
+      "lat": 51.5245522,
+      "lon": -0.2315819,
+      "tags": {
+        "addr:city": "London",
+        "addr:postcode": "W10 6AU",
+        "addr:street": "Mitre Bridge Industrial Estate",
+        "addr:unit": "6",
+        "craft": "brewery",
+        "name": "Portobello Brewing",
+        "website": "https://www.portobellobrewing.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9394953792,
+      "lat": 51.4071252,
+      "lon": -0.284121,
+      "tags": {
+        "addr:city": "Kingston upon Thames",
+        "addr:country": "GB",
+        "addr:postcode": "KT1 3LG",
+        "addr:street": "Hampden Road",
+        "addr:unit": "7",
+        "craft": "brewery",
+        "name": "The Park Brewery",
+        "website": "https://www.theparkbrewery.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9579395698,
+      "lat": 51.5438307,
+      "lon": -0.0232938,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "86",
+        "addr:postcode": "E9 5LN",
+        "addr:street": "Wallis Road",
+        "addr:unit": "30",
+        "contact:facebook": "https://www.facebook.com/kompassionkombuchalondon/",
+        "contact:instagram": "https://www.instagram.com/kompassionkombucha/",
+        "craft": "brewery",
+        "fhrs:local_authority_id": "190965",
+        "name": "Kompassion Kombucha",
+        "product": "kombucha",
+        "source:addr:postcode": "FHRS Open Data",
+        "website": "https://www.kompassion.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9809504208,
+      "lat": 51.5959842,
+      "lon": -0.0575318,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Unit 16a",
+        "addr:postcode": "N17 9SR",
+        "addr:street": "Rosebery Industrial Park",
+        "craft": "brewery",
+        "name": "ORA Brewing Company",
+        "website": "https://orabeer.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9891375140,
+      "lat": 51.4771393,
+      "lon": 0.0188457,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "43A",
+        "addr:postcode": "SE3 7AB",
+        "addr:street": "Vanbrugh Park",
+        "air_conditioning": "yes",
+        "amenity": "pub",
+        "brewery": "various",
+        "check_date": "2026-01-15",
+        "check_date:opening_hours": "2024-09-21",
+        "contact:bluesky": "thegreengoddesspub.bsky.social",
+        "contact:email": "hello@thegreengoddess.pub",
+        "contact:facebook": "greengoddesspub",
+        "contact:instagram": "greengoddessbrewpub",
+        "contact:twitter": "greengoddesspub",
+        "dog": "yes",
+        "fhrs:id": "1562467",
+        "food": "no",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "internet_access:password": "Peasants Revolt",
+        "internet_access:ssid": "Green Goddess Guest",
+        "microbrewery": "yes",
+        "name": "The Green Goddess",
+        "not:addr:postcode": "SE3 7AA",
+        "opening_hours": "Tu 16:00-22:30; We-Sa 12:00-22:30; Su 12:00-21:00",
+        "outdoor_seating": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "no",
+        "payment:qr_code": "no",
+        "service:electricity": "limited",
+        "smoking": "no",
+        "toilets": "yes",
+        "website": "https://www.thegreengoddess.pub/",
+        "wheelchair": "yes",
+        "wikimedia_commons": "File:43a Vanbrugh Park London.jpg"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9962758030,
+      "lat": 51.5021808,
+      "lon": -0.1154758,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "1",
+        "addr:street": "The Sidings",
+        "addr:unit": "G",
+        "amenity": "pub",
+        "branch": "Waterloo",
+        "brand": "BrewDog",
+        "brand:wikidata": "Q911367",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "live_sport": "yes",
+        "microbrewery": "yes",
+        "name": "BrewDog",
+        "outdoor_seating": "yes",
+        "start_date": "2022-08-18",
+        "website": "https://drink.brewdog.com/uk/brewdog-waterloo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9980410170,
+      "lat": 51.4969322,
+      "lon": -0.0709825,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "92",
+        "addr:street": "Enid Street",
+        "amenity": "pub",
+        "check_date": "2026-08-08",
+        "contact:instagram": "mashpaddlebrewery",
+        "contact:twitter": "mashpaddleuk",
+        "contact:untappd": "https://untappd.com/v/mash-paddle-brewery/11370145",
+        "craft": "brewery",
+        "microbrewery": "yes",
+        "name": "Mash Paddle Brewery",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "website": "https://www.mashpaddlebrewery.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10077766402,
+      "lat": 51.4456354,
+      "lon": -0.1620576,
+      "tags": {
+        "craft": "brewery",
+        "name": "Belleville Brewing Co."
+      }
+    },
+    {
+      "type": "node",
+      "id": 10280308628,
+      "lat": 51.4672798,
+      "lon": 0.0082194,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "29-33",
+        "addr:postcode": "SE3 0TJ",
+        "addr:street": "Montpelier Vale",
+        "addr:suburb": "Blackheath",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "brewery": "yes",
+        "check_date": "2026-07-22",
+        "contact:facebook": "ZerodegreesBlackheath",
+        "cuisine": "pizza",
+        "description": "Microbrewery, bar and restaurant",
+        "diet:vegetarian": "yes",
+        "email": "blackheath@zerodegrees.co.uk",
+        "fhrs:authority": "Lewisham",
+        "fhrs:id": "1598644",
+        "fhrs:local_authority_id": "PI/000109581",
+        "microbrewery": "yes",
+        "name": "Zero Degrees",
+        "opening_hours": "Su-Th 12:00-24:00; Fr-Sa 12:00-25:00",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+44 20 8852 5619",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "website": "https://www.zerodegrees.co.uk/restaurants/blackheath/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10727737705,
+      "lat": 51.5918446,
+      "lon": -0.0416201,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Uplands Business Park",
+        "addr:housenumber": "10",
+        "addr:postcode": "E17 5QJ",
+        "addr:street": "Blackhorse Lane",
+        "craft": "brewery",
+        "name": "Pretty Decent - Beer Co London",
+        "opening_hours": "Mo-Tu 12:00-18:00; We-Th 16:00-23:00; Fr-Sa 12:00-23:00; Su 12:00-20:00",
+        "website": "https://prettydecentbeer.co/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10803150329,
+      "lat": 51.4924675,
+      "lon": -0.0653751,
+      "tags": {
+        "amenity": "pub",
+        "changing_table": "no",
+        "internet_access:fee": "no",
+        "level": "1",
+        "microbrewery": "yes",
+        "name": "The Tranquil Tiger",
+        "opening_hours": "Mo-Fr 12:00-23:00; Sa-Su 12:00-24:00",
+        "takeaway": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10960884534,
+      "lat": 51.4520713,
+      "lon": -0.1009847,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Arch 1127",
+        "addr:housenumber": "41",
+        "addr:postcode": "SE24 9AJ",
+        "addr:street": "Norwood Road",
+        "check_date": "2025-07-26",
+        "craft": "brewery",
+        "fhrs:id": "714795",
+        "name": "Bird House Brewery",
+        "note": "Canopy Beer Co. shut down in December 2022. As of December 2023 works were being undertaken to open it up as a brewery again, unaffiliated with the previous company. As of April 2024, Bird House Brewey is now open.",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "website": "https://birdhousebrewing.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11007684249,
+      "lat": 51.4972723,
+      "lon": -0.0716422,
+      "tags": {
+        "addr:housenumber": "87",
+        "addr:street": "Enid Street",
+        "amenity": "pub",
+        "microbrewery": "yes",
+        "name": "Enid Street Tavern"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11020498904,
+      "lat": 51.5133965,
+      "lon": 0.0094776,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Brunel Street Works",
+        "addr:housenumber": "5",
+        "addr:postcode": "E16 1EA",
+        "addr:street": "Silvertown Way",
+        "addr:suburb": "Canning Town",
+        "addr:unit": "1a",
+        "amenity": "pub",
+        "contact:email": "info@huskbrewing.com",
+        "contact:facebook": "https://www.facebook.com/huskbrewing/",
+        "contact:phone": "+44 20 7474 3827",
+        "contact:twitter": "https://twitter.com/huskbrewing",
+        "contact:untappd": "https://untappd.com/v/husk-brewery/5600262",
+        "craft": "brewery",
+        "cuisine": "burger",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "fhrs:id": "1279478",
+        "food": "yes",
+        "level": "0",
+        "microbrewery": "yes",
+        "name": "Husk Brewery & Taproom",
+        "opening_hours": "Fr 17:00-23:00; Sa 13:00-20:00; Su 14:00-23:00",
+        "operator": "Husk Brewing Ltd",
+        "payment:cards": "yes",
+        "payment:cash": "no",
+        "product": "beer",
+        "reservation": "yes",
+        "start_date": "2023-07",
+        "toilets:access": "customers",
+        "website": "https://www.huskbrewing.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11045432726,
+      "lat": 51.5422013,
+      "lon": -0.1433341,
+      "tags": {
+        "amenity": "pub",
+        "internet_access": "wlan",
+        "microbrewery": "yes",
+        "name": "3 Locks Brewing Company",
+        "website": "https://www.3locksbeer.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11077564219,
+      "lat": 51.506935,
+      "lon": -0.0926106,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Arch",
+        "addr:housenumber": "232",
+        "addr:postcode": "SE1 9FJ",
+        "addr:street": "Bank End",
+        "air_conditioning": "no",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "contact:facebook": "https://www.facebook.com/mondobeerpizza",
+        "contact:instagram": "https://www.instagram.com/mondobeerpizza/",
+        "contact:phone": "+44 20 3551 1298",
+        "contact:website": "https://mondobeerpizza.co.uk/",
+        "cuisine": "pizza",
+        "fhrs:id": "1675124",
+        "microbrewery": "yes",
+        "name": "Mondo Beer + Pizza",
+        "opening_hours": "Tu-We 16:00-23:00; Th 12:00-23:00; Fr-Sa 12:00-00:00; Su 12:00-22:00",
+        "outdoor_seating": "yes",
+        "source:addr": "FHRS Open Data"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11089170006,
+      "lat": 51.4647419,
+      "lon": -0.1031443,
+      "tags": {
+        "addr:housename": "Colharbour Works",
+        "addr:housenumber": "245a",
+        "addr:street": "Coldharbour Lane",
+        "amenity": "bar",
+        "brewery": "supercute;signal",
+        "check_date": "2024-07-28",
+        "contact:facebook": "https://www.facebook.com/SupercuteBrewhouse/",
+        "internet_access": "wlan",
+        "microbrewery": "yes",
+        "name": "Supercute Brewhouse",
+        "opening_hours": "Tu-Th 17:00-23:00; Fr 16:30-24:00; Sa 14:00-24:00; Su 15:00-22:00",
+        "website": "https://supercute.london/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11128539820,
+      "lat": 51.5293915,
+      "lon": -0.076803,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "417",
+        "addr:street": "Union Walk",
+        "amenity": "pub",
+        "contact:facebook": "https://www.facebook.com/greatbeyondbeer",
+        "contact:instagram": "greatbeyondbeer",
+        "contact:twitter": "https://twitter.com/greatbeyondbeer",
+        "contact:untappd": "https://untappd.com/v/great-beyond/11661456",
+        "microbrewery": "yes",
+        "name": "Great Beyond Brewery",
+        "website": "https://greatbeyond.beer/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11545207226,
+      "lat": 51.5415191,
+      "lon": -0.1363874,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "87",
+        "addr:postcode": "NW1 0SR",
+        "addr:street": "Randolph Street",
+        "amenity": "pub",
+        "microbrewery": "yes",
+        "name": "Werewolf Beer",
+        "opening_hours": "We, Fr 16:00-21:00; Sa 12:00-21:00; Su 14:00-21:00",
+        "outdoor_seating": "yes",
+        "website": "https://www.werewolfbeer.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11748601917,
+      "lat": 51.464374,
+      "lon": -0.1051895,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Arch 283",
+        "addr:place": "Belinda Road Business Estate",
+        "addr:postcode": "SW9 7DT",
+        "addr:street": "Belinda Road",
+        "addr:unit": "283",
+        "craft": "brewery",
+        "name": "London Beer Lab"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11775056899,
+      "lat": 51.4914167,
+      "lon": -0.0576532,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "34",
+        "addr:postcode": "SE16 2DB",
+        "addr:street": "Raymouth Road",
+        "craft": "brewery",
+        "name": "Partican Brewing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12154500676,
+      "lat": 51.3917119,
+      "lon": -0.1637551,
+      "tags": {
+        "addr:city": "Mitcham",
+        "addr:housename": "Unit 8, Willow Business Centre",
+        "addr:housenumber": "17",
+        "addr:postcode": "CR4 4NX",
+        "addr:street": "Willow Lane",
+        "amenity": "bar",
+        "brewery": "drop_project",
+        "craft": "brewery",
+        "name": "Drop Project Brewing",
+        "opening_hours": "Fr-Sa [1] 13:00-22:00",
+        "operator": "Drop Project",
+        "product": "beer",
+        "website": "https://www.drop-project.co.uk/taproom"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12166844022,
+      "lat": 51.6064597,
+      "lon": -0.0577239,
+      "tags": {
+        "addr:city": "London",
+        "addr:unit": "1",
+        "craft": "brewery",
+        "name": "Gravity Well Brewing",
+        "website": "https://www.gravitywellbrewing.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12595899238,
+      "lat": 51.4746712,
+      "lon": -0.1402311,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "86-92",
+        "addr:postcode": "SW8 4UG",
+        "addr:street": "Stewarts Road",
+        "amenity": "pub",
+        "microbrewery": "yes",
+        "name": "Mondo Tap",
+        "opening_hours": "We-Fr 17:00-23:00; Sa 13:00-23:00; Su 14:00-22:00",
+        "website": "https://mondobeer.com/location/tap-house/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12605423089,
+      "lat": 51.4099147,
+      "lon": -0.0456995,
+      "tags": {
+        "addr:city": "Beckenham",
+        "addr:housenumber": "253",
+        "addr:postcode": "BR3 4RP",
+        "addr:street": "Beckenham Road",
+        "amenity": "pub",
+        "brewery": "br3wery;gipsy_hill;crafty_apple",
+        "contact:facebook": "br3wery",
+        "contact:instagram": "br3wery",
+        "microbrewery": "yes",
+        "name": "BR3WERY Craft Brewing Co.",
+        "opening_hours": "Mo-Fr 16:00-22:00; Sa 14:00-22:00; Su 14:00-20:00",
+        "phone": "+44 20 3793 2765",
+        "smoking": "outside",
+        "website": "https://www.br3wery.com/new-index"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12616619501,
+      "lat": 51.6063631,
+      "lon": -0.0583732,
+      "tags": {
+        "craft": "brewery",
+        "name": "Redemption Brewing Co.",
+        "website": "https://redemptionbrewing.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12960684301,
+      "lat": 51.4152544,
+      "lon": -0.0523374,
+      "tags": {
+        "addr:city": "London",
+        "addr:floor": "G",
+        "addr:housenumber": "21",
+        "addr:postcode": "SE20 7JD",
+        "addr:street": "Southey Street",
+        "craft": "brewery",
+        "internet_access": "wlan",
+        "level": "0",
+        "name": "Southey Brewery and Tap Room",
+        "opening_hours": "Mo-Th 17:00-22:00; Fr 12:00-23:00; Sa 12:00-23:00; Su 12:00-21:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "website": "https://www.southeybeershop.com/pages/taproom-jack"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13461061541,
+      "lat": 51.5134787,
+      "lon": -0.1249086,
+      "tags": {
+        "addr:floor": "G",
+        "air_conditioning": "no",
+        "amenity": "bar",
+        "brewery": "Guinness",
+        "check_date": "2026-07-10",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "level": "0",
+        "microbrewery": "yes",
+        "name": "Old Brewer's Yard",
+        "outdoor_seating": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:google_pay": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14231910450,
+      "lat": 51.6072835,
+      "lon": -0.0567904,
+      "tags": {
+        "addr:housenumber": "43",
+        "addr:postcode": "N17 0RE",
+        "addr:street": "West Road",
+        "craft": "brewery",
+        "name": "Bohem Brewery",
+        "note": "Exact location unknown",
+        "website": "https://www.bohembrewery.com",
+        "wikidata": "Q141597662"
+      }
+    },
+    {
+      "type": "way",
+      "id": 65658313,
+      "center": {
+        "lat": 51.5364781,
+        "lon": -0.2049201
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "53",
+        "addr:postcode": "NW6 6RA",
+        "addr:street": "Lonsdale Road",
+        "amenity": "pub",
+        "building": "yes",
+        "building:colour": "brown",
+        "building:levels": "2",
+        "check_date": "2024-08-20",
+        "craft": "brewery",
+        "fhrs:authority": "Brent",
+        "fhrs:id": "1021645",
+        "fhrs:local_authority_id": "16059",
+        "live_sport": "yes",
+        "name": "Wolfpack",
+        "opening_hours": "Tu-Fr 17:00-23:00; Sa 13:00-00:00; Su 13:00-23:00",
+        "operator": "Wildman Project Ltd",
+        "product": "beer",
+        "ref:GB:uprn": "202073129",
+        "roof:colour": "black",
+        "roof:levels": "1",
+        "roof:orientation": "along",
+        "roof:shape": "gabled",
+        "source:addr": "FHRS Open Data",
+        "website": "https://wolfpackbars.com/queens-park-bar/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 99379796,
+      "center": {
+        "lat": 51.5259707,
+        "lon": -0.1092208
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "37-39",
+        "addr:postcode": "EC1R 4QL",
+        "addr:street": "Exmouth Market",
+        "amenity": "pub",
+        "brewery": "Mikkeller",
+        "building": "yes",
+        "building:levels": "4",
+        "contact:facebook": "https://www.facebook.com/mikkellerbrewpublondon/",
+        "contact:instagram": "https://www.instagram.com/mikkellerbrewpublondon",
+        "internet_access": "wlan",
+        "microbrewery": "yes",
+        "name": "Mikkeller Brewpub London",
+        "opening_hours": "Mo-Th 12:00-22:30; Fr-Sa 12:00-23:30; Su 12:00-22:00",
+        "source": "Bing;photographic_survey",
+        "website": "https://mikkeller.com/locations/mikkeller-brewpub-london",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 142390004,
+      "center": {
+        "lat": 51.5202191,
+        "lon": -0.0562172
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "White Hart Public House",
+        "addr:housenumber": "1",
+        "addr:postcode": "E1 4TP",
+        "addr:street": "Mile End Road",
+        "amenity": "pub",
+        "building": "yes",
+        "fhrs:id": "150231",
+        "food": "yes",
+        "microbrewery": "yes",
+        "name": "The White Hart",
+        "real_ale": "yes",
+        "source": "Bing;survey",
+        "source:addr": "FHRS Open Data",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "website": "https://www.the-white-hart.co.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 205143239,
+      "center": {
+        "lat": 51.4920281,
+        "lon": -0.2623859
+      },
+      "tags": {
+        "amenity": "pub",
+        "building": "yes",
+        "food": "yes",
+        "live_sport": "yes",
+        "microbrewery": "yes",
+        "microbrewery:note": "Currently brews keg beer only",
+        "name": "The Lamb Brewery",
+        "real_ale": "yes",
+        "source": "Bing;photograph;tags copied from replaced node",
+        "toilets": "yes",
+        "toilets:access": "customers"
+      }
+    },
+    {
+      "type": "way",
+      "id": 205600627,
+      "center": {
+        "lat": 51.4622703,
+        "lon": -0.0361624
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "31",
+        "addr:postcode": "SE4 2AJ",
+        "addr:street": "Harcourt Road",
+        "building": "brewery",
+        "check_date": "2026-09-10",
+        "contact:facebook": "https://www.facebook.com/brockleybrewery/",
+        "contact:instagram": "https://www.instagram.com/brockleybreweryofficial",
+        "contact:twitter": "https://twitter.com/brockleybrewery",
+        "craft": "brewery",
+        "email": "hello@brockleybrewery.co.uk",
+        "name": "Brockley Brewery",
+        "opening_hours": "Mo 17:00-21:00; Tu-Th 17:00-22:30; Fr 16:00-22:30; Sa 13:00-22:30; Su 13:00-22:00",
+        "operator": "Brockley Brewing Company Ltd",
+        "phone": "+44 20 8318 9354",
+        "product": "beer",
+        "ref:GB:uprn": "200000556729",
+        "source:addr:postcode": "ONSUD;OS Open UPRN",
+        "website": "https://www.brockleybrewery.co.uk/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 275292695,
+      "center": {
+        "lat": 51.527547,
+        "lon": -0.1205826
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "28",
+        "addr:postcode": "WC1H 8JF",
+        "addr:street": "Harrison Street",
+        "amenity": "pub",
+        "building": "yes",
+        "cuisine": "gastropub",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "food": "yes",
+        "indoor_seating": "yes",
+        "microbrewery": "yes",
+        "name": "The Harrison",
+        "opening_hours": "Mo-Su 12:00-23:00",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "website": "https://harrisonbar.co.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 288810940,
+      "center": {
+        "lat": 51.5912408,
+        "lon": -0.0567345
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:unit": "17-18",
+        "building": "industrial",
+        "craft": "brewery",
+        "man_made": "works",
+        "name": "Beavertown Brewery",
+        "operator": "Beavertown",
+        "website": "https://www.beavertownbrewery.co.uk/",
+        "wikidata": "Q55605114",
+        "wikipedia": "en:Beavertown Brewery"
+      }
+    },
+    {
+      "type": "way",
+      "id": 291698477,
+      "center": {
+        "lat": 51.5501857,
+        "lon": -0.1411055
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "327",
+        "addr:street": "Kentish Town Road",
+        "amenity": "bar",
+        "building": "yes",
+        "drink:kombucha": "yes",
+        "microbrewery": "yes",
+        "name": "Wild IS Earth Kombucha Microbrewery",
+        "website": "https://wildisearth.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 293285859,
+      "center": {
+        "lat": 51.5386304,
+        "lon": -0.058193
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Railway Arch 365 to 366",
+        "addr:postcode": "E8 3RR",
+        "addr:street": "Warburton Street",
+        "addr:suburb": "Hackney",
+        "amenity": "pub",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2025-08-21",
+        "check_date:diet:vegetarian": "2025-08-21",
+        "check_date:opening_hours": "2025-01-27",
+        "contact:instagram": "saintmondaybrewery",
+        "cuisine": "barbecue",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "dog": "yes",
+        "food": "yes",
+        "internet_access": "wlan",
+        "level": "0",
+        "microbrewery": "yes",
+        "name": "Saint Monday",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+44 20 3011 1323",
+        "reservation": "yes",
+        "website": "https://www.saintmondaybrewery.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 342351899,
+      "center": {
+        "lat": 51.4852031,
+        "lon": -0.095852
+      },
+      "tags": {
+        "craft": "brewery",
+        "name": "Orbit Beers Brewery"
+      }
+    },
+    {
+      "type": "way",
+      "id": 344529560,
+      "center": {
+        "lat": 51.5428066,
+        "lon": -0.0224647
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "9",
+        "addr:parentstreet": "White Post Lane",
+        "addr:postcode": "E9 5EN",
+        "addr:street": "Queens Yard",
+        "building": "yes",
+        "craft": "brewery",
+        "name": "Howling Hops Brewery",
+        "website": "https://www.howlinghops.co.uk/",
+        "wikidata": "Q98222944"
+      }
+    },
+    {
+      "type": "way",
+      "id": 412076101,
+      "center": {
+        "lat": 51.5954164,
+        "lon": -0.0417001
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "2",
+        "addr:postcode": "E17 5RB",
+        "addr:street": "Lockwood Way",
+        "addr:suburb": "Walthamstow",
+        "amenity": "pub",
+        "building": "yes",
+        "contact:instagram": "https://www.instagram.com/eastlondonbrew/",
+        "contact:linkedin": "https://www.linkedin.com/company/east-london-brewing-company-ltd/",
+        "craft": "brewery",
+        "fhrs:id": "1071119",
+        "microbrewery": "yes",
+        "name": "East London Brewery",
+        "opening_hours": "Mo-We off; Th,Fr 17:00-23:00; Sa 12:00-23:00; Su 12:00-20:00",
+        "phone": "+44 7935 049 881",
+        "source:addr": "survey",
+        "website": "https://www.eastlondonbrewing.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 429848449,
+      "center": {
+        "lat": 51.5472132,
+        "lon": -0.1467944
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "55-58",
+        "addr:postcode": "NW5 3NN",
+        "addr:street": "Wilkin Street Mews",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2026-08-06",
+        "craft": "brewery",
+        "name": "Camden Town Brewery",
+        "real_ale": "yes",
+        "ref:GB:uprn": "5010492",
+        "source": "website",
+        "website": "https://camdentownbrewery.com/pages/visit-us"
+      }
+    },
+    {
+      "type": "way",
+      "id": 430437501,
+      "center": {
+        "lat": 51.4215401,
+        "lon": -0.1171572
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "40",
+        "addr:postcode": "SW16 3BX",
+        "addr:street": "Streatham Common South",
+        "building": "industrial",
+        "craft": "brewery",
+        "name": "Inkspot Brewery",
+        "operator": "Inkspot Brewery",
+        "website": "https://www.theinkspotbrewery.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 451564160,
+      "center": {
+        "lat": 51.5378217,
+        "lon": -0.1445172
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "55",
+        "addr:postcode": "NW1 7PN",
+        "addr:street": "Parkway",
+        "amenity": "pub",
+        "check_date": "2024-08-16",
+        "craft": "brewery",
+        "fhrs:id": "424336",
+        "food": "yes",
+        "indoor_seating": "yes",
+        "live_sport": "yes",
+        "name": "The Earl of Camden",
+        "opening_hours": "Mo-Th 11:00-23:00; Fr,Sa 11:00-24:00; Su 11:30-22:30",
+        "operator": "Stonegate",
+        "operator:wikidata": "Q7619176",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "source": "survey",
+        "source:addr:postcode": "FSA Food Hygiene Rating Scheme open data",
+        "website": "https://www.crafted-social.co.uk/earl-of-camden",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 454553582,
+      "center": {
+        "lat": 51.5363217,
+        "lon": -0.0575613
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "61",
+        "addr:postcode": "E8 4RG",
+        "addr:street": "Mare Street",
+        "amenity": "bar",
+        "building": "yes",
+        "building:colour": "light_brown",
+        "building:levels": "2",
+        "building:material": "brick",
+        "check_date": "2024-09-16",
+        "craft": "brewery",
+        "fhrs:id": "912262",
+        "name": "The Five Points Brewery & Taproom",
+        "opening_hours": "Th,Fr 17:00-23:00; Sa 12:00-23:00; Su-We off",
+        "outdoor_seating": "yes",
+        "phone": "+44 20 8533 7746",
+        "roof:colour": "grey",
+        "toilets": "yes",
+        "website": "https://fivepointsbrewing.co.uk/pubs/mare-street-taproom/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 458113481,
+      "center": {
+        "lat": 51.4696738,
+        "lon": -0.0695788
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "Arch 209",
+        "addr:postcode": "SE15 4QL",
+        "addr:street": "Blenheim Grove",
+        "amenity": "pub",
+        "fhrs:id": "1640084",
+        "microbrewery": "yes",
+        "name": "Brick Brewery",
+        "shop": "alcohol",
+        "source": "Local knowledge",
+        "website": "https://www.brickbrewery.co.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 478028238,
+      "center": {
+        "lat": 51.4746145,
+        "lon": -0.1403172
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "86",
+        "addr:postcode": "SW8 4UG",
+        "addr:street": "Stewarts Road",
+        "building": "retail",
+        "building:levels": "2",
+        "craft": "brewery",
+        "name": "Mondo Brewing Company",
+        "phone": "+44 20 7720 0782",
+        "roof:shape": "flat",
+        "website": "http://www.mondobrewingcompany.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 485638354,
+      "center": {
+        "lat": 51.51327,
+        "lon": -0.125553
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "1",
+        "addr:street": "Mercer Walk",
+        "amenity": "pub",
+        "building": "yes",
+        "building:colour": "yellow",
+        "building:levels": "4",
+        "microbrewery": "yes",
+        "name": "Guinness Open Gate Brewery London",
+        "note": "A brewery, bar and visitor experience, so I'm not sure what the overall tagging should be, or whether the site needs more than one tag",
+        "roof:colour": "black",
+        "tourism": "attraction",
+        "website": "https://opengatelondon.guinness.com/en"
+      }
+    },
+    {
+      "type": "way",
+      "id": 491823997,
+      "center": {
+        "lat": 51.4984801,
+        "lon": -0.0985217
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "12",
+        "addr:postcode": "SE16 6DR",
+        "addr:street": "Newington Causeway",
+        "amenity": "food_court",
+        "check_date": "2025-04-24",
+        "contact:facebook": "https://www.facebook.com/MERCATOMETROPOLITANO",
+        "contact:instagram": "https://www.instagram.com/mercatometropolitano",
+        "landuse": "retail",
+        "microbrewery": "yes",
+        "name": "Mercato Metropolitano",
+        "opening_hours": "Mo-We 12:00-23:00, Th 12:00-24:00, Fr 12:00-01:00, Sa 11:00-01:00, Su 11:00-22:00",
+        "website": "https://mercatometropolitano.com/elephant-castle"
+      }
+    },
+    {
+      "type": "way",
+      "id": 551191105,
+      "center": {
+        "lat": 51.4283637,
+        "lon": -0.0895157
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:postcode": "SE27 9SF",
+        "addr:street": "Hamilton Road Industrial Estate",
+        "addr:unit": "11",
+        "building": "industrial",
+        "craft": "brewery",
+        "man_made": "works",
+        "name": "Gipsy Hill Brewing Company",
+        "phone": "+44 20 8761 9061",
+        "product": "beer",
+        "website": "http://www.gipsyhillbrewing.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 558371976,
+      "center": {
+        "lat": 51.5430118,
+        "lon": -0.1152513
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Roman Way Industrial Estate",
+        "addr:housenumber": "149",
+        "addr:postcode": "N7 8XH",
+        "addr:street": "Roman Way Industrial Estate, Roman Way",
+        "addr:suburb": "Islington",
+        "addr:unit": "8-9",
+        "amenity": "bar",
+        "check_date": "2026-05-19",
+        "craft": "brewery",
+        "fhrs:id": "717223",
+        "name": "Hammerton Brewery",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:google_pay": "yes",
+        "source:addr": "FHRS Open Data",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 591051705,
+      "center": {
+        "lat": 51.4729193,
+        "lon": -0.094254
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housename": "Valmar House",
+        "addr:place": "Valmar Trading Estate",
+        "addr:postcode": "SE5 9NW",
+        "addr:unit": "Unit 2",
+        "building": "industrial",
+        "craft": "brewery",
+        "name": "Antic Brewery"
+      }
+    },
+    {
+      "type": "way",
+      "id": 596687021,
+      "center": {
+        "lat": 51.4696347,
+        "lon": -0.0661692
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housename": "Unit 2A, Copeland Park",
+        "addr:housenumber": "133",
+        "addr:postcode": "SE15 3SN",
+        "addr:street": "Copeland Road",
+        "addr:unit": "2A",
+        "amenity": "pub",
+        "building": "yes",
+        "building:levels": "2",
+        "building:material": "cement_block",
+        "description": "Sake brewery",
+        "fhrs:id": "1098748",
+        "microbrewery": "yes",
+        "name": "Kanpai",
+        "ref:GB:uprn": "200003493041",
+        "roof:material": "metal",
+        "roof:orientation": "across",
+        "roof:shape": "gabled",
+        "source:addr": "FHRS Open Data",
+        "website": "https://kanpai.london"
+      }
+    },
+    {
+      "type": "way",
+      "id": 612160020,
+      "center": {
+        "lat": 51.4451382,
+        "lon": -0.3454693
+      },
+      "tags": {
+        "addr:city": "Twickenham",
+        "addr:housenumber": "18",
+        "addr:postcode": "TW2 6RG",
+        "addr:street": "Mereway Road",
+        "building": "industrial",
+        "craft": "brewery",
+        "description": "Twickenham Fine Ales is London’s oldest micro-brewery. Founded by Steve Brown in 2004, Twickenham has been at the forefront of the resurgence of breweries in London.",
+        "email": "info@twickenham-fine-ales.co.uk",
+        "name": "Twickenham Fine Ales",
+        "phone": "+44 20 8241 1825",
+        "tourism": "tours",
+        "website": "http://twickenham-fine-ales.co.uk/",
+        "website:tours": "http://twickenham-fine-ales.co.uk/toursbar/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 810816356,
+      "center": {
+        "lat": 51.5913968,
+        "lon": -0.3817728
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "brewery",
+        "description": "First formed in early 2016 in Pinner, a leafy suburb in North West London. Pinnora is Pinner’s first craft brewery and takes its name from the village dating back to the early 13th century.",
+        "email": "info@pinnorabrewing.com",
+        "name": "Pinnora Brewing",
+        "opening_hours": "Sa 09:00-17:00",
+        "operator": "Pinnora Brewing",
+        "phone": "+44 845 474 2337",
+        "product": "beer;craft_beer;ale;NEIPA;DIPA;Pale_Ales;IPAs",
+        "website": "https://pinnorabrewing.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 960205640,
+      "center": {
+        "lat": 51.4130336,
+        "lon": -0.1742486
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:full": "Unit 8, College Fields Business Centre, 19 Prince George's Road, SW19 2PT",
+        "addr:housenumber": "8",
+        "addr:place": "College Fields Business Centre",
+        "addr:postcode": "SW19 2PT",
+        "addr:street": "Prince George's Road",
+        "addr:unit": "8",
+        "building": "yes",
+        "craft": "brewery",
+        "name": "Wimbledon Brewery",
+        "ref:GB:uprn": "48057839",
+        "website": "https://www.wimbledonbrewery.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1006732886,
+      "center": {
+        "lat": 51.5469587,
+        "lon": -0.0738572
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:parentstreet": "Abbot Street",
+        "addr:postcode": "E8 3DP",
+        "addr:street": "Bootyard",
+        "amenity": "bar",
+        "building": "container",
+        "building:use": "retail",
+        "craft": "brewery",
+        "indoor_seating": "yes",
+        "name": "40ft Brewery",
+        "outdoor_seating": "yes",
+        "website": "https://40ftbrewery.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1013543384,
+      "center": {
+        "lat": 51.5696388,
+        "lon": -0.0243406
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "258",
+        "addr:postcode": "E10 7JQ",
+        "addr:street": "Church Road",
+        "amenity": "bar",
+        "brewery": "yes",
+        "building": "warehouse",
+        "craft": "brewery",
+        "fhrs:id": "1668871",
+        "name": "Blondies Brewery",
+        "was:amenity": "cafe",
+        "was:name": "Patchworks Cafe Bar"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1018511173,
+      "center": {
+        "lat": 51.5463498,
+        "lon": -0.1016067
+      },
+      "tags": {
+        "amenity": "pub",
+        "brand": "Brewhouse & Kitchen",
+        "brand:wikidata": "Q110420544",
+        "check_date": "2026-07-24",
+        "indoor_seating": "yes",
+        "microbrewery": "yes",
+        "name": "Brewhouse & Kitchen Highbury",
+        "opening_hours": "Mo-Th 11:00-23:00; Fr,Sa 11:00-00:00; Su 12:00-22:30",
+        "opening_hours:kitchen": "Mo-Sa 12:00-22:00; Su 12:00-21:00",
+        "outdoor_seating": "yes",
+        "phone": "+44 20 7226 1026",
+        "toilets": "yes",
+        "toilets:access": "customers"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1026985201,
+      "center": {
+        "lat": 51.5443389,
+        "lon": -0.0211882
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:postcode": "E15 2SJ",
+        "addr:street": "East Bay Lane",
+        "contact:facebook": "https://www.facebook.com/mammothbeer",
+        "contact:instagram": "mammothbeer",
+        "craft": "brewery",
+        "name": "Mammoth Beer",
+        "website": "https://www.mammothbeer.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1032398455,
+      "center": {
+        "lat": 51.457278,
+        "lon": -0.192679
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "1",
+        "addr:postcode": "SW18 1UR",
+        "addr:street": "Bellwether Lane",
+        "craft": "brewery",
+        "email": "admin@sambrooksbrewery.co.uk",
+        "name": "Sambrook’s Brewery",
+        "product": "beer",
+        "website": "https://www.sambrooksbrewery.co.uk",
+        "wikidata": "Q16961140",
+        "wikipedia": "en:Sambrook's Brewery"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1108028658,
+      "center": {
+        "lat": 51.5907726,
+        "lon": -0.1438175
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "14",
+        "addr:postcode": "N10 3NP",
+        "addr:street": "Avenue Mews",
+        "building": "brewery",
+        "building:levels": "1",
+        "check_date": "2025-03-15",
+        "contact:facebook": "hillbillybrewers",
+        "contact:instagram": "muswellhillbillybrewers",
+        "contact:phone": "+44 20 8444 3593",
+        "contact:twitter": "mushillbrewers",
+        "contact:website": "https://www.muswellhillbillybrewers.co.uk",
+        "craft": "brewery",
+        "name": "Muswell Hillbilly Brewers",
+        "opening_hours": "Th 18:00-22:00; Fr 16:30-23:00; Sa 13:00-23:00; Su 13:00-18:00"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1182358157,
+      "center": {
+        "lat": 51.4573119,
+        "lon": -0.1925567
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "1",
+        "addr:postcode": "SW18 1UR",
+        "addr:street": "Bellwether Lane",
+        "amenity": "bar",
+        "brewery": "yes",
+        "contact:twitter": "SambrooksBrew",
+        "email": "taproom@sambrooksbrewery.co.uk",
+        "live_music": "yes",
+        "microbrewery": "yes",
+        "name": "Sambrook's Brewery Taproom",
+        "opening_hours": "Tu-Su 12:00-23:00",
+        "outdoor_seating": "yes",
+        "phone": "+44 20 7228 0598",
+        "website": "https://www.sambrooksbrewery.co.uk",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1235590999,
+      "center": {
+        "lat": 51.5958953,
+        "lon": -0.0415517
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "10",
+        "addr:postcode": "E17 5RB",
+        "addr:street": "Lockwood Way",
+        "addr:suburb": "Walthamstow",
+        "craft": "brewery",
+        "name": "Hackney Brewery",
+        "phone": "+44 20 3489 9595",
+        "source:addr": "survey",
+        "website": "https://www.hackneybrewery.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1245783602,
+      "center": {
+        "lat": 51.4285303,
+        "lon": -0.088923
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "160",
+        "addr:postcode": "SE27 9SF",
+        "addr:street": "Hamilton Road",
+        "addr:unit": "5",
+        "amenity": "pub",
+        "brewery": "yes",
+        "building": "commercial",
+        "check_date": "2026-08-09",
+        "craft": "brewery",
+        "man_made": "works",
+        "microbrewery": "yes",
+        "name": "Gipsy Hill Brewery and Taproom",
+        "opening_hours": "We-Th 16:00-22:00; Fr 16:00-23:00; Sa 12:00-23:00; Su 12:00-20:00",
+        "outdoor_seating": "yes",
+        "product": "beer",
+        "smoking": "outside",
+        "website": "https://gipsyhillbrew.com/bar/the-taproom"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1298834057,
+      "center": {
+        "lat": 51.5677556,
+        "lon": 0.2202363
+      },
+      "tags": {
+        "addr:city": "Hornchurch",
+        "addr:housenumber": "122",
+        "addr:postcode": "RM11 1SU",
+        "addr:street": "North Street",
+        "amenity": "pub",
+        "building": "yes",
+        "email": "hopinnmicropub@gmail.com",
+        "microbrewery": "yes",
+        "name": "Hop Inn Micropub",
+        "opening_hours": "Tu,We 16:00-22:00; Su 12:00-21:00; Th,Fr 14:00-22:30; Sa 12:00-22:30",
+        "operator": "Phil Cooke & Alison Taffs",
+        "ref:GB:uprn": "100023213190;100023213189",
+        "website": "https://hopinnhornchurch.co.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1360397272,
+      "center": {
+        "lat": 51.5440492,
+        "lon": -0.0088621
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "7",
+        "addr:postcode": "E20 1EE",
+        "addr:street": "International Square",
+        "addr:unit": "SU0001",
+        "addr:unit:ref": "SU0001",
+        "amenity": "pub",
+        "brewery": "Tap East",
+        "check_date": "2025-12-06",
+        "contact:email": "info@tapeast.co.uk",
+        "contact:facebook": "https://www.facebook.com/tapeast/",
+        "contact:phone": "+44 20 8555 4467",
+        "cuisine": "empanada",
+        "delivery": "no",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "fhrs:id": "640516",
+        "fhrs:local_authority_id": "11/00600/FOOD",
+        "food": "yes",
+        "indoor": "room",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "kids_area": "no",
+        "level": "-1",
+        "microbrewery": "yes",
+        "name": "Tap East",
+        "opening_hours": "Mo-Sa 11:00-23:00; Su 12:00-22:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "no",
+        "real_ale": "yes",
+        "room": "shop",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:menstrual_products": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "http://www.tapeast.co.uk/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1388540195,
+      "center": {
+        "lat": 51.5916092,
+        "lon": -0.0430514
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housename": "Uplands Business Park",
+        "addr:postcode": "E17 5QJ",
+        "addr:street": "Blackhorse Lane",
+        "addr:suburb": "Walthamstow",
+        "addr:unit": "Unit 15",
+        "check_date": "2026-02-08",
+        "craft": "brewery",
+        "name": "Signature Brew",
+        "website": "https://www.signaturebrew.co.uk/"
+      }
+    }
+  ]
+}

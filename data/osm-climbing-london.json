@@ -1,0 +1,925 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-09T15:56:30Z",
+    "timestamp_areas_base": "2026-10-08T05:09:19Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3662281657,
+      "lat": 51.4763405,
+      "lon": -0.199578,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Unit 5",
+        "addr:housenumber": "33-39",
+        "addr:postcode": "SW6 4HH",
+        "addr:street": "Parsons Green Lane",
+        "check_date": "2026-08-10",
+        "leisure": "sports_centre",
+        "name": "Climbing Co Fulham",
+        "opening_hours": "Mo-Tu 10:00-22:00, We 07:00-22:00, Th 10:00-22:00, Fr 07:00-21:00, Sa-Su 09:00-19:00",
+        "phone": "+44 20 3841 7990",
+        "sport": "climbing",
+        "website": "https://www.citybouldering.co.uk/locations/climbing-co-fulham"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4313286505,
+      "lat": 51.4308063,
+      "lon": -0.0657487,
+      "tags": {
+        "leisure": "sports_centre",
+        "sport": "climbing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5022642823,
+      "lat": 51.5988083,
+      "lon": -0.2657352,
+      "tags": {
+        "addr:city": "Edgware",
+        "addr:country": "GB",
+        "addr:housenumber": "5",
+        "addr:postcode": "HA8 5LD",
+        "addr:street": "Burnt Oak Broadway",
+        "leisure": "sports_centre",
+        "name": "The Arch Climbing Wall: Arch North",
+        "name:en": "The Arch Climbing Wall: Arch North",
+        "opening_hours": "Mo-Fr 10:00-22:00; Sa,Su 10:00-21:00",
+        "phone": "+44 20 8205 6387",
+        "sport": "climbing;bouldering"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5392665527,
+      "lat": 51.5277422,
+      "lon": -0.056381,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Arch 243-247",
+        "addr:postcode": "E2 9QX",
+        "addr:street": "Hollybush Place",
+        "climbing:boulder": "yes",
+        "climbing:sport": "no",
+        "climbing:toprope": "no",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "name": "BethWall Climbing Centre",
+        "note": "Free bicycle parking inside for customers, approx 10 wheelbender spaces, 8 high saddle hook spaces.",
+        "opening_hours": "Mo-Fr 06:00-23:00; Sa-Su,PH 08:00-21:00",
+        "operator": "London Climbing Centres",
+        "operator:type": "private_for_profit",
+        "payment:cash": "no",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:others": "no",
+        "sport": "climbing",
+        "website": "https://londonclimbingcentres.co.uk/centre/bethwall/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6695727486,
+      "lat": 51.5806563,
+      "lon": -0.3443853,
+      "tags": {
+        "addr:city": "Harrow",
+        "addr:country": "GB",
+        "addr:postcode": "HA1 4HX",
+        "addr:street": "Neptune Road",
+        "addr:unit": "2A",
+        "contact:email": "harrowall@londonclimbingcentres.co.uk",
+        "contact:instagram": "harrowall",
+        "contact:phone": "+44 20 3026 4960",
+        "fhrs:id": "1273865",
+        "leisure": "fitness_centre",
+        "name": "Harrowall",
+        "opening_hours": "Mo-Fr 10:00-23:00; Tu,Th 06:00-23:00; Sa,Su 08:00-22:00",
+        "sport": "climbing",
+        "website": "https://londonclimbingcentres.co.uk/centre/harrowall/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7706615277,
+      "lat": 51.3741559,
+      "lon": -0.1155061,
+      "tags": {
+        "access": "customers",
+        "addr:city": "Croydon",
+        "addr:country": "GB",
+        "addr:housenumber": "Unit 7, New South Quarter",
+        "addr:postcode": "CR0 4WN",
+        "addr:street": "Whitestone way",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "name": "Croywall",
+        "operator": "London Climbing Centres",
+        "sport": "climbing",
+        "website": "https://londonclimbingcentres.co.uk/centre/croywall/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8844791018,
+      "lat": 51.5896021,
+      "lon": -0.0409418,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "4-6",
+        "addr:postcode": "E17 6DP",
+        "addr:street": "Hookers Road",
+        "leisure": "sports_centre",
+        "name": "Yonder Climbing",
+        "opening_hours": "Mo-Fr 07:00-22:00; Sa-Su 08:45-18:00",
+        "phone": "+44 20 3746 3869",
+        "sport": "climbing",
+        "website": "https://www.thisisyonder.com/yonder-climbing-new"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9031636962,
+      "lat": 51.5346509,
+      "lon": -0.0603288,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Canal Place",
+        "addr:postcode": "E8 4FX",
+        "addr:street": "Andrews Road",
+        "addr:unit": "30",
+        "check_date": "2026-03-18",
+        "climbing:boulder": "yes",
+        "climbing:sport": "no",
+        "climbing:toprope": "no",
+        "cuisine": "coffee_shop",
+        "email": "contact@climbingdistrict.uk",
+        "fee": "yes",
+        "food": "yes",
+        "leisure": "sports_centre",
+        "name": "Climbing District",
+        "note": "Free bike storage for customers. Downstairs, approx 70 bike capacity. Ask at front desk.",
+        "opening_hours": "Mo-Fr 07:00-22:30; Sa-Su 09:00-21:00",
+        "phone": "+44 20 8350 2453",
+        "sport": "climbing",
+        "website": "https://climbingdistrict.uk/climbing-gym/london-fields/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9425765774,
+      "lat": 51.5143877,
+      "lon": -0.074975,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Aldgate House",
+        "addr:housenumber": "33",
+        "addr:postcode": "EC3N 1AH",
+        "addr:street": "Aldgate High Street",
+        "climbing:boulder": "yes",
+        "climbing:sport": "no",
+        "climbing:toprope": "no",
+        "email": "info@citybouldering.co.uk",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "name": "City Bouldering",
+        "opening_hours": "Mo-Fr 06:30-23:00; Sa-Su 09:00-22:00",
+        "phone": "+44 20 7247 3121",
+        "service:climbing_harness:rental": "no",
+        "service:climbing_shoes:rental": "yes",
+        "service:climbing_shoes:rental:fee": "yes",
+        "sport": "climbing",
+        "website": "https://www.citybouldering.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9426680620,
+      "lat": 51.4414572,
+      "lon": 0.0131597,
+      "tags": {
+        "leisure": "sports_centre",
+        "sport": "climbing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9426680621,
+      "lat": 51.4414458,
+      "lon": 0.0133422,
+      "tags": {
+        "leisure": "sports_centre",
+        "sport": "climbing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9515319794,
+      "lat": 51.5096695,
+      "lon": -0.0273713,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Arch 313",
+        "addr:housenumber": "21-23",
+        "addr:postcode": "E14 8AA",
+        "addr:street": "Trinidad Street",
+        "alt_name": "Canary Wall",
+        "climbing:boulder": "yes",
+        "climbing:sport": "no",
+        "climbing:toprope": "no",
+        "contact:instagram": "canarywall",
+        "contact:phone": "+44 20 3026 4964",
+        "fee": "yes",
+        "fixme": "Address needs triple checking. Seems inconsistent with neighbouring arches. Where does 21-23 Trinidad Street come from? It should be an arch number like the others.",
+        "leisure": "sports_centre",
+        "name": "Canary Wall",
+        "note": "Free bicycle parking inside for customers, ask for gate code at front desk. Approx 10 capacity, sheffield stands.",
+        "opening_hours": "Mo-Fr 11:00-23:00; Tu,Th 06:00-23:00; Sa,Su,PH 09:00-21:00",
+        "operator": "London Climbing Centres",
+        "operator:type": "private_for_profit",
+        "payment:cash": "no",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:others": "no",
+        "ref": "LIMV3130",
+        "sport": "climbing",
+        "website": "https://londonclimbingcentres.co.uk/centre/canarywall/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9967520716,
+      "lat": 51.5854474,
+      "lon": -0.0607538,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "First Floor, Unit 10, The Archives, High Corss Centre",
+        "addr:postcode": "N15 4BE",
+        "addr:street": "Fountayne Road",
+        "check_date": "2022-08-21",
+        "cuisine": "coffee_shop",
+        "fee": "yes",
+        "fhrs:id": "1359537",
+        "food": "yes",
+        "leisure": "sports_centre",
+        "level": "1",
+        "name": "Stronghold Tottenham Hale",
+        "note": "Public free bike parking, capacity approx 20 on sheffield stands in car park outside.",
+        "opening_hours": "Mo,Tu,Fr 07:00-22:30; We,Th 08:00-22:30; Sa 09:00-19:00; Su 09:00-21:00",
+        "operator": "Stronghold Climbing Centres",
+        "operator:type": "private_for_profit",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:others": "no",
+        "sport": "climbing",
+        "website": "https://thestrongholduk.com/locations/tottenham-hale/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10106134387,
+      "lat": 51.511188,
+      "lon": 0.0127298,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Centurion Tower",
+        "addr:postcode": "E16 1ZA",
+        "addr:street": "Hoy Street",
+        "addr:unit": "Unit 6",
+        "contact:instagram": "theriseclimbingproject",
+        "fee": "yes",
+        "fhrs:id": "1513730",
+        "leisure": "sports_centre",
+        "name": "Rise Climbing",
+        "opening_hours": "Mo, We, Fr 10:00-22:00;Tu, Th 06:00-22:00; Sa-Su 09:00-18:00; PH 09:00-21:00",
+        "sport": "climbing",
+        "website": "https://www.rise-climbing.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10199103147,
+      "lat": 51.4705329,
+      "lon": -0.361877,
+      "tags": {
+        "addr:city": "Hounslow",
+        "addr:housenumber": "9",
+        "addr:postcode": "TW3 1EH",
+        "addr:street": "Smithy Lane",
+        "leisure": "sports_centre",
+        "name": "The Font Climbing Hounslow",
+        "sport": "climbing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10552592178,
+      "lat": 51.5246047,
+      "lon": -0.1418928,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "350",
+        "addr:postcode": "NW1 3AX",
+        "addr:street": "Euston Road",
+        "alt_name": "Euston Wall",
+        "climbing:boulder": "yes",
+        "climbing:sport": "no",
+        "climbing:toprope": "no",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "name": "EustonWall Climbing Centre",
+        "opening_hours": "Mo-Fr 06:00-23:00; Sa-Su,PH 09:00-21:00",
+        "operator": "London Climbing Centres",
+        "operator:type": "private_for_profit",
+        "payment:cash": "no",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:others": "no",
+        "sport": "climbing",
+        "website": "https://londonclimbingcentres.co.uk/centre/eustonwall/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11042290163,
+      "lat": 51.5071808,
+      "lon": -0.0971764,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Unit 1b, Triptych Place",
+        "addr:housenumber": "185",
+        "addr:postcode": "SE1 9BL",
+        "addr:street": "Park Street",
+        "climbing:boulder": "yes",
+        "climbing:sport": "no",
+        "climbing:toprope": "no",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "name": "The Font Borough",
+        "note": "Free bicycle parking for customers inside.",
+        "opening_hours": "Mo-Fr 06:30-22:30; Sa-Su 10:00-18:00",
+        "operator": "The Font Climbing Ltd",
+        "operator:type": "private_for_profit",
+        "sport": "climbing",
+        "website": "https://www.the-font.co.uk/borough"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11343785902,
+      "lat": 51.5094954,
+      "lon": -0.2229755,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "City Bouldering",
+        "sport": "climbing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11747234586,
+      "lat": 51.4650031,
+      "lon": -0.1028668,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Arch 266",
+        "addr:housenumber": "241",
+        "addr:postcode": "SW9 8RR",
+        "addr:street": "Coldharbour Lane",
+        "addr:unit": "266",
+        "check_date": "2025-12-21",
+        "leisure": "sports_centre",
+        "name": "Blocfit",
+        "phone": "+44 207 738 4585",
+        "sport": "climbing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11780635082,
+      "lat": 51.509725,
+      "lon": -0.0274909,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Arch 312",
+        "addr:housenumber": "312",
+        "addr:postcode": "E14 8AB",
+        "addr:street": "Trinidad Street",
+        "leisure": "sports_centre",
+        "name": "Canary Wall",
+        "note": "In arch under bridge",
+        "opening_hours:signed": "no",
+        "ref": "LIMV3120",
+        "sport": "climbing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11780635084,
+      "lat": 51.5095715,
+      "lon": -0.0271245,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Arch 315",
+        "addr:postcode": "E14 8AB",
+        "addr:street": "Trinidad Street",
+        "leisure": "sports_centre",
+        "name": "Canary Wall",
+        "ref": "LIMV3150",
+        "sport": "climbing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12669088657,
+      "lat": 51.5829803,
+      "lon": 0.1745672,
+      "tags": {
+        "contact:instagram": "romfordrockandboulder",
+        "leisure": "sports_centre",
+        "name": "Romford Rock and Boulder",
+        "opening_hours": "Mo-Fr 12:00-22:00; Sa 10:00-18:00; Su 10:00-16:00",
+        "sport": "climbing",
+        "website": "https://www.romfordrockandboulder.co.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 20206484,
+      "center": {
+        "lat": 51.5155273,
+        "lon": -0.2207132
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "1",
+        "addr:postcode": "W10 6RP",
+        "addr:street": "Crowthorne Road",
+        "building": "warehouse",
+        "leisure": "sports_centre",
+        "name": "Westway Sports Centre",
+        "opening_hours": "Mo-Fr 06:00-22:00, Sa 07:00-20:00, Su 08:00-21:00",
+        "phone": "+44 20 8969 0992",
+        "sport": "climbing;tennis;badminton;football;eton_fives;squash",
+        "type": "indoor",
+        "website": "https://www.everyoneactive.com/centre/westway-sports-fitness-centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24471940,
+      "center": {
+        "lat": 51.5082781,
+        "lon": -0.0496002
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "4",
+        "addr:postcode": "E1W 3TD",
+        "addr:street": "Shadwell Pierhead",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Shadwell Basin Outdoor Activity Centre",
+        "sport": "kayaking;sailing;climbing;rowing;canoeing",
+        "website": "https://www.shadwell-basin.co.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 30955182,
+      "center": {
+        "lat": 51.527652,
+        "lon": -0.0396704
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Mile End Climbing Wall",
+        "addr:postcode": "E3 5BE",
+        "addr:street": "Haverfield Road",
+        "building": "yes",
+        "check_date": "2025-01-21",
+        "climbing:boulder": "yes",
+        "climbing:toprope": "yes",
+        "email": "enquiries@mileendwall.org.uk",
+        "fee": "yes",
+        "indoor": "yes",
+        "internet_access": "wlan",
+        "leisure": "sports_centre",
+        "name": "Mile End Climbing Wall",
+        "note": "Free bicycle parking for customers, sheffield stands in car park, approx 50 bikes capacity.",
+        "opening_hours": "Mo-Fr,PH 07:00-22:00; Sa-Su 09:00-20:00",
+        "operator": "Development Through Challenge",
+        "operator:type": "private_non_profit",
+        "payment:cash": "no",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:others": "no",
+        "phone": "+44 20 8980 0289",
+        "sport": "climbing",
+        "toilets": "yes",
+        "website": "https://www.mileendwall.org.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 97209805,
+      "center": {
+        "lat": 51.4923297,
+        "lon": -0.1145915
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "1",
+        "addr:postcode": "SE11 6BD",
+        "addr:street": "Cabanel Place",
+        "alt_name": "VauxEast",
+        "building": "commercial;detached",
+        "climbing:boulder": "yes",
+        "climbing:sport": "no",
+        "climbing:toprope": "no",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "name": "VauxWall East Climbing Centre",
+        "opening_hours": "Mo-Fr 09:00-22:00; Sa-Su,PH 09:00-19:00",
+        "operator": "London Climbing Centres",
+        "operator:type": "private_for_profit",
+        "payment:cash": "no",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:others": "no",
+        "source": "Bing",
+        "sport": "climbing",
+        "website": "https://londonclimbingcentres.co.uk/centre/vauxeast/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 107024158,
+      "center": {
+        "lat": 51.5371878,
+        "lon": -0.0039442
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "234",
+        "addr:postcode": "E15 2JA",
+        "addr:street": "High Street",
+        "building": "commercial",
+        "contact:email": "stratford@citybouldering.co.uk",
+        "contact:facebook": "https://www.facebook.com/cityboulderingstratford",
+        "contact:instagram": "https://www.instagram.com/cityboulderingstratford/",
+        "contact:phone": "+44 20 3488 1123",
+        "leisure": "sports_centre",
+        "name": "City Bouldering Stratford",
+        "opening_hours": "Mo-Fr 07:00-22:30; Sa-Su 09:00-21:00",
+        "operator": "City Bouldering",
+        "operator:type": "private",
+        "sport": "climbing",
+        "was:building:levels": "2",
+        "was:name": "Universal Automobile Engineers",
+        "was:shop": "car_repair",
+        "was:source": "Bing",
+        "website": "https://www.citybouldering.co.uk/locations/stratford"
+      }
+    },
+    {
+      "type": "way",
+      "id": 532315474,
+      "center": {
+        "lat": 51.4779606,
+        "lon": -0.1885885
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "19",
+        "addr:street": "Michael Road",
+        "building": "yes",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "name": "Clip'n'Climb",
+        "sport": "climbing",
+        "website": "https://www.clipnclimbchelsea.co.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 543985620,
+      "center": {
+        "lat": 51.5068715,
+        "lon": -0.2652484
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "The Arch Climbing Wall",
+        "addr:housenumber": "20-24",
+        "addr:postcode": "W3 6LJ",
+        "addr:street": "High Street",
+        "building": "yes",
+        "check_date": "2024-01-20",
+        "leisure": "sports_centre",
+        "name": "The Arch Climbing Wall: Arch Acton",
+        "sport": "climbing"
+      }
+    },
+    {
+      "type": "way",
+      "id": 699455949,
+      "center": {
+        "lat": 51.4298524,
+        "lon": -0.37202
+      },
+      "tags": {
+        "leisure": "sports_centre",
+        "sport": "climbing"
+      }
+    },
+    {
+      "type": "way",
+      "id": 708321874,
+      "center": {
+        "lat": 51.4943084,
+        "lon": -0.2361095
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Arch 105",
+        "addr:postcode": "W6 0UQ",
+        "addr:street": "Ravenscourt Road",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "RavensWall Climbing Centre",
+        "sport": "climbing;bouldering",
+        "website": "https://www.ravenswall.co.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 736488881,
+      "center": {
+        "lat": 51.4932919,
+        "lon": -0.0610598
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Tower Bridge Business Centre",
+        "addr:postcode": "SE16 4DG",
+        "addr:street": "Drummond Road",
+        "building:levels": "1",
+        "climbing:boulder": "yes",
+        "climbing:sport": "no",
+        "climbing:toprope": "no",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "name": "The Arch Climbing Wall: Building One",
+        "note": "Free bicycle parking for customers inside, high saddle holders only. Capacity around 25 bikes, this fills up at peak times.",
+        "opening_hours": "Mo-Fr 06:30-22:30; Sa-Su 09:00-21:00",
+        "operator": "Inner Ape Ltd",
+        "operator:type": "private_for_profit",
+        "payment:cash": "no",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:others": "no",
+        "sport": "climbing",
+        "website": "https://www.archclimbingwall.com/building-one"
+      }
+    },
+    {
+      "type": "way",
+      "id": 757708322,
+      "center": {
+        "lat": 51.4472776,
+        "lon": -0.1912095
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "30",
+        "addr:postcode": "SW18 4LR",
+        "addr:street": "Lydden Road",
+        "building": "yes",
+        "climbing:boulder": "yes",
+        "climbing:sport": "no",
+        "climbing:toprope": "no",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "name": "The Font Wandsworth",
+        "note": "Free bicycle parking for customers. Approx 30 spaces in dutch-style lift-and-slide double decker cycle racks.",
+        "opening_hours": "Mo-Fr 06:00-22:00; Sa-Su 08:00-20:00",
+        "operator": "The Font Climbing Ltd",
+        "operator:type": "private_for_profit",
+        "ref:GB:uprn": "100023328873",
+        "sport": "climbing",
+        "website": "https://www.the-font.co.uk/wandsworth"
+      }
+    },
+    {
+      "type": "way",
+      "id": 837838755,
+      "center": {
+        "lat": 51.4587276,
+        "lon": -0.1283887
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:postcode": "SW2 5DZ",
+        "addr:street": "Ellerslie Square",
+        "addr:unit": "13",
+        "building": "commercial",
+        "leisure": "sports_centre",
+        "name": "Substation",
+        "opening_hours": "Mo-Fr 07:00-22:00; Sa-Su 08:00-20:00",
+        "sport": "climbing",
+        "website": "https://substation.co.uk/brixton/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 963992061,
+      "center": {
+        "lat": 51.5652788,
+        "lon": -0.0924406
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "The Castle",
+        "addr:postcode": "N4 2HA",
+        "addr:street": "Green Lanes",
+        "building": "industrial",
+        "building:parts": "vertical",
+        "climbing:boulder": "yes",
+        "climbing:sport": "yes",
+        "climbing:toprope": "yes",
+        "description": "Engine House of Metropolitan Water Board",
+        "fee": "yes",
+        "he:inscription_date": "1972-05-16",
+        "heritage": "2",
+        "heritage:operator": "Historic England",
+        "heritage:website": "https://historicengland.org.uk/listing/the-list/list-entry/1226755",
+        "historic": "building",
+        "leisure": "sports_centre",
+        "listed_status": "Grade II*",
+        "material": "brick",
+        "name": "The Castle Climbing Centre",
+        "opening_hours": "Mo-Fr 08:00-22:00, Sa-Su 09:00-20:00",
+        "ref:GB:nhle": "1226755",
+        "ref:GB:uprn": "10008241969",
+        "sport": "climbing",
+        "website": "https://www.castle-climbing.co.uk/",
+        "wikidata": "Q17551191"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1100871919,
+      "center": {
+        "lat": 51.4944433,
+        "lon": 0.0425662
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Unit 6",
+        "addr:place": "Mellish Industrial Estate",
+        "addr:postcode": "SE18 5NR",
+        "addr:street": "Harrington Way",
+        "contact:facebook": "https://www.facebook.com/TheReachClimbingWall/",
+        "contact:instagram": "https://www.instagram.com/thereachclimbingwall/",
+        "contact:twitter": "https://twitter.com/TheReachWall/",
+        "email": "info@thereach.org.uk",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "name": "The Reach",
+        "opening_hours": "Mo-Fr 10:00-22:00; Sa-Su,PH 10:00-19:00",
+        "phone": "+44 20 8855 9598",
+        "sport": "climbing",
+        "website": "https://www.thereach.org.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1189380721,
+      "center": {
+        "lat": 51.4850511,
+        "lon": -0.1229171
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Arch 45b-47c",
+        "addr:postcode": "SW8 1SU",
+        "addr:street": "South Lambeth Road",
+        "addr:unit": "Arches 47-47A",
+        "alt_name": "VauxWest",
+        "area": "yes",
+        "check_date": "2026-09-06",
+        "climbing:boulder": "yes",
+        "climbing:sport": "no",
+        "climbing:toprope": "no",
+        "email": "info@vauxwallclimbing.co.uk",
+        "fee": "yes",
+        "fhrs:authority": "Lambeth",
+        "fhrs:id": "690939",
+        "fhrs:inspectiondate": "2014-07-15",
+        "fhrs:rating": "5",
+        "leisure": "sports_centre",
+        "name": "VauxWall West Climbing Centre",
+        "opening_hours": "Mo-Su,PH 06:00-23:00",
+        "operator": "London Climbing Centres",
+        "operator:type": "private_for_profit",
+        "payment:cash": "no",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:others": "no",
+        "phone": "+44 20 7160 0248",
+        "sport": "climbing",
+        "website": "https://londonclimbingcentres.co.uk/centre/vauxwest/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1189858234,
+      "center": {
+        "lat": 51.4549274,
+        "lon": -0.1931177
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "52-58",
+        "addr:postcode": "SW18 4TF",
+        "addr:street": "Garratt Lane",
+        "email": "wandsworth@parthianclimbing.com",
+        "fee": "yes",
+        "fhrs:id": "1627837",
+        "leisure": "sports_centre",
+        "name": "Parthian Climbing Wandsworth",
+        "opening_hours": "Mo-Fr 07:00-22:30; Sa-Su 08:00-21:30",
+        "operator": "Parthian Climbing",
+        "phone": "+44 20 3988 6624",
+        "sport": "climbing",
+        "website": "https://parthianclimbing.com/wandsworth/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1232796440,
+      "center": {
+        "lat": 51.4565792,
+        "lon": -0.1914057
+      },
+      "tags": {
+        "check_date": "2025-08-02",
+        "leisure": "sports_centre",
+        "name": "Clip 'n Climb",
+        "sport": "climbing",
+        "website": "https://wandsworth.clipnclimb.co.uk"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1363313069,
+      "center": {
+        "lat": 51.5038541,
+        "lon": 0.0027843
+      },
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Clip n' Climb",
+        "sport": "climbing",
+        "website": "https://theo2.clipnclimb.co.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1481417906,
+      "center": {
+        "lat": 51.3723559,
+        "lon": -0.2914608
+      },
+      "tags": {
+        "addr:city": "Surbiton",
+        "addr:housenumber": "225",
+        "addr:postcode": "KT6 7LD",
+        "addr:street": "Hook Rise South",
+        "building": "commercial",
+        "leisure": "sports_centre",
+        "name": "White Spider Indoor Climbing",
+        "sport": "climbing",
+        "website": "https://spiderclimbing.com/white-spider/"
+      }
+    }
+  ]
+}

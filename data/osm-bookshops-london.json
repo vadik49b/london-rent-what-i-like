@@ -1,0 +1,3973 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-09T16:00:42Z",
+    "timestamp_areas_base": "2026-10-08T07:25:51Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 258015861,
+      "lat": 51.527726,
+      "lon": -0.1023445,
+      "tags": {
+        "shop": "books",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 269198265,
+      "lat": 51.3629891,
+      "lon": -0.1737178,
+      "tags": {
+        "name": "Croydon Bookshop",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 338575315,
+      "lat": 51.5151874,
+      "lon": -0.1128057,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Lincoln’s Inn Archway",
+        "addr:postcode": "WC2A 2JD",
+        "addr:street": "Carey Street",
+        "fax": "+44 20 7430 0897",
+        "name": "Wildy & Sons Ltd",
+        "note": "either side of archway entrance",
+        "opening_hours": "Mo-Fr 08:45-18:00",
+        "phone": "+44 20 7242 5778",
+        "shop": "books",
+        "website": "https://www.wildy.com/",
+        "wikidata": "Q106575288"
+      }
+    },
+    {
+      "type": "node",
+      "id": 352936234,
+      "lat": 51.5394541,
+      "lon": -0.1014396,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "50",
+        "addr:postcode": "N1 2BA",
+        "addr:street": "Cross Street",
+        "contact:instagram": "https://www.instagram.com/ofbooksandlove_bookstore/",
+        "name": "Of Books and Love",
+        "opening_hours": "Tu-Sa 10:30-18:30; Su 11:00-17:00",
+        "shop": "books",
+        "website": "https://www.ofbooksandlove.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 385417918,
+      "lat": 51.5572993,
+      "lon": -0.0979533,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "84",
+        "addr:street": "Highbury Park",
+        "name": "Ink @ 84",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 401529125,
+      "lat": 51.5125448,
+      "lon": -0.1285003,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "72",
+        "addr:street": "Charing Cross Road",
+        "books": "antiquarian",
+        "name": "Quinto Bookshop",
+        "shop": "books",
+        "website": "https://quintobookshop.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 401529132,
+      "lat": 51.5121161,
+      "lon": -0.1282985,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "56",
+        "addr:postcode": "WC2H 0QA",
+        "addr:street": "Charing Cross Road",
+        "books": "antiquarian",
+        "check_date": "2026-09-18",
+        "check_date:opening_hours": "2026-09-18",
+        "facebook": "https://www.facebook.com/Any-Amount-of-Books-215865368549940/",
+        "level": "0",
+        "name": "Any Amount of Books",
+        "opening_hours": "Mo-Sa 10:30-19:00; Su 11:00-18:30",
+        "phone": "+44 20 7836 3697",
+        "shop": "books",
+        "website": "https://www.anyamountofbooks.com/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 401529133,
+      "lat": 51.5122231,
+      "lon": -0.128347,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "58,60",
+        "addr:postcode": "WC2H 0BB",
+        "addr:street": "Charing Cross Road",
+        "books": "antiquarian",
+        "check_date": "2024-10-07",
+        "email": "info@henrypordesbooks.com",
+        "facebook": "https://www.facebook.com/Henry-Pordes-Books-Ltd-228642767265633/",
+        "name": "Henry Pordes Books",
+        "opening_hours": "Mo-Su 10:30-19:30",
+        "payment:american_express": "yes",
+        "phone": "+44 20 7836 9031",
+        "shop": "books",
+        "twitter": "HenryPordesBook",
+        "website": "http://www.henrypordesbooks.com/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 430634393,
+      "lat": 51.4905242,
+      "lon": -0.1442843,
+      "tags": {
+        "name": "Classic Bindings",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 456389171,
+      "lat": 51.4095109,
+      "lon": -0.0253628,
+      "tags": {
+        "addr:city": "Beckenham",
+        "addr:housenumber": "42",
+        "addr:postcode": "BR3 1AY",
+        "addr:street": "High Street",
+        "name": "Beckenham Bookshop",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 470352810,
+      "lat": 51.4906794,
+      "lon": -0.1003589,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "56a",
+        "addr:postcode": "SE17 3AE",
+        "addr:street": "Crampton Street",
+        "name": "56a Infoshop",
+        "opening_hours": "Sa 14:00-18:00",
+        "shop": "books",
+        "website": "https://56a.org.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 623269934,
+      "lat": 51.5076634,
+      "lon": -0.1019066,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "43",
+        "addr:postcode": "SE1 9JR",
+        "addr:street": "Holland Street",
+        "check_date": "2026-06-21",
+        "email": "info@marcuscampbell.co.uk",
+        "name": "Art Books",
+        "operator": "Marcus Campbell",
+        "phone": "+44 20 7261 0111",
+        "shop": "books",
+        "website": "https://www.marcuscampbell.co.uk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 623353910,
+      "lat": 51.5084753,
+      "lon": -0.1380491,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "187",
+        "addr:street": "Piccadilly",
+        "name": "Hatchards",
+        "opening_hours": "Su-Fr 09:30-20:00; Sa 12:00-18:00",
+        "shop": "books",
+        "wikidata": "Q5681055"
+      }
+    },
+    {
+      "type": "node",
+      "id": 660899266,
+      "lat": 51.5611922,
+      "lon": -0.0739747,
+      "tags": {
+        "name": "Bargain Books",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 660899267,
+      "lat": 51.5613087,
+      "lon": -0.0739381,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "159",
+        "addr:postcode": "N16 0NY",
+        "addr:street": "Stoke Newington High Street",
+        "contact:website": "https://www.stokenewingtonbookshop.co.uk/",
+        "name": "Stoke Newington Bookshop",
+        "opening_hours": "Mo-Sa 10:00-18:00; Su 11:00-17:00",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 677225990,
+      "lat": 51.5604805,
+      "lon": -0.3580841,
+      "tags": {
+        "addr:city": "Harrow",
+        "addr:country": "GB",
+        "addr:housenumber": "395A",
+        "addr:postcode": "HA2 8JB",
+        "addr:street": "Northolt Road",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 691594667,
+      "lat": 51.5107729,
+      "lon": -0.1273801,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "4",
+        "addr:street": "Cecil Court",
+        "name": "Tindley & Everett",
+        "shop": "books",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 692296631,
+      "lat": 51.5107665,
+      "lon": -0.1280074,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "22",
+        "addr:street": "Cecil Court",
+        "name": "Natalie Galustian Rare Books",
+        "payment:american_express": "yes",
+        "shop": "books",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 692296644,
+      "lat": 51.5107707,
+      "lon": -0.127795,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "16",
+        "addr:postcode": "WC2N 4HE",
+        "addr:street": "Cecil Court",
+        "name": "Marchpane",
+        "phone": "+44 20 7836 8661",
+        "shop": "books",
+        "website": "http://www.marchpane.com/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 692296646,
+      "lat": 51.51077,
+      "lon": -0.1278701,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "18",
+        "addr:street": "Cecil Court",
+        "name": "Peter Ellis",
+        "payment:american_express": "yes",
+        "shop": "books",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 692296652,
+      "lat": 51.5106684,
+      "lon": -0.1279044,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "25",
+        "addr:postcode": "WC2N 4EZ",
+        "addr:street": "Cecil Court",
+        "name": "Goldsboro Books",
+        "payment:american_express": "yes",
+        "phone": "+44 20 7497 9230",
+        "shop": "books",
+        "source:addr:postcode": "ons_uprn_directory",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 692296656,
+      "lat": 51.5107712,
+      "lon": -0.12745,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "6",
+        "addr:street": "Cecil Court",
+        "check_date": "2024-09-02",
+        "name": "Tenderbooks",
+        "shop": "books",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 692296664,
+      "lat": 51.5106735,
+      "lon": -0.127608,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "13",
+        "addr:postcode": "WC2N 4EZ",
+        "addr:street": "Cecil Court",
+        "check_date": "2024-09-02",
+        "name": "London Medal Company",
+        "shop": "books",
+        "source:addr:postcode": "ons_uprn_directory",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 692296669,
+      "lat": 51.51067,
+      "lon": -0.1278384,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "19",
+        "addr:postcode": "WC2N 4EZ",
+        "addr:street": "Cecil Court",
+        "name": "Watkins Books",
+        "payment:american_express": "yes",
+        "phone": "+44 20 7836 2182",
+        "shop": "books",
+        "source:addr:postcode": "ons_uprn_directory",
+        "website": "https://watkinsbooks.com/",
+        "wheelchair": "limited",
+        "wikidata": "Q7974694",
+        "wikipedia": "en:Watkins Books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 692296679,
+      "lat": 51.5106796,
+      "lon": -0.1274,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "7",
+        "addr:postcode": "WC2N 4EZ",
+        "addr:street": "Cecil Court",
+        "check_date": "2024-09-02",
+        "name": "Bryars & Bryars",
+        "shop": "books",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 694696901,
+      "lat": 51.4965991,
+      "lon": -0.0825469,
+      "tags": {
+        "books": "christian",
+        "name": "The Rock Bookstores",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 710909996,
+      "lat": 51.5265799,
+      "lon": -0.1322634,
+      "tags": {
+        "alt_name": "Friends House Bookshop",
+        "contact:fax": "+44 20 7663 1001",
+        "contact:phone": "+44 20 7663 1030",
+        "contact:website": "http://www.quaker.org.uk/shop",
+        "name": "Quaker Bookshop",
+        "opening_hours": "Mo-Fr 08:00-16:00",
+        "shop": "books",
+        "source": "local_knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 874743721,
+      "lat": 51.5265443,
+      "lon": -0.1248937,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "13",
+        "addr:postcode": "WC1H 9EW",
+        "addr:street": "Leigh Street",
+        "check_date": "2025-06-07",
+        "contact:email": "info@collingeandclark.co.uk",
+        "contact:instagram": "https://www.instagram.com/collingeandclarkbooks",
+        "name": "Collinge & Clark",
+        "opening_hours": "Mo-Sa 11:00-18:00",
+        "phone": "+44 20 7387 7105",
+        "second_hand": "only",
+        "shop": "books",
+        "website": "http://www.collingeandclark.co.uk/",
+        "wikidata": "Q134887656",
+        "wikimedia_commons": "Category:Collinge & Clark"
+      }
+    },
+    {
+      "type": "node",
+      "id": 931631873,
+      "lat": 51.5395507,
+      "lon": -0.1442181,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "18",
+        "addr:postcode": "NW1 7HJ",
+        "addr:street": "Inverness Street",
+        "alt_name": "Mega City Comics",
+        "books": "comic",
+        "name": "Forbidden Planet Camden",
+        "old_name": "Mega City Comics",
+        "shop": "books",
+        "website": "https://forbiddenplanet.com/stores/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1893971977,
+      "lat": 51.5723087,
+      "lon": -0.0732379,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Lubavitch House",
+        "addr:street": "Stamford Hill",
+        "name": "Lubavitch Bookshop",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1984126509,
+      "lat": 51.5923666,
+      "lon": -0.1065817,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "The Big Green Bookshop",
+        "addr:housenumber": "Unit 1",
+        "addr:postcode": "N22 6BG",
+        "addr:street": "Brampton Park Road",
+        "name": "Big Green Bookshop",
+        "shop": "books",
+        "website": "http://www.biggreenbookshop.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2096457001,
+      "lat": 51.4773543,
+      "lon": -0.2854594,
+      "tags": {
+        "addr:floor": "G",
+        "check_date": "2025-05-22",
+        "level": "0",
+        "name": "The Kew Bookshop",
+        "opening_hours": "Mo-Sa 09:30-17:30; Su 11:00-17:00",
+        "shop": "books",
+        "website": "https://hewsonbooks.co.uk",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2363468088,
+      "lat": 51.5086533,
+      "lon": -0.129621,
+      "tags": {
+        "level": "1",
+        "name": "National Gallery Bookshop",
+        "shop": "books",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2376830549,
+      "lat": 51.5049692,
+      "lon": -0.102061,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "39",
+        "addr:postcode": "SE1 0UH",
+        "addr:street": "Bear Lane",
+        "name": "Woolfson & Tay",
+        "shop": "books",
+        "source": "survey",
+        "website": "https://woolfsonandtay.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2420135825,
+      "lat": 51.426611,
+      "lon": -0.055405,
+      "tags": {
+        "addr:city": "London",
+        "addr:floor": "G",
+        "addr:housenumber": "272",
+        "addr:postcode": "SE26 4RS",
+        "addr:street": "Kirkdale",
+        "check_date": "2025-11-21",
+        "contact:twitter": "KirkdaleBooks",
+        "email": "mail@kirkdalebookshop.com",
+        "level": "0",
+        "name": "Kirkdale Bookshop",
+        "opening_hours": "Mo-Sa 09:30-17:00; Su 12:00-16:00",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+44 20 8778 4701",
+        "shop": "books",
+        "website": "https://www.kirkdalebookshop.com/",
+        "wikidata": "Q115868974"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2494430495,
+      "lat": 51.5886196,
+      "lon": -0.3326151,
+      "tags": {
+        "addr:housenumber": "15",
+        "addr:street": "Station Road",
+        "check_date": "2025-09-27",
+        "name": "Books Islamia",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2536882644,
+      "lat": 51.51805,
+      "lon": -0.126262,
+      "tags": {
+        "books": "antiquarian",
+        "check_date": "2024-11-30",
+        "name": "Jarndyce",
+        "shop": "books",
+        "website": "https://www.jarndyce.co.uk/",
+        "wikidata": "Q123230071"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2558519698,
+      "lat": 51.5268838,
+      "lon": -0.1284067,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "45",
+        "addr:postcode": "WC1H 9AL",
+        "addr:street": "Burton Street",
+        "check_date:opening_hours": "2024-08-12",
+        "name": "Maghreb Bookshop",
+        "name:fr": "Librairie du Maghreb",
+        "opening_hours:signed": "no",
+        "shop": "books",
+        "source": "survey",
+        "website": "https://www.maghrebreview.com/en/shophome.html"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2567672762,
+      "lat": 51.4532373,
+      "lon": -0.1029052,
+      "tags": {
+        "addr:housenumber": "289",
+        "addr:street": "Railton Road",
+        "check_date": "2026-07-14",
+        "check_date:opening_hours": "2026-07-14",
+        "currency:GBP": "yes",
+        "level": "0",
+        "name": "Herne Hill Books",
+        "opening_hours": "Mo-Fr 10:00-18:00; Sa 09:30-17:30; Su 09:30-16:00",
+        "shop": "books",
+        "source": "survey",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2617232246,
+      "lat": 51.529458,
+      "lon": -0.1280115,
+      "tags": {
+        "check_date": "2024-10-22",
+        "name": "British Library Shop",
+        "shop": "books",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2617831390,
+      "lat": 51.5258523,
+      "lon": -0.134145,
+      "tags": {
+        "name": "Wellcome Book Shop",
+        "shop": "books",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2951074705,
+      "lat": 51.5250159,
+      "lon": -0.1245255,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "66",
+        "addr:postcode": "WC1N 1AE",
+        "addr:street": "The Brunswick",
+        "check_date": "2025-07-03",
+        "name": "Skoob Books",
+        "opening_hours": "Mo-Sa 11:00-19:30; Su 11:00-18:00",
+        "opening_hours:covid19": "closed",
+        "phone": "+44 20 7278 8760",
+        "shop": "books",
+        "website": "https://skoob.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3114920166,
+      "lat": 51.4901338,
+      "lon": -0.3522997,
+      "tags": {
+        "shop": "books",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3310086157,
+      "lat": 51.5310602,
+      "lon": -0.1263775,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Unit 7 St Pancras International Railway Station",
+        "addr:postcode": "N1C 4QP",
+        "addr:street": "Euston Road",
+        "addr:suburb": "Euston",
+        "building:levels": "0",
+        "check_date": "2025-05-22",
+        "level": "0",
+        "name": "Hatchard's",
+        "phone": "+44 20 7278 1238",
+        "shop": "books",
+        "source": "receipt from visit",
+        "website": "https://www.hatchards.co.uk/shop/stpancras",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3357928871,
+      "lat": 51.4962173,
+      "lon": -0.1700059,
+      "tags": {
+        "addr:housenumber": "8",
+        "addr:street": "Thurloe Place",
+        "books": "antiques",
+        "name": "Robert Frew",
+        "phone": "+44 20 7590 6650",
+        "shop": "books",
+        "website": "https://www.robertfrew.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3390024893,
+      "lat": 51.4679122,
+      "lon": -0.2101647,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "91",
+        "addr:postcode": "SW6 3JS",
+        "addr:street": "Fulham High Street",
+        "email": "hurlinghambooks@gmail.com",
+        "name": "Hurlingham books",
+        "name:en": "Hurlingham books",
+        "operator": "Ray Cole",
+        "phone": "+44 20 7736 4363",
+        "shop": "books",
+        "website": "https://hurlinghambooks.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3637935942,
+      "lat": 51.5107708,
+      "lon": -0.1277113,
+      "tags": {
+        "name": "Alice Through The Looking Glass",
+        "payment:american_express": "yes",
+        "shop": "books",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3677977915,
+      "lat": 51.5361965,
+      "lon": -0.0618289,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "20-22",
+        "addr:postcode": "E8 4QJ",
+        "addr:street": "Broadway Market",
+        "check_date": "2026-06-08",
+        "check_date:opening_hours": "2026-06-08",
+        "name": "Artwords",
+        "opening_hours": "Mo-Fr 09:00-20:00; Sa-Su 10:00-18:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+44 20 7923 7507",
+        "second_hand": "no",
+        "shop": "books",
+        "website": "https://www.artwords.co.uk/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3714045138,
+      "lat": 51.4964667,
+      "lon": -0.140247,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "25",
+        "addr:postcode": "SW1P 1LT",
+        "addr:street": "Ashley Place",
+        "name": "Catholic Truth Society",
+        "opening_hours": "Mo-Fr 09:30-17:30; Sa 10:00-17:00",
+        "payment:american_express": "yes",
+        "phone": "+44 20 7834 1363",
+        "shop": "books",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3761643216,
+      "lat": 51.5619529,
+      "lon": -0.0809116,
+      "tags": {
+        "check_date": "2025-05-29",
+        "name": "Church Street Bookshop",
+        "opening_hours": "Fr-Su 11:00-17:00",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3881228476,
+      "lat": 51.479477,
+      "lon": -0.0101515,
+      "tags": {
+        "check_date": "2026-02-11",
+        "check_date:opening_hours": "2026-01-04",
+        "name": "Greenwich Book Time",
+        "opening_hours:signed": "no",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4170525430,
+      "lat": 51.5070772,
+      "lon": -0.1376551,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "43a",
+        "addr:street": "Duke Street St James's",
+        "alt_name": "Sims Reed Rare Books",
+        "name": "Sims Reed",
+        "phone": "+44 20 7930 5566",
+        "shop": "books",
+        "website": "http://www.simsreed.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4170525432,
+      "lat": 51.5072556,
+      "lon": -0.1378206,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "42",
+        "addr:street": "Duke Street St James's",
+        "books": "art",
+        "name": "Thomas Heneage Art Books",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4205182705,
+      "lat": 51.5457029,
+      "lon": -0.4801142,
+      "tags": {
+        "name": "Barnard's Bookshop",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4321252186,
+      "lat": 51.5411672,
+      "lon": -0.1466697,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "70",
+        "addr:postcode": "NW1 8AF",
+        "addr:street": "Camden Lock Place",
+        "level": "0",
+        "name": "Black Gull Books",
+        "opening_hours": "Mo-Su 10:00-18:00",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4391522416,
+      "lat": 51.4740696,
+      "lon": -0.1524215,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Unit 30 DRCA Business Centre",
+        "addr:postcode": "SW11 5HD",
+        "addr:street": "Charlotte Despard Avenue",
+        "name": "CubaDirecto",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "phone": "+44 20 7498 7090",
+        "shop": "books",
+        "website": "https://www.cubadirecto.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4405143982,
+      "lat": 51.3914701,
+      "lon": -0.308627,
+      "tags": {
+        "addr:city": "Surbiton",
+        "addr:country": "GB",
+        "addr:housenumber": "45",
+        "addr:postcode": "KT6 4JL",
+        "addr:street": "Victoria Road",
+        "check_date": "2026-06-11",
+        "contact:phone": "+44 20 8399 2188",
+        "name": "Regency Bookshop",
+        "opening_hours": "Mo-Sa 09:30-17:00; Su off",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "books",
+        "website": "https://regencybookshop.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4440565050,
+      "lat": 51.5414122,
+      "lon": -0.1459968,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "Unit L3",
+        "addr:postcode": "NW1 8AL",
+        "addr:street": "Camden Lock Place",
+        "level": "0",
+        "name": "Books Iconica",
+        "shop": "books",
+        "website": "https://booksiconica.co.uk/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4558416245,
+      "lat": 51.531679,
+      "lon": -0.1118935,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "110",
+        "addr:postcode": "N1 9JB",
+        "addr:street": "Pentonville Road",
+        "check_date": "2026-07-24",
+        "name": "Amana Trust Bookshop",
+        "religion": "christian",
+        "shop": "books",
+        "source": "survey",
+        "source:addr": "interpolation"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4592956389,
+      "lat": 51.5091631,
+      "lon": -0.1377632,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "3-5",
+        "addr:postcode": "W1S 3DN",
+        "addr:street": "Sackville Street",
+        "name": "Sotheran's",
+        "phone": "+44 20 7439 6151",
+        "shop": "books",
+        "website": "https://www.sotherans.co.uk/",
+        "wikidata": "Q120737216",
+        "wikipedia": "en:Sotheran's"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4693825240,
+      "lat": 51.4831622,
+      "lon": -0.3481699,
+      "tags": {
+        "addr:city": "Isleworth",
+        "addr:housenumber": "168A",
+        "addr:street": "Thornbury Road",
+        "entrance": "yes",
+        "name": "Osterley Bookshop",
+        "shop": "books",
+        "source": "photograph"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4772684221,
+      "lat": 51.5203348,
+      "lon": -0.0706049,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "65",
+        "addr:postcode": "E1 5JP",
+        "addr:street": "Hanbury Street",
+        "check_date": "2023-12-19",
+        "dog": "yes",
+        "email": "hello@libreria.io",
+        "name": "Librería",
+        "name:en": "Librería",
+        "opening_hours": "Tu-Sa 10:00-18:00; Su 12:00-18:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "second_hand": "no",
+        "shop": "books",
+        "website": "https://libreria.io/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4818149158,
+      "lat": 51.4510561,
+      "lon": -0.0851302,
+      "tags": {
+        "addr:city": "London",
+        "addr:street": "Calton Avenue",
+        "addr:suburb": "Dulwich",
+        "name": "Village Books",
+        "opening_hours": "Mo-We,Fr,Sa 09:00-17:30; Th 09:00-19:30; Su 10:00-17:00",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4856528615,
+      "lat": 51.4554727,
+      "lon": -0.0364249,
+      "tags": {
+        "name": "Crofton Bookshop (Library)",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4880321025,
+      "lat": 51.5156688,
+      "lon": -0.2055627,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "13",
+        "addr:street": "Blenheim Crescent",
+        "name": "Notting Hill Bookshop",
+        "name:en": "Notting Hill Bookshop",
+        "phone": "+44 20 7229 5260",
+        "shop": "books",
+        "website": "https://www.thenottinghillbookshop.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4880465178,
+      "lat": 51.5072527,
+      "lon": -0.0999278,
+      "tags": {
+        "check_date": "2026-10-03",
+        "name": "Tate Modern",
+        "operator": "Tate Modern",
+        "shop": "books",
+        "wheelchair": "yes",
+        "wheelchair:description": "Step-free from Turbine Hall. Level 0 has ramp from street and lift to all levels."
+      }
+    },
+    {
+      "type": "node",
+      "id": 4903159621,
+      "lat": 51.491374,
+      "lon": -0.1609308,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "10-12",
+        "addr:postcode": "SW3 2SR",
+        "addr:street": "Blacklands Terrace",
+        "name": "John Sandoe Ltd",
+        "opening_hours": "Mo-Sa 09:30-18:30; Su 11:00-17:00",
+        "phone": "+44 20 7589 9473",
+        "shop": "books",
+        "website": "https://johnsandoe.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4903159622,
+      "lat": 51.5151158,
+      "lon": -0.2056918,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "21",
+        "addr:postcode": "W11 2EU",
+        "addr:street": "Kensington Park Road",
+        "name": "Lutyens & Rubinstein",
+        "opening_hours": "Mo 10:00-18:00; Tu-Fr 10:00-18:30; Sa 10:00-18:00; Su 11:00-17:00",
+        "phone": "+44 20 7229 1010",
+        "shop": "books",
+        "website": "https://www.lutyensrubinstein.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4933573676,
+      "lat": 51.507653,
+      "lon": -0.1369038,
+      "tags": {
+        "addr:city": "London",
+        "addr:street": "Mason's Yard",
+        "books": "antiquarian;rare",
+        "name": "Benjamin Spademan",
+        "shop": "books",
+        "website": "https://www.benjaminspademan.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4945113056,
+      "lat": 51.5065335,
+      "lon": -0.1380055,
+      "tags": {
+        "name": "Daniel Crouch Rare Books",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5012390477,
+      "lat": 51.4614766,
+      "lon": -0.1138494,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "439",
+        "addr:postcode": "SW9 8LN",
+        "addr:street": "Coldharbour Lane",
+        "check_date": "2024-12-30",
+        "email": "books@bookmongers.com",
+        "name": "Bookmongers",
+        "opening_hours": "Mo-Sa 10:30-18:30; Su 11:00-16:00",
+        "phone": "+44 20 7738 4225",
+        "shop": "books",
+        "website": "http://bookmongers.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5014301823,
+      "lat": 51.4837222,
+      "lon": -0.17671,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "357",
+        "addr:street": "King's Road",
+        "email": "info@worldsendbookshop.com",
+        "name": "Worlds End Bookshop",
+        "name:en": "Worlds End Bookshop",
+        "phone": "+44 20 7352 9376",
+        "shop": "books",
+        "website": "https://www.worldsendbookshop.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5103159947,
+      "lat": 51.4975533,
+      "lon": -0.1292666,
+      "tags": {
+        "name": "Church House Bookshop",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5273992766,
+      "lat": 51.495134,
+      "lon": -0.1478859,
+      "tags": {
+        "name": "Belgravia Books",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5519902630,
+      "lat": 51.4585211,
+      "lon": 0.0028491,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "266",
+        "addr:postcode": "SE13 5PL",
+        "addr:street": "Lee High Road",
+        "name": "Halcyon Books",
+        "opening_hours": "Mo-Sa 10:00-18:00",
+        "operator": "Halcyon Books",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5585265729,
+      "lat": 51.5027785,
+      "lon": -0.3829577,
+      "tags": {
+        "addr:city": "Southall",
+        "addr:housenumber": "22",
+        "addr:postcode": "UB2 5AA",
+        "addr:street": "Dominion Road",
+        "name": "Saklatvala Hall",
+        "office": "political_party",
+        "operator": "Communist Party of Great Britain (Marxist-Leninist)",
+        "shop": "books",
+        "website": "https://www.cpgb-ml.org/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5643242586,
+      "lat": 51.5121914,
+      "lon": -0.142763,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "32",
+        "addr:postcode": "W1S 2EA",
+        "addr:street": "St George Street",
+        "description": "Bernard J Shapero specialise in an assortment of rare and first edition books on history, travel and English literature.",
+        "name": "Bernard J Shapero Rare Books",
+        "shop": "books",
+        "website": "https://shapero.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5695229700,
+      "lat": 51.3590917,
+      "lon": -0.1494964,
+      "tags": {
+        "name": "The Oasis",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5718265348,
+      "lat": 51.5080161,
+      "lon": -0.1419158,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "43",
+        "addr:street": "Dover Street",
+        "name": "Peter Harrington",
+        "shop": "books",
+        "website": "https://www.peterharrington.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5838996354,
+      "lat": 51.4735328,
+      "lon": -0.0904291,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "4a",
+        "addr:postcode": "SE5 8SY",
+        "addr:street": "Grove Lane",
+        "check_date": "2026-04-07",
+        "fhrs:id": "765084",
+        "name": "Lala Books",
+        "opening_hours": "Mo off; Tu-Sa 10:00-17:00; Su 11:00-16:00",
+        "shop": "books",
+        "website": "https://lalabooks.london/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5952680225,
+      "lat": 51.5638418,
+      "lon": -0.0055893,
+      "tags": {
+        "addr:housenumber": "159",
+        "addr:street": "Francis Road",
+        "books": "adults;children",
+        "check_date": "2024-07-13",
+        "cuisine": "coffee_shop",
+        "fhrs:id": "1071108",
+        "food": "yes",
+        "indoor_seating": "yes",
+        "name": "Phlox Books",
+        "opening_hours": "Mo off; Tu-We,Sa 10:00-18:00; Th-Fr 10:00-20:00; Su 10:00-17:00",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "second_hand": "no",
+        "shop": "books",
+        "takeaway": "yes",
+        "website": "https://www.phloxbooks.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6053144255,
+      "lat": 51.5530636,
+      "lon": -0.004914,
+      "tags": {
+        "addr:city": "London",
+        "addr:street": "High Road Leyton",
+        "addr:suburb": "Leyton",
+        "check_date": "2025-05-22",
+        "level": "0",
+        "name": "Tayba",
+        "religion": "muslim",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6053452357,
+      "lat": 51.5531595,
+      "lon": -0.0049134,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "82",
+        "addr:postcode": "E15 2BP",
+        "addr:street": "High Road Leyton",
+        "addr:suburb": "Leyton",
+        "check_date": "2025-05-22",
+        "contact:phone": "+44 20 8519 1300",
+        "fhrs:id": "654307",
+        "fhrs:local_authority_id": "7055",
+        "level": "0",
+        "name": "Noor Ul Islam Bookshop",
+        "religion": "muslim",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6055613222,
+      "lat": 51.554418,
+      "lon": -0.0050978,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "126",
+        "addr:postcode": "E15 2BX",
+        "addr:street": "High Road Leyton",
+        "addr:suburb": "Stratford",
+        "check_date": "2025-12-14",
+        "fhrs:id": "654270",
+        "fhrs:local_authority_id": "11602",
+        "name": "Al Barakat Islamic Bookshop",
+        "religion": "muslim",
+        "shop": "books",
+        "source:addr:postcode": "FHRS Open Data"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6085697469,
+      "lat": 51.5376502,
+      "lon": -0.0611409,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "75",
+        "addr:postcode": "E8 4PH",
+        "addr:street": "Broadway Market",
+        "check_date": "2025-05-02",
+        "check_date:opening_hours": "2024-01-18",
+        "email": "mail@donlonbooks.com",
+        "name": "Donlon Books",
+        "opening_hours": "Su-Fr 11:00-18:00; Sa 10:00-18:00",
+        "opening_hours:signed": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+44 20 7684 5698",
+        "shop": "books",
+        "website": "https://donlonbooks.com",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6427869184,
+      "lat": 51.5709617,
+      "lon": -0.0238241,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "357",
+        "addr:street": "Lea Bridge Road",
+        "addr:suburb": "Leyton",
+        "contact:phone": "+44 20 8518 7167",
+        "contact:website": "http://www.faizaneislam.org/",
+        "level": "0",
+        "name": "Faizan e Islam Book Centre",
+        "religion": "muslim",
+        "shop": "books",
+        "source:addr": "interpolation"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6431117741,
+      "lat": 51.5228696,
+      "lon": -0.158494,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "7а",
+        "addr:street": "Melcombe Street",
+        "check_date": "2025-04-13",
+        "name": "Dar Al Taqwa",
+        "shop": "books",
+        "website": "https://daraltaqwa.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6466805088,
+      "lat": 51.5215989,
+      "lon": -0.1673991,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "83",
+        "addr:street": "Bell Street",
+        "check_date": "2025-08-01",
+        "name": "Archive Bookstore",
+        "shop": "books",
+        "website": "https://www.archivebookstore.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6532951229,
+      "lat": 51.5896081,
+      "lon": -0.1058554,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "35",
+        "addr:postcode": "N8 0EP",
+        "addr:street": "Turnpike Lane",
+        "addr:suburb": "Turnpike Lane",
+        "name": "All Good Bookshop",
+        "shop": "books",
+        "website": "https://allgoodbookshop.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6598898490,
+      "lat": 51.5724309,
+      "lon": -0.197618,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "38",
+        "addr:postcode": "NW11 8LL",
+        "addr:street": "Golders Green Road",
+        "name": "The Book Warehouse",
+        "opening_hours": "Mo-Su 09:30-21:00",
+        "phone": "+44 20 8458 0032",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6875395366,
+      "lat": 51.4966576,
+      "lon": -0.1721237,
+      "tags": {
+        "name": "V&A Bookstore",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7126677048,
+      "lat": 51.5098744,
+      "lon": -0.1971845,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "30",
+        "addr:postcode": "W11 3HN",
+        "addr:street": "Pembridge Road",
+        "name": "Notting Hill Book Exchange",
+        "phone": "+44 20 3582 9586",
+        "shop": "books",
+        "website": "https://www.mfeshops.com/book"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7126677049,
+      "lat": 51.5099232,
+      "lon": -0.1971926,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "32",
+        "addr:postcode": "W11 3HN",
+        "addr:street": "Pembridge Road",
+        "books": "comic",
+        "name": "Notting Hill Comic Exchange",
+        "phone": "+44 20 7598 2233",
+        "shop": "books",
+        "website": "https://www.mfeshops.com/comic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7128221787,
+      "lat": 51.4940121,
+      "lon": -0.1752845,
+      "tags": {
+        "addr:housenumber": "7",
+        "addr:street": "Harrington Road",
+        "name": "Librairie La Page",
+        "name:fr": "Librairie La Page",
+        "opening_hours": "Mo-Fr 08:15-18:30; Sa 09:00-18:30",
+        "phone": "+44 20 7589 5991",
+        "shop": "books",
+        "website": "https://www.librairielapage.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7205392587,
+      "lat": 51.5159017,
+      "lon": -0.2053953,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "4",
+        "addr:postcode": "W11 1NN",
+        "addr:street": "Blenheim Crescent",
+        "contact:email": "info@bookforcooks.com",
+        "contact:fax": "+44 20 7221 1517",
+        "name": "Books for Cooks",
+        "opening_hours": "Tu-Sa 10:00-18:00; \"3 weeks August\" off; \"10 days Christmas\" off; PH off",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+44 20 7221 1992",
+        "shop": "books",
+        "website": "https://www.booksforcooks.com/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7217679206,
+      "lat": 51.5173785,
+      "lon": -0.2036363,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "236",
+        "addr:postcode": "W11 1EL",
+        "addr:street": "Westbourne Park Road",
+        "contact:email": "hello@saucybooks.com",
+        "dog": "yes",
+        "name": "Saucy Books",
+        "opening_hours": "We-Fr 12:00-18:30; Sa 11:00-18:00; Su 11:00-17:00; Mo-Tu off",
+        "payment:cash": "no",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "books",
+        "website": "https://www.saucybooks.com/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7278465759,
+      "lat": 51.560263,
+      "lon": -0.0987492,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "166",
+        "addr:street": "Blackstock Road",
+        "name": "Bookbar",
+        "opening_hours": "Tu 10:00-18:00; We-Sa 10:00-21:00; Su 10:00-18:00; Mo off",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7761677133,
+      "lat": 51.4595611,
+      "lon": -0.0337179,
+      "tags": {
+        "name": "Crofton Books",
+        "opening_hours": "Mo 12:00-18:00; Tu-Su 10:00-18:00",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7942929024,
+      "lat": 51.5890261,
+      "lon": -0.145158,
+      "tags": {
+        "name": "St James Bookshop",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8034988310,
+      "lat": 51.51144,
+      "lon": -0.1351095,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "14",
+        "addr:postcode": "W1D 7DW",
+        "addr:street": "Smith's Court",
+        "books": "feminist",
+        "name": "The Second Shelf",
+        "phone": "+44 20 3490 2800",
+        "shop": "books",
+        "website": "https://www.thesecondshelf.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8087587348,
+      "lat": 51.494418,
+      "lon": -0.1735109,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "22",
+        "addr:street": "Thurloe Street",
+        "check_date": "2024-09-07",
+        "name": "South Kensington Books",
+        "opening_hours": "Mo-Fr 10:00-20:00; Sa 11:00-19:00; Su 12:00-19:00",
+        "phone": "+44 20 7589 2916",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8394025914,
+      "lat": 51.4624095,
+      "lon": -0.1402328,
+      "tags": {
+        "addr:housenumber": "26",
+        "addr:street": "The Pavement",
+        "name": "Clapham Books",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8408632832,
+      "lat": 51.4755023,
+      "lon": -0.0371419,
+      "tags": {
+        "check_date": "2026-07-30",
+        "name": "The Word Bookshop",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8623690190,
+      "lat": 51.4304001,
+      "lon": -0.1657972,
+      "tags": {
+        "addr:city": "London",
+        "addr:street": "Upper Tooting Road",
+        "name": "Lebas Islamic Books",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8644650556,
+      "lat": 51.5056511,
+      "lon": -0.2265703,
+      "tags": {
+        "addr:housenumber": "204",
+        "addr:street": "Uxbridge Road",
+        "name": "Sakinah",
+        "phone": "+44 20 8743 1326",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9506772564,
+      "lat": 51.5809316,
+      "lon": -0.1235097,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "10",
+        "addr:street": "Middle Lane",
+        "name": "Pickled Pepper Books",
+        "shop": "books",
+        "website": "https://www.pickledpepperbooks.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9820790617,
+      "lat": 51.5185458,
+      "lon": -0.1242424,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "14",
+        "addr:postcode": "WC1A 2JL",
+        "addr:street": "Bury Place",
+        "cuisine": "cake",
+        "level": "0",
+        "name": "London Review Bookshop",
+        "opening_hours": "Mo-Sa 10:00-18:30; Su 12:00-18:00",
+        "shop": "books",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9883954635,
+      "lat": 51.5547051,
+      "lon": -0.0668578,
+      "tags": {
+        "contact:instagram": "guesteditions",
+        "name": "Guest Editions",
+        "shop": "books",
+        "website": "https://guesteditions.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10056510813,
+      "lat": 51.5296898,
+      "lon": -0.0687752,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "160",
+        "addr:street": "Columbia Road",
+        "check_date": "2025-12-24",
+        "name": "Columbia Road Books",
+        "opening_hours": "Mo-Fr 10:00-17:30; Sa 10:00-18:00; Su 09:00-17:00",
+        "payment:cash": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10073766610,
+      "lat": 51.4458255,
+      "lon": -0.1499161,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "71",
+        "addr:postcode": "SW12 9AP",
+        "addr:street": "Balham High Road",
+        "email": "books@backstory.london",
+        "name": "Backstory",
+        "opening_hours": "Mo-We,Sa-Su 10:00-18:00; Th-Fr 10:00-21:00",
+        "phone": "+44 20 3302 0460",
+        "shop": "books",
+        "website": "https://backstory.london/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10080857487,
+      "lat": 51.534939,
+      "lon": -0.104814,
+      "tags": {
+        "check_date": "2025-10-15",
+        "name": "Upper Street Bookshop",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10280308614,
+      "lat": 51.4670804,
+      "lon": 0.0071379,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "74",
+        "addr:postcode": "SE3 0BW",
+        "addr:street": "Tranquil Vale",
+        "check_date": "2026-08-23",
+        "contact:instagram": "bookshopontheheath",
+        "contact:twitter": "BookshoponHeath",
+        "email": "bookshopontheheath@gmail.com",
+        "level": "0",
+        "name": "The Bookshop on the Heath",
+        "opening_hours": "Mo-Tu,Th-Fr 11:00-17:30; Sa 10:00-18:00; Su 11:00-17:00",
+        "phone": "+44 20 8852 4786",
+        "shop": "books",
+        "start_date": "1949",
+        "website": "https://www.bookshopontheheath.co.uk/",
+        "wikidata": "Q116841300"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10280308654,
+      "lat": 51.4663548,
+      "lon": 0.0087974,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "34",
+        "addr:postcode": "SE3 0AX",
+        "addr:street": "Tranquil Vale",
+        "check_date": "2026-02-11",
+        "contact:instagram": "blackheathbookshop",
+        "contact:twitter": "booksblackheath",
+        "email": "enquiries@theblackheathbookshop.co.uk",
+        "internet_access": "wlan",
+        "level": "0",
+        "name": "Blackheath Bookshop",
+        "not:brand:wikidata": "Q151779",
+        "note": "Operated by Waterstones, but not branded as such.",
+        "opening_hours": "Mo-Sa 09:00-19:00; Su 10:00-17:00",
+        "operator": "Waterstones",
+        "phone": "+44 20 3409 1463",
+        "shop": "books",
+        "website": "https://www.waterstones.com/bookshops/blackheath-bookshop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10665505158,
+      "lat": 51.4910508,
+      "lon": -0.1050731,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "38",
+        "addr:postcode": "SE11 4LS",
+        "addr:street": "Kennington Lane",
+        "name": "Shalimar Books",
+        "phone": "+44 20 7735 2101",
+        "shop": "books",
+        "website": "https://indianbooksuk.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10699089652,
+      "lat": 51.5298647,
+      "lon": -0.1272986,
+      "tags": {
+        "level": "0",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10839628212,
+      "lat": 51.4517669,
+      "lon": -0.0164931,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "367",
+        "addr:postcode": "SE13 6NZ",
+        "addr:street": "Lewisham High Street",
+        "check_date": "2026-01-11",
+        "fhrs:id": "1599519",
+        "level": "0",
+        "name": "Words of Wisdom",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11097971626,
+      "lat": 51.5785564,
+      "lon": -0.2076713,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "16",
+        "addr:street": "Golders Green Road",
+        "addr:substreet": "Russell Parade",
+        "books": "jewish",
+        "check_date": "2026-07-02",
+        "denomination": "orthodox",
+        "name": "Torah Treasures",
+        "religion": "jewish",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11144382409,
+      "lat": 51.4810071,
+      "lon": 0.0799875,
+      "tags": {
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11222728092,
+      "lat": 51.4763512,
+      "lon": -0.2042068,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "781",
+        "addr:postcode": "SW6 5HA",
+        "addr:street": "Fulham Road",
+        "building": "yes",
+        "check_date": "2026-09-10",
+        "name": "Nomad Books",
+        "opening_hours": "Mo-Sa 10:00-18:00, Su 11:00-17:00",
+        "phone": "+44 20 7736 4000",
+        "shop": "books",
+        "website": "https://nomadbooks.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11898360407,
+      "lat": 51.4025702,
+      "lon": -0.1887355,
+      "tags": {
+        "check_date": "2024-05-12",
+        "name": "Secondhand Bookshop",
+        "second_hand": "yes",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12051874422,
+      "lat": 51.4934332,
+      "lon": -0.2375844,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "240",
+        "addr:street": "King Street",
+        "check_date": "2025-07-26",
+        "name": "Polish Educational Society Bookshop",
+        "name:pl": "Polska Macierz Szkolna Księgarnia",
+        "opening_hours": "Mo-Sa 11:00-18:00; Su 12:00-17:00",
+        "operator": "Polska Macierz Szkolna",
+        "shop": "books",
+        "website": "https://polskamacierz.org/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12176990988,
+      "lat": 51.4572732,
+      "lon": -0.3037657,
+      "tags": {
+        "addr:floor": "G",
+        "addr:housenumber": "80",
+        "addr:street": "Hill Rise",
+        "check_date": "2024-09-14",
+        "level": "0",
+        "name": "Books On The Rose",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12473230055,
+      "lat": 51.493576,
+      "lon": -0.2456199,
+      "tags": {
+        "name": "Everybody reads",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12492342101,
+      "lat": 51.5195909,
+      "lon": -0.1267003,
+      "tags": {
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12633147099,
+      "lat": 51.5794338,
+      "lon": -0.1235525,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "42",
+        "addr:postcode": "N8 9SU",
+        "addr:street": "The Broadway",
+        "name": "House of Books",
+        "shop": "books",
+        "website": "https://uk.bookshop.org/shop/HouseOfBooksCE"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12672647023,
+      "lat": 51.5714737,
+      "lon": -0.0086165,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "679",
+        "addr:postcode": "E10 6RA",
+        "addr:street": "High Road Leyton",
+        "check_date": "2025-03-15",
+        "name": "Quinto Bookshop",
+        "shop": "books",
+        "website": "https://quinto-bookshop.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12772576772,
+      "lat": 51.492579,
+      "lon": -0.096795,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "16",
+        "addr:postcode": "SE17 1FH",
+        "addr:street": "Sayer Street",
+        "name": "The Book Elephant",
+        "phone": "+44 20 3337 8836",
+        "shop": "books",
+        "website": "https://thebookelephant.co.uk/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12923133041,
+      "lat": 51.5141848,
+      "lon": -0.1097734,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "184",
+        "addr:street": "Fleet Street",
+        "books": "religion",
+        "name": "Protestant Truth Society",
+        "opening_hours": "Mo-Fr 10:30-18:00",
+        "phone": "+44 2074054960",
+        "shop": "books",
+        "website": "https://protestanttruth.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12982535713,
+      "lat": 51.4658178,
+      "lon": -0.0727396,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "20",
+        "addr:postcode": "SE15 4LF",
+        "addr:street": "Maxted Road",
+        "contact:website": "https://www.books-peckham.com/",
+        "name": "BOOKS",
+        "opening_hours": "Th-Su 11:00-18:00; Mo-We off",
+        "second_hand": "only",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13116959727,
+      "lat": 51.5029793,
+      "lon": -0.1071318,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "51",
+        "addr:postcode": "SE1 8LF",
+        "addr:street": "The Cut",
+        "alt_name": "The Bookshop Theatre",
+        "amenity": "theatre",
+        "contact:website": "https://calderbookshop.com/",
+        "name": "The Calder Bookshop & Theatre",
+        "opening_hours": "Mo-Sa 11:00-21:00; Su 13:00-18:00",
+        "shop": "books",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13296309001,
+      "lat": 51.5310481,
+      "lon": -0.0396615,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "341-343",
+        "addr:postcode": "E3 5QR",
+        "addr:street": "Roman Road",
+        "check_date": "2026-02-08",
+        "contact:instagram": "wearebardbooks",
+        "email": "hello@wearebardbooks.co.uk",
+        "name": "Bàrd Books",
+        "opening_hours": "Tu-Fr 09:00-20:00; Sa-Su 10:00-17:00",
+        "payment:cash": "no",
+        "shop": "books",
+        "website": "https://www.wearebardbooks.co.uk/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13296333201,
+      "lat": 51.5306352,
+      "lon": -0.0564996,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "395",
+        "addr:postcode": "E2 9RA",
+        "addr:street": "Cambridge Heath Road",
+        "name": "The People's Letters Bookshop",
+        "opening_hours": "Mo-Su 11:00-19:00",
+        "shop": "books",
+        "website": "https://peoplesletters.org/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13355347629,
+      "lat": 51.4925274,
+      "lon": -0.0967763,
+      "tags": {
+        "check_date": "2025-12-05",
+        "name": "Jumping Bean",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13357841901,
+      "lat": 51.5502598,
+      "lon": -0.0750055,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "138",
+        "addr:postcode": "E8 2NS",
+        "addr:street": "Kingsland High Street",
+        "name": "The Literacy Pirates",
+        "opening_hours": "Mo-Fr 08:30-19:00",
+        "shop": "books",
+        "website": "https://literacypirates.org/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13396462743,
+      "lat": 51.463215,
+      "lon": -0.1134423,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "24",
+        "addr:postcode": "SW9 8PD",
+        "addr:street": "Brixton Station Road",
+        "name": "Beautiful Books",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13398061301,
+      "lat": 51.5050828,
+      "lon": -0.0839482,
+      "tags": {
+        "addr:city": "London",
+        "addr:postcode": "SE1 2QN",
+        "addr:street": "Tooley Street",
+        "level": "0",
+        "name": "The Riverside Bookshop.",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13444866995,
+      "lat": 51.5283437,
+      "lon": -0.0510212,
+      "tags": {
+        "name": "Claire de Rouen",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13444868338,
+      "lat": 51.5282665,
+      "lon": -0.0512409,
+      "tags": {
+        "name": "Jambala",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13467997486,
+      "lat": 51.4832577,
+      "lon": -0.3482114,
+      "tags": {
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13509424801,
+      "lat": 51.5119176,
+      "lon": -0.1142532,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "2",
+        "addr:street": "Arundel Street",
+        "name": "Reference Point",
+        "opening_hours": "Tu-Th 11:00-23:00; Mo 11:00-18:30; Fr 11:00-00:00; Sa 12:00-00:00",
+        "outdoor_seating": "no",
+        "shop": "books",
+        "website": "https://reference-point.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13635068025,
+      "lat": 51.4756944,
+      "lon": -0.0469577,
+      "tags": {
+        "check_date": "2026-06-01",
+        "name": "Believer's Bookshop",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13652446961,
+      "lat": 51.4910273,
+      "lon": -0.0811727,
+      "tags": {
+        "addr:city": "London",
+        "addr:street": "Old Kent Road",
+        "alt_name": "The Book Centre",
+        "books": "religion",
+        "check_date": "2026-06-29",
+        "name": "I Am Bookstore",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13723578201,
+      "lat": 51.462268,
+      "lon": -0.1119473,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Granville Arcade",
+        "addr:housenumber": "73",
+        "addr:postcode": "SW9 8PS",
+        "addr:street": "Coldharbour Lane",
+        "check_date": "2026-04-11",
+        "name": "Round Table Books",
+        "opening_hours": "Su,Mo-Fr 11:00-17:30; Sa 09:30-17:30",
+        "shop": "books",
+        "website": "https://www.roundtablebooks.co.uk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13991019803,
+      "lat": 51.5309196,
+      "lon": -0.0684373,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "278",
+        "addr:street": "Hackney Road",
+        "name": "Perfect Lives",
+        "shop": "books",
+        "website": "https://perfectlives.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14191294089,
+      "lat": 51.5155345,
+      "lon": -0.1385668,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "175-179",
+        "addr:postcode": "W1D 2JS",
+        "addr:street": "Oxford Street",
+        "amenity": "cafe",
+        "indoor_seating": "yes",
+        "level": "1",
+        "name": "Poetry Pharmacy",
+        "shop": "books",
+        "website": "https://poetrypharmacy.co.uk/",
+        "wikimedia_commons": "Category:Poetry Pharmacy, Oxford Street, London"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14196786629,
+      "lat": 51.5846646,
+      "lon": -0.0201424,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "226",
+        "addr:street": "High Street",
+        "addr:suburb": "Walthamstow",
+        "name": "Book Shop",
+        "shop": "books",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14196843934,
+      "lat": 51.5792249,
+      "lon": -0.0222026,
+      "tags": {
+        "addr:housenumber": "70",
+        "addr:street": "Queens Road",
+        "name": "Sweetness of Imaan",
+        "shop": "books",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14249251440,
+      "lat": 51.5259098,
+      "lon": -0.314025,
+      "tags": {
+        "name": "Pitshanger Bookshop",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "way",
+      "id": 61886793,
+      "center": {
+        "lat": 51.4575397,
+        "lon": -0.0736697
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "47",
+        "addr:postcode": "SE22 9ET",
+        "addr:street": "North Cross Road",
+        "building": "yes",
+        "fhrs:id": "1093552",
+        "name": "Rye Books",
+        "old_name": "Pretty Traditional",
+        "shop": "books",
+        "source": "Bing;OS StreetView",
+        "website": "https://ryebooks.co.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 62222978,
+      "center": {
+        "lat": 51.4601105,
+        "lon": -0.0754461
+      },
+      "tags": {
+        "addr:housenumber": "14",
+        "addr:street": "Lordship Lane",
+        "building": "yes",
+        "check_date": "2025-10-03",
+        "name": "Chener Books",
+        "shop": "books",
+        "source": "Bing;OS StreetView"
+      }
+    },
+    {
+      "type": "way",
+      "id": 71215736,
+      "center": {
+        "lat": 51.5681328,
+        "lon": -0.1094556
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "76",
+        "addr:street": "Stroud Green Road",
+        "building": "yes",
+        "building:levels": "3",
+        "name": "New Beacon Books",
+        "opening_hours": "Th-Sa 12:00-18:00",
+        "phone": "+44 20 7272 4889",
+        "roof:levels": "1",
+        "roof:orientation": "across",
+        "roof:shape": "gambrel",
+        "shop": "books",
+        "website": "https://www.newbeaconbooks.com/",
+        "wikidata": "Q7005447",
+        "wikipedia": "en:New Beacon Books"
+      }
+    },
+    {
+      "type": "way",
+      "id": 73045963,
+      "center": {
+        "lat": 51.4675976,
+        "lon": -0.0722567
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "131",
+        "addr:postcode": "SE15 4QY",
+        "addr:street": "Bellenden Road",
+        "building": "yes",
+        "check_date": "2024-06-22",
+        "name": "Review",
+        "shop": "books",
+        "source": "Bing;OS StreetView"
+      }
+    },
+    {
+      "type": "way",
+      "id": 84730500,
+      "center": {
+        "lat": 51.552711,
+        "lon": -0.0526578
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "70",
+        "addr:postcode": "E5 0RN",
+        "addr:street": "Lower Clapton Road",
+        "building": "retail",
+        "building:levels": "3",
+        "check_date": "2025-11-22",
+        "contact:instagram": "pagesofhackney",
+        "dog": "yes",
+        "email": "info@pagesofhackney.co.uk",
+        "name": "Pages of Hackney",
+        "opening_hours": "Mo-Fr,Su 11:00-18:00; Sa 10:00-18:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+44 20 8525 1452",
+        "roof:levels": "0",
+        "second_hand": "yes",
+        "shop": "books",
+        "website": "https://pagesofhackney.co.uk/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "way",
+      "id": 97966891,
+      "center": {
+        "lat": 51.5358057,
+        "lon": -0.2051235
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "87",
+        "addr:postcode": "NW6 6NH",
+        "addr:street": "Salusbury Road",
+        "building": "yes",
+        "check_date": "2024-08-08",
+        "name": "Queen's Park Books",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:google_pay": "yes",
+        "ref:GB:uprn": "202240078;202240077;202240076;202240075;202046314;202046312;202046313",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "way",
+      "id": 101697011,
+      "center": {
+        "lat": 51.5003639,
+        "lon": -0.0820362
+      },
+      "tags": {
+        "addr:housenumber": "1a",
+        "addr:street": "Morocco Street",
+        "building": "yes",
+        "building:levels": "4",
+        "fhrs:id": "1522030",
+        "name": "Morocco Bound",
+        "shop": "books",
+        "source": "Bing",
+        "website": "https://www.moroccobound.co.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 121533778,
+      "center": {
+        "lat": 51.4896935,
+        "lon": -0.1753955
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "100",
+        "addr:postcode": "SW3 6HS",
+        "addr:street": "Fulham Road",
+        "description": "Peter Harrington has specialised in sourcing, selling and buying the finest quality original first editions, signed, rare and antiquarian books, fine bindings and library sets.",
+        "name": "Peter Harrington",
+        "opening_hours": "Mo-Sa 10:00-18:00",
+        "phone": "+44 20 7591 0220",
+        "shop": "books",
+        "website": "https://www.peterharrington.co.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 126610389,
+      "center": {
+        "lat": 51.4530951,
+        "lon": -0.0998575
+      },
+      "tags": {
+        "addr:housenumber": "25",
+        "addr:street": "Half Moon Lane",
+        "books": "children",
+        "building": "yes",
+        "name": "Tales on Moon Lane",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "way",
+      "id": 156620028,
+      "center": {
+        "lat": 51.5128967,
+        "lon": -0.134134
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "1",
+        "addr:postcode": "W1F 0DR",
+        "addr:street": "Berwick Street",
+        "books": "comic",
+        "check_date": "2025-05-07",
+        "level": "0",
+        "name": "Gosh!",
+        "opening_hours": "Mo-Su 10:30-19:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+44 20 7636 1011",
+        "shop": "books",
+        "website": "https://www.goshlondon.com/",
+        "wheelchair": "limited",
+        "wikimedia_commons": "File:Berwick_Street_shops_Gosh.jpg"
+      }
+    },
+    {
+      "type": "way",
+      "id": 157748210,
+      "center": {
+        "lat": 51.5171602,
+        "lon": -0.1232388
+      },
+      "tags": {
+        "alt_name": "Rudolf Steiner Books",
+        "level": "0",
+        "name": "The Wellspring Bookshop",
+        "shop": "books",
+        "source": "photograph"
+      }
+    },
+    {
+      "type": "way",
+      "id": 161420192,
+      "center": {
+        "lat": 51.5136462,
+        "lon": -0.1109571
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "16",
+        "addr:postcode": "EC4Y 1AU",
+        "addr:street": "Fleet Street",
+        "building": "yes",
+        "building:colour": "white",
+        "building:levels": "4",
+        "building:material": "sandstone",
+        "contact:phone": "+44 20 7353 3907",
+        "contact:website": "http://www.wildy.com/",
+        "fax": "+44 20 7353 4395",
+        "name": "Wildy & Sons",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "shop": "books",
+        "source": "Bing;survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 194081481,
+      "center": {
+        "lat": 51.4183967,
+        "lon": -0.0826433
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "50",
+        "addr:postcode": "SE19 3RW",
+        "addr:street": "Westow Street",
+        "addr:suburb": "Upper Norwood",
+        "check_date": "2025-07-15",
+        "level": "0",
+        "name": "The Bookseller Crow on the Hill",
+        "phone": "+44 20 8771 8831",
+        "shop": "books",
+        "source": "photograph",
+        "wikidata": "Q115868776"
+      }
+    },
+    {
+      "type": "way",
+      "id": 198354775,
+      "center": {
+        "lat": 51.3739778,
+        "lon": -0.1045859
+      },
+      "tags": {
+        "addr:city": "Croydon",
+        "addr:housenumber": "96",
+        "addr:postcode": "CR0 1RD",
+        "addr:street": "Church Street",
+        "books": "comic",
+        "building": "retail",
+        "name": "A Place In Space",
+        "shop": "books",
+        "source": "survey",
+        "survey:date": "2018-10-04"
+      }
+    },
+    {
+      "type": "way",
+      "id": 205748414,
+      "center": {
+        "lat": 51.4926644,
+        "lon": -0.2593102
+      },
+      "tags": {
+        "addr:housenumber": "268",
+        "addr:street": "Chiswick High Road",
+        "building": "yes",
+        "building:levels": "3",
+        "building:material": "brick",
+        "check_date": "2024-11-23",
+        "name": "Bookcase London",
+        "opening_hours": "Mo-Sa 10:00-18:00; Su 11:00-18:00",
+        "phone": "+44 20 8742 3919",
+        "roof:levels": "1",
+        "roof:orientation": "along",
+        "roof:shape": "gabled",
+        "shop": "books",
+        "source": "Bing;photograph"
+      }
+    },
+    {
+      "type": "way",
+      "id": 205876524,
+      "center": {
+        "lat": 51.5878231,
+        "lon": -0.004025
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "118",
+        "addr:street": "Wood Street",
+        "addr:suburb": "Walthamstow",
+        "books": "non_fiction",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Non-Fiction Second Hand Book Shop",
+        "second_hand": "only",
+        "shop": "books",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 205902766,
+      "center": {
+        "lat": 51.4923355,
+        "lon": -0.2569183
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "183",
+        "addr:postcode": "W4 2DR",
+        "addr:street": "Chiswick High Road",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2026-05-28",
+        "check_date:opening_hours": "2026-05-28",
+        "level": "1",
+        "name": "Foster Books",
+        "opening_hours": "Mo-Sa 10:30-17:30; Su 11:00-17:00",
+        "phone": "+44 20 8995 2768",
+        "shop": "books",
+        "source": "Bing;photograph",
+        "website": "https://www.fosterbooks.co.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 206166105,
+      "center": {
+        "lat": 51.5889213,
+        "lon": -0.0040053
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "93",
+        "addr:street": "Wood Street",
+        "addr:suburb": "Walthamstow",
+        "books": "religion",
+        "building": "yes",
+        "name": "Christian Book Shop",
+        "religion": "christian",
+        "shop": "books",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 264131970,
+      "center": {
+        "lat": 51.5161272,
+        "lon": -0.070666
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "85a",
+        "addr:postcode": "E1 7QX",
+        "addr:street": "Whitechapel High Street",
+        "alt_name": "Freedom Press;Freedom Book Shop;Freedom Publishing",
+        "books": "anarchism",
+        "building": "commercial",
+        "contact:email": "shop@freedompress.org.uk",
+        "contact:twitter": "@Freedom_Paper",
+        "contact:website": "http://www.freedompress.org.uk/",
+        "image": "File:Freedom Press building - 2014.jpg",
+        "name": "Freedom Bookshop",
+        "opening_hours": "Mo-Sa 12:00-18:00; Su 12:00-16:00",
+        "operator:type": "community",
+        "shop": "books",
+        "wheelchair": "no",
+        "wikidata": "Q641555",
+        "wikimedia_commons": "Category:Freedom Press",
+        "wikipedia": "en:Freedom Press"
+      }
+    },
+    {
+      "type": "way",
+      "id": 271614191,
+      "center": {
+        "lat": 51.5223375,
+        "lon": -0.0715001
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "166",
+        "addr:postcode": "E1 6RU",
+        "addr:street": "Brick Lane",
+        "building": "yes",
+        "check_date:opening_hours": "2023-12-19",
+        "name": "Brick Lane Bookshop",
+        "opening_hours": "Mo-Su 10:00-18:00",
+        "opening_hours:signed": "no",
+        "payment:american_express": "yes",
+        "shop": "books",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 272530894,
+      "center": {
+        "lat": 51.5067682,
+        "lon": -0.1465054
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "46",
+        "addr:postcode": "W1J 7UH",
+        "addr:street": "Curzon Street",
+        "building:levels": "4",
+        "building:material": "brick",
+        "name": "Maggs Bros Ltd",
+        "phone": "+44 20 7495 8580",
+        "shop": "books",
+        "website": "https://www.maggs.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 281951181,
+      "center": {
+        "lat": 51.5282722,
+        "lon": -0.0781643
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "11",
+        "addr:street": "Kingsland Road",
+        "building": "yes",
+        "name": "Claire de Rouen",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "way",
+      "id": 289446723,
+      "center": {
+        "lat": 51.4372097,
+        "lon": -0.0545483
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "57",
+        "addr:postcode": "SE23 3HN",
+        "addr:street": "Dartmouth Road",
+        "building": "yes",
+        "email": "contact@leafandgroove.com",
+        "facebook": "https://www.facebook.com/leafandgroove/",
+        "instagram": "https://www.instagram.com/leafandgroove/",
+        "name": "Leaf and Groove",
+        "second_hand": "yes",
+        "shop": "books",
+        "twitter": "https://twitter.com/leafandgroove",
+        "website": "http://leafandgroove.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 290459102,
+      "center": {
+        "lat": 51.5254232,
+        "lon": -0.125198
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "66",
+        "addr:postcode": "WC1N 1AB",
+        "addr:street": "Marchmont Street",
+        "building": "yes",
+        "check_date": "2026-02-28",
+        "contact:email": "sales@gaystheword.co.uk",
+        "lgbtq": "primary",
+        "name": "Gay's The Word",
+        "opening_hours": "Mo-Sa 10:00-18:30;Su 14:00-18:00",
+        "shop": "books",
+        "website": "https://www.gaystheword.co.uk/",
+        "wikidata": "Q5528519",
+        "wikimedia_commons": "Category:Gay's The Word",
+        "wikipedia": "en:Gay's the Word (bookshop)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 290460116,
+      "center": {
+        "lat": 51.5260069,
+        "lon": -0.1254984
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "82",
+        "addr:street": "Marchmont Street",
+        "building": "yes",
+        "check_date": "2026-06-25",
+        "name": "Judd Books",
+        "opening_hours": "Mo-Sa 11:00-19:00; Su 12:00-18:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "books",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 291516415,
+      "center": {
+        "lat": 51.4303194,
+        "lon": -0.3065071
+      },
+      "tags": {
+        "addr:city": "Kingston upon Thames",
+        "addr:country": "GB",
+        "addr:housenumber": "406",
+        "addr:postcode": "KT2 5PU",
+        "addr:street": "Richmond Road",
+        "building": "apartments",
+        "check_date": "2026-08-29",
+        "email": "orders@paradesendbooks.co.uk",
+        "internet_access": "no",
+        "name": "Parade's End Books",
+        "opening_hours": "Mo-Th 10:00-17:00; Fr-Sa 10:00-18:00; Su 11:00-17:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+44 20 8549 5425",
+        "shop": "books",
+        "website": "https://www.paradesendbooks.co.uk",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 291647518,
+      "center": {
+        "lat": 51.5239643,
+        "lon": -0.1238486
+      },
+      "tags": {
+        "building": "yes",
+        "check_date": "2025-06-07",
+        "name": "Brunswick Bookshop",
+        "shop": "books",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 291687164,
+      "center": {
+        "lat": 51.5471943,
+        "lon": -0.1418312
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "207-209",
+        "addr:postcode": "NW5 2JU",
+        "addr:street": "Kentish Town Road",
+        "building": "house",
+        "building:use": "retail",
+        "check_date": "2024-01-27",
+        "name": "Owl Bookshop",
+        "opening_hours": "Mo-Sa 09:00-19:00; Su 11:00-18:00; PH 11:00-18:00",
+        "ref:GB:uprn": "5082822",
+        "shop": "books",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 313318368,
+      "center": {
+        "lat": 51.507022,
+        "lon": -0.146573
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "10",
+        "addr:postcode": "W1J 5HH",
+        "addr:street": "Curzon Street",
+        "building": "yes",
+        "building:colour": "grey",
+        "building:levels": "5",
+        "name": "G. Heywood Hill Ltd.",
+        "ref:GB:uprn": "100023476231;100023476230;100023476232;10033571018;100023476237;100023476229",
+        "shop": "books",
+        "website": "https://www.heywoodhill.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 321784557,
+      "center": {
+        "lat": 51.550674,
+        "lon": -0.1916379
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "277",
+        "addr:postcode": "NW6 1QS",
+        "addr:street": "West End Lane",
+        "building": "yes",
+        "check_date": "2026-08-08",
+        "name": "West End Lane Books",
+        "ref:GB:uprn": "5087271",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "way",
+      "id": 326914179,
+      "center": {
+        "lat": 51.4631725,
+        "lon": -0.1134515
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "24",
+        "addr:postcode": "SW9 8PD",
+        "addr:street": "Brixton Station Road",
+        "building": "viaduct",
+        "building:levels": "1",
+        "check_date": "2025-09-16",
+        "name": "Beautiful Books",
+        "roof:shape": "flat",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "way",
+      "id": 330752306,
+      "center": {
+        "lat": 51.4925377,
+        "lon": -0.2329298
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:postcode": "W6 9JT",
+        "addr:street": "King Street",
+        "building": "yes",
+        "charity": "yes",
+        "email": "hammersmithbookshop@amnesty.org.uk",
+        "name": "The Amnesty Bookshop",
+        "opening_hours": "Tu-Sa 10:30-17:30; Mo 10:30-17:00; Su 11:00-15:00",
+        "operator": "Amnesty International",
+        "ref:GB:uprn": "34135545;34135125;34135268;34008017;34135397;34135480",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "way",
+      "id": 349937282,
+      "center": {
+        "lat": 51.512304,
+        "lon": -0.1308083
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "112",
+        "addr:postcode": "W1D 5EJ",
+        "addr:street": "Shaftesbury Avenue",
+        "description": "Book and art materials store specialising in Chinese langauge books and materials for Chinese caligraphy",
+        "name": "光華書店 Guanghwa",
+        "name:en": "Guanghwa",
+        "name:zh-Hans": "光华书店",
+        "name:zh-Hant": "光華書店",
+        "note": "East side of the peak in the roof, about 7m West (to 12m West) of border of buildings on West side of Frith Street",
+        "opening_hours": "Mo-Sa 10:30-19:30; Su 11:00-19:30",
+        "shop": "books",
+        "source": "survey;BIng 2012;local_knowledge",
+        "survey:date": "2014-07-26",
+        "website": "https://www.cypressbooks.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 352696772,
+      "center": {
+        "lat": 51.5311707,
+        "lon": -0.1212699
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "5",
+        "addr:street": "Caledonian Road",
+        "building": "retail",
+        "building:colour": "white",
+        "building:levels": "4",
+        "building:material": "plaster",
+        "name": "Housmans",
+        "note": "Specialist radical bookshop (eg books on politics, peace etc)",
+        "opening_hours": "Mo-Sa 11:00-18:30; Su 12:00-18:00",
+        "roof:levels": "1",
+        "shop": "books",
+        "website": "https://housmans.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 357835318,
+      "center": {
+        "lat": 51.5148167,
+        "lon": -0.1171749
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "1",
+        "addr:postcode": "WC2A 2ES",
+        "addr:street": "Portsmouth Street",
+        "alt_name": "Alpha Books",
+        "area": "yes",
+        "books": "academic",
+        "description": "Also non-academic books",
+        "level": "0",
+        "name": "αlpha Books",
+        "operator": "LSE Students' Union",
+        "second_hand": "only",
+        "shop": "books",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 366327399,
+      "center": {
+        "lat": 51.5357897,
+        "lon": -0.0620235
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "6",
+        "addr:postcode": "E8 4QJ",
+        "addr:street": "Broadway Market",
+        "building": "apartments",
+        "check_date": "2025-12-24",
+        "check_date:opening_hours": "2025-12-24",
+        "name": "The Broadway Bookshop",
+        "opening_hours": "Tu-Sa 10:00-18:00; Su 11:00-18:00; Mo off",
+        "payment:american_express": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+44 20 7241 1626",
+        "shop": "books",
+        "website": "https://www.broadwaybookshophackney.com/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399281250,
+      "center": {
+        "lat": 51.5498036,
+        "lon": -0.0548687
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "2-4",
+        "addr:street": "Clarence Road",
+        "building": "retail",
+        "building:colour": "white",
+        "building:levels": "3",
+        "building:material": "plaster",
+        "check_date": "2026-08-08",
+        "check_date:opening_hours": "2026-08-08",
+        "email": "clarenceroad@artwords.co.uk",
+        "name": "Artwords",
+        "opening_hours": "Tu,Th 10:00-19:00; We,Fr-Sa 10:00-18:00; Su 11:00-18:00; Mo off",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+44 20 4531 2460",
+        "roof:colour": "darkgrey",
+        "second_hand": "no",
+        "shop": "books",
+        "website": "https://www.artwords.co.uk/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 401191928,
+      "center": {
+        "lat": 51.5185238,
+        "lon": -0.1310855
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "32",
+        "addr:postcode": "WC1B 3EG",
+        "addr:street": "Bedford Square",
+        "alt_name": "AA Bookshop",
+        "building": "house",
+        "building:colour": "white",
+        "building:levels": "3",
+        "building:material": "plaster",
+        "name": "Architectural Association Bookshop",
+        "note": "This is actually signed as AA Bookshop, but I've expanded the abbrev.",
+        "opening_hours": "Mo-Fr 10:00-18:00; Sa 11:00-18:00",
+        "roof:levels": "1",
+        "roof:material": "slate",
+        "shop": "books",
+        "source:housenumber": "OSGB 1:1250 OOC Maps via NLS",
+        "source:postcode": "FHRS Open Data",
+        "wikidata": "Q634951",
+        "wikipedia": "en:Architectural Association School of Architecture"
+      }
+    },
+    {
+      "type": "way",
+      "id": 421882354,
+      "center": {
+        "lat": 51.518783,
+        "lon": -0.1178846
+      },
+      "tags": {
+        "name": "The Folio Society Bookshop",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "way",
+      "id": 422540682,
+      "center": {
+        "lat": 51.519858,
+        "lon": -0.1311124
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "33",
+        "addr:postcode": "WC1E 7BS",
+        "addr:street": "Store Street",
+        "building": "retail",
+        "building:colour": "brown",
+        "building:levels": "4",
+        "building:material": "brick",
+        "check_date": "2026-07-02",
+        "name": "Treadwell's Books",
+        "ref:GB:uprn": "5099410;5099411;5099412;5002341",
+        "shop": "books",
+        "website": "https://www.treadwells-london.com/",
+        "wikidata": "Q16979370"
+      }
+    },
+    {
+      "type": "way",
+      "id": 432785673,
+      "center": {
+        "lat": 51.4599204,
+        "lon": -0.306912
+      },
+      "tags": {
+        "addr:city": "Richmond",
+        "addr:postcode": "TW9 1ND",
+        "addr:street": "King Street",
+        "building": "yes",
+        "building:levels": "3",
+        "check_date": "2024-09-09",
+        "email": "theopenbook@btconnect.com",
+        "name": "The Open Book",
+        "phone": "+44 20 8940 1802",
+        "shop": "books",
+        "website": "https://theopenbook0.wixsite.com/theopenbook-richmond",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "way",
+      "id": 432864209,
+      "center": {
+        "lat": 51.4604454,
+        "lon": -0.3040416
+      },
+      "tags": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "2a",
+        "addr:postcode": "TW9 1JL",
+        "addr:street": "Church Court",
+        "books": "children",
+        "building": "yes",
+        "building:levels": "3",
+        "name": "The Alligator's Mouth",
+        "ref:GB:uprn": "10002252288;10091159308",
+        "shop": "books",
+        "website": "https://www.thealligatorsmouth.co.uk/",
+        "wikidata": "Q116754225"
+      }
+    },
+    {
+      "type": "way",
+      "id": 436146454,
+      "center": {
+        "lat": 51.5303909,
+        "lon": 0.0374198
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "743-745",
+        "addr:postcode": "E13 9ER",
+        "addr:street": "Barking Road",
+        "addr:suburb": "Plaistow",
+        "building": "yes",
+        "building:levels": "3",
+        "name": "Newham Bookshop",
+        "shop": "books",
+        "website": "https://www.newhambooks.co.uk"
+      }
+    },
+    {
+      "type": "way",
+      "id": 452833103,
+      "center": {
+        "lat": 51.5758838,
+        "lon": -0.014615
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "466",
+        "addr:street": "Hoe Street",
+        "addr:suburb": "Walthamstow",
+        "building": "retail",
+        "building:levels": "2",
+        "name": "KICC Bookstores",
+        "shop": "books",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 460408484,
+      "center": {
+        "lat": 51.4644493,
+        "lon": -0.2673161
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "375",
+        "addr:street": "Upper Richmond Road West",
+        "building": "retail",
+        "building:levels": "3",
+        "name": "Sheen Bookshop",
+        "opening_hours": "Mo-Sa 09:30-17:30; Su 11:00-17:00",
+        "roof:shape": "saltbox",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "way",
+      "id": 460833873,
+      "center": {
+        "lat": 51.5414367,
+        "lon": -0.0759101
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "400",
+        "addr:postcode": "E8 4AA",
+        "addr:street": "Kingsland Road",
+        "building": "apartments",
+        "building:levels": "3",
+        "check_date": "2026-03-19",
+        "contact:instagram": "burleyfisher",
+        "drink:coffee": "yes",
+        "email": "shop@burleyfisherbooks.com",
+        "fhrs:id": "912269",
+        "name": "Burley Fisher Books",
+        "opening_hours": "Mo-Sa 10:00-18:00; Su 12:00-18:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+44 20 7249 2263",
+        "roof:levels": "1",
+        "second_hand": "yes",
+        "shop": "books",
+        "website": "https://burleyfisherbooks.com/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 461032095,
+      "center": {
+        "lat": 51.5703058,
+        "lon": -0.1463224
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "9",
+        "addr:street": "Highgate High Street",
+        "building": "yes",
+        "building:levels": "4",
+        "name": "Highgate Bookshop",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "way",
+      "id": 469771535,
+      "center": {
+        "lat": 51.4252187,
+        "lon": -0.2204979
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "40",
+        "addr:postcode": "SW19 5AU",
+        "addr:street": "High Street",
+        "building": "yes",
+        "check_date:opening_hours": "2025-05-13",
+        "name": "Wimbledon Books",
+        "opening_hours": "Mo-Sa 10:00-17:30; Su 11:00-17:00",
+        "shop": "books",
+        "website": "https://www.wimbledonbooks.co.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 485638349,
+      "center": {
+        "lat": 51.5130063,
+        "lon": -0.1253547
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "7",
+        "addr:postcode": "WC2H 9FA",
+        "addr:street": "Mercer Walk",
+        "building": "yes",
+        "building:colour": "grey",
+        "building:levels": "4",
+        "check_date": "2024-08-23",
+        "description": "world’s largest map and travel book shop",
+        "name": "Stanfords",
+        "opening_hours": "Mo-Fr 09:00-19:00; Sa 10:00-19:00; Su 12:00-18:00",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:google_pay": "yes",
+        "phone": "+44 20 7836 1321",
+        "ref:GB:uprn": "10033638860;10033638861;10033638840;10033638862;10033638863;10033638853;10033638864;10033638854;10033638865;10033638855;10033638866;10033638856;10033638857;10033638858;10033638859",
+        "roof:colour": "black",
+        "shop": "books",
+        "website": "https://www.stanfords.co.uk/london-store",
+        "wikidata": "Q7598824",
+        "wikipedia": "en:Stanfords"
+      }
+    },
+    {
+      "type": "way",
+      "id": 504637139,
+      "center": {
+        "lat": 51.5905481,
+        "lon": -0.1435869
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "123",
+        "addr:postcode": "N10 3RS",
+        "addr:street": "Muswell Hill Broadway",
+        "building": "yes",
+        "building:levels": "4",
+        "name": "House of Books",
+        "opening_hours": "Mo-Sa 09:00-18:00; Su 10:00-17:00",
+        "shop": "books",
+        "website": "https://www.thehouseofbooks.co.uk/muswell-hill"
+      }
+    },
+    {
+      "type": "way",
+      "id": 524696966,
+      "center": {
+        "lat": 51.3976776,
+        "lon": -0.1992918
+      },
+      "tags": {
+        "addr:city": "Morden",
+        "addr:postcode": "SM4 5PT",
+        "addr:street": "London Road",
+        "building": "yes",
+        "name": "Islamic Book Shop",
+        "operator": "Ahmadiyya Muslim Association UK",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "way",
+      "id": 537038237,
+      "center": {
+        "lat": 51.496015,
+        "lon": -0.1401808
+      },
+      "tags": {
+        "building": "yes",
+        "name": "St Pauls Books and Gifts",
+        "opening_hours": "Mo-Sa 09:30-18:00",
+        "shop": "books",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "way",
+      "id": 553097406,
+      "center": {
+        "lat": 51.5184288,
+        "lon": -0.1241227
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "10",
+        "addr:street": "Bury Place",
+        "level": "0",
+        "name": "Enitharmon Editions",
+        "shop": "books",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "way",
+      "id": 554358280,
+      "center": {
+        "lat": 51.5174742,
+        "lon": -0.1250788
+      },
+      "tags": {
+        "check_date": "2022-12-09",
+        "name": "The Atlantis Bookshop",
+        "shop": "books",
+        "website": "https://www.theatlantisbookshop.com/",
+        "wikidata": "Q4816704"
+      }
+    },
+    {
+      "type": "way",
+      "id": 556137688,
+      "center": {
+        "lat": 51.5170608,
+        "lon": -0.1273041
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "1",
+        "addr:postcode": "WC1B 3QE",
+        "addr:street": "Bloomsbury Street",
+        "building": "retail",
+        "building:colour": "white",
+        "building:levels": "4",
+        "building:material": "plaster",
+        "check_date": "2025-12-21",
+        "name": "Bookmarks",
+        "opening_hours": "Mo 11:30-18:00; Tu-Sa 10:30-18:00",
+        "phone": "+442076371848",
+        "ref:GB:uprn": "5018818;5121049;5121048;5121047;5121046;5093252",
+        "roof:colour": "darkgrey",
+        "shop": "books",
+        "wheelchair": "no",
+        "wikidata": "Q110252136",
+        "wikipedia": "en:Bookmarks (bookshop)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 562225209,
+      "center": {
+        "lat": 51.5146769,
+        "lon": -0.1254642
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "29",
+        "addr:street": "Short's Gardens",
+        "name": "Magma",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "way",
+      "id": 587328298,
+      "center": {
+        "lat": 51.4825249,
+        "lon": -0.2863265
+      },
+      "tags": {
+        "addr:city": "Kew",
+        "addr:housenumber": "9",
+        "addr:postcode": "TW9 3DT",
+        "addr:street": "Mortlake Terrace",
+        "building": "retail",
+        "name": "Lloyds of Kew",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "way",
+      "id": 593167151,
+      "center": {
+        "lat": 51.5707899,
+        "lon": -0.1485683
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "47",
+        "addr:street": "Highgate High Street",
+        "brand:wikidata": "Q7115196",
+        "building": "yes",
+        "name": "Oxfam",
+        "shop": "books",
+        "website": "https://www.oxfam.org.uk/shops/oxfam-bookshop-highgate/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 595216656,
+      "center": {
+        "lat": 51.4750746,
+        "lon": -0.2396909
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "98",
+        "addr:postcode": "SW13 0DQ",
+        "addr:street": "Church Road",
+        "building": "retail",
+        "building:levels": "3",
+        "name": "The Barnes Bookshop",
+        "old_name": "Luma",
+        "ref:GB:uprn": "10070707825;100023308718",
+        "roof:orientation": "across",
+        "roof:shape": "gabled",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "way",
+      "id": 638542145,
+      "center": {
+        "lat": 51.5246188,
+        "lon": -0.0719293
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "118",
+        "addr:postcode": "E2 6DG",
+        "addr:street": "Bethnal Green Road",
+        "cafe": "yes",
+        "check_date:opening_hours": "2026-05-19",
+        "drink:coffee": "yes",
+        "lgbtq": "primary",
+        "name": "The Common Press",
+        "opening_hours": "Tu-Su 11:00-18:30",
+        "payment:cash": "no",
+        "second_hand": "no",
+        "shop": "books",
+        "toilets": "yes",
+        "website": "https://www.commonpress.co.uk",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 681581509,
+      "center": {
+        "lat": 51.6077114,
+        "lon": 0.0001479
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "2 Bank Buildings",
+        "addr:postcode": "E4 9LE",
+        "addr:street": "The Avenue",
+        "building": "yes",
+        "name": "V And A Books and Gifts",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "way",
+      "id": 754374551,
+      "center": {
+        "lat": 51.516475,
+        "lon": -0.1878246
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "11",
+        "addr:street": "Porchester Road",
+        "building": "yes",
+        "name": "Agape Arabic Christian Centre",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "way",
+      "id": 849701063,
+      "center": {
+        "lat": 51.632667,
+        "lon": 0.0080926
+      },
+      "tags": {
+        "addr:street": "Station Road",
+        "building": "yes",
+        "name": "Jo’s Bookshop",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "way",
+      "id": 872976481,
+      "center": {
+        "lat": 51.5462421,
+        "lon": 0.0247486
+      },
+      "tags": {
+        "addr:housenumber": "292",
+        "addr:street": "Romford Road",
+        "name": "Minaji Bookshop",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "way",
+      "id": 881418267,
+      "center": {
+        "lat": 51.5440354,
+        "lon": -0.1469334
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "38",
+        "addr:postcode": "NW1 8DP",
+        "addr:street": "Harmood Street",
+        "building": "house",
+        "name": "Walden Books",
+        "opening_hours": "Mo-Th 10:00-18:30",
+        "ref:GB:uprn": "5078146;5009077",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "way",
+      "id": 888717336,
+      "center": {
+        "lat": 51.4894047,
+        "lon": -0.1753482
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "239a",
+        "addr:street": "Fulham Road",
+        "building": "yes",
+        "name": "Sokol Books",
+        "opening_hours": "Tu-Sa 11:00-19:00",
+        "phone": "+44 20 7351 5119",
+        "shop": "books",
+        "website": "https://sokol.co.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 899956701,
+      "center": {
+        "lat": 51.4912971,
+        "lon": -0.1595066
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "12",
+        "addr:postcode": "SW3 4LY",
+        "addr:street": "Duke of York Square",
+        "name": "Taschen",
+        "phone": "+44 20 7881 0795",
+        "shop": "books",
+        "website": "https://www.taschen.com/pages/en/stores/19915.store_london.htm",
+        "wheelchair": "yes",
+        "wikidata": "Q367205",
+        "wikipedia": "en:Taschen"
+      }
+    },
+    {
+      "type": "way",
+      "id": 973132177,
+      "center": {
+        "lat": 51.5514306,
+        "lon": -0.1405836
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "308",
+        "addr:postcode": "NW5 2TH",
+        "addr:street": "Kentish Town Road",
+        "building": "office",
+        "charity": "yes",
+        "name": "The Amnesty Bookshop",
+        "operator": "Amnesty International",
+        "ref:GB:uprn": "5005105",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1008664220,
+      "center": {
+        "lat": 51.5374178,
+        "lon": 0.0259954
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "67",
+        "addr:street": "Plashet Road",
+        "building": "commercial",
+        "religion": "muslim",
+        "shop": "books",
+        "source:addr:housenumber": "(just about) visible on bing streetside"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1039689380,
+      "center": {
+        "lat": 51.5899947,
+        "lon": -0.146511
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "29",
+        "addr:postcode": "N10 3HP",
+        "addr:street": "Fortis Green Road",
+        "books": "children",
+        "building": "retail",
+        "building:levels": "3",
+        "name": "Children's Bookshop",
+        "opening_hours": "Mo-Sa 09:15-17:45; Su 11:00-16:00",
+        "phone": "+44 20 8444 5500",
+        "ref:GB:uprn": "100023143895",
+        "roof:levels": "1",
+        "shop": "books",
+        "website": "https://www.childrensbookshoplondon.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1119447381,
+      "center": {
+        "lat": 51.540807,
+        "lon": -0.1572436
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "134",
+        "addr:postcode": "NW1 8XL",
+        "addr:street": "Regent's Park Road",
+        "building": "yes",
+        "email": "shop@primrosehillbooks.com",
+        "name": "Primrose Hill Books",
+        "phone": "+44 20 7586 2022",
+        "ref:GB:uprn": "5095012;5095013;5095011;5086980",
+        "shop": "books",
+        "website": "https://www.primrosehillbooks.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1216224606,
+      "center": {
+        "lat": 51.5354121,
+        "lon": -0.1234632
+      },
+      "tags": {
+        "building": "yes",
+        "contact:phone": "+44 7976 886982",
+        "contact:website": "https://www.wordonthewater.co.uk/",
+        "name": "Word on the Water",
+        "opening_hours": "Mo-Su 12:00-19:00",
+        "shop": "books",
+        "wheelchair": "no",
+        "wikidata": "Q110442894",
+        "wikimedia_commons": "Category:Word on the Water",
+        "wikipedia": "en:Word on the Water"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1296365489,
+      "center": {
+        "lat": 51.5747056,
+        "lon": 0.1850692
+      },
+      "tags": {
+        "addr:city": "Romford",
+        "addr:housename": "Darussalam Publishers & Distributors",
+        "addr:housenumber": "11",
+        "addr:postcode": "RM1 2JT",
+        "addr:street": "Victoria Road",
+        "books": "islamic_books",
+        "building": "yes",
+        "internet_access": "yes",
+        "name": "Darussalam Publishers & Distributors",
+        "opening_hours": "Mo-Su 10:00-21:00",
+        "operator": "Darussalam Publishers",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+44 7349 129505",
+        "ref:GB:uprn": "10024385850;10024385851;10094416489;10024385856;10091576118;10024385857;10024385858;10024385859;10024385852;10024385853;10024385854;100023211396;10024385855;10024385849",
+        "shop": "books",
+        "website": "https://darussalam.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1367401996,
+      "center": {
+        "lat": 51.5547462,
+        "lon": -0.1402347
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "89",
+        "addr:postcode": "NW5 1AG",
+        "addr:street": "Fortess Road",
+        "building": "house",
+        "building:levels": "3",
+        "email": "enquiries@hellenicbookservice.com",
+        "name": "Hellenic Bookservice",
+        "opening_hours": "Mo-Fr 09:30-17:30; Sa 10:00-17:00; Su off; PH off",
+        "phone": "+44 20 7267 9499",
+        "roof:shape": "hipped",
+        "second_hand": "yes",
+        "shop": "books",
+        "source": "survey",
+        "website": "https://www.hellenicbookservice.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1451093994,
+      "center": {
+        "lat": 51.5118283,
+        "lon": -0.3829088
+      },
+      "tags": {
+        "addr:city": "Southall",
+        "addr:housenumber": "153",
+        "addr:postcode": "UB1 1LP",
+        "addr:street": "The Broadway",
+        "books": "islamic",
+        "building": "yes",
+        "building:levels": "2",
+        "house": "terraced",
+        "name": "Al Jannah Books",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1498073259,
+      "center": {
+        "lat": 51.569615,
+        "lon": -0.0080262
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "654",
+        "addr:street": "High Road Leyton",
+        "building": "retail",
+        "check_date": "2026-04-04",
+        "name": "Good News Shop",
+        "shop": "books",
+        "source:addr:housenumber": "NLS - OS 1:1,250/1:2,500 National Grid Maps, 1947-63 - TQ"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1565767908,
+      "center": {
+        "lat": 51.5264062,
+        "lon": -0.1080578
+      },
+      "tags": {
+        "building": "kiosk",
+        "contact:instagram": "kiosk.bookshop",
+        "name": "Kiosk Bookshop",
+        "opening_hours": "Th-Sa 12:00-18:00; Su-We off",
+        "second_hand": "yes",
+        "shop": "books"
+      }
+    }
+  ]
+}
