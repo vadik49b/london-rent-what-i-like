@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>London Rent Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  html, body { height: 100%; margin: 0; font: 14px/1.4 system-ui, sans-serif; color: #1f2933; }
+  #map { height: 100%; }
+  .leaflet-tile-pane { filter: grayscale(1) opacity(.7); } /* mute the basemap so rail colours stand out */
+  #panel {
+    position: absolute; top: 12px; right: 12px; z-index: 1000; width: 220px;
+    max-height: calc(100% - 24px); overflow: auto; box-sizing: border-box;
+    background: #fff; border-radius: 8px; padding: 12px 14px; box-shadow: 0 1px 6px rgba(0,0,0,.25);
+  }
+  #panel h1 { font-size: 15px; margin: 0 0 8px; }
+  #panel h2 { font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: #6b7785; margin: 12px 0 4px; }
+  #panel label { display: flex; align-items: center; gap: 6px; padding: 2px 0; cursor: pointer; }
+  #panel .count { margin-left: auto; color: #6b7785; font-variant-numeric: tabular-nums; }
+  #panel .swatches { display: flex; gap: 2px; }
+  #panel .swatches i { width: 6px; height: 12px; border-radius: 2px; }
+  #panel footer { margin-top: 10px; font-size: 11px; color: #6b7785; }
+  .poi {
+    display: flex; align-items: center; justify-content: center; border-radius: 50%;
+    border: 2px solid #fff; box-shadow: 0 1px 3px rgba(0,0,0,.4); box-sizing: border-box;
+  }
+  .popup-title { font-weight: 600; font-size: 14px; }
+  .popup-sub { color: #6b7785; }
+  .chip { display: inline-block; padding: 0 6px; margin: 3px 3px 0 0; border-radius: 9px; color: #fff; font-size: 11px; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div id="panel">
+  <h1>London Rent Map</h1>
+  <h2>Places</h2>
+  <div id="categories"></div>
+  <h2>Rail</h2>
+  <div id="modes"></div>
+  <footer id="generated"></footer>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+// ---------------------------------------------------------------------------
+// CONFIG: categories and styling. Edit freely, no re-fetch or reindex needed.
+// data.json only holds facts (dataset, name, lat, lon, props); everything about
+// how features are grouped and drawn is decided here.
+// ---------------------------------------------------------------------------
+
+// A point goes to the first category whose match() returns true.
+// icon: emoji shown in a coloured circle. icon: null draws a small dot instead.
+const categories = [
+  { id: "office",  label: "Offices",  icon: "💼", color: "#1d4ed8", size: 34, on: true, match: p => p.dataset === "offices" },
+  { id: "lidl",    label: "Lidl",     icon: "🛒", color: "#ffd500", size: 24, on: true, match: p => p.props.brand === "Lidl" },
+  { id: "station", label: "Stations", icon: null, color: "#333333", size: 3,  on: true, match: p => p.dataset === "tfl-stations" },
+];
+
+// Rail lines are toggled per mode.
+const modes = [
+  { id: "tube",           label: "Tube",           on: true },
+  { id: "elizabeth-line", label: "Elizabeth line", on: true },
+  { id: "dlr",            label: "DLR",            on: true },
+  { id: "overground",     label: "Overground",     on: true },
+];
+
+const lineStyles = {
+  "bakerloo":         { color: "#B36305" },
+  "central":          { color: "#E32017" },
+  "circle":           { color: "#FFD300" },
+  "district":         { color: "#00782A" },
+  "hammersmith-city": { color: "#F3A9BB" },
+  "jubilee":          { color: "#A0A5A9" },
+  "metropolitan":     { color: "#9B0056" },
+  "northern":         { color: "#000000" },
+  "piccadilly":       { color: "#003688" },
+  "victoria":         { color: "#0098D4" },
+  "waterloo-city":    { color: "#95CDBA" },
+  "elizabeth":        { color: "#6950A1" },
+  "dlr":              { color: "#00A4A7" },
+  "liberty":          { color: "#5D6061" },
+  "lioness":          { color: "#FAA61A" },
+  "mildmay":          { color: "#0077AD" },
+  "suffragette":      { color: "#5BBD72" },
+  "weaver":           { color: "#823A62" },
+  "windrush":         { color: "#ED1B00" },
+};
+const defaultLineStyle = { color: "#888888" };
+
+// ---------------------------------------------------------------------------
+// APP
+// ---------------------------------------------------------------------------
+
+const map = L.map("map", { preferCanvas: true }).setView([51.513, -0.06], 12);
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  maxZoom: 19,
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors · Rail data: TfL',
+}).addTo(map);
+
+fetch("data.json").then(r => r.json()).then(data => {
+  const lineById = Object.fromEntries(data.lines.map(l => [l.id, l]));
+
+  // Rail lines, one layer group per mode
+  for (const mode of modes) {
+    mode.layer = L.layerGroup();
+    mode.lines = data.lines.filter(l => l.mode === mode.id);
+    for (const line of mode.lines) {
+      const style = lineStyles[line.id] ?? defaultLineStyle;
+      L.polyline(line.paths, { color: style.color, weight: 3, opacity: 0.85 })
+        .bindTooltip(line.name, { sticky: true })
+        .addTo(mode.layer);
+    }
+    if (mode.on) mode.layer.addTo(map);
+  }
+
+  // Points, one layer group per category
+  for (const cat of categories) cat.layer = L.layerGroup(), cat.count = 0;
+  let unmatched = 0;
+  for (const p of data.points) {
+    const cat = categories.find(c => c.match(p));
+    if (!cat) { unmatched++; continue; }
+    cat.count++;
+
+    let popup = `<div class="popup-title">${p.name}</div>`;
+    if (p.props.address) popup += `<div class="popup-sub">${p.props.address}</div>`;
+    if (p.props.zone) popup += `<div class="popup-sub">Zone ${p.props.zone.replace("+", "/")}</div>`;
+    if (p.props.opening_hours) popup += `<div class="popup-sub">${p.props.opening_hours}</div>`;
+    for (const id of p.props.lines ?? []) {
+      popup += `<span class="chip" style="background:${(lineStyles[id] ?? defaultLineStyle).color}">${lineById[id]?.name ?? id}</span>`;
+    }
+
+    const marker = cat.icon
+      ? L.marker([p.lat, p.lon], {
+          zIndexOffset: cat.size * 100, // bigger icons on top
+          icon: L.divIcon({
+            className: "",
+            iconSize: [cat.size, cat.size],
+            html: `<div class="poi" style="width:${cat.size}px;height:${cat.size}px;font-size:${cat.size * 0.5}px;background:${cat.color}">${cat.icon}</div>`,
+          }),
+        })
+      : L.circleMarker([p.lat, p.lon], { radius: cat.size, color: cat.color, weight: 1.5, fillColor: "#fff", fillOpacity: 1 });
+    marker.bindTooltip(p.name).bindPopup(popup).addTo(cat.layer);
+  }
+  if (unmatched) console.warn(`${unmatched} points match no category and are hidden`);
+  for (const cat of categories) if (cat.on) cat.layer.addTo(map);
+
+  // Dots are drawn on the same canvas as the lines, keep them above the lines
+  const dotsToFront = () => {
+    for (const cat of categories) if (!cat.icon) cat.layer.eachLayer(m => m.bringToFront());
+  };
+  dotsToFront();
+
+  // Panel
+  const catBox = document.getElementById("categories");
+  for (const cat of categories) {
+    const label = document.createElement("label");
+    label.innerHTML = `<input type="checkbox" ${cat.on ? "checked" : ""}> <span>${cat.icon ?? "⚪"}</span> ${cat.label} <span class="count">${cat.count}</span>`;
+    label.querySelector("input").onchange = e => {
+      e.target.checked ? cat.layer.addTo(map) : cat.layer.remove();
+      dotsToFront();
+    };
+    catBox.append(label);
+  }
+  const modeBox = document.getElementById("modes");
+  for (const mode of modes) {
+    const swatches = mode.lines.map(l => `<i title="${l.name}" style="background:${(lineStyles[l.id] ?? defaultLineStyle).color}"></i>`).join("");
+    const label = document.createElement("label");
+    label.innerHTML = `<input type="checkbox" ${mode.on ? "checked" : ""}> ${mode.label} <span class="count swatches">${swatches}</span>`;
+    label.querySelector("input").onchange = e => {
+      e.target.checked ? mode.layer.addTo(map) : mode.layer.remove();
+      dotsToFront();
+    };
+    modeBox.append(label);
+  }
+  document.getElementById("generated").textContent = "Data built " + new Date(data.generated_at).toLocaleString();
+});
+</script>
+</body>
+</html>

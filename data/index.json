@@ -1,0 +1,233 @@
+[
+  {
+    "file": "offices.json",
+    "title": "Offices (jobs)",
+    "source": "Addresses supplied by the user, geocoded with Nominatim (OpenStreetMap)",
+    "url": "https://nominatim.openstreetmap.org/search",
+    "fetched_at": "2026-10-08T00:00:00.000Z",
+    "method": "manual",
+    "format": "JSON array of {name, address, lat, lon}",
+    "adapter": "points"
+  },
+  {
+    "file": "osm-lidl-london.json",
+    "title": "Lidl supermarkets in Greater London",
+    "source": "OpenStreetMap via Overpass API",
+    "url": "https://overpass-api.de/api/interpreter",
+    "query": "[out:json][timeout:120];\narea[\"name\"=\"Greater London\"][\"boundary\"=\"administrative\"]->.london;\nnwr[\"shop\"=\"supermarket\"][\"brand\"~\"^Lidl\"](area.london);\nout center tags;",
+    "fetched_at": "2026-10-08T18:21:56.604Z",
+    "method": "script",
+    "script": "scripts/fetch/lidl.mjs",
+    "format": "Overpass JSON: elements[] of node/way/relation, each with lat/lon or center{lat,lon}, and tags",
+    "adapter": "osm-pois"
+  },
+  {
+    "file": "tfl-line-bakerloo.json",
+    "title": "Bakerloo route and stations (tube)",
+    "source": "TfL Unified API",
+    "url": "https://api.tfl.gov.uk/Line/bakerloo/Route/Sequence/all",
+    "fetched_at": "2026-10-08T18:21:56.990Z",
+    "method": "script",
+    "script": "scripts/fetch/tfl-lines.mjs",
+    "format": "TfL RouteSequence JSON: lineId, lineName, mode, lineStrings[] (each a JSON-encoded string of [[[lon,lat],...]]), stations[] with stationId, name, lat, lon, zone",
+    "adapter": "tfl-route-sequence"
+  },
+  {
+    "file": "tfl-line-central.json",
+    "title": "Central route and stations (tube)",
+    "source": "TfL Unified API",
+    "url": "https://api.tfl.gov.uk/Line/central/Route/Sequence/all",
+    "fetched_at": "2026-10-08T18:21:57.026Z",
+    "method": "script",
+    "script": "scripts/fetch/tfl-lines.mjs",
+    "format": "TfL RouteSequence JSON: lineId, lineName, mode, lineStrings[] (each a JSON-encoded string of [[[lon,lat],...]]), stations[] with stationId, name, lat, lon, zone",
+    "adapter": "tfl-route-sequence"
+  },
+  {
+    "file": "tfl-line-circle.json",
+    "title": "Circle route and stations (tube)",
+    "source": "TfL Unified API",
+    "url": "https://api.tfl.gov.uk/Line/circle/Route/Sequence/all",
+    "fetched_at": "2026-10-08T18:21:57.111Z",
+    "method": "script",
+    "script": "scripts/fetch/tfl-lines.mjs",
+    "format": "TfL RouteSequence JSON: lineId, lineName, mode, lineStrings[] (each a JSON-encoded string of [[[lon,lat],...]]), stations[] with stationId, name, lat, lon, zone",
+    "adapter": "tfl-route-sequence"
+  },
+  {
+    "file": "tfl-line-district.json",
+    "title": "District route and stations (tube)",
+    "source": "TfL Unified API",
+    "url": "https://api.tfl.gov.uk/Line/district/Route/Sequence/all",
+    "fetched_at": "2026-10-08T18:21:57.146Z",
+    "method": "script",
+    "script": "scripts/fetch/tfl-lines.mjs",
+    "format": "TfL RouteSequence JSON: lineId, lineName, mode, lineStrings[] (each a JSON-encoded string of [[[lon,lat],...]]), stations[] with stationId, name, lat, lon, zone",
+    "adapter": "tfl-route-sequence"
+  },
+  {
+    "file": "tfl-line-dlr.json",
+    "title": "DLR route and stations (dlr)",
+    "source": "TfL Unified API",
+    "url": "https://api.tfl.gov.uk/Line/dlr/Route/Sequence/all",
+    "fetched_at": "2026-10-08T18:21:58.769Z",
+    "method": "script",
+    "script": "scripts/fetch/tfl-lines.mjs",
+    "format": "TfL RouteSequence JSON: lineId, lineName, mode, lineStrings[] (each a JSON-encoded string of [[[lon,lat],...]]), stations[] with stationId, name, lat, lon, zone",
+    "adapter": "tfl-route-sequence"
+  },
+  {
+    "file": "tfl-line-elizabeth.json",
+    "title": "Elizabeth line route and stations (elizabeth-line)",
+    "source": "TfL Unified API",
+    "url": "https://api.tfl.gov.uk/Line/elizabeth/Route/Sequence/all",
+    "fetched_at": "2026-10-08T18:21:58.812Z",
+    "method": "script",
+    "script": "scripts/fetch/tfl-lines.mjs",
+    "format": "TfL RouteSequence JSON: lineId, lineName, mode, lineStrings[] (each a JSON-encoded string of [[[lon,lat],...]]), stations[] with stationId, name, lat, lon, zone",
+    "adapter": "tfl-route-sequence"
+  },
+  {
+    "file": "tfl-line-hammersmith-city.json",
+    "title": "Hammersmith & City route and stations (tube)",
+    "source": "TfL Unified API",
+    "url": "https://api.tfl.gov.uk/Line/hammersmith-city/Route/Sequence/all",
+    "fetched_at": "2026-10-08T18:21:58.853Z",
+    "method": "script",
+    "script": "scripts/fetch/tfl-lines.mjs",
+    "format": "TfL RouteSequence JSON: lineId, lineName, mode, lineStrings[] (each a JSON-encoded string of [[[lon,lat],...]]), stations[] with stationId, name, lat, lon, zone",
+    "adapter": "tfl-route-sequence"
+  },
+  {
+    "file": "tfl-line-jubilee.json",
+    "title": "Jubilee route and stations (tube)",
+    "source": "TfL Unified API",
+    "url": "https://api.tfl.gov.uk/Line/jubilee/Route/Sequence/all",
+    "fetched_at": "2026-10-08T18:21:59.649Z",
+    "method": "script",
+    "script": "scripts/fetch/tfl-lines.mjs",
+    "format": "TfL RouteSequence JSON: lineId, lineName, mode, lineStrings[] (each a JSON-encoded string of [[[lon,lat],...]]), stations[] with stationId, name, lat, lon, zone",
+    "adapter": "tfl-route-sequence"
+  },
+  {
+    "file": "tfl-line-liberty.json",
+    "title": "Liberty route and stations (overground)",
+    "source": "TfL Unified API",
+    "url": "https://api.tfl.gov.uk/Line/liberty/Route/Sequence/all",
+    "fetched_at": "2026-10-08T18:22:00.070Z",
+    "method": "script",
+    "script": "scripts/fetch/tfl-lines.mjs",
+    "format": "TfL RouteSequence JSON: lineId, lineName, mode, lineStrings[] (each a JSON-encoded string of [[[lon,lat],...]]), stations[] with stationId, name, lat, lon, zone",
+    "adapter": "tfl-route-sequence"
+  },
+  {
+    "file": "tfl-line-lioness.json",
+    "title": "Lioness route and stations (overground)",
+    "source": "TfL Unified API",
+    "url": "https://api.tfl.gov.uk/Line/lioness/Route/Sequence/all",
+    "fetched_at": "2026-10-08T18:22:00.107Z",
+    "method": "script",
+    "script": "scripts/fetch/tfl-lines.mjs",
+    "format": "TfL RouteSequence JSON: lineId, lineName, mode, lineStrings[] (each a JSON-encoded string of [[[lon,lat],...]]), stations[] with stationId, name, lat, lon, zone",
+    "adapter": "tfl-route-sequence"
+  },
+  {
+    "file": "tfl-line-metropolitan.json",
+    "title": "Metropolitan route and stations (tube)",
+    "source": "TfL Unified API",
+    "url": "https://api.tfl.gov.uk/Line/metropolitan/Route/Sequence/all",
+    "fetched_at": "2026-10-08T18:22:02.413Z",
+    "method": "script",
+    "script": "scripts/fetch/tfl-lines.mjs",
+    "format": "TfL RouteSequence JSON: lineId, lineName, mode, lineStrings[] (each a JSON-encoded string of [[[lon,lat],...]]), stations[] with stationId, name, lat, lon, zone",
+    "adapter": "tfl-route-sequence"
+  },
+  {
+    "file": "tfl-line-mildmay.json",
+    "title": "Mildmay route and stations (overground)",
+    "source": "TfL Unified API",
+    "url": "https://api.tfl.gov.uk/Line/mildmay/Route/Sequence/all",
+    "fetched_at": "2026-10-08T18:22:03.168Z",
+    "method": "script",
+    "script": "scripts/fetch/tfl-lines.mjs",
+    "format": "TfL RouteSequence JSON: lineId, lineName, mode, lineStrings[] (each a JSON-encoded string of [[[lon,lat],...]]), stations[] with stationId, name, lat, lon, zone",
+    "adapter": "tfl-route-sequence"
+  },
+  {
+    "file": "tfl-line-northern.json",
+    "title": "Northern route and stations (tube)",
+    "source": "TfL Unified API",
+    "url": "https://api.tfl.gov.uk/Line/northern/Route/Sequence/all",
+    "fetched_at": "2026-10-08T18:22:03.211Z",
+    "method": "script",
+    "script": "scripts/fetch/tfl-lines.mjs",
+    "format": "TfL RouteSequence JSON: lineId, lineName, mode, lineStrings[] (each a JSON-encoded string of [[[lon,lat],...]]), stations[] with stationId, name, lat, lon, zone",
+    "adapter": "tfl-route-sequence"
+  },
+  {
+    "file": "tfl-line-piccadilly.json",
+    "title": "Piccadilly route and stations (tube)",
+    "source": "TfL Unified API",
+    "url": "https://api.tfl.gov.uk/Line/piccadilly/Route/Sequence/all",
+    "fetched_at": "2026-10-08T18:22:03.265Z",
+    "method": "script",
+    "script": "scripts/fetch/tfl-lines.mjs",
+    "format": "TfL RouteSequence JSON: lineId, lineName, mode, lineStrings[] (each a JSON-encoded string of [[[lon,lat],...]]), stations[] with stationId, name, lat, lon, zone",
+    "adapter": "tfl-route-sequence"
+  },
+  {
+    "file": "tfl-line-suffragette.json",
+    "title": "Suffragette route and stations (overground)",
+    "source": "TfL Unified API",
+    "url": "https://api.tfl.gov.uk/Line/suffragette/Route/Sequence/all",
+    "fetched_at": "2026-10-08T18:22:04.268Z",
+    "method": "script",
+    "script": "scripts/fetch/tfl-lines.mjs",
+    "format": "TfL RouteSequence JSON: lineId, lineName, mode, lineStrings[] (each a JSON-encoded string of [[[lon,lat],...]]), stations[] with stationId, name, lat, lon, zone",
+    "adapter": "tfl-route-sequence"
+  },
+  {
+    "file": "tfl-line-victoria.json",
+    "title": "Victoria route and stations (tube)",
+    "source": "TfL Unified API",
+    "url": "https://api.tfl.gov.uk/Line/victoria/Route/Sequence/all",
+    "fetched_at": "2026-10-08T18:22:05.145Z",
+    "method": "script",
+    "script": "scripts/fetch/tfl-lines.mjs",
+    "format": "TfL RouteSequence JSON: lineId, lineName, mode, lineStrings[] (each a JSON-encoded string of [[[lon,lat],...]]), stations[] with stationId, name, lat, lon, zone",
+    "adapter": "tfl-route-sequence"
+  },
+  {
+    "file": "tfl-line-waterloo-city.json",
+    "title": "Waterloo & City route and stations (tube)",
+    "source": "TfL Unified API",
+    "url": "https://api.tfl.gov.uk/Line/waterloo-city/Route/Sequence/all",
+    "fetched_at": "2026-10-08T18:22:05.180Z",
+    "method": "script",
+    "script": "scripts/fetch/tfl-lines.mjs",
+    "format": "TfL RouteSequence JSON: lineId, lineName, mode, lineStrings[] (each a JSON-encoded string of [[[lon,lat],...]]), stations[] with stationId, name, lat, lon, zone",
+    "adapter": "tfl-route-sequence"
+  },
+  {
+    "file": "tfl-line-weaver.json",
+    "title": "Weaver route and stations (overground)",
+    "source": "TfL Unified API",
+    "url": "https://api.tfl.gov.uk/Line/weaver/Route/Sequence/all",
+    "fetched_at": "2026-10-08T18:22:05.703Z",
+    "method": "script",
+    "script": "scripts/fetch/tfl-lines.mjs",
+    "format": "TfL RouteSequence JSON: lineId, lineName, mode, lineStrings[] (each a JSON-encoded string of [[[lon,lat],...]]), stations[] with stationId, name, lat, lon, zone",
+    "adapter": "tfl-route-sequence"
+  },
+  {
+    "file": "tfl-line-windrush.json",
+    "title": "Windrush route and stations (overground)",
+    "source": "TfL Unified API",
+    "url": "https://api.tfl.gov.uk/Line/windrush/Route/Sequence/all",
+    "fetched_at": "2026-10-08T18:22:05.740Z",
+    "method": "script",
+    "script": "scripts/fetch/tfl-lines.mjs",
+    "format": "TfL RouteSequence JSON: lineId, lineName, mode, lineStrings[] (each a JSON-encoded string of [[[lon,lat],...]]), stations[] with stationId, name, lat, lon, zone",
+    "adapter": "tfl-route-sequence"
+  }
+]

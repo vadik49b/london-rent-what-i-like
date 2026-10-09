@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Monzo",
+    "address": "Broadwalk House, 5 Appold St, London EC2A 2AG",
+    "lat": 51.5209589,
+    "lon": -0.0811407
+  },
+  {
+    "name": "JPMorganChase UK",
+    "address": "1 Cabot Square, London E14 4QJ",
+    "lat": 51.5058639,
+    "lon": -0.0235994
+  }
+]

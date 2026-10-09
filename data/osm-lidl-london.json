@@ -1,0 +1,2886 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-08T18:20:21Z",
+    "timestamp_areas_base": "2026-10-07T10:19:21Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 243583757,
+      "lat": 51.4252759,
+      "lon": -0.04804,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "106-112",
+        "addr:postcode": "SE26 5JX",
+        "addr:street": "Sydenham Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "contact:facebook": "lidlgb",
+        "contact:instagram": "lidlgb",
+        "fhrs:id": "1598792",
+        "name": "Lidl",
+        "name:fa": "لیدل",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 10:00-16:00",
+        "operator": "Lidl",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/sydenham/sydenham-road-106/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 243584788,
+      "lat": 51.4263195,
+      "lon": -0.0262991,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "237-249",
+        "addr:postcode": "SE6 3RS",
+        "addr:street": "Southend Lane",
+        "air_conditioning": "yes",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "check_date": "2026-06-13",
+        "currency:GBP": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "fhrs:id": "1598697",
+        "level": "0",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su 11:00-17:00",
+        "organic": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "second_hand": "no",
+        "self_checkout": "yes",
+        "shop": "supermarket",
+        "source": "survey",
+        "source:addr": "FHRS Open Data",
+        "stroller": "yes",
+        "toilets": "no",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/bellingham/southend-lane/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 254383447,
+      "lat": 51.532981,
+      "lon": -0.0802413,
+      "tags": {
+        "addr:city": "London",
+        "addr:postcode": "N1 5LG",
+        "addr:street": "Hoxton Street",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa,PH 08:00-22:00; Su 11:00-17:00",
+        "payment:cash": "yes",
+        "shop": "supermarket",
+        "was:name": "Iceland",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/hoxton-street",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 305084453,
+      "lat": 51.5611699,
+      "lon": -0.2810103,
+      "tags": {
+        "addr:city": "Wembley",
+        "addr:housename": "Stadium Retail Park",
+        "addr:housenumber": "3",
+        "addr:postcode": "HA9 8TS",
+        "addr:street": "Wembley Park Drive",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "532748",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/wembley/unit-3-stadium-retail-park/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 420738697,
+      "lat": 51.4040111,
+      "lon": 0.0148911,
+      "tags": {
+        "addr:city": "Bromley",
+        "addr:country": "GB",
+        "addr:housenumber": "124-126",
+        "addr:postcode": "BR1 1EZ",
+        "addr:street": "High Street",
+        "air_conditioning": "yes",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "check_date": "2025-05-22",
+        "currency:GBP": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "fhrs:id": "1094617",
+        "level": "0",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa,PH 08:00-21:00; Su 11:00-17:00",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "second_hand": "no",
+        "shop": "supermarket",
+        "stroller": "yes",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/bromley/122-126-high-street/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 482835037,
+      "lat": 51.4868967,
+      "lon": -0.0947626,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "307-319",
+        "addr:postcode": "SE17 2TG",
+        "addr:street": "Walworth Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "check_date": "2026-03-05",
+        "fhrs:id": "1918120",
+        "name": "Lidl",
+        "old_name": "Marks & Spencer",
+        "opening_hours": "Mo-Sa 07:00-22:00",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 535936545,
+      "lat": 51.5868126,
+      "lon": -0.0610958,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Tottenham Hale Retail Park",
+        "addr:postcode": "N15 4QD",
+        "addr:street": "Broad Lane",
+        "addr:unit": "Unit 6",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:authority": "Haringey",
+        "fhrs:id": "422069",
+        "fhrs:local_authority_id": "PI/000047790",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/tottenham/tottenham-hale-retail-park-ferry-rd-4b/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 610453006,
+      "lat": 51.5032216,
+      "lon": -0.2185824,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housename": "West 12 Shopping Centre",
+        "addr:housenumber": "114-125",
+        "addr:postcode": "W12 8PP",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "check_date": "2026-09-01",
+        "fhrs:id": "1055884",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-17:00",
+        "payment:american_express": "yes",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/shepherds-bush/shepherds-bush-green/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 675748021,
+      "lat": 51.6504896,
+      "lon": -0.0814561,
+      "tags": {
+        "addr:city": "Enfield",
+        "addr:housenumber": "107",
+        "addr:postcode": "EN2 6TR",
+        "addr:street": "Cecil Road",
+        "alt_name": "LIDL Enfield Town",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "317649",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "source:postcode": "FHRS data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/enfield/cecil-road/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1129189918,
+      "lat": 51.3622499,
+      "lon": -0.1923342,
+      "tags": {
+        "addr:city": "Sutton",
+        "addr:housenumber": "78-82",
+        "addr:postcode": "SM1 1EZ",
+        "addr:street": "High Street",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "check_date": "2026-03-22",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-21:00; Su 11:00-17:00; PH 08:00-21:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/high-street-78-82/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1312678769,
+      "lat": 51.5953653,
+      "lon": -0.3849345,
+      "tags": {
+        "addr:city": "Pinner",
+        "addr:country": "GB",
+        "addr:housenumber": "69",
+        "addr:postcode": "HA5 3HZ",
+        "addr:street": "Bridge Street",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "276932",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-17:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/pinner/bridge-street-69/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1321888824,
+      "lat": 51.5417094,
+      "lon": -0.0010622,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "41-42",
+        "addr:postcode": "E15 1XE",
+        "addr:street": "The Mall",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "check_date:opening_hours": "2026-08-20",
+        "checkfirst:suggested:name": "Lidl",
+        "fhrs:id": "864084",
+        "fhrs:local_authority_id": "15/00268/FOOD",
+        "name": "Lidl",
+        "opening_hours": "Mo-Fr 07:00-22:00; Sa 07:00-22:00; Su 11:00-17:00",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/stratford/41-42-stratford-centre/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1490044833,
+      "lat": 51.580285,
+      "lon": -0.3369249,
+      "tags": {
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "check_date": "2026-09-23",
+        "level": "0",
+        "name": "Lidl",
+        "old_name": "Primark",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/harrow/st-anns-road/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1668630326,
+      "lat": 51.4959114,
+      "lon": 0.1190726,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "1B",
+        "addr:postcode": "SE2 9RQ",
+        "addr:street": "Eynsham Drive",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "694307",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa,PH 08:00-22:00; Su 10:00-16:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/abbeywood/eynsham-drive-1b/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1699816075,
+      "lat": 51.3604903,
+      "lon": -0.3100315,
+      "tags": {
+        "addr:city": "Chessington",
+        "addr:country": "GB",
+        "addr:housenumber": "64",
+        "addr:postcode": "KT9 2HY",
+        "addr:street": "Leatherhead Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "fhrs:id": "1386378",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/chessington/leatherhead-road-64/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1940052292,
+      "lat": 51.4013351,
+      "lon": -0.1937558,
+      "tags": {
+        "addr:housenumber": "31",
+        "addr:postcode": "SM4 5LN",
+        "addr:street": "Aberconway Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "fhrs:id": "578966",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su 11:00-17:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/morden/aberconway-road-unit-2a-29/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2301522009,
+      "lat": 51.527239,
+      "lon": -0.350475,
+      "tags": {
+        "addr:city": "Greenford",
+        "addr:country": "GB",
+        "addr:housename": "Macmillan Court",
+        "addr:housenumber": "309",
+        "addr:postcode": "UB6 9FH",
+        "addr:street": "Ruislip Road East",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "1108946",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/greenford/macmillan-court-ruislip-rd-east-309/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2451262443,
+      "lat": 51.6246547,
+      "lon": -0.0597461,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "21-29",
+        "addr:postcode": "N9 0TY",
+        "addr:street": "The Concourse",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:authority": "Enfield",
+        "fhrs:id": "317654",
+        "fhrs:local_authority_id": "PI/000160107",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/edmonton-green/the-concourse-plevna-road-23-25/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2563680049,
+      "lat": 51.4604134,
+      "lon": -0.005146,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "104-120",
+        "addr:postcode": "SE13 5PT",
+        "addr:street": "Lee High Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "check_date": "2026-03-03",
+        "fhrs:id": "1599197",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-17:00",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/lewisham/lee-high-road-104--120/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2906520923,
+      "lat": 51.53523,
+      "lon": -0.4836689,
+      "tags": {
+        "addr:city": "Uxbridge",
+        "addr:country": "GB",
+        "addr:housenumber": "137",
+        "addr:postcode": "UB8 2AG",
+        "addr:street": "Cowley Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "696931",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00;Su 10:00-16:00",
+        "shop": "supermarket",
+        "source": "survey",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/uxbridge/cowley-road-137/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2990692742,
+      "lat": 51.564695,
+      "lon": -0.2639412,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:postcode": "NW9 8SD",
+        "addr:street": "Blackbird Hill",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "fhrs:id": "532376",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/wembley/blackbird-hill-4-14/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3179049020,
+      "lat": 51.5420925,
+      "lon": -0.3402487,
+      "tags": {
+        "addr:city": "Greenford",
+        "addr:housename": "Westway Cross Retail Park",
+        "addr:housenumber": "1000",
+        "addr:postcode": "UB6 0UW",
+        "addr:street": "Greenford Road",
+        "addr:unit": "4",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "1108947",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/ealing/greenford-road-1000/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3216125760,
+      "lat": 51.5081155,
+      "lon": -0.3362529,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "90-94",
+        "addr:postcode": "W7 3SU",
+        "addr:street": "Uxbridge Road",
+        "addr:unit": "1",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "check_date": "2026-09-06",
+        "fhrs:id": "1108941",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/hanwell/uxbridge-road-unit-1-90-94/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3780741648,
+      "lat": 51.5573797,
+      "lon": -0.1182482,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "422-434",
+        "addr:postcode": "N7 6QD",
+        "addr:street": "Holloway Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "fhrs:id": "1255910",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su 11:00-17:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/holloway-road/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4366145291,
+      "lat": 51.4304194,
+      "lon": -0.1849547,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Plough Lane Retail Park",
+        "addr:postcode": "SW17 0BW",
+        "addr:street": "Plough Lane",
+        "addr:unit": "1",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "check_date": "2023-12-15",
+        "fhrs:id": "1022850",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 07:00-22:00; PH,Su 11:00-17:00",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/wimbledon/plough-lane/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4566929649,
+      "lat": 51.4556519,
+      "lon": -0.1943398,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housename": "Southside Shopping Centre",
+        "addr:postcode": "SW18 4TG",
+        "addr:street": "Wandsworth High Street",
+        "addr:suburb": "Wandsworth",
+        "addr:unit": "Unit 94",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "fhrs:id": "1768175",
+        "level": "0",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-21:00; Su 11:00-17:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/south-side-shopping-centre-unit-94/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5141294130,
+      "lat": 51.3739312,
+      "lon": -0.1198445,
+      "tags": {
+        "addr:city": "Croydon",
+        "addr:country": "GB",
+        "addr:housenumber": "2",
+        "addr:postcode": "CR0 4XL",
+        "addr:street": "Trojan Way",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "1176079",
+        "name": "Lidl",
+        "old_name": "Fabb",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/croydon/trojan-way-purley-way/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5352808140,
+      "lat": 51.584195,
+      "lon": -0.0222858,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "38",
+        "addr:postcode": "E17 7JR",
+        "addr:street": "Selborne Walk",
+        "addr:suburb": "Walthamstow",
+        "addr:unit": "Unit 57",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "1025296",
+        "fhrs:local_authority_id": "340679",
+        "name": "Lidl",
+        "old_name": "BHS",
+        "opening_hours": "Mo-Sa 07:00-22:00, Su 11:00-17:00",
+        "operator": "Lidl",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/walthamstow/selborne-walk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5534218615,
+      "lat": 51.5938278,
+      "lon": -0.106645,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "88-96",
+        "addr:postcode": "N22 6HE",
+        "addr:street": "High Road",
+        "addr:unit": "Unit 8",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "422998",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su 11:00-17:00; PH 07:00-22:00",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/wood-green/high-road-units-7-8-88-96/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5686403843,
+      "lat": 51.536038,
+      "lon": 0.0349308,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "374-378",
+        "addr:postcode": "E13 9AP",
+        "addr:street": "Green Street",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "fhrs:id": "1516673",
+        "name": "Lidl",
+        "old_name": "Peacocks",
+        "shop": "supermarket",
+        "start_date": "2022-05",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/green-street/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6484563330,
+      "lat": 51.5101966,
+      "lon": -0.3247831,
+      "tags": {
+        "addr:city": "London",
+        "addr:floor": "G",
+        "addr:housenumber": "90-94",
+        "addr:postcode": "W13 0SY",
+        "addr:street": "Broadway",
+        "addr:suburb": "West Ealing",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "check_date": "2025-11-24",
+        "fhrs:id": "1802874",
+        "level": "0",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa,PH 08:00-21:00; Su 11:00-17:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/west-ealing/the-broadway-90-94/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7476019327,
+      "lat": 51.4895852,
+      "lon": 0.024692,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housename": "Greenwich Shopping Park",
+        "addr:postcode": "SE7 7SR",
+        "addr:street": "Bugsby's Way",
+        "addr:suburb": "Charlton",
+        "addr:unit": "12",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "check_date": "2025-12-31",
+        "fhrs:id": "1223642",
+        "level": "0",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-17:00",
+        "payment:debit_cards": "yes",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/charlton/bugsbys-way/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8094461882,
+      "lat": 51.4222272,
+      "lon": -0.1069023,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "411",
+        "addr:postcode": "SE19 3HD",
+        "addr:street": "Beulah Hill",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "1159954",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-17:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/norwood/beulah-hill/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8577081916,
+      "lat": 51.4314498,
+      "lon": -0.1647051,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "180-214",
+        "addr:postcode": "SW17 7EW",
+        "addr:street": "Upper Tooting Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "building": "yes",
+        "fhrs:id": "1572263",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/tooting/upper-tooting-road/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8879524885,
+      "lat": 51.4137249,
+      "lon": -0.17607,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housename": "The Tandem Centre",
+        "addr:postcode": "SW19 2TY",
+        "addr:street": "Tandem Way",
+        "addr:unit": "6,7",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "1270475",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/colliers-wood/tandem-way/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9005347089,
+      "lat": 51.3780012,
+      "lon": -0.1554407,
+      "tags": {
+        "addr:country": "GB",
+        "addr:housenumber": "1",
+        "addr:postcode": "SM6 7DS",
+        "addr:street": "Spinning Wheel Way",
+        "air_conditioning": "yes",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "1320539",
+        "name": "Lidl",
+        "note": "Lidl store. Surface level, beneath Chambray House, alongside the Lidl customer only car park, accessed from Spinning Wheel Way.",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/hackbridge/spinning-wheel-way/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9217926517,
+      "lat": 51.49694,
+      "lon": 0.15652,
+      "tags": {
+        "addr:country": "GB",
+        "addr:postcode": "DA17 6FD",
+        "addr:street": "Clydesdale Way",
+        "alt_name": "Lidl Belvedere",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "1104872",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "survey:date": "2019-04-03",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/belvedere/exmoor-house-clydesdale-way/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9223751624,
+      "lat": 51.3464213,
+      "lon": -0.0197393,
+      "tags": {
+        "addr:city": "Croydon",
+        "addr:country": "GB",
+        "addr:postcode": "CR0 0JA",
+        "addr:street": "Parkway",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "check_date": "2026-07-28",
+        "fhrs:id": "563370",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/new-addington/parkway/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9223751840,
+      "lat": 51.5661126,
+      "lon": -0.1076062,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housename": "The Arts Building",
+        "addr:housenumber": "2",
+        "addr:postcode": "N4 3JG",
+        "addr:street": "Morris Place",
+        "branch": "Finsbury Park 2",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "1403339",
+        "level": "0",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "start_date": "2021-06-29",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/morris-place/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9223766101,
+      "lat": 51.5073863,
+      "lon": -0.2699911,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "The Oaks Shopping Centre",
+        "addr:postcode": "W3 6RE",
+        "addr:street": "High Street",
+        "addr:unit": "4",
+        "brand": "Lidl",
+        "brand:website": "https://www.lidl.co.uk/",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "1108943",
+        "name": "Lidl",
+        "opening_hours": "Mo-Fr 08:00-21:00; Sa 09:00-21:00; Su 10:00-16:00",
+        "shop": "supermarket",
+        "survey:date": "2020-07-23",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/acton/ealing/high-street/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9223793964,
+      "lat": 51.5606,
+      "lon": 0.078896,
+      "tags": {
+        "addr:city": "Ilford",
+        "addr:country": "GB",
+        "addr:housenumber": "261-275",
+        "addr:postcode": "IG1 1NJ",
+        "addr:street": "High Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "check_date": "2025-05-25",
+        "fhrs:id": "443451",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/ilford/ilford-retail-park-high-road-unit-3-261-275/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9223797322,
+      "lat": 51.4932003,
+      "lon": -0.2275114,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Kings Mall Shopping Centre",
+        "addr:postcode": "W6 9HW",
+        "addr:street": "King Street",
+        "addr:unit": "1",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "check_date": "2026-09-12",
+        "fhrs:id": "1334503",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-21:00; Su 11:00-17:00",
+        "organic": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "self_checkout": "only",
+        "shop": "supermarket",
+        "toilets": "no",
+        "toilets:wheelchair": "no",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/hammersmith/kings-mall-shopping-centre-king-street/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9805131748,
+      "lat": 51.5650332,
+      "lon": -0.1044227,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "269-271",
+        "addr:postcode": "N4 2DF",
+        "addr:street": "Seven Sisters Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "designation": "Finsbury Park London",
+        "fhrs:id": "423386",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 07:00-23:00; Su 10:00-19:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/finsbury-park/seven-sisters-road-269-271/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11304759841,
+      "lat": 51.5399531,
+      "lon": -0.2995099,
+      "tags": {
+        "addr:city": "Wembley",
+        "addr:housename": "Lidl",
+        "addr:postcode": "HA0 4PE",
+        "addr:street": "Ealing Rd",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "fhrs:id": "1596909",
+        "name": "Lidl",
+        "phone": "+44 20 3966 5566",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/brent/ealing-road/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11795539295,
+      "lat": 51.5135381,
+      "lon": -0.249449,
+      "tags": {
+        "addr:city": "London",
+        "addr:postcode": "W3 7XX",
+        "addr:street": "Western Avenue",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "internet_access": "wlan",
+        "level": "0",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 07:00-23:00; Su 11:00-17:00",
+        "payment:american_express": "yes",
+        "payment:apple_pay": "yes",
+        "payment:google_pay": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/east-acton/western-avenue/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12278605270,
+      "lat": 51.5144206,
+      "lon": 0.0104808,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "19-23",
+        "addr:postcode": "E16 1DT",
+        "addr:street": "Minnie Baldock Street",
+        "addr:suburb": "Canning Town",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "check_date": "2025-05-26",
+        "fhrs:id": "1795612",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 07:00-22:00;Su 11:00-17:00",
+        "shop": "supermarket",
+        "start_date": "2025-02-27",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/minnie-baldock-street-19-23/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12572476237,
+      "lat": 51.472726,
+      "lon": -0.0933302,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "check_date": "2026-05-26",
+        "name": "Lidl",
+        "name:fa": "لیدل",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/56-60-&-64-denmark-hill/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13158707309,
+      "lat": 51.5333193,
+      "lon": 0.0535664,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "363",
+        "addr:postcode": "E6 1FG",
+        "addr:street": "Barking Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "fhrs:id": "1686900",
+        "name": "Lidl",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13389492734,
+      "lat": 51.5457784,
+      "lon": -0.4766063,
+      "tags": {
+        "addr:city": "Uxbridge",
+        "addr:postcode": "UB8 1GA",
+        "addr:street": "High Street",
+        "addr:unit": "Unit 212 - 213 Intu Uxbridge The Chimes Shopping Centre",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "fhrs:id": "1436921",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13950933872,
+      "lat": 51.5750271,
+      "lon": 0.0829143,
+      "tags": {
+        "addr:city": "Ilford",
+        "addr:housenumber": "11",
+        "addr:postcode": "IG2 6QG",
+        "addr:street": "Horns Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "name": "Lidl",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14107123084,
+      "lat": 51.4843874,
+      "lon": -0.2018719,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "254-258",
+        "addr:postcode": "SW6 1NJ",
+        "addr:street": "North End Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "check_date": "2026-08-20",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00, Su 11:00-17:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/fulham/north-end-road-north-end-road/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4993828,
+      "center": {
+        "lat": 51.4116691,
+        "lon": -0.1586876
+      },
+      "tags": {
+        "addr:city": "Mitcham",
+        "addr:country": "GB",
+        "addr:housenumber": "23",
+        "addr:postcode": "CR4 2AD",
+        "addr:street": "Streatham Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "building": "yes",
+        "fhrs:id": "1109961",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/streatham-road-23/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 5548352,
+      "center": {
+        "lat": 51.4724503,
+        "lon": -0.0712745
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "3",
+        "addr:postcode": "SE15 5BA",
+        "addr:street": "Bellenden Road",
+        "addr:unit": "Unit 3 Bellenden Road Retail",
+        "alt_name": "LIDL London",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "yes",
+        "check_date": "2025-10-01",
+        "fhrs:id": "364761",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su 10:00-16:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "supermarket",
+        "source": "Bing;OS StreetView",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/peckham/bellenden-road-3/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 22936252,
+      "center": {
+        "lat": 51.4483046,
+        "lon": -0.4095918
+      },
+      "tags": {
+        "addr:country": "GB",
+        "addr:postcode": "TW14 9BG",
+        "addr:street": "New Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "commercial",
+        "check_date": "2025-11-24",
+        "fhrs:id": "491304",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/feltham/new-road/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 23015834,
+      "center": {
+        "lat": 51.4125132,
+        "lon": -0.2904058
+      },
+      "tags": {
+        "addr:city": "Kingston upon Thames",
+        "addr:housename": "Lidl",
+        "addr:housenumber": "64",
+        "addr:postcode": "KT2 6FN",
+        "addr:street": "Gordon Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "building": "yes",
+        "check_date": "2026-04-13",
+        "fhrs:id": "1583159",
+        "internet_access": "wlan",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su 10:00-16:00",
+        "operator": "Schwarz Group",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "ref:GB:uprn": "128011918",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/kingston-upon-thames/gordon-road-64/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 23777663,
+      "center": {
+        "lat": 51.4838915,
+        "lon": -0.3056776
+      },
+      "tags": {
+        "addr:city": "Brentford",
+        "addr:housenumber": "228-246",
+        "addr:postcode": "TW8 0JG",
+        "addr:street": "Brentford High Street",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "building": "retail",
+        "check_date": "2025-12-05",
+        "name": "Lidl",
+        "ref:GB:uprn": "100023407497",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/brentford/high-street-228-246/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24862496,
+      "center": {
+        "lat": 51.3680392,
+        "lon": -0.1945146
+      },
+      "tags": {
+        "addr:city": "Sutton",
+        "addr:country": "GB",
+        "addr:housenumber": "262-270",
+        "addr:postcode": "SM1 1PG",
+        "addr:street": "High Street",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "yes",
+        "fhrs:id": "1389518",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su 11:00-17:00; PH 07:00-22:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/sutton/high-street/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 26675031,
+      "center": {
+        "lat": 51.6719571,
+        "lon": -0.0413558
+      },
+      "tags": {
+        "addr:city": "Enfield",
+        "addr:country": "GB",
+        "addr:housenumber": "654,656,658,670",
+        "addr:postcode": "EN3 6LZ",
+        "addr:street": "Hertford Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "retail",
+        "building:levels": "1",
+        "fhrs:id": "1030259",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-17:00",
+        "roof:shape": "gabled",
+        "shop": "supermarket",
+        "source": "photo 2020-10-16",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/enfield/freezey-water/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "way",
+      "id": 28315793,
+      "center": {
+        "lat": 51.3840369,
+        "lon": -0.1894021
+      },
+      "tags": {
+        "addr:country": "GB",
+        "addr:housenumber": "328",
+        "addr:postcode": "SM5 1AD",
+        "addr:street": "Wrythe Lane",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "yes",
+        "fhrs:id": "1041496",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "source": "survey",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/rosehill/wrythe-lane/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 35824055,
+      "center": {
+        "lat": 51.4649344,
+        "lon": -0.1671508
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "141",
+        "addr:postcode": "SW11 2PE",
+        "addr:street": "Falcon Lane",
+        "branch": "Clapham",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "yes",
+        "check_date": "2025-04-11",
+        "fhrs:id": "297686",
+        "name": "Lidl",
+        "opening_hours": "Mo-Fr 08:00-23:00; Sa 08:00-22:00; Su 11:00-17:00",
+        "payment:cash": "yes",
+        "ref:GB:uprn": "121034152",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/clapham/falcon-lane/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 36851410,
+      "center": {
+        "lat": 51.5345551,
+        "lon": -0.3896486
+      },
+      "tags": {
+        "addr:city": "Northolt",
+        "addr:country": "GB",
+        "addr:housenumber": "461",
+        "addr:postcode": "UB5 6ZD",
+        "addr:street": "Ruislip Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "yes",
+        "fhrs:id": "1108942",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/northolt/ruislip-road/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38304017,
+      "center": {
+        "lat": 51.562457,
+        "lon": -0.2205275
+      },
+      "tags": {
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "yes",
+        "name": "Lidl",
+        "operator": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/cricklewood/edgware-road-408/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 42727964,
+      "center": {
+        "lat": 51.57324,
+        "lon": -0.0733558
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "1",
+        "addr:postcode": "N16 5LW",
+        "addr:street": "Amhurst Park",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "building": "yes",
+        "check_date": "2026-02-19",
+        "fhrs:authority": "Hackney",
+        "fhrs:local_authority_id": "36014",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 10:00-16:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data"
+      }
+    },
+    {
+      "type": "way",
+      "id": 46558568,
+      "center": {
+        "lat": 51.5576986,
+        "lon": -0.3840976
+      },
+      "tags": {
+        "addr:city": "Ruislip",
+        "addr:country": "GB",
+        "addr:postcode": "HA4 0QQ",
+        "addr:street": "Victoria Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "yes",
+        "fhrs:id": "1066295",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "survey:date": "2018-06-11",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/ruislip/victoria-road/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 73813293,
+      "center": {
+        "lat": 51.4798035,
+        "lon": -0.0583522
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "760",
+        "addr:postcode": "SE15 1NJ",
+        "addr:street": "Old Kent Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "retail",
+        "check_date": "2026-06-30",
+        "fhrs:id": "1274660",
+        "name": "Lidl",
+        "name:fa": "لیدل",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-17:00; PH 08:00-22:00",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/old-kent-road/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 95689883,
+      "center": {
+        "lat": 51.4058387,
+        "lon": -0.1663441
+      },
+      "tags": {
+        "addr:city": "Mitcham",
+        "addr:housenumber": "9-17",
+        "addr:postcode": "CR4 3ED",
+        "addr:street": "Western Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "building": "yes",
+        "fhrs:id": "669658",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "source": "survey;code-point open;fhrs",
+        "survey:date": "2018-11-02",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/mitcham/western-road-9-17/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 114409100,
+      "center": {
+        "lat": 51.4196814,
+        "lon": -0.1637862
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "14",
+        "addr:postcode": "SW17 9HW",
+        "addr:street": "London Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "yes",
+        "fhrs:id": "578970",
+        "name": "Lidl",
+        "ref:GB:uprn": "48083295",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/tooting/london-road-14/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 122597476,
+      "center": {
+        "lat": 51.5420756,
+        "lon": 0.1485505
+      },
+      "tags": {
+        "addr:country": "GB",
+        "addr:housename": "The Link Centre",
+        "addr:housenumber": "258-262",
+        "addr:postcode": "RM10 8QS",
+        "addr:street": "Heathway",
+        "addr:unit": "A",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "yes",
+        "check_date": "2026-02-08",
+        "fhrs:id": "129311",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/greater-london/dagenham/heathway-258-262/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 137459762,
+      "center": {
+        "lat": 51.4642954,
+        "lon": 0.1074691
+      },
+      "tags": {
+        "addr:country": "GB",
+        "addr:housenumber": "46-60",
+        "addr:postcode": "DA16 3HF",
+        "addr:street": "Upper Wickham Lane",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "yes",
+        "designation": "Welling",
+        "fhrs:id": "1009721",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-17:00",
+        "operator": "Lidl",
+        "shop": "supermarket",
+        "source": "Bing",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/welling/upper-wickham-lane/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 151904729,
+      "center": {
+        "lat": 51.5407536,
+        "lon": -0.0538609
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "27-37",
+        "addr:postcode": "E9 7QX",
+        "addr:street": "Well Street",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2026-07-16",
+        "check_date:opening_hours": "2026-07-16",
+        "fhrs:id": "469123",
+        "name": "Lidl",
+        "name:fa": "لیدل",
+        "opening_hours": "Mo-Sa,PH 08:00-22:00; Su 11:00-17:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "roof:levels": "0",
+        "roof:shape": "gabled",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/hackney/well-street-27-37/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 164682937,
+      "center": {
+        "lat": 51.4143386,
+        "lon": -0.1236833
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "1",
+        "addr:postcode": "SW16 3LH",
+        "addr:street": "Hermitage Lane",
+        "addr:suburb": "Norbury",
+        "alt_name": "LIDL London",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "building": "retail",
+        "check_date": "2026-01-10",
+        "fhrs:authority": "Croydon",
+        "fhrs:id": "859654",
+        "name": "Lidl",
+        "name:fa": "لیدل",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/norbury/hermitage-lane-1/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 168695291,
+      "center": {
+        "lat": 51.3806797,
+        "lon": -0.10576
+      },
+      "tags": {
+        "addr:city": "Croydon",
+        "addr:housenumber": "99-101",
+        "addr:postcode": "CR0 2RF",
+        "addr:street": "London Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "building": "retail",
+        "fhrs:authority": "Croydon",
+        "fhrs:id": "6987",
+        "name": "Lidl",
+        "name:fa": "لیدل",
+        "shop": "supermarket",
+        "source:postcode": "FSA Food Hygiene Ratings database",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/croydon/london-road-99/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 179063396,
+      "center": {
+        "lat": 51.4510994,
+        "lon": 0.0558546
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "137",
+        "addr:postcode": "SE9 1TQ",
+        "addr:street": "Eltham High Street",
+        "alt_name": "LIDL Eltham",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "retail",
+        "check_date": "2026-03-03",
+        "fhrs:id": "951558",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-17:00; PH 08:00-22:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/eltham/eltham-high-street-137/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 200460169,
+      "center": {
+        "lat": 51.5822886,
+        "lon": -0.0320271
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "43-49",
+        "addr:postcode": "E17 7AD",
+        "addr:street": "High Street",
+        "addr:suburb": "Walthamstow",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "building": "yes",
+        "fhrs:id": "621702",
+        "fhrs:local_authority_id": "8117",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "source": "survey",
+        "source:addr:postcode": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/walthamstow/high-street-43-49/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 208163230,
+      "center": {
+        "lat": 51.5634794,
+        "lon": 0.2153715
+      },
+      "tags": {
+        "addr:country": "GB",
+        "addr:housenumber": "31",
+        "addr:postcode": "RM11 1TP",
+        "addr:street": "High Street",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "yes",
+        "fhrs:id": "1040946",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/hornchurch/high-street/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 208798281,
+      "center": {
+        "lat": 51.5737393,
+        "lon": 0.183082
+      },
+      "tags": {
+        "addr:country": "GB",
+        "addr:postcode": "RM1 1TB",
+        "addr:street": "Atlanta Boulevard",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "yes",
+        "check_date": "2025-09-21",
+        "check_date:diet:halal": "2025-09-21",
+        "diet:halal": "yes",
+        "fhrs:id": "1137802",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/greater-london/romford/atlanta-boulevard-south-street/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 215418534,
+      "center": {
+        "lat": 51.4444705,
+        "lon": -0.0190131
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:postcode": "SE6 2DD",
+        "addr:street": "Plassy Road",
+        "addr:unit": "2B",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "supermarket",
+        "building:levels": "1",
+        "building:material": "brick",
+        "check_date": "2026-08-18",
+        "currency:GBP": "yes",
+        "designation": "Catford",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "fhrs:id": "1598757",
+        "level": "0",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-17:00",
+        "organic": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "second_hand": "no",
+        "shop": "supermarket",
+        "source": "survey",
+        "source:addr": "FHRS Open Data",
+        "stroller": "yes",
+        "toilets": "no",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/catford/plassy-road-unit-2b/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 220847611,
+      "center": {
+        "lat": 51.4211224,
+        "lon": 0.0210736
+      },
+      "tags": {
+        "addr:city": "Bromley",
+        "addr:country": "GB",
+        "addr:housenumber": "129",
+        "addr:postcode": "BR1 5AJ",
+        "addr:street": "Burnt Ash Lane",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "yes",
+        "fhrs:id": "1295612",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/bromley/burnt-ash-lane/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 221471622,
+      "center": {
+        "lat": 51.4926607,
+        "lon": 0.0659963
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "38",
+        "addr:postcode": "SE18 6LW",
+        "addr:street": "Macbean Street",
+        "addr:suburb": "Woolwich",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "building": "retail",
+        "building:levels": "2",
+        "designation": "London - Woolwich",
+        "fhrs:id": "694512",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 10:00-16:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/woolwich/macbean-street-38/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 221661337,
+      "center": {
+        "lat": 51.3878143,
+        "lon": -0.0967704
+      },
+      "tags": {
+        "addr:city": "Croydon",
+        "addr:country": "GB",
+        "addr:housenumber": "119-123",
+        "addr:postcode": "CR0 2LG",
+        "addr:street": "Whitehorse Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "retail",
+        "fhrs:id": "1172973",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00, Su 11:00-17:00",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/croydon/whitehorse-road/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 222834046,
+      "center": {
+        "lat": 51.6142495,
+        "lon": -0.0652236
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "6-16",
+        "addr:postcode": "N18 2XZ",
+        "addr:street": "Sterling Way",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "retail",
+        "building:levels": "3",
+        "fhrs:id": "317485",
+        "name": "Lidl",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/edmonton/sterling-way-6-16/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 223456960,
+      "center": {
+        "lat": 51.6182906,
+        "lon": -0.3084979
+      },
+      "tags": {
+        "addr:city": "Stanmore",
+        "addr:country": "GB",
+        "addr:housenumber": "80-82",
+        "addr:postcode": "HA7 4DU",
+        "addr:street": "The Broadway",
+        "branch": "Stanmore",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "retail",
+        "check_date": "2025-10-17",
+        "fhrs:id": "276834",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-21:00; Su 11:00-17:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/the-broadway-80-82/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 228953865,
+      "center": {
+        "lat": 51.6096649,
+        "lon": -0.2788373
+      },
+      "tags": {
+        "addr:city": "Edgware",
+        "addr:country": "GB",
+        "addr:housenumber": "51-55",
+        "addr:postcode": "HA8 7DD",
+        "addr:street": "High Street",
+        "branch": "Edgware",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "building": "yes",
+        "fhrs:id": "276960",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 07:00-23:00; Su 11:00-17:00",
+        "ref:GB:uprn": "200004436140",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/edgware/high-street-51-55/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 263692239,
+      "center": {
+        "lat": 51.5359383,
+        "lon": 0.0814453
+      },
+      "tags": {
+        "addr:city": "Barking",
+        "addr:country": "GB",
+        "addr:housenumber": "62-82",
+        "addr:postcode": "IG11 7PG",
+        "addr:street": "Ripple Road",
+        "addr:substreet": "Stag Island",
+        "alt_name": "LIDL Barking",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "retail",
+        "building:levels": "1",
+        "description": "Opens 30m early for browsing.",
+        "fhrs:id": "1177749",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-17:00",
+        "phone": "+448009777766",
+        "roof:orientation": "along",
+        "roof:shape": "round",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "source:addr:postcode": "FSA Food Hygiene Ratings Database",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/greater-london/barking/stag-island-ripple-road-62-82/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 284847208,
+      "center": {
+        "lat": 51.4354389,
+        "lon": -0.350552
+      },
+      "tags": {
+        "addr:city": "Twickenham",
+        "addr:housenumber": "50",
+        "addr:postcode": "TW2 5NT",
+        "addr:street": "South Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "retail",
+        "contact:website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/south-road/",
+        "fhrs:id": "1574249",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su 10:00-16:00",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data"
+      }
+    },
+    {
+      "type": "way",
+      "id": 300037227,
+      "center": {
+        "lat": 51.4735014,
+        "lon": -0.120763
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "189",
+        "addr:postcode": "SW9 0QE",
+        "addr:street": "Clapham Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "check_date": "2026-09-14",
+        "fhrs:id": "830139",
+        "name": "Lidl",
+        "name:fa": "لیدل",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/stockwell/clapham-road-189/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 300815350,
+      "center": {
+        "lat": 51.4592404,
+        "lon": -0.1238887
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "71-73",
+        "addr:postcode": "SW2 5TN",
+        "addr:street": "Acre Lane",
+        "branch": "Brixton",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "building": "yes",
+        "check_date": "2024-09-01",
+        "fhrs:id": "483068",
+        "name": "Lidl",
+        "name:fa": "لیدل",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 10:00-16:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/brixton/acre-lane-71-73/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 351620748,
+      "center": {
+        "lat": 51.6036294,
+        "lon": 0.084773
+      },
+      "tags": {
+        "addr:city": "Ilford",
+        "addr:country": "GB",
+        "addr:housenumber": "250-260",
+        "addr:postcode": "IG6 2SU",
+        "addr:street": "Fencepiece Road",
+        "addr:suburb": "Fairlop",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "yes",
+        "fhrs:id": "595054",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-17:00",
+        "operator": "LIDL",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/greater-london/hainault-ilford/fencepiece-road-250-260/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 428472703,
+      "center": {
+        "lat": 51.515784,
+        "lon": 0.0542962
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "198",
+        "addr:postcode": "E6 5YA",
+        "addr:street": "Tollgate Road",
+        "addr:suburb": "Beckton",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "yes",
+        "fhrs:id": "919728",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 10:30-16:00",
+        "ref:GB:uprn": "10012837130",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/beckton/tollgate-road-198/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 435374356,
+      "center": {
+        "lat": 51.4897211,
+        "lon": -0.0438226
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "159",
+        "addr:postcode": "SE8 5AB",
+        "addr:street": "Bestwood Street",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "yes",
+        "check_date": "2024-09-07",
+        "currency:GBP": "yes",
+        "fhrs:id": "1598695;1599551",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00, Su 11:00-17:00",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/bermondsey/bestwood-street/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 438335677,
+      "center": {
+        "lat": 51.396794,
+        "lon": -0.1164067
+      },
+      "tags": {
+        "addr:city": "Thornton Heath",
+        "addr:housenumber": "845",
+        "addr:postcode": "CR7 6AW",
+        "addr:street": "London Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "building": "retail",
+        "check_date": "2026-01-10",
+        "fhrs:authority": "Croydon",
+        "fhrs:id": "7032",
+        "name": "Lidl",
+        "name:fa": "لیدل",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/thornton-heath/london-road-845/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 445154755,
+      "center": {
+        "lat": 51.4522073,
+        "lon": -0.3583686
+      },
+      "tags": {
+        "addr:city": "Whitton",
+        "addr:housenumber": "38-48",
+        "addr:postcode": "TW2 7LT",
+        "addr:street": "High Street Whitton",
+        "addr:suburb": "Whitton",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "retail",
+        "fhrs:id": "1735818",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00, Su 10:00-16:00",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/whitton/high-street-38/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 455068144,
+      "center": {
+        "lat": 51.4558354,
+        "lon": 0.1522222
+      },
+      "tags": {
+        "addr:country": "GB",
+        "addr:housenumber": "20",
+        "addr:postcode": "DA6 7LL",
+        "addr:street": "Broadway Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "retail",
+        "fhrs:id": "984334",
+        "name": "Lidl",
+        "note": "Honda car showroom demolished and supermarket built",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-17:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/bexleyheath/broadway/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 460001109,
+      "center": {
+        "lat": 51.4982992,
+        "lon": -0.4043683
+      },
+      "tags": {
+        "addr:city": "Southall",
+        "addr:housename": "Bulls Bridge Industrial Estate",
+        "addr:housenumber": "5",
+        "addr:postcode": "UB2 5LN",
+        "addr:street": "Hayes Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "building": "retail",
+        "check_date": "2025-05-17",
+        "check_date:opening_hours": "2025-05-17",
+        "fhrs:id": "1545261",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-17:00",
+        "ref:GB:uprn": "200003966591",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/hounslow/hayes-road/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 469166070,
+      "center": {
+        "lat": 51.4112446,
+        "lon": -0.1390805
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "216",
+        "addr:postcode": "SW16 5HX",
+        "addr:street": "Rowan Road",
+        "branch": "Streatham",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "building": "retail",
+        "fhrs:id": "578964",
+        "name": "Lidl",
+        "operator": "Lidl UK GmbH",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/mitcham/rowan-road-216/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 584963107,
+      "center": {
+        "lat": 51.3753248,
+        "lon": -0.0125625
+      },
+      "tags": {
+        "addr:city": "West Wickham",
+        "addr:country": "GB",
+        "addr:housenumber": "2A",
+        "addr:postcode": "BR4 0RJ",
+        "addr:street": "Glebe Way",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "retail",
+        "fhrs:id": "940538",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 07:00-21:00; Su 11:00-17:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/west-wickham/glebe-way/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 658909723,
+      "center": {
+        "lat": 51.5086401,
+        "lon": -0.4200989
+      },
+      "tags": {
+        "addr:city": "Hayes",
+        "addr:country": "GB",
+        "addr:housenumber": "1",
+        "addr:postcode": "UB3 2BN",
+        "addr:street": "Central Avenue",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "yes",
+        "fhrs:id": "1030146",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/hayes/central-avenue/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 681222173,
+      "center": {
+        "lat": 51.5189695,
+        "lon": -0.4096418
+      },
+      "tags": {
+        "addr:city": "Hayes",
+        "addr:country": "GB",
+        "addr:housenumber": "482",
+        "addr:postcode": "UB4 0SD",
+        "addr:street": "Uxbridge Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "yes",
+        "fhrs:id": "518875",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/uxbridge-road-482/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 744293219,
+      "center": {
+        "lat": 51.5521032,
+        "lon": 0.1134831
+      },
+      "tags": {
+        "addr:city": "Dagenham",
+        "addr:housenumber": "807-829",
+        "addr:postcode": "RM8 2DB",
+        "addr:street": "Longbridge Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "fhrs:id": "1197145",
+        "fhrs:local_authority_id": "60245",
+        "name": "Lidl",
+        "operator": "Lidl UK GmbH",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/greater-london/dagenham/longbridge-road-807-829/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 820876019,
+      "center": {
+        "lat": 51.6064951,
+        "lon": -0.3392323
+      },
+      "tags": {
+        "addr:city": "Harrow",
+        "addr:housenumber": "354",
+        "addr:postcode": "HA3 6HF",
+        "addr:street": "High Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "retail",
+        "check_date": "2025-10-30",
+        "fhrs:id": "1265278",
+        "name": "Lidl",
+        "old_name": "Homebase",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/harrow/high-road/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 822357980,
+      "center": {
+        "lat": 51.4003002,
+        "lon": -0.2538272
+      },
+      "tags": {
+        "addr:city": "New Malden",
+        "addr:country": "GB",
+        "addr:housenumber": "31-35",
+        "addr:postcode": "KT3 4AH",
+        "addr:street": "Blagdon Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "supermarket",
+        "fhrs:id": "1385257",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-17:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/new-malden/blagdon-road-31-35/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 851847846,
+      "center": {
+        "lat": 51.6057921,
+        "lon": 0.2243222
+      },
+      "tags": {
+        "addr:city": "Romford",
+        "addr:postcode": "RM3 8QY",
+        "addr:street": "Gooshays Drive",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "yes",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "source:addr:postcode": "code-point_open",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/harold-hill/gooshays-drive/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 858925603,
+      "center": {
+        "lat": 51.569847,
+        "lon": 0.1218267
+      },
+      "tags": {
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building:part": "yes",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/grove-farm-retail-park/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 878928697,
+      "center": {
+        "lat": 51.5207947,
+        "lon": 0.0694565
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "4",
+        "addr:postcode": "E6 6LG",
+        "addr:street": "Claps Gate Lane",
+        "addr:substreet": "Gateway Retail Park",
+        "addr:suburb": "Beckton",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "yes",
+        "fhrs:id": "1274362",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su 11:00-17:00",
+        "operator": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/beckton/claps-gate-lane/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 917120486,
+      "center": {
+        "lat": 51.4558466,
+        "lon": -0.3105933
+      },
+      "tags": {
+        "addr:city": "Twickenham",
+        "addr:postcode": "TW1 2EF",
+        "addr:street": "Richmond Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-17:00; PH 08:00-22:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/east-twickenham/richmond-road/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 923690202,
+      "center": {
+        "lat": 51.5386766,
+        "lon": 0.0520122
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "182-184",
+        "addr:postcode": "E6 2JA",
+        "addr:street": "High Street North",
+        "addr:suburb": "East Ham",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "building": "retail",
+        "fhrs:id": "747715",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 07:00-23:00; Su 11:00-17:00",
+        "operator": "Lidl",
+        "ref:GB:uprn": "10008999567;46251287",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/high-street-north-182-188/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 955495285,
+      "center": {
+        "lat": 51.3680622,
+        "lon": 0.0560194
+      },
+      "tags": {
+        "addr:city": "Orpington",
+        "addr:country": "GB",
+        "addr:housenumber": "330",
+        "addr:postcode": "BR6 8NW",
+        "addr:street": "Crofton Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "building": "yes",
+        "fhrs:id": "445151",
+        "name": "Lidl",
+        "ref:GB:uprn": "100023528372",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/locksbottom/crofton-road-locksbottom-330/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 964880675,
+      "center": {
+        "lat": 51.5635592,
+        "lon": 0.1456491
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "79A",
+        "addr:postcode": "RM8 1AJ",
+        "addr:street": "Whalebone Lane South",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "supermarket",
+        "fhrs:id": "1389714",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/whalebone-lane-south/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1011224078,
+      "center": {
+        "lat": 51.4643417,
+        "lon": -0.2156451
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "60",
+        "addr:postcode": "SW15 1SF",
+        "addr:street": "Putney High Street",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:authority": "Wandsworth",
+        "fhrs:id": "1573507",
+        "fhrs:local_authority_id": "PI/000459639",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/putney/putney-high-street/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1039272718,
+      "center": {
+        "lat": 51.4677408,
+        "lon": -0.3708025
+      },
+      "tags": {
+        "addr:city": "Hounslow",
+        "addr:postcode": "TW3 3HY",
+        "addr:street": "Hospital Road",
+        "addr:unit": "Unit B",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "retail",
+        "fhrs:id": "1517878;621547",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/hospital-road/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1106893173,
+      "center": {
+        "lat": 51.359667,
+        "lon": -0.1505978
+      },
+      "tags": {
+        "addr:housenumber": "16-18",
+        "addr:postcode": "SM6 0HU",
+        "addr:street": "Beddington Gardens",
+        "addr:suburb": "Wallington",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "building": "retail",
+        "fhrs:id": "809156",
+        "name": "Lidl",
+        "operator": "Lidl",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/wallington/beddington-gardens/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1141587118,
+      "center": {
+        "lat": 51.4370931,
+        "lon": 0.0428527
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "24",
+        "addr:postcode": "SE9 4QW",
+        "addr:street": "Mottingham Road",
+        "addr:suburb": "Mottingham",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "building": "yes",
+        "fhrs:id": "1588922",
+        "name": "Lidl",
+        "phone": "+44 800 977 7766",
+        "ref:GB:uprn": "100022826112",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/24-mottingham-road/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1177637259,
+      "center": {
+        "lat": 51.4190816,
+        "lon": 0.1199973
+      },
+      "tags": {
+        "addr:city": "Sidcup",
+        "addr:postcode": "DA14 5HJ",
+        "addr:street": "Foots Cray High Street",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "building": "retail",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-17:00",
+        "operator": "Lidl",
+        "ref:GB:uprn": "10094791922",
+        "shop": "supermarket",
+        "was:fhrs:id": "329532",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/foots-cray-high-street/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1182212140,
+      "center": {
+        "lat": 51.5242974,
+        "lon": -0.1373422
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "145",
+        "addr:postcode": "W1T 7NE",
+        "addr:street": "Tottenham Court Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "check_date": "2026-02-28",
+        "fhrs:id": "1267287",
+        "name": "Lidl",
+        "old_name": "Sainsbury's Local",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su 11:00-17:00",
+        "shop": "supermarket",
+        "start_date": "2020-04-30",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/tottenham-court-road/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1197510549,
+      "center": {
+        "lat": 51.3992315,
+        "lon": 0.1122645
+      },
+      "tags": {
+        "addr:city": "Orpington",
+        "addr:country": "GB",
+        "addr:housenumber": "168",
+        "addr:postcode": "BR5 3AE",
+        "addr:street": "Sevenoaks Way",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "1450625",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 10:00-16:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/sevenoaks-way-168/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1226741992,
+      "center": {
+        "lat": 51.3737833,
+        "lon": -0.1037042
+      },
+      "tags": {
+        "addr:city": "Croydon",
+        "addr:housenumber": "68-74",
+        "addr:postcode": "CR0 1RB",
+        "addr:street": "Church Street",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "building": "retail",
+        "fhrs:authority": "Croydon",
+        "fhrs:id": "293526",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "source": "survey",
+        "source:postcode": "FSA Food Hygiene Ratings database",
+        "survey:date": "2018-10-04",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/croydon/church-street-76-78/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1242240965,
+      "center": {
+        "lat": 51.5143068,
+        "lon": -0.0286319
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "306",
+        "addr:postcode": "E14 7DL",
+        "addr:street": "Burdett Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "fhrs:id": "44488",
+        "fhrs:local_authority_id": "10792",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 07:00-23:00; Su 11:00-17:00",
+        "payment:cash": "yes",
+        "ref:GB:uprn": "6115090",
+        "self_checkout": "yes",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/limehouse/burdett-road-306/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1243136514,
+      "center": {
+        "lat": 51.4918959,
+        "lon": -0.0833523
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "96-120",
+        "addr:postcode": "SE1 4NY",
+        "addr:street": "Old Kent Road",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "check_date": "2026-06-09",
+        "fhrs:id": "364625",
+        "name": "Lidl",
+        "name:en": "Lidl",
+        "name:fa": "لیدل",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su 10:00-16:00",
+        "roof:levels": "1",
+        "shop": "supermarket",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/walworth/massinger-street-2/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1316089509,
+      "center": {
+        "lat": 51.5483032,
+        "lon": 0.0247266
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "39-49",
+        "addr:postcode": "E7 8BA",
+        "addr:street": "Woodgrange Road",
+        "addr:unit": "Unit 2",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "check_date": "2024-12-16",
+        "name": "Lidl",
+        "opening_date": "2024-12-12",
+        "operator": "Lidl",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/woodgrange-road-unit2-ground-floor-39a-49a/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1562607306,
+      "center": {
+        "lat": 51.430936,
+        "lon": -0.1298986
+      },
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "222-224",
+        "addr:postcode": "SW16 1BB",
+        "addr:street": "Streatham High Road",
+        "addr:suburb": "Streatham",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "building": "yes",
+        "check_date": "2026-01-09",
+        "fhrs:authority": "Lambeth",
+        "fhrs:id": "483334",
+        "fhrs:inspectiondate": "2009-03-11",
+        "fhrs:rating": "5",
+        "name": "Lidl",
+        "name:fa": "لیدل",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-17:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.co.uk/s/en-GB/store-finder/london/streatham/streatham-high-road-222/",
+        "wheelchair": "yes"
+      }
+    }
+  ]
+}
