@@ -70,11 +70,11 @@ const categories = [
   { id: "station", label: "Stations", icon: null, color: "#333333", size: 3,  transit: true, match: p => p.dataset === "tfl-stations" },
 ];
 
-// Hipster pockets: grid cells where enough weighted places of enough different kinds sit close
+// Hipster pockets: hex cells where enough weighted places of enough different kinds sit close
 // together. These places are not drawn as points (unless a category above also matches them).
 const zone = {
   label: "Hipster pockets", color: "#d946ef", on: true,
-  cell: 250,      // grid cell size, metres
+  cell: 250,      // hex width (distance between neighbouring hex centres), metres
   radius: 500,    // places within this distance of a cell count towards it
   cap: 4,         // max places of one kind counted per cell, so one vintage market does not make a pocket
   minScore: 9,    // cells scoring less are not drawn
@@ -156,31 +156,42 @@ document.getElementById("search").onsubmit = async e => {
 fetch("data.json").then(r => r.json()).then(data => {
   const lineById = Object.fromEntries(data.lines.map(l => [l.id, l]));
 
-  // Hipster pockets: bin the zone's places into a grid, then score each cell by what is within reach
+  // Hipster pockets: bin the zone's places into a hex grid, then score each hex by what is within reach.
+  // Hexes are pointy-top, addressed by axial coordinates (q, r); the centre of one is at
+  // x = zone.cell * (q + r / 2), y = 1.5 * side * r, in metres.
   const mLat = 111320, mLon = 111320 * Math.cos(51.5 * Math.PI / 180); // metres per degree in London
-  const cells = new Map(); // "ix,iy" -> { dataset: count }
+  const side = zone.cell / Math.sqrt(3); // hex centre to corner
+  const cells = new Map(); // "q,r" -> { dataset: count }
   for (const p of data.points) {
     if (!zone.kinds[p.dataset]) continue;
-    const key = Math.floor(p.lon * mLon / zone.cell) + "," + Math.floor(p.lat * mLat / zone.cell);
+    const fr = p.lat * mLat / (1.5 * side), fq = p.lon * mLon / zone.cell - fr / 2;
+    let q = Math.round(fq), r = Math.round(fr);
+    const t = Math.round(-fq - fr); // third cube coordinate, used to round to the nearest hex
+    const eq = Math.abs(q - fq), er = Math.abs(r - fr), et = Math.abs(t + fq + fr);
+    if (eq > er && eq > et) q = -r - t;
+    else if (er > et) r = -q - t;
+    const key = q + "," + r;
     if (!cells.has(key)) cells.set(key, {});
     cells.get(key)[p.dataset] = (cells.get(key)[p.dataset] ?? 0) + 1;
   }
-  const reach = Math.round(zone.radius / zone.cell);
-  const near = []; // cell offsets within reach
-  for (let dx = -reach; dx <= reach; dx++) {
-    for (let dy = -reach; dy <= reach; dy++) if (dx * dx + dy * dy <= reach * reach) near.push([dx, dy]);
+  const reach = 2 * Math.ceil(zone.radius / zone.cell);
+  const near = []; // hex offsets whose centres are closer than the radius
+  for (let dq = -reach; dq <= reach; dq++) {
+    for (let dr = -reach; dr <= reach; dr++) {
+      if (Math.hypot(zone.cell * (dq + dr / 2), 1.5 * side * dr) < zone.radius - 1e-6) near.push([dq, dr]);
+    }
   }
   const candidates = new Set();
   for (const key of cells.keys()) {
-    const [ix, iy] = key.split(",").map(Number);
-    for (const [dx, dy] of near) candidates.add(ix + dx + "," + (iy + dy));
+    const [q, r] = key.split(",").map(Number);
+    for (const [dq, dr] of near) candidates.add(q + dq + "," + (r + dr));
   }
   zone.layer = L.layerGroup();
   for (const key of candidates) {
-    const [ix, iy] = key.split(",").map(Number);
+    const [q, r] = key.split(",").map(Number);
     const counts = {};
-    for (const [dx, dy] of near) {
-      const c = cells.get(ix + dx + "," + (iy + dy));
+    for (const [dq, dr] of near) {
+      const c = cells.get(q + dq + "," + (r + dr));
       for (const d in c) counts[d] = (counts[d] ?? 0) + c[d];
     }
     let score = 0;
@@ -188,10 +199,14 @@ fetch("data.json").then(r => r.json()).then(data => {
     if (score < zone.minScore || Object.keys(counts).length < zone.minKinds) continue;
     const strength = Math.min(1, (score - zone.minScore) / (zone.fullScore - zone.minScore));
     const what = Object.keys(counts).sort((a, b) => counts[b] - counts[a]).map(d => `${counts[d]} ${zone.kinds[d].label}`);
-    L.rectangle(
-      [[iy * zone.cell / mLat, ix * zone.cell / mLon], [(iy + 1) * zone.cell / mLat, (ix + 1) * zone.cell / mLon]],
-      { stroke: false, fillColor: zone.color, fillOpacity: 0.25 + 0.35 * strength },
-    ).bindTooltip(`<b>${zone.label}</b><br>${what.join("<br>")}`, { sticky: true }).addTo(zone.layer);
+    const cx = zone.cell * (q + r / 2), cy = 1.5 * side * r;
+    const corners = [];
+    for (let i = 0; i < 6; i++) {
+      const angle = Math.PI / 6 + i * Math.PI / 3;
+      corners.push([(cy + side * Math.sin(angle)) / mLat, (cx + side * Math.cos(angle)) / mLon]);
+    }
+    L.polygon(corners, { stroke: false, fillColor: zone.color, fillOpacity: 0.25 + 0.35 * strength })
+      .bindTooltip(`<b>${zone.label}</b><br>${what.join("<br>")}`, { sticky: true }).addTo(zone.layer);
   }
   if (zone.on) zone.layer.addTo(map);
 
@@ -256,7 +271,7 @@ fetch("data.json").then(r => r.json()).then(data => {
     catBox.append(label);
   }
   const zoneLabel = document.createElement("label");
-  zoneLabel.innerHTML = `<input type="checkbox" ${zone.on ? "checked" : ""}> <span class="key" style="width:18px;height:18px;flex:none;border-radius:4px;background:${zone.color};opacity:.6"></span> ${zone.label}`;
+  zoneLabel.innerHTML = `<input type="checkbox" ${zone.on ? "checked" : ""}> <span class="key" style="width:18px;height:18px;flex:none;clip-path:polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);background:${zone.color};opacity:.6"></span> ${zone.label}`;
   zoneLabel.querySelector("input").onchange = e => {
     e.target.checked ? zone.layer.addTo(map) : zone.layer.remove();
     dotsToFront();
