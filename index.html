@@ -43,7 +43,6 @@
   .poi.key { width: 18px; height: 18px; font-size: 10px; flex: none; }
   .popup-title { font-weight: 600; font-size: 14px; }
   .popup-sub { color: #6b7785; }
-  .rent-label { width: 0; height: 0; display: flex; align-items: center; justify-content: center; white-space: nowrap; font-weight: 700; font-size: 12px; text-shadow: 0 0 2px #fff, 0 0 2px #fff, 0 0 3px #fff; }
   .chip { display: inline-block; padding: 0 6px; margin: 3px 3px 0 0; border-radius: 9px; color: #fff; font-size: 11px; }
 </style>
 </head>
@@ -99,21 +98,22 @@ const zone = {
   },
 };
 
-// Rent: borough outlines with the average monthly rent as a label. Borough is as fine as ONS publishes.
-// field: which figure goes on the label, one of all, one_bed, two_bed, three_bed, four_or_more_bed.
-const rent = { label: "Rent, 2 bed", color: "#0f766e", on: true, dataset: "ons-boroughs-london", field: "two_bed" };
-
-// Crime: wards shaded by recorded crimes of the listed kinds per km² over the last 12 months. The shade
-// is the ward's rank among all wards, not the raw number, so the West End does not wash out the rest.
-// kinds: Met SubGroup names, the full list is in data/met-crime-wards.csv.
+// No-go wards: the few wards where crime that hurts residents is dense and is not just a busy high street.
+// score = harm crimes per km² over the last 12 months x (1 - share of the ward's crime that is crowd theft).
+// The second factor discounts the West End and other shopping and nightlife centres, where the numbers
+// follow the crowds. Only real outliers are drawn: wards scoring at least `times` the typical (median)
+// London ward. Kinds are Met SubGroup names, the full list is in data/met-crime-wards.csv.
 const crime = {
-  label: "Crime", color: "#111827", on: false, dataset: "ons-wards-london",
-  maxOpacity: 0.55, // fill opacity of the worst ward
-  kinds: [
-    "BURGLARY - RESIDENTIAL", "RES BURGLARY OF A HOME", "RES BURGLARY OF UNCONNECTED BUILDING",
-    "ROBBERY OF PERSONAL PROPERTY", "THEFT FROM THE PERSON", "VIOLENCE WITH INJURY",
-    "THEFT OR UNAUTH TAKING OF A MOTOR VEH", "THEFT FROM A VEHICLE", "BICYCLE THEFT",
+  label: "Crime", color: "#111827", on: true, dataset: "ons-wards-london",
+  times: 3.5,       // a ward is drawn when its score is this many times the typical ward's, 3.5 gives about 25 wards
+  minOpacity: 0.3,  // fill opacity of the mildest ward drawn
+  maxOpacity: 0.6,  // and of the worst
+  others: 5,        // how many of the kinds that are not counted the tooltip lists, biggest first
+  harm: [
+    "VIOLENCE WITH INJURY", "ROBBERY OF PERSONAL PROPERTY", "POSSESSION OF WEAPONS", "TRAFFICKING OF DRUGS",
+    "RES BURGLARY OF A HOME", "BURGLARY - RESIDENTIAL", "ARSON", "HOMICIDE", "RAPE",
   ],
+  crowd: ["SHOPLIFTING", "THEFT FROM THE PERSON", "OTHER THEFT", "BURGLARY BUSINESS AND COMMUNITY", "ROBBERY OF BUSINESS PROPERTY"],
 };
 
 // All rail lines and the transit categories above share one checkbox.
@@ -149,7 +149,7 @@ const defaultLineStyle = { color: "#888888" };
 const map = L.map("map", { preferCanvas: true }).setView([51.513, -0.06], 12);
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 19,
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors · Rail data: TfL · Rents and boundaries: ONS · Crime: Met Police',
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors · Rail data: TfL · Ward boundaries: ONS · Crime: Met Police',
 }).addTo(map);
 
 // The whole header toggles the panel, the button is there for the keyboard
@@ -243,37 +243,33 @@ fetch("data.json").then(r => r.json()).then(data => {
   }
   if (zone.on) zone.layer.addTo(map);
 
-  // Crime: one polygon per ward that has figures (the City of London has its own force and none here)
+  // No-go wards: score every ward that has figures (the City of London has its own force and none here), draw the worst
   crime.layer = L.layerGroup();
   const wards = [];
   for (const a of data.areas) {
     if (a.dataset !== crime.dataset || !a.props.crime) continue;
-    let count = 0;
-    for (const kind of crime.kinds) count += a.props.crime[kind] ?? 0;
-    wards.push({ area: a, count, density: count / a.props.area_km2 });
+    let harm = 0, crowd = 0, all = 0;
+    for (const kind of crime.harm) harm += a.props.crime[kind] ?? 0;
+    for (const kind of crime.crowd) crowd += a.props.crime[kind] ?? 0;
+    for (const kind in a.props.crime) all += a.props.crime[kind];
+    wards.push({ area: a, harm, crowd: crowd / all, score: harm / a.props.area_km2 * (1 - crowd / all) });
   }
-  wards.sort((a, b) => a.density - b.density);
-  wards.forEach((w, i) => {
-    const top = crime.kinds.filter(k => w.area.props.crime[k]).sort((a, b) => w.area.props.crime[b] - w.area.props.crime[a]).slice(0, 3)
-      .map(k => `${w.area.props.crime[k]} ${k.toLowerCase()}`);
-    L.polygon(w.area.polygons, { stroke: false, fillColor: crime.color, fillOpacity: crime.maxOpacity * (i / (wards.length - 1)) ** 2 })
-      .bindTooltip(`<b>${w.area.name}</b>, ${w.area.props.borough}<br>${w.count} crimes a year, ${Math.round(w.density)} per km²<br>worse than ${Math.round(100 * i / (wards.length - 1))}% of wards<br>${top.join("<br>")}`, { sticky: true })
+  wards.sort((a, b) => b.score - a.score);
+  const typical = wards[Math.floor(wards.length / 2)].score;
+  const worst = wards[0].score / typical;
+  for (const w of wards) {
+    const times = w.score / typical;
+    if (times < crime.times) break;
+    // Tooltip lists what the score counts first, then the biggest of everything else (pickpocketing, shoplifting...)
+    const c = w.area.props.crime;
+    const byCount = Object.keys(c).filter(k => c[k]).sort((a, b) => c[b] - c[a]);
+    const counted = byCount.filter(k => crime.harm.includes(k)).map(k => `${c[k]} ${k.toLowerCase()}`);
+    const rest = byCount.filter(k => !crime.harm.includes(k)).slice(0, crime.others).map(k => `${c[k]} ${k.toLowerCase()}`);
+    L.polygon(w.area.polygons, { stroke: false, fillColor: crime.color, fillOpacity: crime.minOpacity + (crime.maxOpacity - crime.minOpacity) * (times - crime.times) / (worst - crime.times || 1) })
+      .bindTooltip(`<b>${w.area.name}</b>, ${w.area.props.borough}<br>${times.toFixed(1)} times the typical London ward<br>${w.harm} serious crimes a year, ${Math.round(w.harm / w.area.props.area_km2)} per km²<br>${counted.join("<br>")}<br><br><b>Not counted</b>, ${Math.round(100 * w.crowd)}% of all crime here is shop and crowd theft<br>${rest.join("<br>")}`, { sticky: true })
       .addTo(crime.layer);
-  });
-  if (crime.on) crime.layer.addTo(map);
-
-  // Rent: an outline per borough and the figure in the middle of it
-  rent.layer = L.layerGroup();
-  for (const a of data.areas) {
-    if (a.dataset !== rent.dataset) continue;
-    L.polygon(a.polygons, { fill: false, color: rent.color, weight: 1.5, opacity: 0.6, interactive: false }).addTo(rent.layer);
-    const r = a.props.rent;
-    if (!r?.[rent.field]) continue;
-    L.marker([a.lat, a.lon], { zIndexOffset: 5000, icon: L.divIcon({ className: "", iconSize: [0, 0], html: `<div class="rent-label" style="color:${rent.color}">£${r[rent.field].toLocaleString()}</div>` }) })
-      .bindTooltip(`<b>${a.name}</b><br>average rent a month, ${r.month}<br>1 bed £${r.one_bed.toLocaleString()}<br>2 bed £${r.two_bed.toLocaleString()}<br>3 bed £${r.three_bed.toLocaleString()}<br>4+ bed £${r.four_or_more_bed.toLocaleString()}<br>all £${r.all.toLocaleString()}`)
-      .addTo(rent.layer);
   }
-  if (rent.on) rent.layer.addTo(map);
+  if (crime.on) crime.layer.addTo(map);
 
   // Rail lines, all in the transit layer group
   transit.layer = L.layerGroup();
@@ -343,13 +339,6 @@ fetch("data.json").then(r => r.json()).then(data => {
     dotsToFront();
   };
   catBox.append(zoneLabel);
-  const rentLabel = document.createElement("label");
-  rentLabel.innerHTML = `<input type="checkbox" ${rent.on ? "checked" : ""}> <span class="key" style="width:18px;flex:none;text-align:center;font-weight:700;color:${rent.color}">£</span> ${rent.label}`;
-  rentLabel.querySelector("input").onchange = e => {
-    e.target.checked ? rent.layer.addTo(map) : rent.layer.remove();
-    dotsToFront();
-  };
-  catBox.append(rentLabel);
   const crimeLabel = document.createElement("label");
   crimeLabel.innerHTML = `<input type="checkbox" ${crime.on ? "checked" : ""}> <span class="key" style="width:18px;height:18px;flex:none;border-radius:3px;background:${crime.color};opacity:.5"></span> ${crime.label}`;
   crimeLabel.querySelector("input").onchange = e => {
