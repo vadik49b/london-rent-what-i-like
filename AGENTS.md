@@ -22,7 +22,7 @@ The repo root is the app root.
 
 - `npm run fetch` runs every fetch script (`npm run fetch:supermarkets`, `npm run fetch:osm-places`, `npm run fetch:tfl` individually)
 - `npm run reindex` rebuilds `data.json` from `data/`
-- `npm run serve` serves the app at http://localhost:8000 (the page needs HTTP, `file://` will not work)
+- `npm run serve` serves the app at http://localhost:3000 (the page needs HTTP, `file://` will not work)
 
 ## The data folder
 

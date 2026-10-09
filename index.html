@@ -14,7 +14,14 @@
     max-height: calc(100% - 24px); overflow: auto; box-sizing: border-box;
     background: #fff; border-radius: 8px; padding: 12px 14px; box-shadow: 0 1px 6px rgba(0,0,0,.25);
   }
-  #panel h1 { font-size: 15px; margin: 0 0 8px; }
+  #panel h1 { font-size: 15px; margin: 0 0 8px; display: flex; align-items: center; cursor: pointer; user-select: none; }
+  #collapse { margin-left: auto; display: flex; border: 0; background: none; padding: 2px; color: #6b7785; cursor: pointer; }
+  #collapse svg { display: block; }
+  #panel.collapsed #collapse svg { transform: rotate(-90deg); }
+  #panel h1:hover #collapse { color: #1f2933; }
+  #panel.collapsed { width: auto; }
+  #panel.collapsed h1 { margin: 0; gap: 10px; }
+  #panel.collapsed > :not(h1) { display: none; }
   #panel h2 { font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: #6b7785; margin: 12px 0 4px; }
   #panel label { display: flex; align-items: center; gap: 6px; padding: 2px 0; cursor: pointer; }
   #panel .count { margin-left: auto; color: #6b7785; font-variant-numeric: tabular-nums; }
@@ -42,7 +49,7 @@
 <body>
 <div id="map"></div>
 <div id="panel">
-  <h1>London Rent Map</h1>
+  <h1>Legend <button id="collapse" title="Collapse" aria-expanded="true"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 4.5 6 8l3.5-3.5"/></svg></button></h1>
   <form id="search"><input placeholder="Postcode, e.g. E8 3DL" autocomplete="off" spellcheck="false"></form>
   <div id="search-status"></div>
   <div id="pins"></div>
@@ -126,6 +133,14 @@ L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 19,
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors · Rail data: TfL',
 }).addTo(map);
+
+// The whole header toggles the panel, the button is there for the keyboard
+document.querySelector("#panel h1").onclick = () => {
+  const button = document.getElementById("collapse");
+  const collapsed = document.getElementById("panel").classList.toggle("collapsed");
+  button.title = collapsed ? "Expand" : "Collapse";
+  button.setAttribute("aria-expanded", !collapsed);
+};
 
 // Postcode search: pins are listed under the input and kept in memory only. Full postcodes ("E8 3DL") and outcodes ("E8") both work
 document.getElementById("search").onsubmit = async e => {

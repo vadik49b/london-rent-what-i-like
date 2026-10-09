@@ -8,6 +8,6 @@
     "fetch:osm-places": "node scripts/fetch/osm-places.mjs",
     "fetch:tfl": "node scripts/fetch/tfl-lines.mjs",
     "reindex": "node scripts/reindex.mjs",
-    "serve": "python3 -m http.server 8000"
+    "serve": "python3 -m http.server 3000"
   }
 }
