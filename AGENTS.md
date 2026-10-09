@@ -20,7 +20,7 @@ The repo root is the app root.
 
 ## Commands
 
-- `npm run fetch` runs every fetch script (`npm run fetch:lidl`, `npm run fetch:tfl` individually)
+- `npm run fetch` runs every fetch script (`npm run fetch:supermarkets`, `npm run fetch:tfl` individually)
 - `npm run reindex` rebuilds `data.json` from `data/`
 - `npm run serve` serves the app at http://localhost:8000 (the page needs HTTP, `file://` will not work)
 
@@ -28,7 +28,7 @@ The repo root is the app root.
 
 - Flat: no subfolders.
 - Raw: files are saved exactly as the source returned them. Never hand-edit a fetched file; fix the fetch or the adapter instead.
-- Named in kebab-case, prefixed by source: `osm-lidl-london.json`, `tfl-line-victoria.json`.
+- Named in kebab-case, prefixed by source: `osm-supermarkets-london.json`, `tfl-line-victoria.json`.
 - Every file must have an entry in `data/index.json`. `npm run reindex` fails if a file is not indexed or an indexed file is missing.
 - Re-fetching overwrites the file and updates `fetched_at` in its entry.
 
@@ -52,7 +52,7 @@ An array with one entry per raw file:
 ## Adding a data source
 
 1. Get the raw data into `data/`.
-   - If there is an API, write a self-contained script in `scripts/fetch/` that saves the response and upserts its own index entry (copy `scripts/fetch/lidl.mjs`), and add it to `package.json`.
+   - If there is an API, write a self-contained script in `scripts/fetch/` that saves the response and upserts its own index entry (copy `scripts/fetch/supermarkets.mjs`), and add it to `package.json`.
    - Otherwise fetch it by any means (browser, manual lookup), save the file and write the index entry by hand with `method: "manual"` and honest provenance in `source` and `url`.
 2. Point the entry's `adapter` at an existing adapter in `scripts/reindex.mjs`, or add a new adapter function there if the format is new.
 3. Run `npm run reindex`.
@@ -89,4 +89,4 @@ This is a prototype. Keep it simple.
 
 ## What goes on the map
 
-- Supermarkets: full-size stores only, no convenience formats (Tesco Express, Sainsbury's Local, corner shops).
+- Supermarkets: full-size stores only, no convenience formats (Tesco Express, Sainsbury's Local, Little Waitrose, corner shops). The chain list and the exclusions live in `scripts/fetch/supermarkets.mjs`; to add a chain, extend `chains` there, re-fetch, reindex, then add a category in `index.html`.

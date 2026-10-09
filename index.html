@@ -25,6 +25,8 @@
     display: flex; align-items: center; justify-content: center; border-radius: 50%;
     border: 2px solid #fff; box-shadow: 0 1px 3px rgba(0,0,0,.4); box-sizing: border-box;
   }
+  .poi { font-weight: 700; line-height: 1; }
+  .poi.key { width: 18px; height: 18px; font-size: 10px; flex: none; }
   .popup-title { font-weight: 600; font-size: 14px; }
   .popup-sub { color: #6b7785; }
   .chip { display: inline-block; padding: 0 6px; margin: 3px 3px 0 0; border-radius: 9px; color: #fff; font-size: 11px; }
@@ -50,10 +52,11 @@
 // ---------------------------------------------------------------------------
 
 // A point goes to the first category whose match() returns true.
-// icon: emoji shown in a coloured circle. icon: null draws a small dot instead.
+// icon: emoji or letter shown in a coloured circle. icon: null draws a small dot instead.
+// text: optional letter colour (default white).
 const categories = [
   { id: "office",  label: "Offices",  icon: "💼", color: "#1d4ed8", size: 34, on: true, match: p => p.dataset === "offices" },
-  { id: "lidl",    label: "Lidl",     icon: "🛒", color: "#ffd500", size: 24, on: true, match: p => p.props.brand === "Lidl" },
+  { id: "supermarket", label: "Supermarkets", icon: "🛒", color: "#ffd500", size: 22, on: true, match: p => p.dataset === "osm-supermarkets-london" },
   { id: "station", label: "Stations", icon: null, color: "#333333", size: 3,  on: true, match: p => p.dataset === "tfl-stations" },
 ];
 
@@ -136,7 +139,7 @@ fetch("data.json").then(r => r.json()).then(data => {
           icon: L.divIcon({
             className: "",
             iconSize: [cat.size, cat.size],
-            html: `<div class="poi" style="width:${cat.size}px;height:${cat.size}px;font-size:${cat.size * 0.5}px;background:${cat.color}">${cat.icon}</div>`,
+            html: `<div class="poi" style="width:${cat.size}px;height:${cat.size}px;font-size:${cat.size * 0.5}px;background:${cat.color};color:${cat.text ?? "#fff"}">${cat.icon}</div>`,
           }),
         })
       : L.circleMarker([p.lat, p.lon], { radius: cat.size, color: cat.color, weight: 1.5, fillColor: "#fff", fillOpacity: 1 });
@@ -155,7 +158,7 @@ fetch("data.json").then(r => r.json()).then(data => {
   const catBox = document.getElementById("categories");
   for (const cat of categories) {
     const label = document.createElement("label");
-    label.innerHTML = `<input type="checkbox" ${cat.on ? "checked" : ""}> <span>${cat.icon ?? "⚪"}</span> ${cat.label} <span class="count">${cat.count}</span>`;
+    label.innerHTML = `<input type="checkbox" ${cat.on ? "checked" : ""}> <span class="poi key" style="background:${cat.icon ? cat.color : "#fff"};color:${cat.text ?? "#fff"};border-color:${cat.icon ? "#fff" : cat.color}">${cat.icon ?? ""}</span> ${cat.label} <span class="count">${cat.count}</span>`;
     label.querySelector("input").onchange = e => {
       e.target.checked ? cat.layer.addTo(map) : cat.layer.remove();
       dotsToFront();

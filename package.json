@@ -3,8 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "fetch": "npm run fetch:lidl && npm run fetch:tfl",
-    "fetch:lidl": "node scripts/fetch/lidl.mjs",
+    "fetch": "npm run fetch:supermarkets && npm run fetch:tfl",
+    "fetch:supermarkets": "node scripts/fetch/supermarkets.mjs",
     "fetch:tfl": "node scripts/fetch/tfl-lines.mjs",
     "reindex": "node scripts/reindex.mjs",
     "serve": "python3 -m http.server 8000"

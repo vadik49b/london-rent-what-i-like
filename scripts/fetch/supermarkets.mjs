@@ -1,7 +1,12 @@
-// Fetches all Lidl supermarkets in Greater London from OpenStreetMap (Overpass API).
+// Fetches big supermarkets of selected chains in Greater London from OpenStreetMap (Overpass API).
+// Only shop=supermarket is requested, which leaves out convenience formats (Tesco Express,
+// Sainsbury's Local, Little Waitrose...). A few of those are mis-tagged as supermarkets, so
+// they are also excluded by name.
 import { readFileSync, writeFileSync } from "node:fs";
 
-const file = "osm-lidl-london.json";
+const file = "osm-supermarkets-london.json";
+const chains = "Lidl|Sainsbury|Waitrose|Tesco|M&S|Marks & Spencer|Marks and Spencer";
+const small = "Express|Local|Little";
 // Public Overpass instances are often busy, so try a few in turn.
 const urls = [
   "https://overpass-api.de/api/interpreter",
@@ -10,7 +15,7 @@ const urls = [
 ];
 const query = `[out:json][timeout:120];
 area["name"="Greater London"]["boundary"="administrative"]->.london;
-nwr["shop"="supermarket"]["brand"~"^Lidl"](area.london);
+nwr["shop"="supermarket"]["name"~"${chains}"]["name"!~"${small}"](area.london);
 out center tags;`;
 
 let json, url;
@@ -32,13 +37,13 @@ writeFileSync(`data/${file}`, JSON.stringify(json, null, 2));
 const index = JSON.parse(readFileSync("data/index.json", "utf8")).filter((e) => e.file !== file);
 index.push({
   file,
-  title: "Lidl supermarkets in Greater London",
+  title: "Big supermarkets in Greater London: Lidl, Sainsbury's, Waitrose, Tesco, M&S Food",
   source: "OpenStreetMap via Overpass API",
   url,
   query,
   fetched_at: new Date().toISOString(),
   method: "script",
-  script: "scripts/fetch/lidl.mjs",
+  script: "scripts/fetch/supermarkets.mjs",
   format: "Overpass JSON: elements[] of node/way/relation, each with lat/lon or center{lat,lon}, and tags",
   adapter: "osm-pois",
 });

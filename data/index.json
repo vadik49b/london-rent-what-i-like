@@ -10,18 +10,6 @@
     "adapter": "points"
   },
   {
-    "file": "osm-lidl-london.json",
-    "title": "Lidl supermarkets in Greater London",
-    "source": "OpenStreetMap via Overpass API",
-    "url": "https://overpass-api.de/api/interpreter",
-    "query": "[out:json][timeout:120];\narea[\"name\"=\"Greater London\"][\"boundary\"=\"administrative\"]->.london;\nnwr[\"shop\"=\"supermarket\"][\"brand\"~\"^Lidl\"](area.london);\nout center tags;",
-    "fetched_at": "2026-10-08T18:21:56.604Z",
-    "method": "script",
-    "script": "scripts/fetch/lidl.mjs",
-    "format": "Overpass JSON: elements[] of node/way/relation, each with lat/lon or center{lat,lon}, and tags",
-    "adapter": "osm-pois"
-  },
-  {
     "file": "tfl-line-bakerloo.json",
     "title": "Bakerloo route and stations (tube)",
     "source": "TfL Unified API",
@@ -229,5 +217,17 @@
     "script": "scripts/fetch/tfl-lines.mjs",
     "format": "TfL RouteSequence JSON: lineId, lineName, mode, lineStrings[] (each a JSON-encoded string of [[[lon,lat],...]]), stations[] with stationId, name, lat, lon, zone",
     "adapter": "tfl-route-sequence"
+  },
+  {
+    "file": "osm-supermarkets-london.json",
+    "title": "Big supermarkets in Greater London: Lidl, Sainsbury's, Waitrose, Tesco, M&S Food",
+    "source": "OpenStreetMap via Overpass API",
+    "url": "https://overpass-api.de/api/interpreter",
+    "query": "[out:json][timeout:120];\narea[\"name\"=\"Greater London\"][\"boundary\"=\"administrative\"]->.london;\nnwr[\"shop\"=\"supermarket\"][\"name\"~\"Lidl|Sainsbury|Waitrose|Tesco|M&S|Marks & Spencer|Marks and Spencer\"][\"name\"!~\"Express|Local|Little\"](area.london);\nout center tags;",
+    "fetched_at": "2026-10-09T14:55:24.450Z",
+    "method": "script",
+    "script": "scripts/fetch/supermarkets.mjs",
+    "format": "Overpass JSON: elements[] of node/way/relation, each with lat/lon or center{lat,lon}, and tags",
+    "adapter": "osm-pois"
   }
 ]
