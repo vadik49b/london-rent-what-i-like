@@ -18,8 +18,10 @@ if (unindexed.length || missing.length) {
 const points = [];
 const lines = [];
 const stations = new Map(); // station id -> point, shared across line files
+const areas = new Map(); // ONS code -> area
+const areaProps = []; // [ONS code, props] from the files that describe areas, attached once all files are read
 
-// One adapter per raw format. Each reads a parsed raw file and pushes into points / lines.
+// One adapter per raw format. Each reads a parsed raw file (the text, for CSV) and pushes into points / lines / areas.
 const adapters = {
   // [{name, address, lat, lon}]
   points(raw, dataset) {
@@ -91,20 +93,66 @@ const adapters = {
       if (!props.modes.includes(raw.mode)) props.modes.push(raw.mode);
     }
   },
+
+  // ONS boundaries as GeoJSON, wards or local authority districts
+  "ons-areas"(raw, dataset) {
+    for (const f of raw.features) {
+      const p = f.properties;
+      const polygons = f.geometry.type === "Polygon" ? [f.geometry.coordinates] : f.geometry.coordinates;
+      areas.set(p.WD24CD ?? p.LAD24CD, {
+        id: p.WD24CD ?? p.LAD24CD,
+        dataset,
+        name: p.WD24NM ?? p.LAD24NM,
+        lat: p.LAT,
+        lon: p.LONG,
+        polygons: polygons.map((rings) => rings.map((ring) => ring.map(([lon, lat]) => [lat, lon]))),
+        props: { borough: p.WD24CD ? p.LAD24NM : undefined, area_km2: Math.round(p.Shape__Area / 1e4) / 100 },
+      });
+    }
+  },
+
+  // Met crime CSV: Group, SubGroup, WardName, WardCode, LookUp_BoroughName, then a count per month.
+  // Kept per ward: the total of the last 12 months for every SubGroup.
+  "met-crime-wards"(raw) {
+    const rows = raw.trim().split(/\r?\n/).map((line) => line.match(/"[^"]*"|[^,]+|(?<=,)(?=,)/g).map((v) => v.replace(/^"|"$/g, "")));
+    const months = rows[0].slice(5);
+    const byWard = {};
+    for (const row of rows.slice(1)) {
+      const crime = (byWard[row[3]] ??= {});
+      crime[row[1]] = (crime[row[1]] ?? 0) + row.slice(-12).reduce((sum, v) => sum + Number(v), 0);
+    }
+    for (const code in byWard) areaProps.push([code, { crime: byWard[code], crime_months: [months.at(-12), months.at(-1)] }]);
+  },
+
+  // ONS housing prices in your area, one local authority per file. Rents are monthly averages in pounds.
+  "ons-housing"(raw) {
+    const month = Object.keys(raw.place).filter((k) => /^rental_price_\d{4}-\d{2}$/.test(k)).sort().at(-1).slice(-7);
+    const rent = { month, all: raw.place[`rental_price_${month}`] };
+    for (const size of ["one_bed", "two_bed", "three_bed", "four_or_more_bed"]) rent[size] = raw.place[`rental_price_${size}_${month}`];
+    areaProps.push([raw.place.areacd, { rent }]);
+  },
 };
 
 for (const entry of index) {
   const adapter = adapters[entry.adapter];
   if (!adapter) throw new Error(`${entry.file}: unknown adapter "${entry.adapter}"`);
-  const raw = JSON.parse(readFileSync(`data/${entry.file}`, "utf8"));
-  adapter(raw, entry.file.replace(/\.json$/, ""));
+  const text = readFileSync(`data/${entry.file}`, "utf8");
+  adapter(entry.file.endsWith(".json") ? JSON.parse(text) : text, entry.file.replace(/\.\w+$/, ""));
 }
 points.push(...stations.values());
 
-writeFileSync("data.json", JSON.stringify({ generated_at: new Date().toISOString(), points, lines }));
+const noArea = [];
+for (const [code, props] of areaProps) {
+  if (areas.has(code)) Object.assign(areas.get(code).props, props);
+  else noArea.push(code);
+}
+if (noArea.length) console.warn(`${noArea.length} area codes have data but no boundary and are dropped:`, noArea.join(", "));
+
+writeFileSync("data.json", JSON.stringify({ generated_at: new Date().toISOString(), points, lines, areas: [...areas.values()] }));
 
 const counts = {};
 for (const p of points) counts[p.dataset] = (counts[p.dataset] ?? 0) + 1;
 console.log("data.json written");
 console.log("points:", counts);
 console.log("lines:", lines.length);
+console.log("areas:", areas.size);

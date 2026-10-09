@@ -43,6 +43,7 @@
   .poi.key { width: 18px; height: 18px; font-size: 10px; flex: none; }
   .popup-title { font-weight: 600; font-size: 14px; }
   .popup-sub { color: #6b7785; }
+  .rent-label { width: 0; height: 0; display: flex; align-items: center; justify-content: center; white-space: nowrap; font-weight: 700; font-size: 12px; text-shadow: 0 0 2px #fff, 0 0 2px #fff, 0 0 3px #fff; }
   .chip { display: inline-block; padding: 0 6px; margin: 3px 3px 0 0; border-radius: 9px; color: #fff; font-size: 11px; }
 </style>
 </head>
@@ -98,6 +99,23 @@ const zone = {
   },
 };
 
+// Rent: borough outlines with the average monthly rent as a label. Borough is as fine as ONS publishes.
+// field: which figure goes on the label, one of all, one_bed, two_bed, three_bed, four_or_more_bed.
+const rent = { label: "Rent, 2 bed", color: "#0f766e", on: true, dataset: "ons-boroughs-london", field: "two_bed" };
+
+// Crime: wards shaded by recorded crimes of the listed kinds per km² over the last 12 months. The shade
+// is the ward's rank among all wards, not the raw number, so the West End does not wash out the rest.
+// kinds: Met SubGroup names, the full list is in data/met-crime-wards.csv.
+const crime = {
+  label: "Crime", color: "#111827", on: false, dataset: "ons-wards-london",
+  maxOpacity: 0.55, // fill opacity of the worst ward
+  kinds: [
+    "BURGLARY - RESIDENTIAL", "RES BURGLARY OF A HOME", "RES BURGLARY OF UNCONNECTED BUILDING",
+    "ROBBERY OF PERSONAL PROPERTY", "THEFT FROM THE PERSON", "VIOLENCE WITH INJURY",
+    "THEFT OR UNAUTH TAKING OF A MOTOR VEH", "THEFT FROM A VEHICLE", "BICYCLE THEFT",
+  ],
+};
+
 // All rail lines and the transit categories above share one checkbox.
 const transit = { label: "Public transport", icon: "🚇", color: "#333333", on: true };
 
@@ -131,7 +149,7 @@ const defaultLineStyle = { color: "#888888" };
 const map = L.map("map", { preferCanvas: true }).setView([51.513, -0.06], 12);
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 19,
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors · Rail data: TfL',
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors · Rail data: TfL · Rents and boundaries: ONS · Crime: Met Police',
 }).addTo(map);
 
 // The whole header toggles the panel, the button is there for the keyboard
@@ -225,6 +243,38 @@ fetch("data.json").then(r => r.json()).then(data => {
   }
   if (zone.on) zone.layer.addTo(map);
 
+  // Crime: one polygon per ward that has figures (the City of London has its own force and none here)
+  crime.layer = L.layerGroup();
+  const wards = [];
+  for (const a of data.areas) {
+    if (a.dataset !== crime.dataset || !a.props.crime) continue;
+    let count = 0;
+    for (const kind of crime.kinds) count += a.props.crime[kind] ?? 0;
+    wards.push({ area: a, count, density: count / a.props.area_km2 });
+  }
+  wards.sort((a, b) => a.density - b.density);
+  wards.forEach((w, i) => {
+    const top = crime.kinds.filter(k => w.area.props.crime[k]).sort((a, b) => w.area.props.crime[b] - w.area.props.crime[a]).slice(0, 3)
+      .map(k => `${w.area.props.crime[k]} ${k.toLowerCase()}`);
+    L.polygon(w.area.polygons, { stroke: false, fillColor: crime.color, fillOpacity: crime.maxOpacity * (i / (wards.length - 1)) ** 2 })
+      .bindTooltip(`<b>${w.area.name}</b>, ${w.area.props.borough}<br>${w.count} crimes a year, ${Math.round(w.density)} per km²<br>worse than ${Math.round(100 * i / (wards.length - 1))}% of wards<br>${top.join("<br>")}`, { sticky: true })
+      .addTo(crime.layer);
+  });
+  if (crime.on) crime.layer.addTo(map);
+
+  // Rent: an outline per borough and the figure in the middle of it
+  rent.layer = L.layerGroup();
+  for (const a of data.areas) {
+    if (a.dataset !== rent.dataset) continue;
+    L.polygon(a.polygons, { fill: false, color: rent.color, weight: 1.5, opacity: 0.6, interactive: false }).addTo(rent.layer);
+    const r = a.props.rent;
+    if (!r?.[rent.field]) continue;
+    L.marker([a.lat, a.lon], { zIndexOffset: 5000, icon: L.divIcon({ className: "", iconSize: [0, 0], html: `<div class="rent-label" style="color:${rent.color}">£${r[rent.field].toLocaleString()}</div>` }) })
+      .bindTooltip(`<b>${a.name}</b><br>average rent a month, ${r.month}<br>1 bed £${r.one_bed.toLocaleString()}<br>2 bed £${r.two_bed.toLocaleString()}<br>3 bed £${r.three_bed.toLocaleString()}<br>4+ bed £${r.four_or_more_bed.toLocaleString()}<br>all £${r.all.toLocaleString()}`)
+      .addTo(rent.layer);
+  }
+  if (rent.on) rent.layer.addTo(map);
+
   // Rail lines, all in the transit layer group
   transit.layer = L.layerGroup();
   for (const line of data.lines) {
@@ -266,9 +316,10 @@ fetch("data.json").then(r => r.json()).then(data => {
   if (unmatched) console.warn(`${unmatched} points match no category and are hidden`);
   for (const cat of categories) if (cat.on) cat.layer.addTo(map);
 
-  // Zones and dots are drawn on the same canvas as the lines, keep zones below and dots above
+  // Zones, wards and dots are drawn on the same canvas as the lines, keep wards at the bottom, zones next and dots on top
   const dotsToFront = () => {
     zone.layer.eachLayer(r => r.bringToBack());
+    crime.layer.eachLayer(r => r.bringToBack());
     for (const cat of categories) if (!cat.icon) cat.layer.eachLayer(m => m.bringToFront());
   };
   dotsToFront();
@@ -292,6 +343,20 @@ fetch("data.json").then(r => r.json()).then(data => {
     dotsToFront();
   };
   catBox.append(zoneLabel);
+  const rentLabel = document.createElement("label");
+  rentLabel.innerHTML = `<input type="checkbox" ${rent.on ? "checked" : ""}> <span class="key" style="width:18px;flex:none;text-align:center;font-weight:700;color:${rent.color}">£</span> ${rent.label}`;
+  rentLabel.querySelector("input").onchange = e => {
+    e.target.checked ? rent.layer.addTo(map) : rent.layer.remove();
+    dotsToFront();
+  };
+  catBox.append(rentLabel);
+  const crimeLabel = document.createElement("label");
+  crimeLabel.innerHTML = `<input type="checkbox" ${crime.on ? "checked" : ""}> <span class="key" style="width:18px;height:18px;flex:none;border-radius:3px;background:${crime.color};opacity:.5"></span> ${crime.label}`;
+  crimeLabel.querySelector("input").onchange = e => {
+    e.target.checked ? crime.layer.addTo(map) : crime.layer.remove();
+    dotsToFront();
+  };
+  catBox.append(crimeLabel);
   const transitLabel = document.createElement("label");
   transitLabel.innerHTML = `<input type="checkbox" ${transit.on ? "checked" : ""}> <span class="poi key" style="background:${transit.color}">${transit.icon}</span> ${transit.label}`;
   transitLabel.querySelector("input").onchange = e => {

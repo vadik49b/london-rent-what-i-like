@@ -20,14 +20,14 @@ The repo root is the app root.
 
 ## Commands
 
-- `npm run fetch` runs every fetch script (`npm run fetch:supermarkets`, `npm run fetch:osm-places`, `npm run fetch:tfl` individually)
+- `npm run fetch` runs every fetch script (`npm run fetch:supermarkets`, `npm run fetch:osm-places`, `npm run fetch:tfl`, `npm run fetch:boundaries`, `npm run fetch:crime`, `npm run fetch:rents` individually)
 - `npm run reindex` rebuilds `data.json` from `data/`
 - `npm run serve` serves the app at http://localhost:3000 (the page needs HTTP, `file://` will not work)
 
 ## The data folder
 
 - Flat: no subfolders.
-- Raw: files are saved exactly as the source returned them. Never hand-edit a fetched file; fix the fetch or the adapter instead.
+- Raw: files are saved exactly as the source returned them, JSON or CSV. Never hand-edit a fetched file; fix the fetch or the adapter instead.
 - Named in kebab-case, prefixed by source: `osm-supermarkets-london.json`, `tfl-line-victoria.json`.
 - Every file must have an entry in `data/index.json`. `npm run reindex` fails if a file is not indexed or an indexed file is missing.
 - Re-fetching overwrites the file and updates `fetched_at` in its entry.
@@ -66,9 +66,12 @@ Generated, never edited by hand. Facts only:
 {
   "generated_at": "ISO timestamp",
   "points": [{ "id": "", "dataset": "", "name": "", "lat": 0, "lon": 0, "props": {} }],
-  "lines":  [{ "id": "", "dataset": "", "name": "", "mode": "", "paths": [[[lat, lon]]] }]
+  "lines":  [{ "id": "", "dataset": "", "name": "", "mode": "", "paths": [[[lat, lon]]] }],
+  "areas":  [{ "id": "", "dataset": "", "name": "", "lat": 0, "lon": 0, "polygons": [[[[lat, lon]]]], "props": {} }]
 }
 ```
+
+Areas are wards and boroughs, with the ONS code as `id`. Files that describe areas rather than draw them (crime counts, rents) are joined onto the area with the same code as `props.crime` and `props.rent`.
 
 `dataset` says which source a feature came from. `props` carries source facts such as `brand`, `address`, `zone`, `lines`.
 
@@ -92,6 +95,9 @@ This is a prototype. Keep it simple.
 - Supermarkets: full-size stores only, no convenience formats (Tesco Express, Sainsbury's Local, Little Waitrose, corner shops). The chain list and the exclusions live in `scripts/fetch/supermarkets.mjs`; to add a chain, extend `chains` there, re-fetch, reindex, then add a category in `index.html`.
 - Climbing gyms: drawn as points.
 - Hipster pockets: semi-transparent zones where independent "taste" places cluster. Inputs are speciality coffee shops, climbing gyms, yoga and pilates studios, craft breweries, record shops, vintage clothing and independent bookshops, fetched by `scripts/fetch/osm-places.mjs` (one raw file per kind, the OSM filters live there). Apart from climbing gyms these places are not drawn as points. The scoring (grid size, radius, weights, thresholds) lives in the `zone` config in `index.html` and is computed in the browser, so it can be tuned with a reload. Coffee is a curated list on purpose (`data/ect-cafes-london.json`, European Coffee Trip, saved manually from the page because the site blocks scripts); OSM cafes are too noisy to tell third-wave places from the rest.
+- Rent: borough outlines with the ONS average monthly rent as a label, fetched by `scripts/fetch/ons-rents.mjs` (one raw file per borough, about 21 MB in total because each also carries house price history). Borough is the finest level ONS publishes, and the figure averages all tenancies, so new listings cost more. The City of London has no figure. Which bedroom size goes on the label is the `rent` config in `index.html`.
+- Crime: wards shaded by Met Police recorded crime per km² over the last 12 months, fetched by `scripts/fetch/met-crime.mjs`. `data.json` keeps the 12 month total of every crime kind per ward; which kinds count is the `crime` config in `index.html`, by default the ones a resident meets (burglary of homes, robbery, theft from the person, violence with injury, vehicle and bicycle theft). The City of London has its own force and is left unshaded. Retired ward codes in the Met file match no boundary and are dropped by reindex with a warning.
+- Ward and borough boundaries come from `scripts/fetch/ons-boundaries.mjs`.
 
 ## Git and deploy
 
