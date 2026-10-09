@@ -92,3 +92,9 @@ This is a prototype. Keep it simple.
 - Supermarkets: full-size stores only, no convenience formats (Tesco Express, Sainsbury's Local, Little Waitrose, corner shops). The chain list and the exclusions live in `scripts/fetch/supermarkets.mjs`; to add a chain, extend `chains` there, re-fetch, reindex, then add a category in `index.html`.
 - Climbing gyms: drawn as points.
 - Hipster pockets: semi-transparent zones where independent "taste" places cluster. Inputs are speciality coffee shops, climbing gyms, yoga and pilates studios, craft breweries, record shops, vintage clothing and independent bookshops, fetched by `scripts/fetch/osm-places.mjs` (one raw file per kind, the OSM filters live there). Apart from climbing gyms these places are not drawn as points. The scoring (grid size, radius, weights, thresholds) lives in the `zone` config in `index.html` and is computed in the browser, so it can be tuned with a reload. Coffee is a curated list on purpose (`data/ect-cafes-london.json`, European Coffee Trip, saved manually from the page because the site blocks scripts); OSM cafes are too noisy to tell third-wave places from the rest.
+
+## Git and deploy
+
+- Work on `main` and push straight to `main`. Do not create branches or pull requests.
+- The site is deployed by GitHub Pages from the root of `main`, so pushing to `main` is the deploy. There is no build step. It is live at https://vadik49b.github.io/london-rent-what-i-like/ a minute or so after the push.
+- `data.json` is committed, so run `npm run reindex` before pushing whenever `data/` changed.
