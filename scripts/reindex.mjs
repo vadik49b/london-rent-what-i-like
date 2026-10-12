@@ -74,7 +74,9 @@ const adapters = {
       seen.add(str);
       for (const path of JSON.parse(str)) paths.push(path.map(([lon, lat]) => [lat, lon]));
     }
-    lines.push({ id: raw.lineId, dataset: "tfl-lines", name: raw.lineName, mode: raw.mode, paths });
+    // Station ids in running order, one list per branch; interchanges go by their hub id, like the stations below
+    const routes = raw.stopPointSequences.map((seq) => seq.stopPoint.map((s) => s.topMostParentId ?? s.stationId ?? s.id));
+    lines.push({ id: raw.lineId, dataset: "tfl-lines", name: raw.lineName, mode: raw.mode, paths, routes });
 
     for (const s of raw.stations) {
       const id = s.stationId ?? s.id;

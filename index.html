@@ -68,13 +68,14 @@
 
 // A point goes to the first category whose match() returns true.
 // icon: emoji or letter shown in a coloured circle. icon: null draws a small dot instead.
+// hover: for dots, the radius in pixels of the area that reacts to the mouse, bigger than the dot so it is easy to hit.
 // transit: true puts the points under the public transport checkbox instead of their own.
 // text: optional letter colour (default white).
 const categories = [
   { id: "office",  label: "Offices",  icon: "💼", color: "#1d4ed8", size: 34, on: true, match: p => p.dataset === "offices" },
   { id: "supermarket", label: "Supermarkets", icon: "🛒", color: "#ffd500", size: 22, on: true, match: p => p.dataset === "osm-supermarkets-london" },
   { id: "climbing", label: "Climbing gyms", icon: "🧗", color: "#f97316", size: 24, on: true, match: p => p.dataset === "osm-climbing-london" },
-  { id: "station", label: "Stations", icon: null, color: "#333333", size: 3,  transit: true, match: p => p.dataset === "tfl-stations" },
+  { id: "station", label: "Stations", icon: null, color: "#333333", size: 3, hover: 9, transit: true, match: p => p.dataset === "tfl-stations" },
 ];
 
 // Hipster pockets: hex cells where enough weighted places of enough different kinds sit close
@@ -114,6 +115,28 @@ const crime = {
     "RES BURGLARY OF A HOME", "BURGLARY - RESIDENTIAL", "ARSON", "HOMICIDE", "RAPE",
   ],
   crowd: ["SHOPLIFTING", "THEFT FROM THE PERSON", "OTHER THEFT", "BURGLARY BUSINESS AND COMMUNITY", "ROBBERY OF BUSINESS PROPERTY"],
+};
+
+// Commute: estimated minutes from every station to every office, shown when hovering a station.
+// It is the quickest path over the rail lines on the map: a ride between two neighbouring stations takes
+// the straight distance x detour at the mode's speed plus a fixed cost per stop, getting on a train
+// (at the start and at every change) costs the mode's board minutes, and the office is walked to from
+// any station within maxWalk. Buses and National Rail are not known, so places with a fast mainline
+// train (Watford, Cheshunt, Upminster) come out up to 30 minutes too slow. Elsewhere it is typically
+// within 3 minutes of the TfL journey planner at 08:30, and within 10 for nine stations in ten.
+const commute = {
+  to: p => p.dataset === "offices",
+  walk: 80,       // walking speed, metres per minute
+  crow: 1.3,      // walked distance / straight distance
+  maxWalk: 2000,  // furthest station an office is walked to, metres
+  maxLink: 500,   // stations closer than this can be changed between on foot, metres
+  detour: 1.15,   // track distance / straight distance
+  modes: {        // kmh: speed between stops, stop: minutes lost per stop, board: minutes to reach the platform and wait
+    "tube":           { kmh: 55, stop: 0.9, board: 4 },
+    "dlr":            { kmh: 45, stop: 0.8, board: 4 },
+    "elizabeth-line": { kmh: 80, stop: 1.2, board: 5 },
+    "overground":     { kmh: 55, stop: 1.2, board: 6 },
+  },
 };
 
 // All rail lines and the transit categories above share one checkbox.
@@ -281,6 +304,51 @@ fetch("data.json").then(r => r.json()).then(data => {
   }
   if (transit.on) transit.layer.addTo(map);
 
+  // Commute: quickest path from each office outwards. Nodes are stations ("id"), stations on a line ("id|line")
+  // and the office itself; links are [node, minutes] and work both ways.
+  const stationById = {};
+  for (const l of data.lines) for (const r of l.routes) for (const id of r) stationById[id] = null;
+  for (const p of data.points) if (p.id in stationById) stationById[p.id] = p;
+  const stationList = Object.values(stationById);
+  const metres = (a, b) => Math.hypot((a.lat - b.lat) * mLat, (a.lon - b.lon) * mLon);
+  const links = {};
+  for (const s of stationList) links[s.id] = [];
+  for (const l of data.lines) {
+    const mode = commute.modes[l.mode];
+    for (const r of l.routes) {
+      for (const id of r) {
+        if (links[id + "|" + l.id]) continue;
+        links[id + "|" + l.id] = [[id, mode.board]];
+        links[id].push([id + "|" + l.id, 0]);
+      }
+      for (let i = 1; i < r.length; i++) {
+        const a = r[i - 1] + "|" + l.id, b = r[i] + "|" + l.id;
+        const minutes = metres(stationById[r[i - 1]], stationById[r[i]]) * commute.detour / 1000 / mode.kmh * 60 + mode.stop;
+        links[a].push([b, minutes]);
+        links[b].push([a, minutes]);
+      }
+    }
+  }
+  for (const a of stationList) {
+    for (const b of stationList) {
+      if (a !== b && metres(a, b) < commute.maxLink) links[a.id].push([b.id, metres(a, b) * commute.crow / commute.walk]);
+    }
+  }
+  commute.times = []; // one per office: { name, minutes: { station id: minutes } }
+  for (const office of data.points) {
+    if (!commute.to(office)) continue;
+    const minutes = {}, done = new Set();
+    for (const s of stationList) if (metres(office, s) < commute.maxWalk) minutes[s.id] = metres(office, s) * commute.crow / commute.walk;
+    for (;;) {
+      let u = null;
+      for (const k in minutes) if (!done.has(k) && (u === null || minutes[k] < minutes[u])) u = k;
+      if (u === null) break;
+      done.add(u);
+      for (const [v, m] of links[u]) if (minutes[v] == null || minutes[u] + m < minutes[v]) minutes[v] = minutes[u] + m;
+    }
+    commute.times.push({ name: office.name, minutes });
+  }
+
   // Points, one layer group per category, transit categories go into the transit group
   for (const cat of categories) cat.layer = cat.transit ? transit.layer : L.layerGroup(), cat.count = 0;
   let unmatched = 0;
@@ -306,8 +374,12 @@ fetch("data.json").then(r => r.json()).then(data => {
             html: `<div class="poi" style="width:${cat.size}px;height:${cat.size}px;font-size:${cat.size * 0.5}px;background:${cat.color};color:${cat.text ?? "#fff"}">${cat.icon}</div>`,
           }),
         })
-      : L.circleMarker([p.lat, p.lon], { radius: cat.size, color: cat.color, weight: 1.5, fillColor: "#fff", fillOpacity: 1 });
-    marker.bindTooltip(p.name).bindPopup(popup).addTo(cat.layer);
+      : L.circleMarker([p.lat, p.lon], { radius: cat.hover ?? cat.size, stroke: false, fillOpacity: 0 }); // invisible, catches the mouse
+    if (!cat.icon) L.circleMarker([p.lat, p.lon], { radius: cat.size, color: cat.color, weight: 1.5, fillColor: "#fff", fillOpacity: 1, interactive: false }).addTo(cat.layer);
+    // Hovering a station also shows the estimated time to each office
+    let tooltip = p.name;
+    for (const t of commute.times) if (t.minutes[p.id] != null) tooltip += `<br>${t.name}: ~${Math.round(t.minutes[p.id])} min`;
+    marker.bindTooltip(tooltip).bindPopup(popup).addTo(cat.layer);
   }
   if (unmatched) console.warn(`${unmatched} points match no category and are hidden`);
   for (const cat of categories) if (cat.on) cat.layer.addTo(map);
