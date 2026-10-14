@@ -698,5 +698,17 @@
     "script": "scripts/fetch/ons-rents.mjs",
     "format": "JSON: place{areacd, areanm, rental_price_YYYY-MM, rental_price_one_bed_YYYY-MM (also two_bed, three_bed, four_or_more_bed), avg_price_YYYY-MM, ...}, region{}, ctry{}, sections[]",
     "adapter": "ons-housing"
+  },
+  {
+    "file": "osm-parks-london.json",
+    "title": "Parks, commons and nature reserves in Greater London",
+    "source": "OpenStreetMap via Overpass API",
+    "url": "https://overpass-api.de/api/interpreter",
+    "query": "[out:json][timeout:180];\narea[\"name\"=\"Greater London\"][\"boundary\"=\"administrative\"]->.london;\nwr[\"leisure\"~\"^(park|common|nature_reserve)$\"][\"access\"!~\"private|no\"](area.london);\nout geom;",
+    "fetched_at": "2026-10-13T21:20:17.001Z",
+    "method": "script",
+    "script": "scripts/fetch/osm-parks.mjs",
+    "format": "Overpass JSON: elements[] of way (geometry[] of {lat, lon}) and relation (members[] with role outer/inner, each with geometry[]), with tags",
+    "adapter": "osm-areas"
   }
 ]

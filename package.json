@@ -3,9 +3,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "fetch": "npm run fetch:supermarkets && npm run fetch:osm-places && npm run fetch:tfl && npm run fetch:boundaries && npm run fetch:crime && npm run fetch:rents",
+    "fetch": "npm run fetch:supermarkets && npm run fetch:osm-places && npm run fetch:parks && npm run fetch:tfl && npm run fetch:boundaries && npm run fetch:crime && npm run fetch:rents",
     "fetch:supermarkets": "node scripts/fetch/supermarkets.mjs",
     "fetch:osm-places": "node scripts/fetch/osm-places.mjs",
+    "fetch:parks": "node scripts/fetch/osm-parks.mjs",
     "fetch:tfl": "node scripts/fetch/tfl-lines.mjs",
     "fetch:boundaries": "node scripts/fetch/ons-boundaries.mjs",
     "fetch:crime": "node scripts/fetch/met-crime.mjs",

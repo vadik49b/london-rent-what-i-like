@@ -51,6 +51,44 @@ const adapters = {
     }
   },
 
+  // Overpass JSON with geometry: ways are one ring, relations are outer ways to be joined end to end into rings.
+  // Holes (inner ways) are ignored.
+  "osm-areas"(raw, dataset) {
+    for (const el of raw.elements) {
+      const parts = (el.members ? el.members.filter((m) => m.role === "outer" && m.geometry) : [el]).map((m) =>
+        m.geometry.map((g) => [Math.round(g.lat * 1e5) / 1e5, Math.round(g.lon * 1e5) / 1e5]),
+      );
+      const rings = [];
+      while (parts.length) {
+        const ring = parts.shift();
+        while (String(ring[0]) !== String(ring.at(-1))) {
+          const i = parts.findIndex((p) => String(p[0]) === String(ring.at(-1)) || String(p.at(-1)) === String(ring.at(-1)));
+          if (i < 0) break;
+          const [next] = parts.splice(i, 1);
+          ring.push(...(String(next[0]) === String(ring.at(-1)) ? next : next.reverse()).slice(1));
+        }
+        if (String(ring[0]) === String(ring.at(-1)) && ring.length > 3) rings.push(ring);
+      }
+      if (!rings.length) continue;
+      // Shoelace area on a local metre grid
+      let area = 0;
+      for (const ring of rings) {
+        let sum = 0;
+        for (let i = 1; i < ring.length; i++) sum += ring[i - 1][1] * ring[i][0] - ring[i][1] * ring[i - 1][0];
+        area += Math.abs(sum / 2) * 111320 * 111320 * Math.cos((ring[0][0] * Math.PI) / 180);
+      }
+      areas.set(`osm-${el.type}-${el.id}`, {
+        id: `osm-${el.type}-${el.id}`,
+        dataset,
+        name: el.tags.name,
+        lat: (el.bounds.minlat + el.bounds.maxlat) / 2,
+        lon: (el.bounds.minlon + el.bounds.maxlon) / 2,
+        polygons: rings.map((ring) => [ring]),
+        props: { leisure: el.tags.leisure, area_km2: Math.round(area / 1e2) / 1e4 },
+      });
+    }
+  },
+
   // European Coffee Trip city guide: [{name, address, link, latitude, longitude, ...}]
   "ect-cafes"(raw, dataset) {
     for (const c of raw) {

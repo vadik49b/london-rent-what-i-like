@@ -99,6 +99,12 @@ const zone = {
   },
 };
 
+// Parks: a faint green over the muted basemap, just enough to tell them apart. No hover. Parks, commons and nature reserves from OpenStreetMap.
+const parks = {
+  label: "Parks", color: "#16a34a", opacity: 0.2, on: true, dataset: "osm-parks-london",
+  minHa: 1, // smaller ones are not drawn, 1 hectare is a bit more than a football pitch
+};
+
 // No-go wards: the few wards where crime that hurts residents is dense and is not just a busy high street.
 // score = harm crimes per km² over the last 12 months x (1 - share of the ward's crime that is crowd theft).
 // The second factor discounts the West End and other shopping and nightlife centres, where the numbers
@@ -266,6 +272,14 @@ fetch("data.json").then(r => r.json()).then(data => {
   }
   if (zone.on) zone.layer.addTo(map);
 
+  // Parks
+  parks.layer = L.layerGroup();
+  for (const a of data.areas) {
+    if (a.dataset !== parks.dataset || a.props.area_km2 * 100 < parks.minHa) continue;
+    L.polygon(a.polygons, { stroke: false, fillColor: parks.color, fillOpacity: parks.opacity, interactive: false }).addTo(parks.layer);
+  }
+  if (parks.on) parks.layer.addTo(map);
+
   // No-go wards: score every ward that has figures (the City of London has its own force and none here), draw the worst
   crime.layer = L.layerGroup();
   const wards = [];
@@ -384,10 +398,11 @@ fetch("data.json").then(r => r.json()).then(data => {
   if (unmatched) console.warn(`${unmatched} points match no category and are hidden`);
   for (const cat of categories) if (cat.on) cat.layer.addTo(map);
 
-  // Zones, wards and dots are drawn on the same canvas as the lines, keep wards at the bottom, zones next and dots on top
+  // Parks, zones, wards and dots are drawn on the same canvas as the lines, keep parks at the bottom, then wards, zones and dots on top
   const dotsToFront = () => {
     zone.layer.eachLayer(r => r.bringToBack());
     crime.layer.eachLayer(r => r.bringToBack());
+    parks.layer.eachLayer(r => r.bringToBack());
     for (const cat of categories) if (!cat.icon) cat.layer.eachLayer(m => m.bringToFront());
   };
   dotsToFront();
@@ -411,6 +426,13 @@ fetch("data.json").then(r => r.json()).then(data => {
     dotsToFront();
   };
   catBox.append(zoneLabel);
+  const parksLabel = document.createElement("label");
+  parksLabel.innerHTML = `<input type="checkbox" ${parks.on ? "checked" : ""}> <span class="key" style="width:18px;height:18px;flex:none;border-radius:3px;background:${parks.color};opacity:${parks.opacity + 0.3}"></span> ${parks.label}`;
+  parksLabel.querySelector("input").onchange = e => {
+    e.target.checked ? parks.layer.addTo(map) : parks.layer.remove();
+    dotsToFront();
+  };
+  catBox.append(parksLabel);
   const crimeLabel = document.createElement("label");
   crimeLabel.innerHTML = `<input type="checkbox" ${crime.on ? "checked" : ""}> <span class="key" style="width:18px;height:18px;flex:none;border-radius:3px;background:${crime.color};opacity:.5"></span> ${crime.label}`;
   crimeLabel.querySelector("input").onchange = e => {
