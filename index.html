@@ -105,28 +105,41 @@ const parks = {
   minHa: 1, // smaller ones are not drawn, 1 hectare is a bit more than a football pitch
 };
 
-// No-go wards: the few wards where crime that hurts residents is dense and is not just a busy high street.
-// score = harm crimes per km² over the last 12 months x (1 - share of the ward's crime that is crowd theft).
-// The second factor discounts the West End and other shopping and nightlife centres, where the numbers
-// follow the crowds. Only real outliers are drawn: wards scoring at least `times` the typical (median)
-// London ward. Kinds are Met SubGroup names, the full list is in data/met-crime-wards.csv.
+// No-go wards: where walking home alone at night is most likely to go wrong. The Met figures say nothing
+// about the time of day or whether it happened on the street, so the score counts the kinds that mostly do:
+// muggings, sexual assaults, injuries, knives, drug dealing and threatening behaviour, weighted below,
+// per km² over the last 12 months. Left out: burglary and vehicle crime (nothing to do with walking),
+// violence without injury and stalking (mostly domestic or online, and the biggest numbers by far),
+// rape (mostly by someone the victim knows, indoors). Phone snatching and pickpocketing only count where
+// they are extreme, above `snatch.times` the typical ward's density, and then only the excess.
+// The total is discounted by the share of the ward's crime that is shop and crowd theft, so the West End
+// and other busy centres do not light up just for being busy. Only real outliers are drawn: wards
+// scoring at least `times` the typical (median) London ward. Kinds are Met SubGroup names, the full list
+// is in data/met-crime-wards.csv.
 const crime = {
-  label: "Crime", color: "#111827", on: true, dataset: "ons-wards-london",
-  times: 3.5,       // a ward is drawn when its score is this many times the typical ward's, 3.5 gives about 25 wards
+  label: "Unsafe streets", color: "#111827", on: true, dataset: "ons-wards-london",
+  times: 4,         // a ward is drawn when its score is this many times the typical ward's, 4 gives about 28 wards
   minOpacity: 0.3,  // fill opacity of the mildest ward drawn
   maxOpacity: 0.6,  // and of the worst
   others: 5,        // how many of the kinds that are not counted the tooltip lists, biggest first
-  harm: [
-    "VIOLENCE WITH INJURY", "ROBBERY OF PERSONAL PROPERTY", "POSSESSION OF WEAPONS", "TRAFFICKING OF DRUGS",
-    "RES BURGLARY OF A HOME", "BURGLARY - RESIDENTIAL", "ARSON", "HOMICIDE", "RAPE",
-  ],
-  crowd: ["SHOPLIFTING", "THEFT FROM THE PERSON", "OTHER THEFT", "BURGLARY BUSINESS AND COMMUNITY", "ROBBERY OF BUSINESS PROPERTY"],
+  harm: {           // kind: weight
+    "ROBBERY OF PERSONAL PROPERTY": 2,   // muggings, the main thing that happens to people walking home
+    "OTHER SEXUAL OFFENCES": 2,          // sexual assault and exposure, much of it in public
+    "VIOLENCE WITH INJURY": 1,           // includes domestic, which ward figures cannot separate
+    "POSSESSION OF WEAPONS": 1,          // mostly knives found on the street
+    "TRAFFICKING OF DRUGS": 1,           // dealing, visible on the street
+    "HOMICIDE": 1,
+    "PUBLIC FEAR, ALARM OR DISTRESS": 0.5, // threatening or abusive behaviour in public
+    "POSSESSION OF DRUGS": 0.5,          // drug use, but it also follows where police stop and search
+  },
+  snatch: { kind: "THEFT FROM THE PERSON", times: 20, weight: 0.5 }, // phone snatching and pickpocketing, extreme cases only
+  crowd: ["SHOPLIFTING", "OTHER THEFT", "THEFT FROM THE PERSON", "BURGLARY BUSINESS AND COMMUNITY", "ROBBERY OF BUSINESS PROPERTY"],
 };
 
 // Social housing: wards where a large share of households rent from the council or a housing association,
 // drawn as outlines so they sit over the crime shading. Census 2021 (TS054 Tenure) per 2022 ward; the London
 // median ward is about 20%. In this data the share tracks the crime score (rank correlation about 0.65) and
-// 22 of the 24 shaded wards are above the median, though both also follow how dense and central a ward is.
+// 26 of the 28 shaded wards are above the median, though both also follow how dense and central a ward is.
 const social = {
   label: "Social housing", color: "#7c3aed", on: true, dataset: "ons-wards-london",
   min: 0.4,     // share of households renting socially for a ward to be outlined, 0.4 gives about 100 wards
@@ -296,10 +309,16 @@ fetch("data.json").then(r => r.json()).then(data => {
   for (const a of data.areas) {
     if (a.dataset !== crime.dataset || !a.props.crime) continue;
     let harm = 0, crowd = 0, all = 0;
-    for (const kind of crime.harm) harm += a.props.crime[kind] ?? 0;
+    for (const kind in crime.harm) harm += crime.harm[kind] * (a.props.crime[kind] ?? 0);
     for (const kind of crime.crowd) crowd += a.props.crime[kind] ?? 0;
     for (const kind in a.props.crime) all += a.props.crime[kind];
-    wards.push({ area: a, harm, crowd: crowd / all, score: harm / a.props.area_km2 * (1 - crowd / all) });
+    wards.push({ area: a, harm, crowd: crowd / all, snatch: (a.props.crime[crime.snatch.kind] ?? 0) / a.props.area_km2 });
+  }
+  // Snatching counts only above `snatch.times` the median ward's density
+  const snatchFloor = crime.snatch.times * wards.map(w => w.snatch).sort((a, b) => a - b)[Math.floor(wards.length / 2)];
+  for (const w of wards) {
+    w.extra = Math.max(0, w.snatch - snatchFloor) * crime.snatch.weight;
+    w.score = (w.harm / w.area.props.area_km2 + w.extra) * (1 - w.crowd);
   }
   wards.sort((a, b) => b.score - a.score);
   const typical = wards[Math.floor(wards.length / 2)].score;
@@ -307,13 +326,15 @@ fetch("data.json").then(r => r.json()).then(data => {
   for (const w of wards) {
     const times = w.score / typical;
     if (times < crime.times) break;
-    // Tooltip lists what the score counts first, then the biggest of everything else (pickpocketing, shoplifting...)
+    // Tooltip lists what the score counts first, then the biggest of everything else
     const c = w.area.props.crime;
     const byCount = Object.keys(c).filter(k => c[k]).sort((a, b) => c[b] - c[a]);
-    const counted = byCount.filter(k => crime.harm.includes(k)).map(k => `${c[k]} ${k.toLowerCase()}`);
-    const rest = byCount.filter(k => !crime.harm.includes(k)).slice(0, crime.others).map(k => `${c[k]} ${k.toLowerCase()}`);
+    const counted = byCount.filter(k => k in crime.harm).map(k => `${c[k]} ${k.toLowerCase()}`);
+    if (w.extra) counted.push(`${c[crime.snatch.kind]} ${crime.snatch.kind.toLowerCase()}, ${Math.round(w.snatch / snatchFloor * crime.snatch.times)} times the typical ward`);
+    const rest = byCount.filter(k => !(k in crime.harm) && !(w.extra && k === crime.snatch.kind)).slice(0, crime.others).map(k => `${c[k]} ${k.toLowerCase()}`);
+    const tenure = w.area.props.tenure;
     L.polygon(w.area.polygons, { stroke: false, fillColor: crime.color, fillOpacity: crime.minOpacity + (crime.maxOpacity - crime.minOpacity) * (times - crime.times) / (worst - crime.times || 1) })
-      .bindTooltip(`<b>${w.area.name}</b>, ${w.area.props.borough}<br>${times.toFixed(1)} times the typical London ward<br>${w.harm} serious crimes a year, ${Math.round(w.harm / w.area.props.area_km2)} per km²${w.area.props.tenure ? `<br>${Math.round(100 * w.area.props.tenure.social_rented / w.area.props.tenure.households)}% of households in social housing` : ""}<br>${counted.join("<br>")}<br><br><b>Not counted</b>, ${Math.round(100 * w.crowd)}% of all crime here is shop and crowd theft<br>${rest.join("<br>")}`, { sticky: true })
+      .bindTooltip(`<b>${w.area.name}</b>, ${w.area.props.borough}<br>${times.toFixed(1)} times the typical London ward${tenure ? `<br>${Math.round(100 * tenure.social_rented / tenure.households)}% of households in social housing` : ""}<br><br><b>Counted</b>, over 12 months<br>${counted.join("<br>")}<br><br><b>Not counted</b>, ${Math.round(100 * w.crowd)}% of all crime here is shop and crowd theft<br>${rest.join("<br>")}`, { sticky: true })
       .addTo(crime.layer);
   }
   if (crime.on) crime.layer.addTo(map);
