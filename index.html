@@ -136,14 +136,18 @@ const crime = {
   crowd: ["SHOPLIFTING", "OTHER THEFT", "THEFT FROM THE PERSON", "BURGLARY BUSINESS AND COMMUNITY", "ROBBERY OF BUSINESS PROPERTY"],
 };
 
-// Social housing: wards where a large share of households rent from the council or a housing association,
-// drawn as outlines so they sit over the crime shading. Census 2021 (TS054 Tenure) per 2022 ward; the London
-// median ward is about 20%. In this data the share tracks the crime score (rank correlation about 0.65) and
-// 26 of the 28 shaded wards are above the median, though both also follow how dense and central a ward is.
+// Social housing hot spots: where several output areas (about 130 households each) that are mostly social
+// housing sit close together, which is how estates show up. Census 2021 tenure (TS054) per output area,
+// placed at its population weighted centroid, and drawn on a hex grid like the hipster pockets.
+// Across London about 23% of households rent socially; at ward level the share tracks the crime score
+// (rank correlation about 0.65), though both also follow how dense and central a place is.
 const social = {
-  label: "Social housing", color: "#7c3aed", on: true, dataset: "ons-wards-london",
-  min: 0.4,     // share of households renting socially for a ward to be outlined, 0.4 gives about 100 wards
-  weight: 1.5,  // outline width in pixels
+  label: "Social housing", color: "#0891b2", on: true, dataset: "census-tenure-oa",
+  share: 0.6,     // an output area counts when at least this share of its households rent from the council or a housing association
+  cell: 250,      // hex width, metres
+  radius: 300,    // counted output areas within this distance of a hex centre
+  minAreas: 6,    // hexes with fewer counted output areas around are not drawn
+  fullAreas: 14,  // count at which a hex reaches full opacity
 };
 
 // Commute: estimated minutes from every station to every office, shown when hovering a station.
@@ -339,15 +343,53 @@ fetch("data.json").then(r => r.json()).then(data => {
   }
   if (crime.on) crime.layer.addTo(map);
 
-  // Social housing: outline the wards where at least `min` of households rent socially
+  // Social housing hot spots: bin the mostly social output areas into a hex grid, then count what is within reach of each hex
+  const socialSide = social.cell / Math.sqrt(3);
+  const socialCells = new Map(); // "q,r" -> [output area point]
+  for (const p of data.points) {
+    if (p.dataset !== social.dataset || p.props.social_rented < social.share * p.props.households) continue;
+    const fr = p.lat * mLat / (1.5 * socialSide), fq = p.lon * mLon / social.cell - fr / 2;
+    let q = Math.round(fq), r = Math.round(fr);
+    const t = Math.round(-fq - fr);
+    const eq = Math.abs(q - fq), er = Math.abs(r - fr), et = Math.abs(t + fq + fr);
+    if (eq > er && eq > et) q = -r - t;
+    else if (er > et) r = -q - t;
+    const key = q + "," + r;
+    if (!socialCells.has(key)) socialCells.set(key, []);
+    socialCells.get(key).push(p);
+  }
+  const socialReach = 2 * Math.ceil(social.radius / social.cell);
   social.layer = L.layerGroup();
-  for (const a of data.areas) {
-    if (a.dataset !== social.dataset || !a.props.tenure) continue;
-    const share = a.props.tenure.social_rented / a.props.tenure.households;
-    if (share < social.min) continue;
-    L.polygon(a.polygons, { color: social.color, weight: social.weight, fill: false })
-      .bindTooltip(`<b>${a.name}</b>, ${a.props.borough}<br>${Math.round(100 * share)}% of ${a.props.tenure.households} households rent from the council or a housing association (Census 2021)`, { sticky: true })
-      .addTo(social.layer);
+  const socialSeen = new Set();
+  for (const key of socialCells.keys()) {
+    const [q0, r0] = key.split(",").map(Number);
+    for (let dq = -socialReach; dq <= socialReach; dq++) {
+      for (let dr = -socialReach; dr <= socialReach; dr++) {
+        const q = q0 + dq, r = r0 + dr;
+        if (socialSeen.has(q + "," + r)) continue;
+        socialSeen.add(q + "," + r);
+        const cx = social.cell * (q + r / 2), cy = 1.5 * socialSide * r;
+        let areas = 0, homes = 0, households = 0;
+        for (let i = -socialReach; i <= socialReach; i++) {
+          for (let j = -socialReach; j <= socialReach; j++) {
+            for (const p of socialCells.get(q + i + "," + (r + j)) ?? []) {
+              if (Math.hypot(p.lon * mLon - cx, p.lat * mLat - cy) >= social.radius) continue;
+              areas++, homes += p.props.social_rented, households += p.props.households;
+            }
+          }
+        }
+        if (areas < social.minAreas) continue;
+        const strength = Math.min(1, (areas - social.minAreas) / (social.fullAreas - social.minAreas));
+        const corners = [];
+        for (let k = 0; k < 6; k++) {
+          const angle = Math.PI / 6 + k * Math.PI / 3;
+          corners.push([(cy + socialSide * Math.sin(angle)) / mLat, (cx + socialSide * Math.cos(angle)) / mLon]);
+        }
+        L.polygon(corners, { stroke: false, fillColor: social.color, fillOpacity: 0.2 + 0.3 * strength })
+          .bindTooltip(`<b>${social.label}</b><br>${areas} mostly social housing output areas within ${social.radius} m<br>${homes} of their ${households} households rent from the council or a housing association (Census 2021)`, { sticky: true })
+          .addTo(social.layer);
+      }
+    }
   }
   if (social.on) social.layer.addTo(map);
 
@@ -411,7 +453,7 @@ fetch("data.json").then(r => r.json()).then(data => {
   let unmatched = 0;
   for (const p of data.points) {
     const cat = categories.find(c => c.match(p));
-    if (!cat) { if (!zone.kinds[p.dataset]) unmatched++; continue; }
+    if (!cat) { if (!zone.kinds[p.dataset] && p.dataset !== social.dataset) unmatched++; continue; }
     cat.count++;
 
     let popup = `<div class="popup-title">${p.name}</div>`;
@@ -444,6 +486,7 @@ fetch("data.json").then(r => r.json()).then(data => {
   // Parks, zones, wards and dots are drawn on the same canvas as the lines, keep parks at the bottom, then wards, zones and dots on top
   const dotsToFront = () => {
     zone.layer.eachLayer(r => r.bringToBack());
+    social.layer.eachLayer(r => r.bringToBack());
     crime.layer.eachLayer(r => r.bringToBack());
     parks.layer.eachLayer(r => r.bringToBack());
     for (const cat of categories) if (!cat.icon) cat.layer.eachLayer(m => m.bringToFront());
@@ -484,7 +527,7 @@ fetch("data.json").then(r => r.json()).then(data => {
   };
   catBox.append(crimeLabel);
   const socialLabel = document.createElement("label");
-  socialLabel.innerHTML = `<input type="checkbox" ${social.on ? "checked" : ""}> <span class="key" style="width:18px;height:18px;flex:none;border-radius:3px;border:2px solid ${social.color};box-sizing:border-box"></span> ${social.label}`;
+  socialLabel.innerHTML = `<input type="checkbox" ${social.on ? "checked" : ""}> <span class="key" style="width:18px;height:18px;flex:none;clip-path:polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);background:${social.color};opacity:.6"></span> ${social.label}`;
   socialLabel.querySelector("input").onchange = e => {
     e.target.checked ? social.layer.addTo(map) : social.layer.remove();
     dotsToFront();
