@@ -123,6 +123,16 @@ const crime = {
   crowd: ["SHOPLIFTING", "THEFT FROM THE PERSON", "OTHER THEFT", "BURGLARY BUSINESS AND COMMUNITY", "ROBBERY OF BUSINESS PROPERTY"],
 };
 
+// Social housing: wards where a large share of households rent from the council or a housing association,
+// drawn as outlines so they sit over the crime shading. Census 2021 (TS054 Tenure) per 2022 ward; the London
+// median ward is about 20%. In this data the share tracks the crime score (rank correlation about 0.65) and
+// 22 of the 24 shaded wards are above the median, though both also follow how dense and central a ward is.
+const social = {
+  label: "Social housing", color: "#7c3aed", on: true, dataset: "ons-wards-london",
+  min: 0.4,     // share of households renting socially for a ward to be outlined, 0.4 gives about 100 wards
+  weight: 1.5,  // outline width in pixels
+};
+
 // Commute: estimated minutes from every station to every office, shown when hovering a station.
 // It is the quickest path over the rail lines on the map: a ride between two neighbouring stations takes
 // the straight distance x detour at the mode's speed plus a fixed cost per stop, getting on a train
@@ -178,7 +188,7 @@ const defaultLineStyle = { color: "#888888" };
 const map = L.map("map", { preferCanvas: true }).setView([51.513, -0.06], 12);
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 19,
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors · Rail data: TfL · Ward boundaries: ONS · Crime: Met Police',
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors · Rail data: TfL · Ward boundaries: ONS · Crime: Met Police · Housing: Census 2021',
 }).addTo(map);
 
 // The whole header toggles the panel, the button is there for the keyboard
@@ -303,10 +313,22 @@ fetch("data.json").then(r => r.json()).then(data => {
     const counted = byCount.filter(k => crime.harm.includes(k)).map(k => `${c[k]} ${k.toLowerCase()}`);
     const rest = byCount.filter(k => !crime.harm.includes(k)).slice(0, crime.others).map(k => `${c[k]} ${k.toLowerCase()}`);
     L.polygon(w.area.polygons, { stroke: false, fillColor: crime.color, fillOpacity: crime.minOpacity + (crime.maxOpacity - crime.minOpacity) * (times - crime.times) / (worst - crime.times || 1) })
-      .bindTooltip(`<b>${w.area.name}</b>, ${w.area.props.borough}<br>${times.toFixed(1)} times the typical London ward<br>${w.harm} serious crimes a year, ${Math.round(w.harm / w.area.props.area_km2)} per km²<br>${counted.join("<br>")}<br><br><b>Not counted</b>, ${Math.round(100 * w.crowd)}% of all crime here is shop and crowd theft<br>${rest.join("<br>")}`, { sticky: true })
+      .bindTooltip(`<b>${w.area.name}</b>, ${w.area.props.borough}<br>${times.toFixed(1)} times the typical London ward<br>${w.harm} serious crimes a year, ${Math.round(w.harm / w.area.props.area_km2)} per km²${w.area.props.tenure ? `<br>${Math.round(100 * w.area.props.tenure.social_rented / w.area.props.tenure.households)}% of households in social housing` : ""}<br>${counted.join("<br>")}<br><br><b>Not counted</b>, ${Math.round(100 * w.crowd)}% of all crime here is shop and crowd theft<br>${rest.join("<br>")}`, { sticky: true })
       .addTo(crime.layer);
   }
   if (crime.on) crime.layer.addTo(map);
+
+  // Social housing: outline the wards where at least `min` of households rent socially
+  social.layer = L.layerGroup();
+  for (const a of data.areas) {
+    if (a.dataset !== social.dataset || !a.props.tenure) continue;
+    const share = a.props.tenure.social_rented / a.props.tenure.households;
+    if (share < social.min) continue;
+    L.polygon(a.polygons, { color: social.color, weight: social.weight, fill: false })
+      .bindTooltip(`<b>${a.name}</b>, ${a.props.borough}<br>${Math.round(100 * share)}% of ${a.props.tenure.households} households rent from the council or a housing association (Census 2021)`, { sticky: true })
+      .addTo(social.layer);
+  }
+  if (social.on) social.layer.addTo(map);
 
   // Rail lines, all in the transit layer group
   transit.layer = L.layerGroup();
@@ -440,6 +462,13 @@ fetch("data.json").then(r => r.json()).then(data => {
     dotsToFront();
   };
   catBox.append(crimeLabel);
+  const socialLabel = document.createElement("label");
+  socialLabel.innerHTML = `<input type="checkbox" ${social.on ? "checked" : ""}> <span class="key" style="width:18px;height:18px;flex:none;border-radius:3px;border:2px solid ${social.color};box-sizing:border-box"></span> ${social.label}`;
+  socialLabel.querySelector("input").onchange = e => {
+    e.target.checked ? social.layer.addTo(map) : social.layer.remove();
+    dotsToFront();
+  };
+  catBox.append(socialLabel);
   const transitLabel = document.createElement("label");
   transitLabel.innerHTML = `<input type="checkbox" ${transit.on ? "checked" : ""}> <span class="poi key" style="background:${transit.color}">${transit.icon}</span> ${transit.label}`;
   transitLabel.querySelector("input").onchange = e => {

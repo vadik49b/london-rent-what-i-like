@@ -710,5 +710,17 @@
     "script": "scripts/fetch/osm-parks.mjs",
     "format": "Overpass JSON: elements[] of way (geometry[] of {lat, lon}) and relation (members[] with role outer/inner, each with geometry[]), with tags",
     "adapter": "osm-areas"
+  },
+  {
+    "file": "census-tenure-wards.csv",
+    "title": "Census 2021 households and social renters per ward in Greater London (TS054 Tenure, 2022 wards)",
+    "source": "ONS Census 2021 via Nomis API",
+    "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2072_1.data.csv",
+    "query": "geography=E09000001TYPE153,E09000002TYPE153,E09000003TYPE153,E09000004TYPE153,E09000005TYPE153,E09000006TYPE153,E09000007TYPE153,E09000008TYPE153,E09000009TYPE153,E09000010TYPE153,E09000011TYPE153,E09000012TYPE153,E09000013TYPE153,E09000014TYPE153,E09000015TYPE153,E09000016TYPE153,E09000017TYPE153,E09000018TYPE153,E09000019TYPE153,E09000020TYPE153,E09000021TYPE153,E09000022TYPE153,E09000023TYPE153,E09000024TYPE153,E09000025TYPE153,E09000026TYPE153,E09000027TYPE153,E09000028TYPE153,E09000029TYPE153,E09000030TYPE153,E09000031TYPE153,E09000032TYPE153,E09000033TYPE153&measures=20100&c2021_tenure_9=0,1003&select=geography_code,geography_name,c2021_tenure_9_name,obs_value",
+    "fetched_at": "2026-10-15T21:07:16.754Z",
+    "method": "script",
+    "script": "scripts/fetch/census-tenure.mjs",
+    "format": "CSV: GEOGRAPHY_CODE, GEOGRAPHY_NAME, C2021_TENURE_9_NAME (\"Total: All households\" or \"Social rented\"), OBS_VALUE (households)",
+    "adapter": "census-tenure"
   }
 ]

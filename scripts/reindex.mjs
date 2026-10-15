@@ -37,13 +37,16 @@ const adapters = {
       const lon = el.lon ?? el.center?.lon;
       if (lat == null) continue;
       const t = el.tags ?? {};
+      // One place is sometimes mapped as several nodes (Canary Wall has one per railway arch): keep the first
+      const name = t.name ?? t.brand;
+      if (name && points.some((p) => p.dataset === dataset && p.name === name && Math.hypot(p.lat - lat, (p.lon - lon) * 0.62) < 0.001)) continue;
       const address = [[t["addr:housenumber"], t["addr:street"]].filter(Boolean).join(" "), t["addr:city"], t["addr:postcode"]]
         .filter(Boolean)
         .join(", ");
       points.push({
         id: `osm-${el.type}-${el.id}`,
         dataset,
-        name: t.name ?? t.brand,
+        name,
         lat,
         lon,
         props: { brand: t.brand, shop: t.shop, address, opening_hours: t.opening_hours },
@@ -162,6 +165,17 @@ const adapters = {
       crime[row[1]] = (crime[row[1]] ?? 0) + row.slice(-12).reduce((sum, v) => sum + Number(v), 0);
     }
     for (const code in byWard) areaProps.push([code, { crime: byWard[code], crime_months: [months.at(-12), months.at(-1)] }]);
+  },
+
+  // Census tenure CSV: GEOGRAPHY_CODE, GEOGRAPHY_NAME, C2021_TENURE_9_NAME, OBS_VALUE (households)
+  "census-tenure"(raw) {
+    const byWard = {};
+    for (const line of raw.trim().split(/\r?\n/).slice(1)) {
+      const cells = line.split(",").map((v) => v.replace(/^"|"$/g, "")); // ward names may hold commas
+      const [code, kind, count] = [cells[0], cells.at(-2), cells.at(-1)];
+      (byWard[code] ??= {})[kind.startsWith("Total") ? "households" : "social_rented"] = Number(count);
+    }
+    for (const code in byWard) areaProps.push([code, { tenure: byWard[code] }]);
   },
 
   // ONS housing prices in your area, one local authority per file. Rents are monthly averages in pounds.
