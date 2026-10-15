@@ -142,10 +142,10 @@ const crime = {
 const social = {
   label: "Social housing", color: "#0891b2", on: true, dataset: "census-tenure-oa",
   share: 0.6,     // an output area counts when at least this share of its households rent from the council or a housing association
-  cell: 250,      // hex width, metres
-  radius: 300,    // counted output areas within this distance of a hex centre
+  cell: 150,      // hex width, metres
+  radius: 200,    // counted output areas within this distance of a hex centre
   minAreas: 6,    // hexes with fewer counted output areas around are not drawn
-  fullAreas: 14,  // count at which a hex reaches full opacity
+  fullAreas: 10,  // count at which a hex reaches full opacity
 };
 
 // Commute: estimated minutes from every station to every office, shown when hovering a station.
@@ -382,7 +382,7 @@ fetch("data.json").then(r => r.json()).then(data => {
           const angle = Math.PI / 6 + k * Math.PI / 3;
           corners.push([(cy + socialSide * Math.sin(angle)) / mLat, (cx + socialSide * Math.cos(angle)) / mLon]);
         }
-        L.polygon(corners, { stroke: false, fillColor: social.color, fillOpacity: 0.2 + 0.3 * strength })
+        L.polygon(corners, { stroke: false, fillColor: social.color, fillOpacity: 0.35 + 0.3 * strength })
           .bindTooltip(`<b>${social.label}</b><br>${areas} mostly social housing output areas within ${social.radius} m<br>${homes} of their ${households} households rent from the council or a housing association (Census 2021)`, { sticky: true })
           .addTo(social.layer);
       }
