@@ -19,9 +19,7 @@ const points = [];
 const lines = [];
 const stations = new Map(); // station id -> point, shared across line files
 const areas = new Map(); // ONS code -> area
-const areaProps = [];
-const oaTenure = new Map(); // output area code -> {households, social_rented}, placed on the map by its centroid once all files are read
-const oaCentroids = new Map(); // output area code -> [lat, lon] // [ONS code, props] from the files that describe areas, attached once all files are read
+const areaProps = []; // [ONS code, props] from the files that describe areas, attached once all files are read
 
 // One adapter per raw format. Each reads a parsed raw file (the text, for CSV) and pushes into points / lines / areas.
 const adapters = {
@@ -169,20 +167,6 @@ const adapters = {
     for (const code in byWard) areaProps.push([code, { crime: byWard[code], crime_months: [months.at(-12), months.at(-1)] }]);
   },
 
-  // Census tenure CSV: GEOGRAPHY_CODE, C2021_TENURE_9_NAME, OBS_VALUE (households), per output area, one page per file
-  "census-tenure-oa"(raw) {
-    for (const line of raw.trim().split(/\r?\n/).slice(1)) {
-      const [code, kind, count] = line.split(",").map((v) => v.replace(/^"|"$/g, ""));
-      if (!oaTenure.has(code)) oaTenure.set(code, {});
-      oaTenure.get(code)[kind.startsWith("Total") ? "households" : "social_rented"] = Number(count);
-    }
-  },
-
-  // ONS output area centroids as GeoJSON points
-  "ons-oa-centroids"(raw) {
-    for (const f of raw.features) oaCentroids.set(f.properties.OA21CD, [f.geometry.coordinates[1], f.geometry.coordinates[0]]);
-  },
-
   // ONS housing prices in your area, one local authority per file. Rents are monthly averages in pounds.
   "ons-housing"(raw) {
     const month = Object.keys(raw.place).filter((k) => /^rental_price_\d{4}-\d{2}$/.test(k)).sort().at(-1).slice(-7);
@@ -199,13 +183,6 @@ for (const entry of index) {
   adapter(entry.file.endsWith(".json") ? JSON.parse(text) : text, entry.file.replace(/\.\w+$/, ""));
 }
 points.push(...stations.values());
-
-// Output areas become points at their centroid; centroids outside London have no tenure and are dropped
-for (const [code, tenure] of oaTenure) {
-  const at = oaCentroids.get(code);
-  if (!at) throw new Error(`Output area ${code} has tenure but no centroid`);
-  points.push({ id: code, dataset: "census-tenure-oa", name: code, lat: at[0], lon: at[1], props: tenure });
-}
 
 const noArea = [];
 for (const [code, props] of areaProps) {
