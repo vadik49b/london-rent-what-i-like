@@ -139,8 +139,6 @@ const crime = {
 // Social housing hot spots: where several output areas (about 130 households each) that are mostly social
 // housing sit close together, which is how estates show up. Census 2021 tenure (TS054) per output area,
 // placed at its population weighted centroid, and drawn on a hex grid like the hipster pockets.
-// Across London about 23% of households rent socially; at ward level the share tracks the crime score
-// (rank correlation about 0.65), though both also follow how dense and central a place is.
 const social = {
   label: "Social housing", color: "#0891b2", on: true, dataset: "census-tenure-oa",
   share: 0.6,     // an output area counts when at least this share of its households rent from the council or a housing association
@@ -336,9 +334,8 @@ fetch("data.json").then(r => r.json()).then(data => {
     const counted = byCount.filter(k => k in crime.harm).map(k => `${c[k]} ${k.toLowerCase()}`);
     if (w.extra) counted.push(`${c[crime.snatch.kind]} ${crime.snatch.kind.toLowerCase()}, ${Math.round(w.snatch / snatchFloor * crime.snatch.times)} times the typical ward`);
     const rest = byCount.filter(k => !(k in crime.harm) && !(w.extra && k === crime.snatch.kind)).slice(0, crime.others).map(k => `${c[k]} ${k.toLowerCase()}`);
-    const tenure = w.area.props.tenure;
     L.polygon(w.area.polygons, { stroke: false, fillColor: crime.color, fillOpacity: crime.minOpacity + (crime.maxOpacity - crime.minOpacity) * (times - crime.times) / (worst - crime.times || 1) })
-      .bindTooltip(`<b>${w.area.name}</b>, ${w.area.props.borough}<br>${times.toFixed(1)} times the typical London ward${tenure ? `<br>${Math.round(100 * tenure.social_rented / tenure.households)}% of households in social housing` : ""}<br><br><b>Counted</b>, over 12 months<br>${counted.join("<br>")}<br><br><b>Not counted</b>, ${Math.round(100 * w.crowd)}% of all crime here is shop and crowd theft<br>${rest.join("<br>")}`, { sticky: true })
+      .bindTooltip(`<b>${w.area.name}</b>, ${w.area.props.borough}<br>${times.toFixed(1)} times the typical London ward<br><br><b>Counted</b>, over 12 months<br>${counted.join("<br>")}<br><br><b>Not counted</b>, ${Math.round(100 * w.crowd)}% of all crime here is shop and crowd theft<br>${rest.join("<br>")}`, { sticky: true })
       .addTo(crime.layer);
   }
   if (crime.on) crime.layer.addTo(map);

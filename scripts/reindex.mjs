@@ -169,18 +169,7 @@ const adapters = {
     for (const code in byWard) areaProps.push([code, { crime: byWard[code], crime_months: [months.at(-12), months.at(-1)] }]);
   },
 
-  // Census tenure CSV: GEOGRAPHY_CODE, GEOGRAPHY_NAME, C2021_TENURE_9_NAME, OBS_VALUE (households)
-  "census-tenure"(raw) {
-    const byWard = {};
-    for (const line of raw.trim().split(/\r?\n/).slice(1)) {
-      const cells = line.split(",").map((v) => v.replace(/^"|"$/g, "")); // ward names may hold commas
-      const [code, kind, count] = [cells[0], cells.at(-2), cells.at(-1)];
-      (byWard[code] ??= {})[kind.startsWith("Total") ? "households" : "social_rented"] = Number(count);
-    }
-    for (const code in byWard) areaProps.push([code, { tenure: byWard[code] }]);
-  },
-
-  // Census tenure per output area, same CSV as above without the name column, one page per file
+  // Census tenure CSV: GEOGRAPHY_CODE, C2021_TENURE_9_NAME, OBS_VALUE (households), per output area, one page per file
   "census-tenure-oa"(raw) {
     for (const line of raw.trim().split(/\r?\n/).slice(1)) {
       const [code, kind, count] = line.split(",").map((v) => v.replace(/^"|"$/g, ""));

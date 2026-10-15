@@ -1,6 +1,6 @@
 // Fetches Census 2021 household tenure (TS054) in Greater London from Nomis: all households and those
-// renting socially (from the council or a housing association), per 2022 ward and per output area
-// (about 130 households each, small enough to find estates). Output areas are placed on the map by their
+// renting socially (from the council or a housing association), per output area (about 130 households
+// each, small enough to find estates). Output areas are placed on the map by their
 // population weighted centroids from the ONS Open Geography Portal.
 // Nomis returns at most 25,000 rows and ArcGIS 2,000 features per request, so those two come in pages,
 // one raw file per page. London local authority codes run from E09000001 (City of London) to E09000033.
@@ -17,26 +17,6 @@ const save = (file, text, entry) => {
   index = index.filter((e) => e.file !== file);
   index.push({ file, ...entry, fetched_at: new Date().toISOString(), method: "script", script: "scripts/fetch/census-tenure.mjs" });
 };
-
-// Wards, one request
-{
-  const file = "census-tenure-wards.csv";
-  const query = `geography=${boroughs("TYPE153")}&measures=20100&c2021_tenure_9=0,1003&select=geography_code,geography_name,c2021_tenure_9_name,obs_value`;
-  const res = await fetch(`${nomis}?${query}`, { headers });
-  if (!res.ok) throw new Error(`Nomis ${res.status}`);
-  const text = await res.text();
-  const rows = text.trim().split("\n").length - 1;
-  if (!rows) throw new Error("Nomis returned no ward rows");
-  save(file, text, {
-    title: "Census 2021 households and social renters per ward in Greater London (TS054 Tenure, 2022 wards)",
-    source: "ONS Census 2021 via Nomis API",
-    url: nomis,
-    query,
-    format: 'CSV: GEOGRAPHY_CODE, GEOGRAPHY_NAME, C2021_TENURE_9_NAME ("Total: All households" or "Social rented"), OBS_VALUE (households)',
-    adapter: "census-tenure",
-  });
-  console.log(`${file}: ${rows} rows`);
-}
 
 // Output areas, in pages of 25,000 rows
 for (let page = 1; ; page++) {
